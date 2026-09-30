@@ -1,0 +1,35 @@
+{
+ "slug": "Relics",
+ "cnName": "遗物",
+ "fetchedAt": "2026-09-17T07:31:41.987Z",
+ "bases": [
+  {
+   "slug": "Urn_Relic",
+   "name": "壶瓮遗物"
+  },
+  {
+   "slug": "Amphora_Relic",
+   "name": "土罐遗物"
+  },
+  {
+   "slug": "Vase_Relic",
+   "name": "花瓶遗物"
+  },
+  {
+   "slug": "Seal_Relic",
+   "name": "封印遗物"
+  },
+  {
+   "slug": "Coffer_Relic",
+   "name": "匣柜遗物"
+  },
+  {
+   "slug": "Tapestry_Relic",
+   "name": "挂毯遗物"
+  },
+  {
+   "slug": "Incense_Relic",
+   "name": "熏香遗物"
+  }
+ ]
+}

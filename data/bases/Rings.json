@@ -1,0 +1,111 @@
+{
+ "slug": "Rings",
+ "cnName": "戒指",
+ "fetchedAt": "2026-09-17T07:31:32.750Z",
+ "bases": [
+  {
+   "slug": "Golden_Hoop",
+   "name": "金环"
+  },
+  {
+   "slug": "Iron_Ring",
+   "name": "锻铁戒指"
+  },
+  {
+   "slug": "Lazuli_Ring",
+   "name": "青金戒指"
+  },
+  {
+   "slug": "Ruby_Ring",
+   "name": "红玉戒指"
+  },
+  {
+   "slug": "Sapphire_Ring",
+   "name": "蓝玉戒指"
+  },
+  {
+   "slug": "Topaz_Ring",
+   "name": "黄玉戒指"
+  },
+  {
+   "slug": "Amethyst_Ring",
+   "name": "紫晶戒指"
+  },
+  {
+   "slug": "Emerald_Ring",
+   "name": "翡翠戒指"
+  },
+  {
+   "slug": "Pearl_Ring",
+   "name": "珠玉戒指"
+  },
+  {
+   "slug": "Prismatic_Ring",
+   "name": "三相戒指"
+  },
+  {
+   "slug": "Gold_Ring",
+   "name": "金光戒指"
+  },
+  {
+   "slug": "Unset_Ring",
+   "name": "潜能之戒"
+  },
+  {
+   "slug": "Abyssal_Signet",
+   "name": "深渊印戒"
+  },
+  {
+   "slug": "Biostatic_Ring",
+   "name": "生息戒指"
+  },
+  {
+   "slug": "Vitalic_Ring",
+   "name": "活力戒指"
+  },
+  {
+   "slug": "Mnemonic_Ring",
+   "name": "记忆戒指"
+  },
+  {
+   "slug": "Kinetic_Ring",
+   "name": "动能戒指"
+  },
+  {
+   "slug": "Oneiric_Ring",
+   "name": "幻梦戒指"
+  },
+  {
+   "slug": "Grasping_Ring",
+   "name": "贪婪戒指"
+  },
+  {
+   "slug": "Ring",
+   "name": "戒指"
+  },
+  {
+   "slug": "Dusk_Ring",
+   "name": "暮色戒指"
+  },
+  {
+   "slug": "Gloam_Ring",
+   "name": "薄暮戒指"
+  },
+  {
+   "slug": "Penumbra_Ring",
+   "name": "半影戒指"
+  },
+  {
+   "slug": "Tenebrous_Ring",
+   "name": "暗黑戒指"
+  },
+  {
+   "slug": "Breach_Ring",
+   "name": "裂隙戒指"
+  },
+  {
+   "slug": "Refined_Breach_Ring",
+   "name": "精炼裂隙戒指"
+  }
+ ]
+}

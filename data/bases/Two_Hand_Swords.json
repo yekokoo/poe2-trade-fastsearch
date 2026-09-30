@@ -1,0 +1,63 @@
+{
+ "slug": "Two_Hand_Swords",
+ "cnName": "双手剑",
+ "fetchedAt": "2026-09-17T07:31:15.034Z",
+ "bases": [
+  {
+   "slug": "Energy_Blade",
+   "name": "能量之刃"
+  },
+  {
+   "slug": "Corroded_Longsword",
+   "name": "锈斑长剑"
+  },
+  {
+   "slug": "Iron_Greatsword",
+   "name": "钢铁巨剑"
+  },
+  {
+   "slug": "Blessed_Claymore",
+   "name": "蒙福大剑"
+  },
+  {
+   "slug": "Broad_Greatsword",
+   "name": "阔刃巨剑"
+  },
+  {
+   "slug": "Rippled_Greatsword",
+   "name": "波纹巨剑"
+  },
+  {
+   "slug": "Arced_Longsword",
+   "name": "弧刃长剑"
+  },
+  {
+   "slug": "Stone_Greatsword",
+   "name": "磐石巨剑"
+  },
+  {
+   "slug": "Obsidian_Greatsword",
+   "name": "黑曜巨剑"
+  },
+  {
+   "slug": "Keen_Greatsword",
+   "name": "寒芒巨剑"
+  },
+  {
+   "slug": "Ancient_Greatblade",
+   "name": "上古巨剑"
+  },
+  {
+   "slug": "Flanged_Greatblade",
+   "name": "焰刃巨剑"
+  },
+  {
+   "slug": "Regalia_Longsword",
+   "name": "君威长剑"
+  },
+  {
+   "slug": "Ultra_Greatsword",
+   "name": "超凡巨剑"
+  }
+ ]
+}

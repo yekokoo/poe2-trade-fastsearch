@@ -1,0 +1,212 @@
+[
+  {
+    "group": "单手武器",
+    "slug": "Claws",
+    "title": "爪类",
+    "bytes": 437666
+  },
+  {
+    "group": "单手武器",
+    "slug": "Daggers",
+    "title": "匕首",
+    "bytes": 527806
+  },
+  {
+    "group": "单手武器",
+    "slug": "Wands",
+    "title": "法杖",
+    "bytes": 573499
+  },
+  {
+    "group": "单手武器",
+    "slug": "One_Hand_Swords",
+    "title": "单手剑",
+    "bytes": 526741
+  },
+  {
+    "group": "单手武器",
+    "slug": "One_Hand_Axes",
+    "title": "单手斧",
+    "bytes": 511302
+  },
+  {
+    "group": "单手武器",
+    "slug": "One_Hand_Maces",
+    "title": "单手锤",
+    "bytes": 650807
+  },
+  {
+    "group": "单手武器",
+    "slug": "Sceptres",
+    "title": "权杖",
+    "bytes": 465390
+  },
+  {
+    "group": "单手武器",
+    "slug": "Spears",
+    "title": "战矛",
+    "bytes": 756378
+  },
+  {
+    "group": "单手武器",
+    "slug": "Flails",
+    "title": "连枷",
+    "bytes": 523196
+  },
+  {
+    "group": "双手武器",
+    "slug": "Bows",
+    "title": "弓类",
+    "bytes": 733854
+  },
+  {
+    "group": "双手武器",
+    "slug": "Staves",
+    "title": "长杖",
+    "bytes": 570543
+  },
+  {
+    "group": "双手武器",
+    "slug": "Two_Hand_Swords",
+    "title": "双手剑",
+    "bytes": 523835
+  },
+  {
+    "group": "双手武器",
+    "slug": "Two_Hand_Axes",
+    "title": "双手斧",
+    "bytes": 511882
+  },
+  {
+    "group": "双手武器",
+    "slug": "Two_Hand_Maces",
+    "title": "双手锤",
+    "bytes": 654397
+  },
+  {
+    "group": "双手武器",
+    "slug": "Quarterstaves",
+    "title": "节杖",
+    "bytes": 697179
+  },
+  {
+    "group": "双手武器",
+    "slug": "Crossbows",
+    "title": "战弩",
+    "bytes": 757650
+  },
+  {
+    "group": "双手武器",
+    "slug": "Talismans",
+    "title": "魔符",
+    "bytes": 640960
+  },
+  {
+    "group": "副手",
+    "slug": "Quivers",
+    "title": "箭袋",
+    "bytes": 271965
+  },
+  {
+    "group": "副手",
+    "slug": "Shields",
+    "title": "盾牌",
+    "bytes": 518873
+  },
+  {
+    "group": "副手",
+    "slug": "Bucklers",
+    "title": "轻盾",
+    "bytes": 509525
+  },
+  {
+    "group": "副手",
+    "slug": "Foci",
+    "title": "法器",
+    "bytes": 520191
+  },
+  {
+    "group": "护甲",
+    "slug": "Gloves",
+    "title": "手套",
+    "bytes": 986244
+  },
+  {
+    "group": "护甲",
+    "slug": "Boots",
+    "title": "鞋子",
+    "bytes": 351930
+  },
+  {
+    "group": "护甲",
+    "slug": "Body_Armours",
+    "title": "Body_Armours",
+    "bytes": 801954
+  },
+  {
+    "group": "护甲",
+    "slug": "Helmets",
+    "title": "头盔",
+    "bytes": 529967
+  },
+  {
+    "group": "饰品",
+    "slug": "Amulets",
+    "title": "项链",
+    "bytes": 2614328
+  },
+  {
+    "group": "饰品",
+    "slug": "Rings",
+    "title": "戒指",
+    "bytes": 596569
+  },
+  {
+    "group": "腰带",
+    "slug": "Belts",
+    "title": "腰带",
+    "bytes": 415616
+  },
+  {
+    "group": "药剂",
+    "slug": "Life_Flasks",
+    "title": "生命药剂",
+    "bytes": 1268436
+  },
+  {
+    "group": "药剂",
+    "slug": "Mana_Flasks",
+    "title": "魔力药剂",
+    "bytes": 1260824
+  },
+  {
+    "group": "药剂",
+    "slug": "Charms",
+    "title": "咒符",
+    "bytes": 286634
+  },
+  {
+    "group": "引路石",
+    "slug": "Waystones",
+    "title": "引路石",
+    "bytes": 357216
+  },
+  {
+    "group": "珠宝",
+    "slug": "Jewels",
+    "title": "珠宝",
+    "bytes": 250954
+  },
+  {
+    "group": "其他",
+    "slug": "Vault_Keys",
+    "title": "宝库钥匙",
+    "bytes": 45011
+  },
+  {
+    "group": "其他",
+    "slug": "Relics",
+    "title": "遗物",
+    "bytes": 150131
+  }
+]

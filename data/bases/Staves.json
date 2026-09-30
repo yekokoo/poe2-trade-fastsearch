@@ -1,0 +1,75 @@
+{
+ "slug": "Staves",
+ "cnName": "长杖",
+ "fetchedAt": "2026-09-17T07:31:13.763Z",
+ "bases": [
+  {
+   "slug": "Ashen_Staff",
+   "name": "枯灰长杖"
+  },
+  {
+   "slug": "Gelid_Staff",
+   "name": "冰寒长杖"
+  },
+  {
+   "slug": "Voltaic_Staff",
+   "name": "雷霆长杖"
+  },
+  {
+   "slug": "Spriggan_Staff",
+   "name": "鬼灵长杖"
+  },
+  {
+   "slug": "Pyrophyte_Staff",
+   "name": "耐火长杖"
+  },
+  {
+   "slug": "Chiming_Staff",
+   "name": "鸣谐长杖"
+  },
+  {
+   "slug": "Rending_Staff",
+   "name": "撕裂长杖"
+  },
+  {
+   "slug": "Reaping_Staff",
+   "name": "收割长杖"
+  },
+  {
+   "slug": "Icicle_Staff",
+   "name": "冰柱长杖"
+  },
+  {
+   "slug": "Roaring_Staff",
+   "name": "咆哮长杖"
+  },
+  {
+   "slug": "Paralysing_Staff",
+   "name": "麻痹长杖"
+  },
+  {
+   "slug": "Sanctified_Staff",
+   "name": "神圣长杖"
+  },
+  {
+   "slug": "Dark_Staff",
+   "name": "暗黑长杖"
+  },
+  {
+   "slug": "Ravenous_Staff",
+   "name": "饕餮法杖"
+  },
+  {
+   "slug": "Permafrost_Staff",
+   "name": "永霜法杖"
+  },
+  {
+   "slug": "Reflecting_Staff",
+   "name": "反射长杖"
+  },
+  {
+   "slug": "Perching_Staff",
+   "name": "栖鸟长杖"
+  }
+ ]
+}

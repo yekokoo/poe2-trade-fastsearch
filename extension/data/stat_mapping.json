@@ -1,0 +1,2957 @@
+{
+ "corrupted|恢复的荣誉提高#%": [
+  "sanctum.stat_1583320325"
+ ],
+ "prefix|恢复的荣誉提高#%": [
+  "sanctum.stat_1583320325"
+ ],
+ "prefix|荣誉上限提高#%": [
+  "sanctum.stat_3970123360"
+ ],
+ "prefix|稀有怪物受到的伤害提高#%": [
+  "sanctum.stat_408585189"
+ ],
+ "special|+#力量": [
+  "pseudo.pseudo_total_strength",
+  "explicit.stat_4080418644",
+  "implicit.stat_4080418644",
+  "fractured.stat_4080418644",
+  "enchant.stat_4080418644",
+  "rune.stat_4080418644"
+ ],
+ "special|+#敏捷": [
+  "pseudo.pseudo_total_dexterity",
+  "explicit.stat_3261801346",
+  "implicit.stat_3261801346",
+  "fractured.stat_3261801346",
+  "enchant.stat_3261801346",
+  "rune.stat_3261801346"
+ ],
+ "special|+#智慧": [
+  "pseudo.pseudo_total_intelligence",
+  "explicit.stat_328541901",
+  "implicit.stat_328541901",
+  "fractured.stat_328541901",
+  "enchant.stat_328541901",
+  "rune.stat_328541901"
+ ],
+ "special|冰霜抗性+#%": [
+  "explicit.stat_4220027924",
+  "implicit.stat_4220027924",
+  "fractured.stat_4220027924",
+  "enchant.stat_4220027924",
+  "rune.stat_4220027924",
+  "desecrated.stat_4220027924"
+ ],
+ "special|混沌抗性+#%": [
+  "explicit.stat_2923486259",
+  "implicit.stat_2923486259",
+  "fractured.stat_2923486259",
+  "enchant.stat_2923486259",
+  "rune.stat_2923486259",
+  "desecrated.stat_2923486259"
+ ],
+ "special|火焰抗性+#%": [
+  "explicit.stat_3372524247",
+  "implicit.stat_3372524247",
+  "fractured.stat_3372524247",
+  "enchant.stat_3372524247",
+  "rune.stat_3372524247",
+  "desecrated.stat_3372524247"
+ ],
+ "special|闪电抗性+#%": [
+  "explicit.stat_1671376347",
+  "implicit.stat_1671376347",
+  "fractured.stat_1671376347",
+  "enchant.stat_1671376347",
+  "rune.stat_1671376347",
+  "desecrated.stat_1671376347"
+ ],
+ "suffix|击败首领时恢复#荣誉": [
+  "sanctum.stat_3865020351"
+ ],
+ "suffix|敬拜马拉克斯神龛时恢复#荣誉": [
+  "sanctum.stat_2492340460"
+ ],
+ "suffix|荣誉抗性+#%": [
+  "sanctum.stat_2287831219"
+ ],
+ "corrupted|+#%元素抗性上限": [
+  "explicit.stat_1978899297",
+  "implicit.stat_1978899297",
+  "fractured.stat_1978899297",
+  "enchant.stat_1978899297",
+  "desecrated.stat_1978899297",
+  "scourge.stat_1978899297"
+ ],
+ "corrupted|+#力量": [
+  "pseudo.pseudo_total_strength",
+  "explicit.stat_4080418644",
+  "implicit.stat_4080418644",
+  "fractured.stat_4080418644",
+  "enchant.stat_4080418644",
+  "rune.stat_4080418644"
+ ],
+ "corrupted|+#敏捷": [
+  "pseudo.pseudo_total_dexterity",
+  "explicit.stat_3261801346",
+  "implicit.stat_3261801346",
+  "fractured.stat_3261801346",
+  "enchant.stat_3261801346",
+  "rune.stat_3261801346"
+ ],
+ "corrupted|+#智慧": [
+  "pseudo.pseudo_total_intelligence",
+  "explicit.stat_328541901",
+  "implicit.stat_328541901",
+  "fractured.stat_328541901",
+  "enchant.stat_328541901",
+  "rune.stat_328541901"
+ ],
+ "corrupted|魔力药剂每秒获得#次充能": [
+  "explicit.stat_2200293569",
+  "enchant.stat_2200293569",
+  "desecrated.stat_2200293569",
+  "scourge.stat_1193925814"
+ ],
+ "corrupted|生命药剂每秒获得#次充能": [
+  "explicit.stat_1102738251",
+  "enchant.stat_1102738251",
+  "desecrated.stat_1102738251",
+  "scourge.stat_2592686757"
+ ],
+ "corrupted|所有技能等级+#": [
+  "explicit.stat_4283407333",
+  "enchant.stat_4283407333",
+  "desecrated.stat_4283407333"
+ ],
+ "corrupted|所有元素抗性+#%": [
+  "explicit.stat_2901986750",
+  "implicit.stat_2901986750",
+  "fractured.stat_2901986750",
+  "enchant.stat_2901986750",
+  "rune.stat_2901986750",
+  "desecrated.stat_2901986750"
+ ],
+ "corrupted|物理攻击伤害的#%转化为魔力偷取": [
+  "explicit.stat_707457662",
+  "fractured.stat_707457662",
+  "enchant.stat_707457662",
+  "desecrated.stat_707457662",
+  "scourge.stat_3237948413",
+  "crafted.stat_3237948413"
+ ],
+ "corrupted|物理攻击伤害的#%转化为生命偷取": [
+  "explicit.stat_2557965901",
+  "fractured.stat_2557965901",
+  "enchant.stat_2557965901",
+  "desecrated.stat_2557965901"
+ ],
+ "corrupted|物品稀有度提高#%": [
+  "explicit.stat_3917489142",
+  "implicit.stat_3917489142",
+  "fractured.stat_3917489142",
+  "enchant.stat_3917489142",
+  "rune.stat_3917489142",
+  "desecrated.stat_3917489142"
+ ],
+ "corrupted|咒符每秒获得#次充能": [
+  "explicit.stat_185580205",
+  "enchant.stat_185580205",
+  "desecrated.stat_185580205"
+ ],
+ "prefix|+#精魂": [
+  "explicit.stat_3981240776",
+  "explicit.stat_2704225257",
+  "implicit.stat_3981240776",
+  "fractured.stat_3981240776",
+  "enchant.stat_3981240776",
+  "rune.stat_3981240776"
+ ],
+ "prefix|+#命中值": [
+  "explicit.stat_803737631",
+  "implicit.stat_803737631",
+  "fractured.stat_803737631",
+  "enchant.stat_803737631",
+  "desecrated.stat_803737631",
+  "crafted.stat_803737631"
+ ],
+ "prefix|+#魔力上限": [
+  "explicit.stat_1050105434",
+  "implicit.stat_1050105434",
+  "fractured.stat_1050105434",
+  "enchant.stat_1050105434",
+  "rune.stat_1050105434",
+  "desecrated.stat_1050105434"
+ ],
+ "prefix|+#能量护盾上限": [
+  "pseudo.pseudo_total_energy_shield",
+  "explicit.stat_3489782002",
+  "implicit.stat_3489782002",
+  "fractured.stat_3489782002",
+  "rune.stat_3489782002",
+  "desecrated.stat_3489782002"
+ ],
+ "prefix|+#生命上限": [
+  "explicit.stat_3299347043",
+  "implicit.stat_3299347043",
+  "fractured.stat_3299347043",
+  "enchant.stat_3299347043",
+  "rune.stat_3299347043",
+  "desecrated.stat_3299347043"
+ ],
+ "prefix|当你低血时你的攻击伤害提高#%": [
+  "explicit.stat_4246007234",
+  "desecrated.stat_4246007234"
+ ],
+ "prefix|法术伤害提高#%": [
+  "explicit.stat_2974417149",
+  "fractured.stat_2974417149",
+  "enchant.stat_2974417149",
+  "rune.stat_2974417149",
+  "desecrated.stat_2974417149",
+  "scourge.stat_2974417149"
+ ],
+ "prefix|护甲提高#%": [
+  "explicit.stat_2866361420",
+  "fractured.stat_2866361420",
+  "enchant.stat_2866361420",
+  "desecrated.stat_2866361420",
+  "sanctum.stat_1737465970",
+  "crafted.stat_2866361420"
+ ],
+ "prefix|来自你身体护甲的闪避值提高#%": [
+  "explicit.stat_3509362078",
+  "desecrated.stat_3509362078"
+ ],
+ "prefix|能量护盾全满时，法术伤害提高#%": [
+  "explicit.stat_3176481473",
+  "desecrated.stat_3176481473"
+ ],
+ "prefix|偏转值提高#%": [
+  "explicit.stat_3040571529",
+  "desecrated.stat_3040571529"
+ ],
+ "prefix|祈唤法术有#%的几率消耗一半能量": [
+  "explicit.stat_3711973554",
+  "desecrated.stat_3711973554"
+ ],
+ "prefix|若你近期内击中敌人，则召唤生物的伤害提高#%": [
+  "explicit.stat_2337295272",
+  "desecrated.stat_2337295272"
+ ],
+ "prefix|物品稀有度提高#%": [
+  "explicit.stat_3917489142",
+  "implicit.stat_3917489142",
+  "fractured.stat_3917489142",
+  "enchant.stat_3917489142",
+  "rune.stat_3917489142",
+  "desecrated.stat_3917489142"
+ ],
+ "prefix|装备身体护甲的护甲提高#%": [
+  "explicit.stat_1015576579",
+  "desecrated.stat_1015576579"
+ ],
+ "prefix|装备身体护甲的能量护盾提高#%": [
+  "explicit.stat_1195319608",
+  "desecrated.stat_1195319608"
+ ],
+ "special|+#%元素抗性上限": [
+  "explicit.stat_1978899297",
+  "implicit.stat_1978899297",
+  "fractured.stat_1978899297",
+  "enchant.stat_1978899297",
+  "desecrated.stat_1978899297",
+  "scourge.stat_1978899297"
+ ],
+ "special|魔力药剂每秒获得#次充能": [
+  "explicit.stat_2200293569",
+  "enchant.stat_2200293569",
+  "desecrated.stat_2200293569",
+  "scourge.stat_1193925814"
+ ],
+ "special|生命药剂每秒获得#次充能": [
+  "explicit.stat_1102738251",
+  "enchant.stat_1102738251",
+  "desecrated.stat_1102738251",
+  "scourge.stat_2592686757"
+ ],
+ "special|所有技能等级+#": [
+  "explicit.stat_4283407333",
+  "enchant.stat_4283407333",
+  "desecrated.stat_4283407333"
+ ],
+ "special|所有元素抗性+#%": [
+  "explicit.stat_2901986750",
+  "implicit.stat_2901986750",
+  "fractured.stat_2901986750",
+  "enchant.stat_2901986750",
+  "rune.stat_2901986750",
+  "desecrated.stat_2901986750"
+ ],
+ "special|物理攻击伤害的#%转化为魔力偷取": [
+  "explicit.stat_707457662",
+  "fractured.stat_707457662",
+  "enchant.stat_707457662",
+  "desecrated.stat_707457662",
+  "scourge.stat_3237948413",
+  "crafted.stat_3237948413"
+ ],
+ "special|物理攻击伤害的#%转化为生命偷取": [
+  "explicit.stat_2557965901",
+  "fractured.stat_2557965901",
+  "enchant.stat_2557965901",
+  "desecrated.stat_2557965901"
+ ],
+ "special|物品稀有度提高#%": [
+  "explicit.stat_3917489142",
+  "implicit.stat_3917489142",
+  "fractured.stat_3917489142",
+  "enchant.stat_3917489142",
+  "rune.stat_3917489142",
+  "desecrated.stat_3917489142"
+ ],
+ "special|咒符每秒获得#次充能": [
+  "explicit.stat_185580205",
+  "enchant.stat_185580205",
+  "desecrated.stat_185580205"
+ ],
+ "suffix|#%的伤害优先从魔力扣除": [
+  "explicit.stat_458438597",
+  "implicit.stat_458438597",
+  "fractured.stat_458438597",
+  "rune.stat_458438597",
+  "desecrated.stat_458438597"
+ ],
+ "suffix|+#%冰霜与混沌抗性": [
+  "explicit.stat_3393628375",
+  "desecrated.stat_3393628375",
+  "crafted.stat_3393628375"
+ ],
+ "suffix|+#%火焰与混沌抗性": [
+  "explicit.stat_378817135",
+  "desecrated.stat_378817135",
+  "crafted.stat_378817135"
+ ],
+ "suffix|+#%闪电与混沌抗性": [
+  "explicit.stat_3465022881",
+  "desecrated.stat_3465022881",
+  "crafted.stat_3465022881"
+ ],
+ "suffix|+#力量": [
+  "pseudo.pseudo_total_strength",
+  "explicit.stat_4080418644",
+  "implicit.stat_4080418644",
+  "fractured.stat_4080418644",
+  "enchant.stat_4080418644",
+  "rune.stat_4080418644"
+ ],
+ "suffix|+#力量和敏捷": [
+  "explicit.stat_538848803",
+  "desecrated.stat_538848803",
+  "crafted.stat_538848803"
+ ],
+ "suffix|+#力量和智慧": [
+  "explicit.stat_1535626285",
+  "desecrated.stat_1535626285",
+  "crafted.stat_1535626285"
+ ],
+ "suffix|+#敏捷": [
+  "pseudo.pseudo_total_dexterity",
+  "explicit.stat_3261801346",
+  "implicit.stat_3261801346",
+  "fractured.stat_3261801346",
+  "enchant.stat_3261801346",
+  "rune.stat_3261801346"
+ ],
+ "suffix|+#敏捷和智慧": [
+  "explicit.stat_2300185227",
+  "desecrated.stat_2300185227"
+ ],
+ "suffix|+#全属性": [
+  "pseudo.pseudo_total_all_attributes",
+  "explicit.stat_1379411836",
+  "implicit.stat_1379411836",
+  "fractured.stat_1379411836",
+  "desecrated.stat_1379411836",
+  "crafted.stat_1379411836"
+ ],
+ "suffix|+#智慧": [
+  "pseudo.pseudo_total_intelligence",
+  "explicit.stat_328541901",
+  "implicit.stat_328541901",
+  "fractured.stat_328541901",
+  "enchant.stat_328541901",
+  "rune.stat_328541901"
+ ],
+ "suffix|暴击伤害加成提高#%": [
+  "explicit.stat_3556824919",
+  "fractured.stat_3556824919",
+  "enchant.stat_3556824919",
+  "desecrated.stat_3556824919"
+ ],
+ "suffix|冰霜抗性+#%": [
+  "explicit.stat_4220027924",
+  "implicit.stat_4220027924",
+  "fractured.stat_4220027924",
+  "enchant.stat_4220027924",
+  "rune.stat_4220027924",
+  "desecrated.stat_4220027924"
+ ],
+ "suffix|残片收集距离延长#%": [
+  "explicit.stat_3482326075",
+  "desecrated.stat_3482326075"
+ ],
+ "suffix|光环技能的强度提高#%": [
+  "explicit.stat_315791320",
+  "fractured.stat_315791320",
+  "desecrated.stat_315791320"
+ ],
+ "suffix|混沌抗性+#%": [
+  "explicit.stat_2923486259",
+  "implicit.stat_2923486259",
+  "fractured.stat_2923486259",
+  "enchant.stat_2923486259",
+  "rune.stat_2923486259",
+  "desecrated.stat_2923486259"
+ ],
+ "suffix|火焰抗性+#%": [
+  "explicit.stat_3372524247",
+  "implicit.stat_3372524247",
+  "fractured.stat_3372524247",
+  "enchant.stat_3372524247",
+  "rune.stat_3372524247",
+  "desecrated.stat_3372524247"
+ ],
+ "suffix|技能速度提高#%": [
+  "explicit.stat_970213192",
+  "enchant.stat_970213192",
+  "rune.stat_970213192",
+  "desecrated.stat_970213192"
+ ],
+ "suffix|技能效果持续时间提高#%": [
+  "explicit.stat_3377888098",
+  "fractured.stat_3377888098",
+  "enchant.stat_3377888098",
+  "rune.stat_3377888098",
+  "desecrated.stat_3377888098"
+ ],
+ "suffix|将所受伤害的#%吸纳为魔力": [
+  "explicit.stat_472520716",
+  "fractured.stat_472520716",
+  "enchant.stat_472520716",
+  "desecrated.stat_472520716",
+  "crafted.stat_472520716"
+ ],
+ "suffix|将所受伤害的#%吸纳为生命": [
+  "explicit.stat_1444556985",
+  "implicit.stat_1444556985",
+  "fractured.stat_1444556985",
+  "enchant.stat_1444556985",
+  "rune.stat_1444556985",
+  "desecrated.stat_1444556985"
+ ],
+ "suffix|魔力再生率提高#%": [
+  "explicit.stat_789117908",
+  "implicit.stat_789117908",
+  "fractured.stat_789117908",
+  "enchant.stat_789117908",
+  "rune.stat_789117908",
+  "desecrated.stat_789117908"
+ ],
+ "suffix|魔力在击败敌人时恢复#%": [
+  "explicit.stat_1030153674",
+  "rune.stat_1030153674",
+  "scourge.stat_1030153674"
+ ],
+ "suffix|曝露效果提高#%": [
+  "explicit.stat_2074866941",
+  "rune.stat_2074866941",
+  "desecrated.stat_2074866941"
+ ],
+ "suffix|闪电抗性+#%": [
+  "explicit.stat_1671376347",
+  "implicit.stat_1671376347",
+  "fractured.stat_1671376347",
+  "enchant.stat_1671376347",
+  "rune.stat_1671376347",
+  "desecrated.stat_1671376347"
+ ],
+ "suffix|生命每秒再生#": [
+  "explicit.stat_3325883026",
+  "explicit.stat_836936635",
+  "implicit.stat_3325883026",
+  "implicit.stat_836936635",
+  "fractured.stat_3325883026",
+  "rune.stat_836936635"
+ ],
+ "suffix|生命在击败敌人时恢复#%": [
+  "explicit.stat_2023107756",
+  "fractured.stat_2023107756",
+  "rune.stat_2023107756",
+  "desecrated.stat_2023107756",
+  "scourge.stat_2023107756"
+ ],
+ "suffix|施法速度提高#%": [
+  "explicit.stat_2891184298",
+  "implicit.stat_2891184298",
+  "fractured.stat_2891184298",
+  "enchant.stat_2891184298",
+  "rune.stat_2891184298",
+  "desecrated.stat_2891184298"
+ ],
+ "suffix|所有法术技能等级+#": [
+  "explicit.stat_124131830",
+  "fractured.stat_124131830",
+  "rune.stat_124131830",
+  "desecrated.stat_124131830"
+ ],
+ "suffix|所有技能等级+#": [
+  "explicit.stat_4283407333",
+  "enchant.stat_4283407333",
+  "desecrated.stat_4283407333"
+ ],
+ "suffix|所有技能品质+#%": [
+  "explicit.stat_3655769732",
+  "rune.stat_3655769732",
+  "desecrated.stat_3655769732"
+ ],
+ "suffix|所有近战技能等级+#": [
+  "explicit.stat_9187492",
+  "fractured.stat_9187492",
+  "enchant.stat_9187492",
+  "desecrated.stat_9187492"
+ ],
+ "suffix|所有投射物技能等级+#": [
+  "explicit.stat_1202301673",
+  "fractured.stat_1202301673",
+  "desecrated.stat_1202301673"
+ ],
+ "suffix|所有元素抗性+#%": [
+  "explicit.stat_2901986750",
+  "implicit.stat_2901986750",
+  "fractured.stat_2901986750",
+  "enchant.stat_2901986750",
+  "rune.stat_2901986750",
+  "desecrated.stat_2901986750"
+ ],
+ "suffix|所有召唤生物技能等级+#": [
+  "explicit.stat_2162097452",
+  "fractured.stat_2162097452",
+  "enchant.stat_2162097452",
+  "desecrated.stat_2162097452"
+ ],
+ "suffix|物品稀有度提高#%": [
+  "explicit.stat_3917489142",
+  "implicit.stat_3917489142",
+  "fractured.stat_3917489142",
+  "enchant.stat_3917489142",
+  "rune.stat_3917489142",
+  "desecrated.stat_3917489142"
+ ],
+ "suffix|召唤生物的冷却回复率提高#%": [
+  "explicit.stat_1691403182",
+  "desecrated.stat_1691403182"
+ ],
+ "corrupted|+#%火焰抗性上限": [
+  "explicit.stat_4095671657",
+  "fractured.stat_4095671657",
+  "enchant.stat_4095671657",
+  "rune.stat_4095671657",
+  "desecrated.stat_4095671657",
+  "scourge.stat_4095671657"
+ ],
+ "corrupted|+#生命上限": [
+  "explicit.stat_3299347043",
+  "implicit.stat_3299347043",
+  "fractured.stat_3299347043",
+  "enchant.stat_3299347043",
+  "rune.stat_3299347043",
+  "desecrated.stat_3299347043"
+ ],
+ "corrupted|冰霜抗性+#%": [
+  "explicit.stat_4220027924",
+  "implicit.stat_4220027924",
+  "fractured.stat_4220027924",
+  "enchant.stat_4220027924",
+  "rune.stat_4220027924",
+  "desecrated.stat_4220027924"
+ ],
+ "corrupted|护甲提高#%": [
+  "explicit.stat_2866361420",
+  "fractured.stat_2866361420",
+  "enchant.stat_2866361420",
+  "desecrated.stat_2866361420",
+  "sanctum.stat_1737465970",
+  "crafted.stat_2866361420"
+ ],
+ "corrupted|火焰抗性+#%": [
+  "explicit.stat_3372524247",
+  "implicit.stat_3372524247",
+  "fractured.stat_3372524247",
+  "enchant.stat_3372524247",
+  "rune.stat_3372524247",
+  "desecrated.stat_3372524247"
+ ],
+ "corrupted|耐力球数量上限+#": [
+  "explicit.stat_1515657623",
+  "enchant.stat_1515657623",
+  "scourge.stat_1515657623"
+ ],
+ "corrupted|闪电抗性+#%": [
+  "explicit.stat_1671376347",
+  "implicit.stat_1671376347",
+  "fractured.stat_1671376347",
+  "enchant.stat_1671376347",
+  "rune.stat_1671376347",
+  "desecrated.stat_1671376347"
+ ],
+ "prefix|#-#物理荆棘伤害": [
+  "explicit.stat_2881298780",
+  "fractured.stat_2881298780",
+  "desecrated.stat_2881298780"
+ ],
+ "prefix|+#护甲": [
+  "explicit.stat_809229260",
+  "implicit.stat_809229260",
+  "fractured.stat_809229260",
+  "desecrated.stat_809229260",
+  "crafted.stat_809229260"
+ ],
+ "prefix|魔力药剂每秒获得#次充能": [
+  "explicit.stat_2200293569",
+  "enchant.stat_2200293569",
+  "desecrated.stat_2200293569",
+  "scourge.stat_1193925814"
+ ],
+ "prefix|你使用的咒符有#%的几率不消耗充能": [
+  "explicit.stat_501873429",
+  "desecrated.stat_501873429"
+ ],
+ "prefix|你使用药剂时有#%的几率不消耗次数": [
+  "explicit.stat_311641062",
+  "desecrated.stat_311641062",
+  "scourge.stat_311641062",
+  "crafted.stat_311641062"
+ ],
+ "prefix|生命药剂每秒获得#次充能": [
+  "explicit.stat_1102738251",
+  "enchant.stat_1102738251",
+  "desecrated.stat_1102738251",
+  "scourge.stat_2592686757"
+ ],
+ "prefix|咒符每秒获得#次充能": [
+  "explicit.stat_185580205",
+  "enchant.stat_185580205",
+  "desecrated.stat_185580205"
+ ],
+ "special|+#%火焰抗性上限": [
+  "explicit.stat_4095671657",
+  "fractured.stat_4095671657",
+  "enchant.stat_4095671657",
+  "rune.stat_4095671657",
+  "desecrated.stat_4095671657",
+  "scourge.stat_4095671657"
+ ],
+ "special|+#生命上限": [
+  "explicit.stat_3299347043",
+  "implicit.stat_3299347043",
+  "fractured.stat_3299347043",
+  "enchant.stat_3299347043",
+  "rune.stat_3299347043",
+  "desecrated.stat_3299347043"
+ ],
+ "special|护甲提高#%": [
+  "explicit.stat_2866361420",
+  "fractured.stat_2866361420",
+  "enchant.stat_2866361420",
+  "desecrated.stat_2866361420",
+  "sanctum.stat_1737465970",
+  "crafted.stat_2866361420"
+ ],
+ "special|耐力球数量上限+#": [
+  "explicit.stat_1515657623",
+  "enchant.stat_1515657623",
+  "scourge.stat_1515657623"
+ ],
+ "suffix|+#晕眩阈值": [
+  "explicit.stat_915769802",
+  "fractured.stat_915769802",
+  "rune.stat_915769802",
+  "desecrated.stat_915769802"
+ ],
+ "suffix|被腐化时，物品获得两项附魔": [
+  "explicit.stat_4215035940",
+  "fractured.stat_4215035940"
+ ],
+ "suffix|获得的药剂充能提高#%": [
+  "explicit.stat_1836676211",
+  "implicit.stat_1836676211",
+  "fractured.stat_1836676211",
+  "desecrated.stat_1836676211"
+ ],
+ "suffix|获得的咒符充能提高#%": [
+  "explicit.stat_3585532255",
+  "implicit.stat_3585532255",
+  "fractured.stat_3585532255",
+  "rune.stat_3585532255",
+  "desecrated.stat_3585532255"
+ ],
+ "suffix|将承受的火焰伤害的#%吸纳为生命": [
+  "explicit.stat_1742651309",
+  "fractured.stat_1742651309"
+ ],
+ "suffix|荆棘暴击几率+#%": [
+  "explicit.stat_2715190555",
+  "desecrated.stat_2715190555"
+ ],
+ "suffix|使用的药剂充能降低#%": [
+  "explicit.stat_644456512",
+  "implicit.stat_644456512",
+  "fractured.stat_644456512",
+  "desecrated.stat_644456512"
+ ],
+ "suffix|使用的咒符充能降低#%": [
+  "explicit.stat_1570770415",
+  "implicit.stat_1570770415",
+  "desecrated.stat_1570770415"
+ ],
+ "suffix|药剂每秒获得#次充能": [
+  "implicit.stat_731781020"
+ ],
+ "corrupted|#%额外物理伤害减免": [
+  "explicit.stat_3771516363",
+  "fractured.stat_3771516363",
+  "enchant.stat_3771516363",
+  "desecrated.stat_3771516363",
+  "sanctum.stat_3470883829",
+  "crafted.stat_3771516363"
+ ],
+ "corrupted|混沌抗性+#%": [
+  "explicit.stat_2923486259",
+  "implicit.stat_2923486259",
+  "fractured.stat_2923486259",
+  "enchant.stat_2923486259",
+  "rune.stat_2923486259",
+  "desecrated.stat_2923486259"
+ ],
+ "corrupted|将所受伤害的#%吸纳为魔力": [
+  "explicit.stat_472520716",
+  "fractured.stat_472520716",
+  "enchant.stat_472520716",
+  "desecrated.stat_472520716",
+  "crafted.stat_472520716"
+ ],
+ "corrupted|将所受伤害的#%吸纳为生命": [
+  "explicit.stat_1444556985",
+  "implicit.stat_1444556985",
+  "fractured.stat_1444556985",
+  "enchant.stat_1444556985",
+  "rune.stat_1444556985",
+  "desecrated.stat_1444556985"
+ ],
+ "corrupted|荆棘伤害提高#%": [
+  "explicit.stat_1315743832",
+  "enchant.stat_1315743832",
+  "desecrated.stat_1315743832"
+ ],
+ "corrupted|闪避值提高#%": [
+  "explicit.stat_2106365538",
+  "fractured.stat_2106365538",
+  "enchant.stat_2106365538",
+  "desecrated.stat_2106365538",
+  "sanctum.stat_3882471944",
+  "crafted.stat_2106365538"
+ ],
+ "prefix|+#点闪避值": [
+  "explicit.stat_2144192055",
+  "fractured.stat_2144192055",
+  "desecrated.stat_2144192055",
+  "crafted.stat_2144192055"
+ ],
+ "prefix|闪避值提高#%": [
+  "explicit.stat_2106365538",
+  "fractured.stat_2106365538",
+  "enchant.stat_2106365538",
+  "desecrated.stat_2106365538",
+  "sanctum.stat_3882471944",
+  "crafted.stat_2106365538"
+ ],
+ "prefix|受到击中物理伤害的#%转化为混沌伤害": [
+  "explicit.stat_4129825612",
+  "fractured.stat_4129825612"
+ ],
+ "special|#%额外物理伤害减免": [
+  "explicit.stat_3771516363",
+  "fractured.stat_3771516363",
+  "enchant.stat_3771516363",
+  "desecrated.stat_3771516363",
+  "sanctum.stat_3470883829",
+  "crafted.stat_3771516363"
+ ],
+ "special|将所受伤害的#%吸纳为魔力": [
+  "explicit.stat_472520716",
+  "fractured.stat_472520716",
+  "enchant.stat_472520716",
+  "desecrated.stat_472520716",
+  "crafted.stat_472520716"
+ ],
+ "special|将所受伤害的#%吸纳为生命": [
+  "explicit.stat_1444556985",
+  "implicit.stat_1444556985",
+  "fractured.stat_1444556985",
+  "enchant.stat_1444556985",
+  "rune.stat_1444556985",
+  "desecrated.stat_1444556985"
+ ],
+ "special|荆棘伤害提高#%": [
+  "explicit.stat_1315743832",
+  "enchant.stat_1315743832",
+  "desecrated.stat_1315743832"
+ ],
+ "special|闪避值提高#%": [
+  "explicit.stat_2106365538",
+  "fractured.stat_2106365538",
+  "enchant.stat_2106365538",
+  "desecrated.stat_2106365538",
+  "sanctum.stat_3882471944",
+  "crafted.stat_2106365538"
+ ],
+ "suffix|对你的击中的暴击伤害加成降低#%": [
+  "explicit.stat_3855016469",
+  "implicit.stat_3855016469",
+  "fractured.stat_3855016469",
+  "rune.stat_3855016469",
+  "desecrated.stat_3855016469",
+  "sanctum.stat_2948404493"
+ ],
+ "suffix|获得相当于闪避值#%的偏转值": [
+  "explicit.stat_3033371881",
+  "fractured.stat_3033371881",
+  "desecrated.stat_3033371881"
+ ],
+ "suffix|技能的精魂保留效能提高#%": [
+  "explicit.stat_53386210",
+  "desecrated.stat_53386210"
+ ],
+ "suffix|你受到的诅咒效果降低#%": [
+  "explicit.stat_3407849389",
+  "rune.stat_3407849389",
+  "desecrated.stat_3407849389",
+  "scourge.stat_3407849389",
+  "crafted.stat_3407849389"
+ ],
+ "suffix|阻止+#%的偏转击中伤害": [
+  "explicit.stat_3552135623",
+  "rune.stat_3552135623",
+  "desecrated.stat_3552135623"
+ ],
+ "suffix|能量护盾充能率提高#%": [
+  "explicit.stat_2339757871",
+  "fractured.stat_2339757871",
+  "rune.stat_2339757871",
+  "desecrated.stat_2339757871",
+  "scourge.stat_2339757871",
+  "crafted.stat_2339757871"
+ ],
+ "suffix|+#%的护甲同样作用于元素伤害": [
+  "explicit.stat_3362812763",
+  "implicit.stat_3362812763",
+  "fractured.stat_3362812763",
+  "desecrated.stat_3362812763"
+ ],
+ "corrupted|+#%闪电抗性上限": [
+  "explicit.stat_1011760251",
+  "fractured.stat_1011760251",
+  "enchant.stat_1011760251",
+  "rune.stat_1011760251",
+  "desecrated.stat_1011760251",
+  "scourge.stat_1011760251"
+ ],
+ "corrupted|冻结阈值提高#%": [
+  "explicit.stat_3780644166",
+  "fractured.stat_3780644166",
+  "enchant.stat_3780644166",
+  "desecrated.stat_3780644166"
+ ],
+ "corrupted|移动速度提高#%": [
+  "explicit.stat_2250533757",
+  "implicit.stat_2250533757",
+  "fractured.stat_2250533757",
+  "enchant.stat_2250533757",
+  "rune.stat_2250533757",
+  "desecrated.stat_2250533757"
+ ],
+ "corrupted|晕眩阈值提高#%": [
+  "explicit.stat_680068163",
+  "implicit.stat_680068163",
+  "enchant.stat_680068163",
+  "desecrated.stat_680068163"
+ ],
+ "prefix|移动速度提高#%": [
+  "explicit.stat_2250533757",
+  "implicit.stat_2250533757",
+  "fractured.stat_2250533757",
+  "enchant.stat_2250533757",
+  "rune.stat_2250533757",
+  "desecrated.stat_2250533757"
+ ],
+ "special|+#%闪电抗性上限": [
+  "explicit.stat_1011760251",
+  "fractured.stat_1011760251",
+  "enchant.stat_1011760251",
+  "rune.stat_1011760251",
+  "desecrated.stat_1011760251",
+  "scourge.stat_1011760251"
+ ],
+ "special|冻结阈值提高#%": [
+  "explicit.stat_3780644166",
+  "fractured.stat_3780644166",
+  "enchant.stat_3780644166",
+  "desecrated.stat_3780644166"
+ ],
+ "special|移动速度提高#%": [
+  "explicit.stat_2250533757",
+  "implicit.stat_2250533757",
+  "fractured.stat_2250533757",
+  "enchant.stat_2250533757",
+  "rune.stat_2250533757",
+  "desecrated.stat_2250533757"
+ ],
+ "special|晕眩阈值提高#%": [
+  "explicit.stat_680068163",
+  "implicit.stat_680068163",
+  "enchant.stat_680068163",
+  "desecrated.stat_680068163"
+ ],
+ "suffix|+#精魂": [
+  "explicit.stat_3981240776",
+  "explicit.stat_2704225257",
+  "implicit.stat_3981240776",
+  "fractured.stat_3981240776",
+  "enchant.stat_3981240776",
+  "rune.stat_3981240776"
+ ],
+ "suffix|静止时魔力回复速度提高#%": [
+  "explicit.stat_3308030688",
+  "desecrated.stat_3308030688"
+ ],
+ "suffix|若你近期使用过闪避翻滚，魔力消耗效能提高#%": [
+  "explicit.stat_3396435291",
+  "desecrated.stat_3396435291"
+ ],
+ "suffix|闪避翻滚距离+#米": [
+  "explicit.stat_258119672",
+  "desecrated.stat_258119672",
+  "sanctum.stat_1040593638"
+ ],
+ "corrupted|+#%暴击伤害加成": [
+  "explicit.stat_2694482655",
+  "implicit.stat_2694482655",
+  "fractured.stat_2694482655",
+  "enchant.stat_2694482655",
+  "rune.stat_2694482655",
+  "desecrated.stat_2694482655"
+ ],
+ "corrupted|附加#-#冰霜伤害": [
+  "explicit.stat_1037193709",
+  "fractured.stat_1037193709",
+  "enchant.stat_1037193709",
+  "rune.stat_1037193709",
+  "desecrated.stat_1037193709"
+ ],
+ "corrupted|附加#-#火焰伤害": [
+  "explicit.stat_709508406",
+  "fractured.stat_709508406",
+  "enchant.stat_709508406",
+  "rune.stat_709508406",
+  "desecrated.stat_709508406"
+ ],
+ "corrupted|附加#-#闪电伤害": [
+  "explicit.stat_3336890334",
+  "fractured.stat_3336890334",
+  "enchant.stat_3336890334",
+  "rune.stat_3336890334",
+  "desecrated.stat_3336890334"
+ ],
+ "corrupted|该装备附加#-#基础混沌伤害": [
+  "explicit.stat_2223678961",
+  "enchant.stat_2223678961",
+  "rune.stat_2223678961"
+ ],
+ "corrupted|弓类攻击发射#支额外箭矢": [
+  "explicit.stat_3885405204",
+  "implicit.stat_3885405204",
+  "fractured.stat_3885405204",
+  "enchant.stat_3885405204",
+  "rune.stat_3885405204",
+  "desecrated.stat_3885405204"
+ ],
+ "corrupted|攻击技能的元素伤害提高#%": [
+  "explicit.stat_387439868",
+  "fractured.stat_387439868",
+  "enchant.stat_387439868",
+  "rune.stat_387439868",
+  "desecrated.stat_387439868",
+  "scourge.stat_387439868"
+ ],
+ "corrupted|攻击速度提高#%": [
+  "explicit.stat_681332047",
+  "implicit.stat_681332047",
+  "fractured.stat_681332047",
+  "rune.stat_681332047",
+  "desecrated.stat_681332047",
+  "scourge.stat_681332047"
+ ],
+ "corrupted|击中时有#%的几率造成瘫痪": [
+  "implicit.stat_2763429652",
+  "enchant.stat_2763429652"
+ ],
+ "corrupted|击中时有#%的几率致盲敌人": [
+  "enchant.stat_2301191210",
+  "crafted.stat_2301191210"
+ ],
+ "corrupted|物理伤害提高#%": [
+  "explicit.stat_1509134228",
+  "fractured.stat_1509134228",
+  "enchant.stat_1509134228",
+  "rune.stat_1509134228",
+  "desecrated.stat_1509134228",
+  "crafted.stat_1509134228"
+ ],
+ "prefix|附加#-#冰霜伤害": [
+  "explicit.stat_1037193709",
+  "fractured.stat_1037193709",
+  "enchant.stat_1037193709",
+  "rune.stat_1037193709",
+  "desecrated.stat_1037193709"
+ ],
+ "prefix|附加#-#火焰伤害": [
+  "explicit.stat_709508406",
+  "fractured.stat_709508406",
+  "enchant.stat_709508406",
+  "rune.stat_709508406",
+  "desecrated.stat_709508406"
+ ],
+ "prefix|附加#-#闪电伤害": [
+  "explicit.stat_3336890334",
+  "fractured.stat_3336890334",
+  "enchant.stat_3336890334",
+  "rune.stat_3336890334",
+  "desecrated.stat_3336890334"
+ ],
+ "prefix|附加#-#物理伤害": [
+  "explicit.stat_1940865751",
+  "fractured.stat_1940865751",
+  "desecrated.stat_1940865751"
+ ],
+ "prefix|该武器的攻击穿透#%的冰霜抗性": [
+  "explicit.stat_1740229525",
+  "desecrated.stat_1740229525"
+ ],
+ "prefix|该武器的攻击穿透#%的火焰抗性": [
+  "explicit.stat_3398283493",
+  "desecrated.stat_3398283493"
+ ],
+ "prefix|该武器的攻击穿透#%的闪电抗性": [
+  "explicit.stat_2387539034",
+  "desecrated.stat_2387539034"
+ ],
+ "prefix|攻击技能的元素伤害提高#%": [
+  "explicit.stat_387439868",
+  "fractured.stat_387439868",
+  "enchant.stat_387439868",
+  "rune.stat_387439868",
+  "desecrated.stat_387439868",
+  "scourge.stat_387439868"
+ ],
+ "prefix|获得相当于伤害#%的额外冰霜伤害": [
+  "explicit.stat_2505884597",
+  "fractured.stat_2505884597",
+  "rune.stat_2505884597",
+  "desecrated.stat_2505884597"
+ ],
+ "prefix|获得相当于伤害#%的额外火焰伤害": [
+  "explicit.stat_3015669065",
+  "fractured.stat_3015669065",
+  "rune.stat_3015669065",
+  "desecrated.stat_3015669065"
+ ],
+ "prefix|获得相当于伤害#%的额外闪电伤害": [
+  "explicit.stat_3278136794",
+  "fractured.stat_3278136794",
+  "rune.stat_3278136794",
+  "desecrated.stat_3278136794"
+ ],
+ "prefix|获得相当于伤害#%的额外物理伤害": [
+  "explicit.stat_4019237939",
+  "fractured.stat_4019237939",
+  "desecrated.stat_4019237939"
+ ],
+ "prefix|投射物对#米外的敌人造成的击中伤害提高#%": [
+  "explicit.stat_2825946427",
+  "desecrated.stat_2825946427"
+ ],
+ "prefix|投射物击中地形时有#%的几率额外连锁一次": [
+  "explicit.stat_4081947835",
+  "fractured.stat_4081947835",
+  "enchant.stat_4081947835",
+  "desecrated.stat_4081947835"
+ ],
+ "prefix|物理伤害提高#%": [
+  "explicit.stat_1509134228",
+  "fractured.stat_1509134228",
+  "enchant.stat_1509134228",
+  "rune.stat_1509134228",
+  "desecrated.stat_1509134228",
+  "crafted.stat_1509134228"
+ ],
+ "prefix|装备箭袋获得的加成提高#%": [
+  "explicit.stat_1200678966",
+  "fractured.stat_1200678966",
+  "desecrated.stat_1200678966"
+ ],
+ "special|+#%暴击伤害加成": [
+  "explicit.stat_2694482655",
+  "implicit.stat_2694482655",
+  "fractured.stat_2694482655",
+  "enchant.stat_2694482655",
+  "rune.stat_2694482655",
+  "desecrated.stat_2694482655"
+ ],
+ "special|附加#-#冰霜伤害": [
+  "explicit.stat_1037193709",
+  "fractured.stat_1037193709",
+  "enchant.stat_1037193709",
+  "rune.stat_1037193709",
+  "desecrated.stat_1037193709"
+ ],
+ "special|附加#-#火焰伤害": [
+  "explicit.stat_709508406",
+  "fractured.stat_709508406",
+  "enchant.stat_709508406",
+  "rune.stat_709508406",
+  "desecrated.stat_709508406"
+ ],
+ "special|附加#-#闪电伤害": [
+  "explicit.stat_3336890334",
+  "fractured.stat_3336890334",
+  "enchant.stat_3336890334",
+  "rune.stat_3336890334",
+  "desecrated.stat_3336890334"
+ ],
+ "special|该装备附加#-#基础混沌伤害": [
+  "explicit.stat_2223678961",
+  "enchant.stat_2223678961",
+  "rune.stat_2223678961"
+ ],
+ "special|弓类攻击发射#支额外箭矢": [
+  "explicit.stat_3885405204",
+  "implicit.stat_3885405204",
+  "fractured.stat_3885405204",
+  "enchant.stat_3885405204",
+  "rune.stat_3885405204",
+  "desecrated.stat_3885405204"
+ ],
+ "special|攻击技能的元素伤害提高#%": [
+  "explicit.stat_387439868",
+  "fractured.stat_387439868",
+  "enchant.stat_387439868",
+  "rune.stat_387439868",
+  "desecrated.stat_387439868",
+  "scourge.stat_387439868"
+ ],
+ "special|攻击速度提高#%": [
+  "explicit.stat_681332047",
+  "implicit.stat_681332047",
+  "fractured.stat_681332047",
+  "rune.stat_681332047",
+  "desecrated.stat_681332047",
+  "scourge.stat_681332047"
+ ],
+ "special|击中时有#%的几率造成瘫痪": [
+  "implicit.stat_2763429652",
+  "enchant.stat_2763429652"
+ ],
+ "special|击中时有#%的几率致盲敌人": [
+  "enchant.stat_2301191210",
+  "crafted.stat_2301191210"
+ ],
+ "special|物理伤害提高#%": [
+  "explicit.stat_1509134228",
+  "fractured.stat_1509134228",
+  "enchant.stat_1509134228",
+  "rune.stat_1509134228",
+  "desecrated.stat_1509134228",
+  "crafted.stat_1509134228"
+ ],
+ "suffix|#%的几率穿透一个敌人": [
+  "explicit.stat_2321178454",
+  "implicit.stat_2321178454",
+  "fractured.stat_2321178454",
+  "enchant.stat_2321178454",
+  "desecrated.stat_2321178454"
+ ],
+ "suffix|+#%暴击伤害加成": [
+  "explicit.stat_2694482655",
+  "implicit.stat_2694482655",
+  "fractured.stat_2694482655",
+  "enchant.stat_2694482655",
+  "rune.stat_2694482655",
+  "desecrated.stat_2694482655"
+ ],
+ "suffix|暴击几率+#%": [
+  "explicit.stat_518292764",
+  "fractured.stat_518292764",
+  "desecrated.stat_518292764"
+ ],
+ "suffix|不可移动积蓄提高#%": [
+  "explicit.stat_330530785",
+  "desecrated.stat_330530785"
+ ],
+ "suffix|此武器进行造成最后一击时有#%的几率获得猛攻": [
+  "explicit.stat_1881230714",
+  "fractured.stat_1881230714"
+ ],
+ "suffix|攻击的消耗效能提高#%": [
+  "explicit.stat_3350279336",
+  "desecrated.stat_3350279336"
+ ],
+ "suffix|攻击速度提高#%": [
+  "explicit.stat_681332047",
+  "implicit.stat_681332047",
+  "fractured.stat_681332047",
+  "rune.stat_681332047",
+  "desecrated.stat_681332047",
+  "scourge.stat_681332047"
+ ],
+ "suffix|技能的魔力消耗的#%转化为生命消耗": [
+  "explicit.stat_2480498143",
+  "fractured.stat_2480498143",
+  "desecrated.stat_2480498143"
+ ],
+ "suffix|每击败一名敌人获得#点魔力": [
+  "explicit.stat_1368271171",
+  "fractured.stat_1368271171",
+  "enchant.stat_1368271171",
+  "rune.stat_1368271171",
+  "desecrated.stat_1368271171"
+ ],
+ "suffix|每击败一名敌人获得#点生命": [
+  "explicit.stat_3695891184",
+  "fractured.stat_3695891184",
+  "enchant.stat_3695891184",
+  "rune.stat_3695891184",
+  "desecrated.stat_3695891184"
+ ],
+ "suffix|每击中一名敌人获得#点生命": [
+  "explicit.stat_821021828",
+  "fractured.stat_821021828",
+  "desecrated.stat_821021828"
+ ],
+ "suffix|你的印记技能效果提高#%": [
+  "explicit.stat_712554801",
+  "fractured.stat_712554801",
+  "desecrated.stat_712554801"
+ ],
+ "suffix|你造成的异常状态强度提高#%": [
+  "explicit.stat_1303248024",
+  "fractured.stat_1303248024",
+  "desecrated.stat_1303248024"
+ ],
+ "suffix|所有攻击技能等级+#": [
+  "explicit.stat_3035140377",
+  "fractured.stat_3035140377"
+ ],
+ "suffix|物理伤害的#%转化为魔力偷取": [
+  "explicit.stat_669069897",
+  "fractured.stat_669069897",
+  "rune.stat_669069897",
+  "desecrated.stat_669069897"
+ ],
+ "suffix|物理伤害的#%转化为生命偷取": [
+  "explicit.stat_55876295",
+  "fractured.stat_55876295",
+  "rune.stat_55876295",
+  "desecrated.stat_55876295",
+  "scourge.stat_3764265320"
+ ],
+ "suffix|移动时，投射物攻击有#%的几率额外发射两个投射物": [
+  "explicit.stat_3932115504",
+  "desecrated.stat_3932115504"
+ ],
+ "corrupted|格挡几率提高#%": [
+  "explicit.stat_4147897060",
+  "fractured.stat_4147897060",
+  "desecrated.stat_4147897060",
+  "crafted.stat_2481353198"
+ ],
+ "corrupted|在你格挡时获得#魔力": [
+  "scourge.stat_2122183138"
+ ],
+ "corrupted|在你格挡时获得#生命": [
+  "scourge.stat_762600725"
+ ],
+ "prefix|格挡几率提高#%": [
+  "explicit.stat_4147897060",
+  "fractured.stat_4147897060",
+  "desecrated.stat_4147897060",
+  "crafted.stat_2481353198"
+ ],
+ "special|格挡几率提高#%": [
+  "explicit.stat_4147897060",
+  "fractured.stat_4147897060",
+  "desecrated.stat_4147897060",
+  "crafted.stat_2481353198"
+ ],
+ "special|在你格挡时获得#魔力": [
+  "scourge.stat_2122183138"
+ ],
+ "special|在你格挡时获得#生命": [
+  "scourge.stat_762600725"
+ ],
+ "suffix|+#%冰霜抗性上限": [
+  "explicit.stat_3676141501",
+  "fractured.stat_3676141501",
+  "enchant.stat_3676141501",
+  "rune.stat_3676141501",
+  "desecrated.stat_3676141501",
+  "scourge.stat_3676141501"
+ ],
+ "suffix|+#%混沌抗性上限": [
+  "explicit.stat_1301765461",
+  "fractured.stat_1301765461",
+  "desecrated.stat_1301765461",
+  "scourge.stat_1301765461"
+ ],
+ "suffix|+#%火焰抗性上限": [
+  "explicit.stat_4095671657",
+  "fractured.stat_4095671657",
+  "enchant.stat_4095671657",
+  "rune.stat_4095671657",
+  "desecrated.stat_4095671657",
+  "scourge.stat_4095671657"
+ ],
+ "suffix|+#%全部抗性上限": [
+  "explicit.stat_569299859",
+  "desecrated.stat_569299859",
+  "sanctum.stat_3376488707"
+ ],
+ "suffix|+#%闪电抗性上限": [
+  "explicit.stat_1011760251",
+  "fractured.stat_1011760251",
+  "enchant.stat_1011760251",
+  "rune.stat_1011760251",
+  "desecrated.stat_1011760251",
+  "scourge.stat_1011760251"
+ ],
+ "suffix|+#%元素抗性上限": [
+  "explicit.stat_1978899297",
+  "implicit.stat_1978899297",
+  "fractured.stat_1978899297",
+  "enchant.stat_1978899297",
+  "desecrated.stat_1978899297",
+  "scourge.stat_1978899297"
+ ],
+ "suffix|被招架减益状态强度提高#%": [
+  "explicit.stat_818877178",
+  "desecrated.stat_818877178"
+ ],
+ "suffix|在你格挡时获得#魔力": [
+  "scourge.stat_2122183138"
+ ],
+ "prefix|使用时回复#魔力": [
+  "explicit.stat_1120862500"
+ ],
+ "prefix|使用时回复#生命": [
+  "explicit.stat_2365392475"
+ ],
+ "prefix|同时获得#防卫": [
+  "explicit.stat_2676834156"
+ ],
+ "suffix|获得的充能提高#%": [
+  "explicit.stat_3196823591"
+ ],
+ "suffix|每秒获得#次充能": [
+  "explicit.stat_1873752457"
+ ],
+ "suffix|造成的晕眩积蓄值提高#%": [
+  "explicit.stat_791928121",
+  "implicit.stat_791928121",
+  "fractured.stat_791928121",
+  "enchant.stat_791928121",
+  "rune.stat_791928121",
+  "desecrated.stat_791928121"
+ ],
+ "prefix|当你获得钥匙时，有#%的几率再获得一把": [
+  "sanctum.stat_3170238729"
+ ],
+ "prefix|怪物受到的伤害提高#%": [
+  "sanctum.stat_3114474137"
+ ],
+ "prefix|如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉": [
+  "sanctum.stat_3870327403"
+ ],
+ "prefix|完成一个楼层时，你的每一把钥匙有#%的几率升级": [
+  "sanctum.stat_2155917449"
+ ],
+ "suffix|#%几率避免获得一个痛苦": [
+  "sanctum.stat_1960517795"
+ ],
+ "suffix|当你完成一个房间时获得#圣水": [
+  "sanctum.stat_4057192895"
+ ],
+ "suffix|荣誉抗性上限+#%": [
+  "sanctum.stat_3096543632"
+ ],
+ "suffix|拾取钥匙时恢复#荣誉": [
+  "sanctum.stat_521869848"
+ ],
+ "suffix|完成房间时恢复#荣誉": [
+  "sanctum.stat_2114314842"
+ ],
+ "corrupted|额外装填一支弩箭": [
+  "explicit.stat_1967051901",
+  "implicit.stat_1967051901",
+  "fractured.stat_1967051901",
+  "enchant.stat_1967051901",
+  "desecrated.stat_1967051901"
+ ],
+ "prefix|榴弹技能拥有+#次冷却使用次数": [
+  "explicit.stat_2250681686",
+  "desecrated.stat_2250681686"
+ ],
+ "prefix|投射物对#米内的敌人造成的击中伤害提高#%": [
+  "explicit.stat_2468595624",
+  "desecrated.stat_2468595624"
+ ],
+ "suffix|额外装填一支弩箭": [
+  "explicit.stat_1967051901",
+  "implicit.stat_1967051901",
+  "fractured.stat_1967051901",
+  "enchant.stat_1967051901",
+  "desecrated.stat_1967051901"
+ ],
+ "suffix|榴弹有#%的几率再次激活": [
+  "explicit.stat_538981065",
+  "desecrated.stat_538981065"
+ ],
+ "suffix|投射物对#米内的敌人的暴击伤害加成提高#%": [
+  "explicit.stat_2573406169",
+  "desecrated.stat_2573406169"
+ ],
+ "suffix|装填战弩时有#%的几率立即完成": [
+  "explicit.stat_2760344900",
+  "desecrated.stat_2760344900"
+ ],
+ "special|此武器的近战打击范围提高#%": [
+  "explicit.stat_548198834",
+  "implicit.stat_548198834",
+  "enchant.stat_548198834"
+ ],
+ "special|此武器击中时有#%的几率使目标中毒": [
+  "explicit.stat_3885634897",
+  "enchant.stat_3885634897",
+  "rune.stat_3885634897"
+ ],
+ "special|造成的晕眩积蓄值提高#%": [
+  "explicit.stat_791928121",
+  "implicit.stat_791928121",
+  "fractured.stat_791928121",
+  "enchant.stat_791928121",
+  "rune.stat_791928121",
+  "desecrated.stat_791928121"
+ ],
+ "corrupted|免疫瘫痪": [
+  "enchant.stat_3429557654"
+ ],
+ "corrupted|免疫致盲": [
+  "explicit.stat_1436284579",
+  "enchant.stat_1436284579"
+ ],
+ "corrupted|你无法被缓速": [
+  "enchant.stat_721014846"
+ ],
+ "prefix|被触发法术的法术伤害提高#%": [
+  "explicit.stat_3067892458",
+  "fractured.stat_3067892458",
+  "desecrated.stat_3067892458"
+ ],
+ "prefix|冰霜伤害提高#%": [
+  "explicit.stat_3291658075",
+  "fractured.stat_3291658075",
+  "desecrated.stat_3291658075",
+  "scourge.stat_3291658075",
+  "crafted.stat_3291658075"
+ ],
+ "prefix|锤类的伤害提高#%": [
+  "explicit.stat_1181419800",
+  "fractured.stat_1181419800",
+  "desecrated.stat_1181419800"
+ ],
+ "prefix|点燃强度提高#%": [
+  "explicit.stat_3791899485",
+  "fractured.stat_3791899485",
+  "desecrated.stat_3791899485"
+ ],
+ "prefix|对护甲完全破损的敌人造成的伤害提高#%": [
+  "explicit.stat_2301718443",
+  "fractured.stat_2301718443",
+  "desecrated.stat_2301718443"
+ ],
+ "prefix|粉碎的护甲提高#%": [
+  "explicit.stat_1776411443",
+  "fractured.stat_1776411443",
+  "enchant.stat_1776411443",
+  "desecrated.stat_1776411443"
+ ],
+ "prefix|弓类攻击的命中值提高#%": [
+  "explicit.stat_169946467",
+  "fractured.stat_169946467",
+  "desecrated.stat_169946467"
+ ],
+ "prefix|弓类伤害提高#%": [
+  "explicit.stat_4188894176",
+  "fractured.stat_4188894176",
+  "desecrated.stat_4188894176"
+ ],
+ "prefix|攻击伤害提高#%": [
+  "explicit.stat_2843214518",
+  "fractured.stat_2843214518",
+  "desecrated.stat_2843214518"
+ ],
+ "prefix|混沌伤害提高#%": [
+  "explicit.stat_736967255",
+  "fractured.stat_736967255",
+  "desecrated.stat_736967255",
+  "scourge.stat_736967255",
+  "crafted.stat_736967255"
+ ],
+ "prefix|火焰伤害提高#%": [
+  "explicit.stat_3962278098",
+  "fractured.stat_3962278098",
+  "desecrated.stat_3962278098",
+  "scourge.stat_3962278098",
+  "crafted.stat_3962278098"
+ ],
+ "prefix|伙伴的伤害提高#%": [
+  "explicit.stat_234296660",
+  "fractured.stat_234296660",
+  "desecrated.stat_234296660"
+ ],
+ "prefix|击中时有#%的几率造成流血": [
+  "explicit.stat_2174054121",
+  "desecrated.stat_2174054121"
+ ],
+ "prefix|激活咒符时，伤害提高#%": [
+  "explicit.stat_627767961",
+  "fractured.stat_627767961",
+  "desecrated.stat_627767961"
+ ],
+ "prefix|节杖的伤害提高#%": [
+  "explicit.stat_4045894391",
+  "fractured.stat_4045894391",
+  "desecrated.stat_4045894391"
+ ],
+ "prefix|捷技能造成的伤害提高#%": [
+  "explicit.stat_21071013",
+  "fractured.stat_21071013",
+  "desecrated.stat_21071013"
+ ],
+ "prefix|近战伤害提高#%": [
+  "explicit.stat_1002362373",
+  "fractured.stat_1002362373",
+  "desecrated.stat_1002362373",
+  "crafted.stat_1002362373"
+ ],
+ "prefix|荆棘伤害提高#%": [
+  "explicit.stat_1315743832",
+  "enchant.stat_1315743832",
+  "desecrated.stat_1315743832"
+ ],
+ "prefix|命中值提高#%": [
+  "explicit.stat_624954515",
+  "implicit.stat_624954515",
+  "fractured.stat_624954515",
+  "rune.stat_624954515",
+  "desecrated.stat_624954515",
+  "scourge.stat_624954515"
+ ],
+ "prefix|你的暴击造成的伤害性异常状态强度提高#%": [
+  "explicit.stat_440490623",
+  "fractured.stat_440490623",
+  "desecrated.stat_440490623"
+ ],
+ "prefix|你的印记技能效果提高#%": [
+  "explicit.stat_712554801",
+  "fractured.stat_712554801",
+  "desecrated.stat_712554801"
+ ],
+ "prefix|你施加的深渊损耗强度提高#%": [
+  "explicit.stat_4043376133",
+  "desecrated.stat_4043376133"
+ ],
+ "prefix|你造成的感电强度提高#%": [
+  "explicit.stat_2527686725",
+  "fractured.stat_2527686725",
+  "desecrated.stat_2527686725"
+ ],
+ "prefix|你造成的流血强度提高#%": [
+  "explicit.stat_3166958180",
+  "rune.stat_3166958180",
+  "desecrated.stat_3166958180"
+ ],
+ "prefix|你造成的异常状态强度提高#%": [
+  "explicit.stat_1303248024",
+  "fractured.stat_1303248024",
+  "desecrated.stat_1303248024"
+ ],
+ "prefix|你造成的中毒强度提高#%": [
+  "explicit.stat_2487305362",
+  "fractured.stat_2487305362",
+  "desecrated.stat_2487305362"
+ ],
+ "prefix|曝露效果提高#%": [
+  "explicit.stat_2074866941",
+  "rune.stat_2074866941",
+  "desecrated.stat_2074866941"
+ ],
+ "prefix|强化攻击造成的伤害提高#%": [
+  "explicit.stat_1569101201",
+  "fractured.stat_1569101201",
+  "desecrated.stat_1569101201"
+ ],
+ "prefix|全局物理伤害提高#%": [
+  "explicit.stat_1310194496",
+  "fractured.stat_1310194496",
+  "desecrated.stat_1310194496",
+  "scourge.stat_1310194496",
+  "crafted.stat_1310194496"
+ ],
+ "prefix|若你近期内有消耗灵柩，则伤害提高#%": [
+  "explicit.stat_2118708619",
+  "fractured.stat_2118708619",
+  "desecrated.stat_2118708619"
+ ],
+ "prefix|若你在过去#秒内造成过近战击中，投射物伤害提高#%": [
+  "explicit.stat_3596695232",
+  "fractured.stat_3596695232",
+  "desecrated.stat_3596695232"
+ ],
+ "prefix|若你在过去#秒内造成过投射物攻击击中，近战伤害提高#%": [
+  "explicit.stat_3028809864",
+  "fractured.stat_3028809864",
+  "desecrated.stat_3028809864"
+ ],
+ "prefix|闪电伤害提高#%": [
+  "explicit.stat_2231156303",
+  "fractured.stat_2231156303",
+  "desecrated.stat_2231156303",
+  "scourge.stat_2231156303",
+  "crafted.stat_2231156303"
+ ],
+ "prefix|伤害穿透#%冰霜抗性": [
+  "explicit.stat_3417711605",
+  "fractured.stat_3417711605",
+  "enchant.stat_3417711605",
+  "desecrated.stat_3417711605",
+  "scourge.stat_3417711605"
+ ],
+ "prefix|伤害穿透#%的闪电抗性": [
+  "explicit.stat_818778753",
+  "fractured.stat_818778753",
+  "enchant.stat_818778753",
+  "desecrated.stat_818778753",
+  "scourge.stat_818778753"
+ ],
+ "prefix|伤害穿透#%火焰抗性": [
+  "explicit.stat_2653955271",
+  "fractured.stat_2653955271",
+  "enchant.stat_2653955271",
+  "desecrated.stat_2653955271",
+  "scourge.stat_2653955271"
+ ],
+ "prefix|死亡凋零强度提高#%": [
+  "explicit.stat_3973629633",
+  "fractured.stat_3973629633",
+  "rune.stat_3973629633",
+  "desecrated.stat_3973629633"
+ ],
+ "prefix|投射物伤害提高#%": [
+  "explicit.stat_1839076647",
+  "fractured.stat_1839076647",
+  "desecrated.stat_1839076647",
+  "scourge.stat_1839076647",
+  "crafted.stat_1839076647"
+ ],
+ "prefix|图腾的生命提高#%": [
+  "explicit.stat_686254215",
+  "fractured.stat_686254215",
+  "desecrated.stat_686254215",
+  "scourge.stat_686254215"
+ ],
+ "prefix|图腾伤害提高#%": [
+  "explicit.stat_3851254963",
+  "fractured.stat_3851254963",
+  "desecrated.stat_3851254963"
+ ],
+ "prefix|危害伤害提高#%": [
+  "explicit.stat_1697951953",
+  "fractured.stat_1697951953",
+  "desecrated.stat_1697951953"
+ ],
+ "prefix|元素伤害提高#%": [
+  "explicit.stat_3141070085",
+  "fractured.stat_3141070085",
+  "desecrated.stat_3141070085",
+  "scourge.stat_3141070085"
+ ],
+ "prefix|战吼的伤害提高#%": [
+  "explicit.stat_1594812856",
+  "desecrated.stat_1594812856"
+ ],
+ "prefix|战矛的伤害提高#%": [
+  "explicit.stat_2696027455",
+  "fractured.stat_2696027455",
+  "desecrated.stat_2696027455"
+ ],
+ "prefix|战弩的伤害提高#%": [
+  "explicit.stat_427684353",
+  "fractured.stat_427684353",
+  "desecrated.stat_427684353"
+ ],
+ "prefix|招架伤害提高#%": [
+  "explicit.stat_1569159338",
+  "fractured.stat_1569159338",
+  "desecrated.stat_1569159338"
+ ],
+ "prefix|召唤生物的伤害提高#%": [
+  "explicit.stat_1589917703",
+  "fractured.stat_1589917703",
+  "desecrated.stat_1589917703",
+  "scourge.stat_1589917703",
+  "crafted.stat_1589917703"
+ ],
+ "prefix|召唤生物的生命上限提高#%": [
+  "explicit.stat_770672621",
+  "fractured.stat_770672621",
+  "rune.stat_770672621",
+  "desecrated.stat_770672621",
+  "scourge.stat_770672621",
+  "crafted.stat_770672621"
+ ],
+ "prefix|致盲效果提高#%": [
+  "explicit.stat_1585769763",
+  "fractured.stat_1585769763",
+  "desecrated.stat_1585769763"
+ ],
+ "prefix|装备法器的能量护盾提高#%": [
+  "explicit.stat_3174700878",
+  "fractured.stat_3174700878",
+  "desecrated.stat_3174700878"
+ ],
+ "prefix|诅咒强度提高#%": [
+  "explicit.stat_2353576063",
+  "fractured.stat_2353576063",
+  "enchant.stat_2353576063",
+  "rune.stat_2353576063",
+  "desecrated.stat_2353576063"
+ ],
+ "suffix|被敌人击中时获得#点怒火": [
+  "explicit.stat_3292710273",
+  "desecrated.stat_3292710273"
+ ],
+ "suffix|锤类的晕眩积蓄提高#%": [
+  "explicit.stat_872504239",
+  "desecrated.stat_872504239"
+ ],
+ "suffix|定身积蓄值提高#%": [
+  "explicit.stat_3473929743",
+  "fractured.stat_3473929743",
+  "desecrated.stat_3473929743"
+ ],
+ "suffix|冻结积蓄值提高#%": [
+  "explicit.stat_473429811",
+  "fractured.stat_473429811",
+  "enchant.stat_473429811",
+  "rune.stat_473429811",
+  "desecrated.stat_473429811"
+ ],
+ "suffix|冻结阈值提高#%": [
+  "explicit.stat_3780644166",
+  "fractured.stat_3780644166",
+  "enchant.stat_3780644166",
+  "desecrated.stat_3780644166"
+ ],
+ "suffix|法术暴击率提高#%": [
+  "explicit.stat_737908626",
+  "fractured.stat_737908626",
+  "enchant.stat_737908626",
+  "rune.stat_737908626",
+  "desecrated.stat_737908626"
+ ],
+ "suffix|法术暴击伤害加成提高#%": [
+  "explicit.stat_274716455",
+  "fractured.stat_274716455",
+  "desecrated.stat_274716455"
+ ],
+ "suffix|非凡技能获得的能量提高#%": [
+  "explicit.stat_4236566306",
+  "fractured.stat_4236566306",
+  "enchant.stat_4236566306",
+  "rune.stat_4236566306",
+  "desecrated.stat_4236566306"
+ ],
+ "suffix|奉献技能的持续时间提高#%": [
+  "explicit.stat_2957407601",
+  "fractured.stat_2957407601",
+  "desecrated.stat_2957407601"
+ ],
+ "suffix|感电几率提高#%": [
+  "explicit.stat_293638271",
+  "fractured.stat_293638271",
+  "enchant.stat_293638271",
+  "rune.stat_293638271",
+  "desecrated.stat_293638271"
+ ],
+ "suffix|弓类攻击的攻击速度提高#%": [
+  "explicit.stat_3759735052",
+  "fractured.stat_3759735052",
+  "desecrated.stat_3759735052"
+ ],
+ "suffix|攻击暴击率提高#%": [
+  "explicit.stat_2194114101",
+  "implicit.stat_2194114101",
+  "fractured.stat_2194114101",
+  "desecrated.stat_2194114101"
+ ],
+ "suffix|攻击击中有#%的几率致盲敌人": [
+  "explicit.stat_318953428",
+  "fractured.stat_318953428",
+  "desecrated.stat_318953428"
+ ],
+ "suffix|攻击伤害的暴击伤害加成#%": [
+  "explicit.stat_3714003708",
+  "fractured.stat_3714003708",
+  "desecrated.stat_3714003708"
+ ],
+ "suffix|获得的魔力药剂充能提高#%": [
+  "explicit.stat_3590792340",
+  "fractured.stat_3590792340",
+  "desecrated.stat_3590792340"
+ ],
+ "suffix|获得的生命药剂充能提高#%": [
+  "explicit.stat_4009879772",
+  "fractured.stat_4009879772",
+  "desecrated.stat_4009879772"
+ ],
+ "suffix|获得额外异常状态阈值，相当于能量护盾上限的#%": [
+  "explicit.stat_3398301358",
+  "fractured.stat_3398301358",
+  "desecrated.stat_3398301358"
+ ],
+ "suffix|击中时有#%的几率使目标中毒": [
+  "explicit.stat_795138349",
+  "fractured.stat_795138349",
+  "desecrated.stat_795138349",
+  "scourge.stat_795138349"
+ ],
+ "suffix|节杖的冻结积蓄值提高#%": [
+  "explicit.stat_1697447343",
+  "fractured.stat_1697447343",
+  "desecrated.stat_1697447343"
+ ],
+ "suffix|节杖的攻击速度提高#%": [
+  "explicit.stat_3283482523",
+  "fractured.stat_3283482523",
+  "desecrated.stat_3283482523"
+ ],
+ "suffix|近战击中时获得#怒火": [
+  "explicit.stat_2709367754",
+  "rune.stat_2709367754",
+  "desecrated.stat_2709367754"
+ ],
+ "suffix|力量提高#%": [
+  "explicit.stat_734614379",
+  "fractured.stat_734614379",
+  "desecrated.stat_734614379",
+  "scourge.stat_734614379"
+ ],
+ "suffix|敏捷提高#%": [
+  "explicit.stat_4139681126",
+  "fractured.stat_4139681126",
+  "desecrated.stat_4139681126",
+  "scourge.stat_4139681126"
+ ],
+ "suffix|魔力偷取量提高#%": [
+  "explicit.stat_2839066308",
+  "fractured.stat_2839066308",
+  "desecrated.stat_2839066308"
+ ],
+ "suffix|旗帜技能的荣耀产生速度提高#%": [
+  "explicit.stat_1869147066",
+  "desecrated.stat_1869147066"
+ ],
+ "suffix|若你近期未被晕眩，晕眩阈值提高#%": [
+  "explicit.stat_1405298142",
+  "fractured.stat_1405298142",
+  "desecrated.stat_1405298142"
+ ],
+ "suffix|伤害型异常状态生效速度加快#%": [
+  "explicit.stat_538241406",
+  "fractured.stat_538241406",
+  "desecrated.stat_538241406"
+ ],
+ "suffix|生命偷取量提高#%": [
+  "explicit.stat_2112395885",
+  "fractured.stat_2112395885",
+  "desecrated.stat_2112395885"
+ ],
+ "suffix|生命再生率提高#%": [
+  "explicit.stat_44972811",
+  "fractured.stat_44972811",
+  "enchant.stat_44972811",
+  "desecrated.stat_44972811"
+ ],
+ "suffix|投射物击中地形时有#%的几率额外连锁一次": [
+  "explicit.stat_4081947835",
+  "fractured.stat_4081947835",
+  "enchant.stat_4081947835",
+  "desecrated.stat_4081947835"
+ ],
+ "suffix|药剂的魔力回复提高#%": [
+  "explicit.stat_2222186378",
+  "implicit.stat_2222186378",
+  "fractured.stat_2222186378",
+  "desecrated.stat_2222186378"
+ ],
+ "suffix|药剂的生命回复提高#%": [
+  "explicit.stat_821241191",
+  "implicit.stat_821241191",
+  "fractured.stat_821241191",
+  "desecrated.stat_821241191"
+ ],
+ "suffix|移动速度提高#%": [
+  "explicit.stat_2250533757",
+  "implicit.stat_2250533757",
+  "fractured.stat_2250533757",
+  "enchant.stat_2250533757",
+  "rune.stat_2250533757",
+  "desecrated.stat_2250533757"
+ ],
+ "suffix|易燃强度提高#%": [
+  "explicit.stat_2968503605",
+  "fractured.stat_2968503605",
+  "enchant.stat_2968503605",
+  "rune.stat_2968503605",
+  "desecrated.stat_2968503605"
+ ],
+ "suffix|晕眩积蓄值提高#%": [
+  "explicit.stat_239367161",
+  "implicit.stat_239367161",
+  "fractured.stat_239367161",
+  "desecrated.stat_239367161"
+ ],
+ "suffix|晕眩阈值提高#%": [
+  "explicit.stat_680068163",
+  "implicit.stat_680068163",
+  "enchant.stat_680068163",
+  "desecrated.stat_680068163"
+ ],
+ "suffix|造成异常状态的几率提高#%": [
+  "explicit.stat_1772247089",
+  "fractured.stat_1772247089",
+  "desecrated.stat_1772247089"
+ ],
+ "suffix|战矛的暴击伤害加成提高#%": [
+  "explicit.stat_2456523742",
+  "fractured.stat_2456523742",
+  "desecrated.stat_2456523742"
+ ],
+ "suffix|招架时的晕眩阈值提高#%": [
+  "explicit.stat_1911237468",
+  "fractured.stat_1911237468",
+  "desecrated.stat_1911237468"
+ ],
+ "suffix|召唤生物的暴击率提高#%": [
+  "explicit.stat_491450213",
+  "fractured.stat_491450213",
+  "desecrated.stat_491450213"
+ ],
+ "suffix|召唤生物的暴击伤害加成提高#%": [
+  "explicit.stat_1854213750",
+  "fractured.stat_1854213750",
+  "desecrated.stat_1854213750"
+ ],
+ "suffix|召唤生物的攻击和施法速度提高#%": [
+  "explicit.stat_3091578504",
+  "fractured.stat_3091578504",
+  "desecrated.stat_3091578504"
+ ],
+ "suffix|召唤生物有#%额外物理伤害减免": [
+  "explicit.stat_3119612865",
+  "desecrated.stat_3119612865"
+ ],
+ "suffix|召唤生物有+#%混沌抗性": [
+  "explicit.stat_3837707023",
+  "fractured.stat_3837707023",
+  "desecrated.stat_3837707023",
+  "scourge.stat_3837707023"
+ ],
+ "suffix|智慧提高#%": [
+  "explicit.stat_656461285",
+  "fractured.stat_656461285",
+  "desecrated.stat_656461285",
+  "scourge.stat_656461285"
+ ],
+ "suffix|诅咒激活速度加快#%": [
+  "explicit.stat_1104825894",
+  "fractured.stat_1104825894",
+  "desecrated.stat_1104825894"
+ ],
+ "corrupted|此武器的近战打击范围提高#%": [
+  "explicit.stat_548198834",
+  "implicit.stat_548198834",
+  "enchant.stat_548198834"
+ ],
+ "corrupted|击中有#%的几率造成流血": [
+  "explicit.stat_1519615863",
+  "enchant.stat_1519615863",
+  "rune.stat_1519615863"
+ ],
+ "corrupted|造成的晕眩积蓄值提高#%": [
+  "explicit.stat_791928121",
+  "implicit.stat_791928121",
+  "fractured.stat_791928121",
+  "enchant.stat_791928121",
+  "rune.stat_791928121",
+  "desecrated.stat_791928121"
+ ],
+ "special|击中有#%的几率造成流血": [
+  "explicit.stat_1519615863",
+  "enchant.stat_1519615863",
+  "rune.stat_1519615863"
+ ],
+ "corrupted|+#魔力上限": [
+  "explicit.stat_1050105434",
+  "implicit.stat_1050105434",
+  "fractured.stat_1050105434",
+  "enchant.stat_1050105434",
+  "rune.stat_1050105434",
+  "desecrated.stat_1050105434"
+ ],
+ "corrupted|法术伤害提高#%": [
+  "explicit.stat_2974417149",
+  "fractured.stat_2974417149",
+  "enchant.stat_2974417149",
+  "rune.stat_2974417149",
+  "desecrated.stat_2974417149",
+  "scourge.stat_2974417149"
+ ],
+ "prefix|#%法术物理伤害提高": [
+  "explicit.stat_2768835289",
+  "fractured.stat_2768835289",
+  "desecrated.stat_2768835289"
+ ],
+ "prefix|祈唤法术伤害提高#%": [
+  "explicit.stat_1078309513",
+  "desecrated.stat_1078309513"
+ ],
+ "prefix|装备近战武器时法术伤害提高#%": [
+  "explicit.stat_4136346606",
+  "desecrated.stat_4136346606"
+ ],
+ "special|+#魔力上限": [
+  "explicit.stat_1050105434",
+  "implicit.stat_1050105434",
+  "fractured.stat_1050105434",
+  "enchant.stat_1050105434",
+  "rune.stat_1050105434",
+  "desecrated.stat_1050105434"
+ ],
+ "special|法术伤害提高#%": [
+  "explicit.stat_2974417149",
+  "fractured.stat_2974417149",
+  "enchant.stat_2974417149",
+  "rune.stat_2974417149",
+  "desecrated.stat_2974417149",
+  "scourge.stat_2974417149"
+ ],
+ "suffix|法术技能有#%的几率发射#个额外投射物": [
+  "explicit.stat_2910761524",
+  "rune.stat_2910761524",
+  "desecrated.stat_2910761524"
+ ],
+ "suffix|法术魔力消耗的#%转化为生命消耗": [
+  "explicit.stat_3544050945",
+  "desecrated.stat_3544050945"
+ ],
+ "suffix|魔力消耗效能提高#%": [
+  "explicit.stat_4101445926",
+  "fractured.stat_4101445926",
+  "desecrated.stat_4101445926"
+ ],
+ "corrupted|被击败的敌人掉落的金币数量提高#%": [
+  "explicit.stat_3175163625",
+  "fractured.stat_3175163625",
+  "enchant.stat_3175163625",
+  "rune.stat_3175163625"
+ ],
+ "corrupted|粉碎的护甲提高#%": [
+  "explicit.stat_1776411443",
+  "fractured.stat_1776411443",
+  "enchant.stat_1776411443",
+  "desecrated.stat_1776411443"
+ ],
+ "corrupted|狂怒球数量上限+#": [
+  "explicit.stat_4078695",
+  "enchant.stat_4078695",
+  "scourge.stat_4078695"
+ ],
+ "corrupted|伤害穿透#%冰霜抗性": [
+  "explicit.stat_3417711605",
+  "fractured.stat_3417711605",
+  "enchant.stat_3417711605",
+  "desecrated.stat_3417711605",
+  "scourge.stat_3417711605"
+ ],
+ "corrupted|伤害穿透#%的闪电抗性": [
+  "explicit.stat_818778753",
+  "fractured.stat_818778753",
+  "enchant.stat_818778753",
+  "desecrated.stat_818778753",
+  "scourge.stat_818778753"
+ ],
+ "corrupted|伤害穿透#%火焰抗性": [
+  "explicit.stat_2653955271",
+  "fractured.stat_2653955271",
+  "enchant.stat_2653955271",
+  "desecrated.stat_2653955271",
+  "scourge.stat_2653955271"
+ ],
+ "corrupted|所有近战技能等级+#": [
+  "explicit.stat_9187492",
+  "fractured.stat_9187492",
+  "enchant.stat_9187492",
+  "desecrated.stat_9187492"
+ ],
+ "prefix|攻击附加#-#基础冰霜伤害": [
+  "explicit.stat_4067062424",
+  "fractured.stat_4067062424",
+  "desecrated.stat_4067062424",
+  "crafted.stat_4067062424"
+ ],
+ "prefix|攻击附加#-#基础火焰伤害": [
+  "explicit.stat_1573130764",
+  "implicit.stat_1573130764",
+  "fractured.stat_1573130764",
+  "desecrated.stat_1573130764",
+  "crafted.stat_1573130764"
+ ],
+ "prefix|攻击附加#-#基础闪电伤害": [
+  "explicit.stat_1754445556",
+  "fractured.stat_1754445556",
+  "desecrated.stat_1754445556",
+  "crafted.stat_1754445556"
+ ],
+ "prefix|攻击附加#-#物理伤害": [
+  "explicit.stat_3032590688",
+  "implicit.stat_3032590688",
+  "fractured.stat_3032590688",
+  "rune.stat_3032590688",
+  "desecrated.stat_3032590688"
+ ],
+ "prefix|伤害穿透#%元素抗性": [
+  "explicit.stat_2101383955"
+ ],
+ "special|被击败的敌人掉落的金币数量提高#%": [
+  "explicit.stat_3175163625",
+  "fractured.stat_3175163625",
+  "enchant.stat_3175163625",
+  "rune.stat_3175163625"
+ ],
+ "special|粉碎的护甲提高#%": [
+  "explicit.stat_1776411443",
+  "fractured.stat_1776411443",
+  "enchant.stat_1776411443",
+  "desecrated.stat_1776411443"
+ ],
+ "special|狂怒球数量上限+#": [
+  "explicit.stat_4078695",
+  "enchant.stat_4078695",
+  "scourge.stat_4078695"
+ ],
+ "special|伤害穿透#%冰霜抗性": [
+  "explicit.stat_3417711605",
+  "fractured.stat_3417711605",
+  "enchant.stat_3417711605",
+  "desecrated.stat_3417711605",
+  "scourge.stat_3417711605"
+ ],
+ "special|伤害穿透#%的闪电抗性": [
+  "explicit.stat_818778753",
+  "fractured.stat_818778753",
+  "enchant.stat_818778753",
+  "desecrated.stat_818778753",
+  "scourge.stat_818778753"
+ ],
+ "special|伤害穿透#%火焰抗性": [
+  "explicit.stat_2653955271",
+  "fractured.stat_2653955271",
+  "enchant.stat_2653955271",
+  "desecrated.stat_2653955271",
+  "scourge.stat_2653955271"
+ ],
+ "special|所有近战技能等级+#": [
+  "explicit.stat_9187492",
+  "fractured.stat_9187492",
+  "enchant.stat_9187492",
+  "desecrated.stat_9187492"
+ ],
+ "suffix|被击败的敌人掉落的金币数量提高#%": [
+  "explicit.stat_3175163625",
+  "fractured.stat_3175163625",
+  "enchant.stat_3175163625",
+  "rune.stat_3175163625"
+ ],
+ "suffix|攻击每击中一名敌人获得#点生命": [
+  "explicit.stat_2797971005",
+  "implicit.stat_2797971005",
+  "fractured.stat_2797971005",
+  "desecrated.stat_2797971005"
+ ],
+ "suffix|将承受的闪电伤害的#%吸纳为生命": [
+  "explicit.stat_2970621759",
+  "fractured.stat_2970621759"
+ ],
+ "suffix|物理攻击伤害的#%转化为魔力偷取": [
+  "explicit.stat_707457662",
+  "fractured.stat_707457662",
+  "enchant.stat_707457662",
+  "desecrated.stat_707457662",
+  "scourge.stat_3237948413",
+  "crafted.stat_3237948413"
+ ],
+ "suffix|物理攻击伤害的#%转化为生命偷取": [
+  "explicit.stat_2557965901",
+  "fractured.stat_2557965901",
+  "enchant.stat_2557965901",
+  "desecrated.stat_2557965901"
+ ],
+ "suffix|造成流血的几率提高#%": [
+  "explicit.stat_242637938",
+  "desecrated.stat_242637938"
+ ],
+ "suffix|中毒几率提高#%": [
+  "explicit.stat_3481083201",
+  "desecrated.stat_3481083201"
+ ],
+ "suffix|当你造成暴击时有#%的几率获得秘术增强": [
+  "explicit.stat_446027070",
+  "desecrated.stat_446027070"
+ ],
+ "suffix|满血时施法速度提高#%": [
+  "explicit.stat_656291658",
+  "desecrated.stat_656291658"
+ ],
+ "corrupted|+#%冰霜抗性上限": [
+  "explicit.stat_3676141501",
+  "fractured.stat_3676141501",
+  "enchant.stat_3676141501",
+  "rune.stat_3676141501",
+  "desecrated.stat_3676141501",
+  "scourge.stat_3676141501"
+ ],
+ "corrupted|+#精魂": [
+  "explicit.stat_3981240776",
+  "explicit.stat_2704225257",
+  "implicit.stat_3981240776",
+  "fractured.stat_3981240776",
+  "enchant.stat_3981240776",
+  "rune.stat_3981240776"
+ ],
+ "corrupted|+#命中值": [
+  "explicit.stat_803737631",
+  "implicit.stat_803737631",
+  "fractured.stat_803737631",
+  "enchant.stat_803737631",
+  "desecrated.stat_803737631",
+  "crafted.stat_803737631"
+ ],
+ "corrupted|暴击球数量上限+#": [
+  "explicit.stat_227523295",
+  "enchant.stat_227523295",
+  "scourge.stat_227523295"
+ ],
+ "corrupted|魔力再生率提高#%": [
+  "explicit.stat_789117908",
+  "implicit.stat_789117908",
+  "fractured.stat_789117908",
+  "enchant.stat_789117908",
+  "rune.stat_789117908",
+  "desecrated.stat_789117908"
+ ],
+ "corrupted|生命再生率提高#%": [
+  "explicit.stat_44972811",
+  "fractured.stat_44972811",
+  "enchant.stat_44972811",
+  "desecrated.stat_44972811"
+ ],
+ "corrupted|所有召唤生物技能等级+#": [
+  "explicit.stat_2162097452",
+  "fractured.stat_2162097452",
+  "enchant.stat_2162097452",
+  "desecrated.stat_2162097452"
+ ],
+ "prefix|魔力消耗效能提高#%": [
+  "explicit.stat_4101445926",
+  "fractured.stat_4101445926",
+  "desecrated.stat_4101445926"
+ ],
+ "special|+#%冰霜抗性上限": [
+  "explicit.stat_3676141501",
+  "fractured.stat_3676141501",
+  "enchant.stat_3676141501",
+  "rune.stat_3676141501",
+  "desecrated.stat_3676141501",
+  "scourge.stat_3676141501"
+ ],
+ "special|+#精魂": [
+  "explicit.stat_3981240776",
+  "explicit.stat_2704225257",
+  "implicit.stat_3981240776",
+  "fractured.stat_3981240776",
+  "enchant.stat_3981240776",
+  "rune.stat_3981240776"
+ ],
+ "special|+#命中值": [
+  "explicit.stat_803737631",
+  "implicit.stat_803737631",
+  "fractured.stat_803737631",
+  "enchant.stat_803737631",
+  "desecrated.stat_803737631",
+  "crafted.stat_803737631"
+ ],
+ "special|暴击球数量上限+#": [
+  "explicit.stat_227523295",
+  "enchant.stat_227523295",
+  "scourge.stat_227523295"
+ ],
+ "special|魔力再生率提高#%": [
+  "explicit.stat_789117908",
+  "implicit.stat_789117908",
+  "fractured.stat_789117908",
+  "enchant.stat_789117908",
+  "rune.stat_789117908",
+  "desecrated.stat_789117908"
+ ],
+ "special|生命再生率提高#%": [
+  "explicit.stat_44972811",
+  "fractured.stat_44972811",
+  "enchant.stat_44972811",
+  "desecrated.stat_44972811"
+ ],
+ "special|所有召唤生物技能等级+#": [
+  "explicit.stat_2162097452",
+  "fractured.stat_2162097452",
+  "enchant.stat_2162097452",
+  "desecrated.stat_2162097452"
+ ],
+ "suffix|将承受的冰霜伤害的#%吸纳为生命": [
+  "explicit.stat_3679418014",
+  "fractured.stat_3679418014"
+ ],
+ "suffix|将所受元素伤害的#%吸纳为能量护盾": [
+  "explicit.stat_2896115339",
+  "desecrated.stat_2896115339"
+ ],
+ "suffix|生命消耗效能提高#%": [
+  "explicit.stat_310945763",
+  "rune.stat_310945763",
+  "desecrated.stat_310945763"
+ ],
+ "suffix|执政官增益状态持续时间提高#%": [
+  "explicit.stat_2158617060",
+  "desecrated.stat_2158617060"
+ ],
+ "suffix|你受到的秘术增强效果提高#%": [
+  "explicit.stat_2103650854",
+  "rune.stat_2103650854",
+  "desecrated.stat_2103650854"
+ ],
+ "suffix|+#%的护甲同样作用于混沌伤害": [
+  "explicit.stat_3972229254",
+  "desecrated.stat_3972229254"
+ ],
+ "suffix|荣耀产生速度提高#%": [
+  "explicit.stat_3143918757",
+  "desecrated.stat_3143918757"
+ ],
+ "prefix|给召唤生物提供#%生命恢复效果": [
+  "explicit.stat_2416869319"
+ ],
+ "prefix|恢复效果在低血状态下使用时总增#%": [
+  "explicit.stat_886931978"
+ ],
+ "prefix|回复量提高#%": [
+  "explicit.stat_700317374"
+ ],
+ "prefix|立即回复#%回复量": [
+  "explicit.stat_2503377690"
+ ],
+ "prefix|回复效果在低魔下使用时总增#%": [
+  "explicit.stat_3276224428"
+ ],
+ "prefix|当你有图腾存在时，伤害提高#%": [
+  "explicit.stat_2543331226",
+  "desecrated.stat_2543331226"
+ ],
+ "suffix|粉碎护甲，相当于造成物理伤害的#%": [
+  "explicit.stat_1103616075",
+  "desecrated.stat_1103616075"
+ ],
+ "corrupted|此武器击中时有#%的几率使目标中毒": [
+  "explicit.stat_3885634897",
+  "enchant.stat_3885634897",
+  "rune.stat_3885634897"
+ ],
+ "suffix|击中时有#%的几率额外积累一次连击": [
+  "explicit.stat_4258524206",
+  "desecrated.stat_4258524206"
+ ],
+ "corrupted|#%的几率穿透一个敌人": [
+  "explicit.stat_2321178454",
+  "implicit.stat_2321178454",
+  "fractured.stat_2321178454",
+  "enchant.stat_2321178454",
+  "desecrated.stat_2321178454"
+ ],
+ "corrupted|暴击伤害加成提高#%": [
+  "explicit.stat_3556824919",
+  "fractured.stat_3556824919",
+  "enchant.stat_3556824919",
+  "desecrated.stat_3556824919"
+ ],
+ "corrupted|技能速度提高#%": [
+  "explicit.stat_970213192",
+  "enchant.stat_970213192",
+  "rune.stat_970213192",
+  "desecrated.stat_970213192"
+ ],
+ "corrupted|每击败一名敌人获得#点魔力": [
+  "explicit.stat_1368271171",
+  "fractured.stat_1368271171",
+  "enchant.stat_1368271171",
+  "rune.stat_1368271171",
+  "desecrated.stat_1368271171"
+ ],
+ "corrupted|每击败一名敌人获得#点生命": [
+  "explicit.stat_3695891184",
+  "fractured.stat_3695891184",
+  "enchant.stat_3695891184",
+  "rune.stat_3695891184",
+  "desecrated.stat_3695891184"
+ ],
+ "corrupted|伤害提高#%": [
+  "explicit.stat_2154246560",
+  "enchant.stat_2154246560",
+  "crafted.stat_2154246560"
+ ],
+ "corrupted|投射物击中地形时有#%的几率额外连锁一次": [
+  "explicit.stat_4081947835",
+  "fractured.stat_4081947835",
+  "enchant.stat_4081947835",
+  "desecrated.stat_4081947835"
+ ],
+ "prefix|弓类技能伤害提高#%": [
+  "explicit.stat_1241625305",
+  "fractured.stat_1241625305",
+  "desecrated.stat_1241625305"
+ ],
+ "prefix|投射物速度的增幅和减益也会作用于弓类伤害": [
+  "explicit.stat_414821772",
+  "desecrated.stat_414821772"
+ ],
+ "special|#%的几率穿透一个敌人": [
+  "explicit.stat_2321178454",
+  "implicit.stat_2321178454",
+  "fractured.stat_2321178454",
+  "enchant.stat_2321178454",
+  "desecrated.stat_2321178454"
+ ],
+ "special|暴击伤害加成提高#%": [
+  "explicit.stat_3556824919",
+  "fractured.stat_3556824919",
+  "enchant.stat_3556824919",
+  "desecrated.stat_3556824919"
+ ],
+ "special|技能速度提高#%": [
+  "explicit.stat_970213192",
+  "enchant.stat_970213192",
+  "rune.stat_970213192",
+  "desecrated.stat_970213192"
+ ],
+ "special|每击败一名敌人获得#点魔力": [
+  "explicit.stat_1368271171",
+  "fractured.stat_1368271171",
+  "enchant.stat_1368271171",
+  "rune.stat_1368271171",
+  "desecrated.stat_1368271171"
+ ],
+ "special|每击败一名敌人获得#点生命": [
+  "explicit.stat_3695891184",
+  "fractured.stat_3695891184",
+  "enchant.stat_3695891184",
+  "rune.stat_3695891184",
+  "desecrated.stat_3695891184"
+ ],
+ "special|伤害提高#%": [
+  "explicit.stat_2154246560",
+  "enchant.stat_2154246560",
+  "crafted.stat_2154246560"
+ ],
+ "special|投射物击中地形时有#%的几率额外连锁一次": [
+  "explicit.stat_4081947835",
+  "fractured.stat_4081947835",
+  "enchant.stat_4081947835",
+  "desecrated.stat_4081947835"
+ ],
+ "suffix|#%的几率额外连锁一次": [
+  "implicit.stat_1028592286"
+ ],
+ "prefix|若你近期消耗过暴击球，冻结积蓄提高#%": [
+  "explicit.stat_232701452",
+  "desecrated.stat_232701452"
+ ],
+ "prefix|若你近期消耗过狂怒球，感电强度提高#%": [
+  "explicit.stat_324210709",
+  "desecrated.stat_324210709"
+ ],
+ "prefix|若你近期消耗过耐力球，点燃强度提高#%": [
+  "explicit.stat_916833363",
+  "desecrated.stat_916833363"
+ ],
+ "corrupted|在场的友军的暴击伤害加成提高#%": [
+  "explicit.stat_3057012405",
+  "fractured.stat_3057012405",
+  "enchant.stat_3057012405",
+  "rune.stat_3057012405",
+  "desecrated.stat_3057012405"
+ ],
+ "corrupted|在场的友军的攻击速度提高#%": [
+  "explicit.stat_1998951374",
+  "fractured.stat_1998951374",
+  "enchant.stat_1998951374",
+  "rune.stat_1998951374",
+  "desecrated.stat_1998951374"
+ ],
+ "corrupted|在场的友军的施法速度提高#%": [
+  "explicit.stat_289128254",
+  "fractured.stat_289128254",
+  "enchant.stat_289128254",
+  "rune.stat_289128254",
+  "desecrated.stat_289128254"
+ ],
+ "corrupted|在场的友军造成的伤害提高#%": [
+  "explicit.stat_1798257884",
+  "fractured.stat_1798257884",
+  "enchant.stat_1798257884",
+  "rune.stat_1798257884",
+  "desecrated.stat_1798257884"
+ ],
+ "prefix|在场的友军附加#-#攻击冰霜伤害": [
+  "explicit.stat_2347036682",
+  "fractured.stat_2347036682",
+  "desecrated.stat_2347036682"
+ ],
+ "prefix|在场的友军附加#-#攻击火焰伤害": [
+  "explicit.stat_849987426",
+  "fractured.stat_849987426",
+  "desecrated.stat_849987426"
+ ],
+ "prefix|在场的友军附加#-#攻击闪电伤害": [
+  "explicit.stat_2854751904",
+  "fractured.stat_2854751904",
+  "rune.stat_2854751904",
+  "desecrated.stat_2854751904"
+ ],
+ "prefix|在场的友军附加#-#攻击物理伤害": [
+  "explicit.stat_1574590649",
+  "fractured.stat_1574590649",
+  "rune.stat_1574590649",
+  "desecrated.stat_1574590649"
+ ],
+ "prefix|在场的友军造成的伤害提高#%": [
+  "explicit.stat_1798257884",
+  "fractured.stat_1798257884",
+  "enchant.stat_1798257884",
+  "rune.stat_1798257884",
+  "desecrated.stat_1798257884"
+ ],
+ "special|在场的友军的暴击伤害加成提高#%": [
+  "explicit.stat_3057012405",
+  "fractured.stat_3057012405",
+  "enchant.stat_3057012405",
+  "rune.stat_3057012405",
+  "desecrated.stat_3057012405"
+ ],
+ "special|在场的友军的攻击速度提高#%": [
+  "explicit.stat_1998951374",
+  "fractured.stat_1998951374",
+  "enchant.stat_1998951374",
+  "rune.stat_1998951374",
+  "desecrated.stat_1998951374"
+ ],
+ "special|在场的友军的施法速度提高#%": [
+  "explicit.stat_289128254",
+  "fractured.stat_289128254",
+  "enchant.stat_289128254",
+  "rune.stat_289128254",
+  "desecrated.stat_289128254"
+ ],
+ "special|在场的友军造成的伤害提高#%": [
+  "explicit.stat_1798257884",
+  "fractured.stat_1798257884",
+  "enchant.stat_1798257884",
+  "rune.stat_1798257884",
+  "desecrated.stat_1798257884"
+ ],
+ "suffix|在场的友军的暴击伤害加成提高#%": [
+  "explicit.stat_3057012405",
+  "fractured.stat_3057012405",
+  "enchant.stat_3057012405",
+  "rune.stat_3057012405",
+  "desecrated.stat_3057012405"
+ ],
+ "suffix|在场的友军的攻击速度提高#%": [
+  "explicit.stat_1998951374",
+  "fractured.stat_1998951374",
+  "enchant.stat_1998951374",
+  "rune.stat_1998951374",
+  "desecrated.stat_1998951374"
+ ],
+ "suffix|在场的友军的施法速度提高#%": [
+  "explicit.stat_289128254",
+  "fractured.stat_289128254",
+  "enchant.stat_289128254",
+  "rune.stat_289128254",
+  "desecrated.stat_289128254"
+ ],
+ "suffix|在场的友军的所有元素抗性+#%": [
+  "explicit.stat_3850614073",
+  "fractured.stat_3850614073",
+  "rune.stat_3850614073",
+  "desecrated.stat_3850614073"
+ ],
+ "suffix|在场的友军每秒再生#点生命": [
+  "explicit.stat_4010677958",
+  "fractured.stat_4010677958",
+  "rune.stat_4010677958",
+  "desecrated.stat_4010677958"
+ ],
+ "suffix|召唤生物的生命上限提高#%": [
+  "explicit.stat_770672621",
+  "fractured.stat_770672621",
+  "rune.stat_770672621",
+  "desecrated.stat_770672621",
+  "scourge.stat_770672621",
+  "crafted.stat_770672621"
+ ],
+ "prefix|试炼开始时获得#圣水": [
+  "sanctum.stat_2393318075"
+ ],
+ "suffix|怪物掉落的钥匙数量提高#%": [
+  "sanctum.stat_729354668"
+ ],
+ "suffix|怪物掉落的遗物数量提高#%": [
+  "sanctum.stat_1680962389"
+ ],
+ "suffix|怪物有#%的几率掉落双倍圣水": [
+  "sanctum.stat_231205265"
+ ],
+ "suffix|喷泉有#%的几率提供双倍圣水": [
+  "sanctum.stat_2363402715"
+ ],
+ "suffix|#%额外物理伤害减免": [
+  "explicit.stat_3771516363",
+  "fractured.stat_3771516363",
+  "enchant.stat_3771516363",
+  "desecrated.stat_3771516363",
+  "sanctum.stat_3470883829",
+  "crafted.stat_3771516363"
+ ],
+ "suffix|你的重度晕眩积蓄清空速度加快#%": [
+  "explicit.stat_886088880",
+  "desecrated.stat_886088880"
+ ],
+ "suffix|若你近期格挡过，能量护盾充能率提高#%": [
+  "explicit.stat_1079292660",
+  "desecrated.stat_1079292660"
+ ],
+ "corrupted|冻结积蓄值提高#%": [
+  "explicit.stat_473429811",
+  "fractured.stat_473429811",
+  "enchant.stat_473429811",
+  "rune.stat_473429811",
+  "desecrated.stat_473429811"
+ ],
+ "corrupted|法术暴击率提高#%": [
+  "explicit.stat_737908626",
+  "fractured.stat_737908626",
+  "enchant.stat_737908626",
+  "rune.stat_737908626",
+  "desecrated.stat_737908626"
+ ],
+ "corrupted|感电几率提高#%": [
+  "explicit.stat_293638271",
+  "fractured.stat_293638271",
+  "enchant.stat_293638271",
+  "rune.stat_293638271",
+  "desecrated.stat_293638271"
+ ],
+ "corrupted|施法速度提高#%": [
+  "explicit.stat_2891184298",
+  "implicit.stat_2891184298",
+  "fractured.stat_2891184298",
+  "enchant.stat_2891184298",
+  "rune.stat_2891184298",
+  "desecrated.stat_2891184298"
+ ],
+ "corrupted|所有冰霜法术技能等级+#": [
+  "explicit.stat_2254480358",
+  "fractured.stat_2254480358",
+  "enchant.stat_2254480358",
+  "desecrated.stat_2254480358"
+ ],
+ "corrupted|所有混沌法术技能等级+#": [
+  "explicit.stat_4226189338",
+  "fractured.stat_4226189338",
+  "enchant.stat_4226189338",
+  "desecrated.stat_4226189338"
+ ],
+ "corrupted|所有火焰法术技能等级+#": [
+  "explicit.stat_591105508",
+  "fractured.stat_591105508",
+  "enchant.stat_591105508",
+  "desecrated.stat_591105508"
+ ],
+ "corrupted|所有闪电法术技能等级+#": [
+  "explicit.stat_1545858329",
+  "fractured.stat_1545858329",
+  "enchant.stat_1545858329",
+  "desecrated.stat_1545858329"
+ ],
+ "corrupted|所有物理法术技能等级+#": [
+  "explicit.stat_1600707273",
+  "fractured.stat_1600707273",
+  "enchant.stat_1600707273",
+  "desecrated.stat_1600707273"
+ ],
+ "corrupted|易燃强度提高#%": [
+  "explicit.stat_2968503605",
+  "fractured.stat_2968503605",
+  "enchant.stat_2968503605",
+  "rune.stat_2968503605",
+  "desecrated.stat_2968503605"
+ ],
+ "prefix|获得相当于伤害#%的额外混沌伤害": [
+  "explicit.stat_3398787959",
+  "enchant.stat_3398787959",
+  "rune.stat_3398787959",
+  "desecrated.stat_3398787959"
+ ],
+ "prefix|你造成的伤害性异常状态强度提高#%": [
+  "explicit.stat_1381474422",
+  "rune.stat_1381474422",
+  "desecrated.stat_1381474422"
+ ],
+ "prefix|消耗生命的法术造成的法术伤害提高#%": [
+  "explicit.stat_1373860425",
+  "desecrated.stat_1373860425"
+ ],
+ "special|点燃强度提高#%": [
+  "explicit.stat_3791899485",
+  "fractured.stat_3791899485",
+  "desecrated.stat_3791899485"
+ ],
+ "special|冻结积蓄值提高#%": [
+  "explicit.stat_473429811",
+  "fractured.stat_473429811",
+  "enchant.stat_473429811",
+  "rune.stat_473429811",
+  "desecrated.stat_473429811"
+ ],
+ "special|法术暴击率提高#%": [
+  "explicit.stat_737908626",
+  "fractured.stat_737908626",
+  "enchant.stat_737908626",
+  "rune.stat_737908626",
+  "desecrated.stat_737908626"
+ ],
+ "special|你造成的感电强度提高#%": [
+  "explicit.stat_2527686725",
+  "fractured.stat_2527686725",
+  "desecrated.stat_2527686725"
+ ],
+ "special|施法速度提高#%": [
+  "explicit.stat_2891184298",
+  "implicit.stat_2891184298",
+  "fractured.stat_2891184298",
+  "enchant.stat_2891184298",
+  "rune.stat_2891184298",
+  "desecrated.stat_2891184298"
+ ],
+ "special|所有冰霜法术技能等级+#": [
+  "explicit.stat_2254480358",
+  "fractured.stat_2254480358",
+  "enchant.stat_2254480358",
+  "desecrated.stat_2254480358"
+ ],
+ "special|所有混沌法术技能等级+#": [
+  "explicit.stat_4226189338",
+  "fractured.stat_4226189338",
+  "enchant.stat_4226189338",
+  "desecrated.stat_4226189338"
+ ],
+ "special|所有火焰法术技能等级+#": [
+  "explicit.stat_591105508",
+  "fractured.stat_591105508",
+  "enchant.stat_591105508",
+  "desecrated.stat_591105508"
+ ],
+ "special|所有闪电法术技能等级+#": [
+  "explicit.stat_1545858329",
+  "fractured.stat_1545858329",
+  "enchant.stat_1545858329",
+  "desecrated.stat_1545858329"
+ ],
+ "special|所有物理法术技能等级+#": [
+  "explicit.stat_1600707273",
+  "fractured.stat_1600707273",
+  "enchant.stat_1600707273",
+  "desecrated.stat_1600707273"
+ ],
+ "suffix|低血时施法速度提高#%": [
+  "explicit.stat_1136768410",
+  "desecrated.stat_1136768410"
+ ],
+ "suffix|格挡几率+#%": [
+  "explicit.stat_1702195217",
+  "implicit.stat_1702195217",
+  "desecrated.stat_1702195217"
+ ],
+ "suffix|所有冰霜法术技能等级+#": [
+  "explicit.stat_2254480358",
+  "fractured.stat_2254480358",
+  "enchant.stat_2254480358",
+  "desecrated.stat_2254480358"
+ ],
+ "suffix|所有混沌法术技能等级+#": [
+  "explicit.stat_4226189338",
+  "fractured.stat_4226189338",
+  "enchant.stat_4226189338",
+  "desecrated.stat_4226189338"
+ ],
+ "suffix|所有火焰法术技能等级+#": [
+  "explicit.stat_591105508",
+  "fractured.stat_591105508",
+  "enchant.stat_591105508",
+  "desecrated.stat_591105508"
+ ],
+ "suffix|所有闪电法术技能等级+#": [
+  "explicit.stat_1545858329",
+  "fractured.stat_1545858329",
+  "enchant.stat_1545858329",
+  "desecrated.stat_1545858329"
+ ],
+ "suffix|所有物理法术技能等级+#": [
+  "explicit.stat_1600707273",
+  "fractured.stat_1600707273",
+  "enchant.stat_1600707273",
+  "desecrated.stat_1600707273"
+ ],
+ "suffix|执政官间隔期的消减速度加快#%": [
+  "explicit.stat_2586152168",
+  "desecrated.stat_2586152168"
+ ],
+ "suffix|被你缓速的敌人受到的混沌伤害提高#%": [
+  "explicit.stat_1746561819",
+  "desecrated.stat_1746561819"
+ ],
+ "suffix|被你缓速的敌人受到的物理伤害提高#%": [
+  "explicit.stat_359357545",
+  "desecrated.stat_359357545"
+ ],
+ "suffix|被你缓速的敌人受到的元素伤害提高#%": [
+  "explicit.stat_212649958",
+  "desecrated.stat_212649958"
+ ],
+ "suffix|法术暴击会粉碎护甲，相当于造成物理伤害的#%": [
+  "explicit.stat_1286199571",
+  "desecrated.stat_1286199571"
+ ],
+ "suffix|粉碎的护甲提高#%": [
+  "explicit.stat_1776411443",
+  "fractured.stat_1776411443",
+  "enchant.stat_1776411443",
+  "desecrated.stat_1776411443"
+ ],
+ "suffix|近期每施放一个不同的非瞬发法术，施法速度提高#%": [
+  "explicit.stat_1518586897",
+  "desecrated.stat_1518586897"
+ ],
+ "prefix|魔力上限提高#%": [
+  "explicit.stat_2748665614"
+ ],
+ "prefix|能量护盾上限提高#%": [
+  "explicit.stat_2482852589"
+ ],
+ "prefix|生命上限提高#%": [
+  "explicit.stat_983749596"
+ ],
+ "prefix|获得魔力上限#%的护甲": [
+  "explicit.stat_514290151"
+ ],
+ "prefix|每有#点生命上限，获得#-#火焰荆棘伤害": [
+  "explicit.stat_287294012"
+ ],
+ "suffix|投射物对#米外的敌人的暴击几率提高#%": [
+  "explicit.stat_2706625504"
+ ],
+ "prefix|奉献的生命上限提高#%": [
+  "explicit.stat_3787460122"
+ ],
+ "prefix|伙伴的生命上限提高#%": [
+  "explicit.stat_1805182458"
+ ],
+ "suffix|获得相当于能量护盾上限#%的晕眩阈值": [
+  "explicit.stat_416040624"
+ ],
+ "suffix|战矛的攻击速度提高#%": [
+  "explicit.stat_1165163804"
+ ],
+ "suffix|战弩的攻击速度提高#%": [
+  "explicit.stat_1135928777"
+ ],
+ "suffix|若你近期消耗过狂怒球，技能速度提高#%": [
+  "explicit.stat_3313255158"
+ ],
+ "suffix|消耗至少#个连击时，恢复#%魔力上限": [
+  "explicit.stat_2991045011"
+ ],
+ "suffix|消耗至少#个连击时，恢复#%生命上限": [
+  "explicit.stat_4033618138"
+ ],
+ "suffix|在场的友军的暴击几率提高#%": [
+  "explicit.stat_1250712710"
+ ],
+ "prefix|每#点生命上限使法术伤害提高#%": [
+  "explicit.stat_3491815140"
+ ],
+ "prefix|每#魔力上限使法术伤害提高#%": [
+  "explicit.stat_1850249186"
+ ],
+ "suffix|满魔时施法速度提高#%": [
+  "explicit.stat_1914226331"
+ ]
+}

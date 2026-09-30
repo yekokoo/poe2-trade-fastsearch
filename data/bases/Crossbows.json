@@ -1,0 +1,147 @@
+{
+ "slug": "Crossbows",
+ "cnName": "战弩",
+ "fetchedAt": "2026-09-17T07:31:20.174Z",
+ "bases": [
+  {
+   "slug": "Makeshift_Crossbow",
+   "name": "拼凑战弩"
+  },
+  {
+   "slug": "Tense_Crossbow",
+   "name": "紧弦战弩"
+  },
+  {
+   "slug": "Sturdy_Crossbow",
+   "name": "坚固战弩"
+  },
+  {
+   "slug": "Varnished_Crossbow",
+   "name": "浸漆战弩"
+  },
+  {
+   "slug": "Dyad_Crossbow",
+   "name": "双联战弩"
+  },
+  {
+   "slug": "Alloy_Crossbow",
+   "name": "合金战弩"
+  },
+  {
+   "slug": "Bombard_Crossbow",
+   "name": "轰炸战弩"
+  },
+  {
+   "slug": "Construct_Crossbow",
+   "name": "构造战弩"
+  },
+  {
+   "slug": "Blackfire_Crossbow",
+   "name": "黯焰战弩"
+  },
+  {
+   "slug": "Piercing_Crossbow",
+   "name": "穿刺战弩"
+  },
+  {
+   "slug": "Cumbrous_Crossbow",
+   "name": "重装战弩"
+  },
+  {
+   "slug": "Dedalian_Crossbow",
+   "name": "机巧战弩"
+  },
+  {
+   "slug": "Esoteric_Crossbow",
+   "name": "玄奥战弩"
+  },
+  {
+   "slug": "Taut_Crossbow",
+   "name": "绷紧战弩"
+  },
+  {
+   "slug": "Robust_Crossbow",
+   "name": "坚固战弩"
+  },
+  {
+   "slug": "Painted_Crossbow",
+   "name": "彩绘战弩"
+  },
+  {
+   "slug": "Twin_Crossbow",
+   "name": "双生战弩"
+  },
+  {
+   "slug": "Cannonade_Crossbow",
+   "name": "轰鸣战弩"
+  },
+  {
+   "slug": "Bleak_Crossbow",
+   "name": "刺骨战弩"
+  },
+  {
+   "slug": "Runeforged_Makeshift_Crossbow",
+   "name": "符文拼凑战弩"
+  },
+  {
+   "slug": "Runeforged_Tense_Crossbow",
+   "name": "符文紧弦战弩"
+  },
+  {
+   "slug": "Runemastered_Tense_Crossbow",
+   "name": "符文师匠紧弦战弩"
+  },
+  {
+   "slug": "Runeforged_Sturdy_Crossbow",
+   "name": "符文坚固战弩"
+  },
+  {
+   "slug": "Runeforged_Dyad_Crossbow",
+   "name": "符文双联战弩"
+  },
+  {
+   "slug": "Runemastered_Dyad_Crossbow",
+   "name": "符文师匠双联战弩"
+  },
+  {
+   "slug": "Runeforged_Bombard_Crossbow",
+   "name": "符文轰炸战弩"
+  },
+  {
+   "slug": "Stout_Crossbow",
+   "name": "粗壮战弩"
+  },
+  {
+   "slug": "Engraved_Crossbow",
+   "name": "雕饰战弩"
+  },
+  {
+   "slug": "Flexed_Crossbow",
+   "name": "弯曲战弩"
+  },
+  {
+   "slug": "Gemini_Crossbow",
+   "name": "双灵战弩"
+  },
+  {
+   "slug": "Siege_Crossbow",
+   "name": "摧城弩"
+  },
+  {
+   "slug": "Desolate_Crossbow",
+   "name": "苍凉战弩"
+  },
+  {
+   "slug": "Elegant_Crossbow",
+   "name": "典雅战弩"
+  },
+  {
+   "slug": "Trarthan_Cannon",
+   "name": "特拉珊火炮"
+  },
+  {
+   "slug": "Ancient_Rune_of_Detonation",
+   "name": "引爆之远古符文"
+  }
+ ]
+}

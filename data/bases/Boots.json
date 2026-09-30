@@ -1,0 +1,775 @@
+{
+ "slug": "Boots",
+ "cnName": "鞋子",
+ "fetchedAt": "2026-09-17T07:31:27.512Z",
+ "bases": [
+  {
+   "slug": "Golden_Caligae",
+   "name": "黄金缠鞋"
+  },
+  {
+   "slug": "Rough_Greaves",
+   "name": "粗制胫甲"
+  },
+  {
+   "slug": "Iron_Greaves",
+   "name": "铁锻胫甲"
+  },
+  {
+   "slug": "Bronze_Greaves",
+   "name": "青铜胫甲"
+  },
+  {
+   "slug": "Trimmed_Greaves",
+   "name": "镶边胫甲"
+  },
+  {
+   "slug": "Stone_Greaves",
+   "name": "坚石胫甲"
+  },
+  {
+   "slug": "Reefsteel_Greaves",
+   "name": "卷钢胫甲"
+  },
+  {
+   "slug": "Monument_Greaves",
+   "name": "典范胫甲"
+  },
+  {
+   "slug": "Totemic_Greaves",
+   "name": "图腾胫甲"
+  },
+  {
+   "slug": "Rawhide_Boots",
+   "name": "生皮短靴"
+  },
+  {
+   "slug": "Laced_Boots",
+   "name": "花边靴"
+  },
+  {
+   "slug": "Embossed_Boots",
+   "name": "浮雕靴"
+  },
+  {
+   "slug": "Steeltoe_Boots",
+   "name": "钢趾靴"
+  },
+  {
+   "slug": "Lizardscale_Boots",
+   "name": "蜥鳞靴"
+  },
+  {
+   "slug": "Flared_Boots",
+   "name": "宽口靴"
+  },
+  {
+   "slug": "Leatherplate_Boots",
+   "name": "覆皮板靴"
+  },
+  {
+   "slug": "Embroidered_Boots",
+   "name": "刺绣靴"
+  },
+  {
+   "slug": "Straw_Sandals",
+   "name": "稻草鞋履"
+  },
+  {
+   "slug": "Wrapped_Sandals",
+   "name": "裹布鞋履"
+  },
+  {
+   "slug": "Lattice_Sandals",
+   "name": "硬框鞋履"
+  },
+  {
+   "slug": "Silk_Slippers",
+   "name": "丝绸便鞋"
+  },
+  {
+   "slug": "Feathered_Sandals",
+   "name": "羽饰鞋履"
+  },
+  {
+   "slug": "Flax_Sandals",
+   "name": "麻布鞋履"
+  },
+  {
+   "slug": "Studded_Sandals",
+   "name": "镶钉鞋履"
+  },
+  {
+   "slug": "Elaborate_Sandals",
+   "name": "精美鞋履"
+  },
+  {
+   "slug": "Mail_Sabatons",
+   "name": "锁链战靴"
+  },
+  {
+   "slug": "Braced_Sabatons",
+   "name": "加固战靴"
+  },
+  {
+   "slug": "Stacked_Sabatons",
+   "name": "层钢战靴"
+  },
+  {
+   "slug": "Covered_Sabatons",
+   "name": "掩护战靴"
+  },
+  {
+   "slug": "Flexile_Sabatons",
+   "name": "灵便战靴"
+  },
+  {
+   "slug": "Bold_Sabatons",
+   "name": "光鲜战靴"
+  },
+  {
+   "slug": "Padded_Leggings",
+   "name": "衬垫绑腿"
+  },
+  {
+   "slug": "Secured_Leggings",
+   "name": "牢靠绑腿"
+  },
+  {
+   "slug": "Pelt_Leggings",
+   "name": "毛皮绑腿"
+  },
+  {
+   "slug": "Weaver_Leggings",
+   "name": "织履绑腿"
+  },
+  {
+   "slug": "Gilt_Leggings",
+   "name": "镀金护腿"
+  },
+  {
+   "slug": "Pious_Leggings",
+   "name": "虔信护腿"
+  },
+  {
+   "slug": "Ancient_Leggings",
+   "name": "远古护腿"
+  },
+  {
+   "slug": "Frayed_Shoes",
+   "name": "磨损便鞋"
+  },
+  {
+   "slug": "Threaded_Shoes",
+   "name": "线缝便鞋"
+  },
+  {
+   "slug": "Hunting_Shoes",
+   "name": "狩猎便鞋"
+  },
+  {
+   "slug": "Steelpoint_Shoes",
+   "name": "钢缘便鞋"
+  },
+  {
+   "slug": "Velour_Shoes",
+   "name": "鹅绒便鞋"
+  },
+  {
+   "slug": "Bladed_Shoes",
+   "name": "嵌刃便鞋"
+  },
+  {
+   "slug": "Grand_Cuisses",
+   "name": "恢弘腿甲"
+  },
+  {
+   "slug": "Golden_Greaves",
+   "name": "金色护胫"
+  },
+  {
+   "slug": "Plated_Greaves",
+   "name": "坚铁胫甲"
+  },
+  {
+   "slug": "Lionheart_Greaves",
+   "name": "狮心胫甲"
+  },
+  {
+   "slug": "Elegant_Greaves",
+   "name": "雅致胫甲"
+  },
+  {
+   "slug": "Carved_Greaves",
+   "name": "雕饰胫甲"
+  },
+  {
+   "slug": "Bound_Boots",
+   "name": "缚革长靴"
+  },
+  {
+   "slug": "Sleek_Boots",
+   "name": "滑布长靴"
+  },
+  {
+   "slug": "Studded_Boots",
+   "name": "镶钉长靴"
+  },
+  {
+   "slug": "Serpentscale_Boots",
+   "name": "蛇鳞长靴"
+  },
+  {
+   "slug": "Laced_Sandals",
+   "name": "花边鞋履"
+  },
+  {
+   "slug": "Bangled_Sandals",
+   "name": "手镯鞋履"
+  },
+  {
+   "slug": "Elegant_Slippers",
+   "name": "雅致便鞋"
+  },
+  {
+   "slug": "Dunerunner_Sandals",
+   "name": "沙丘行者鞋履"
+  },
+  {
+   "slug": "Soldiering_Sabatons",
+   "name": "士兵战靴"
+  },
+  {
+   "slug": "Goldwork_Sabatons",
+   "name": "金工战靴"
+  },
+  {
+   "slug": "Bastion_Sabatons",
+   "name": "坚城壁垒战靴"
+  },
+  {
+   "slug": "Adherent_Leggings",
+   "name": "联排绑腿"
+  },
+  {
+   "slug": "Bound_Leggings",
+   "name": "缚革绑腿"
+  },
+  {
+   "slug": "Shamanistic_Leggings",
+   "name": "萨满绑腿"
+  },
+  {
+   "slug": "Wayfarer_Shoes",
+   "name": "远行者便鞋"
+  },
+  {
+   "slug": "Silverbuckled_Shoes",
+   "name": "银扣便鞋"
+  },
+  {
+   "slug": "Treerunner_Shoes",
+   "name": "林奔者便鞋"
+  },
+  {
+   "slug": "Bulwark_Greaves",
+   "name": "堡垒胫甲"
+  },
+  {
+   "slug": "Ornate_Greaves",
+   "name": "华丽胫甲"
+  },
+  {
+   "slug": "Vaal_Greaves",
+   "name": "瓦尔胫甲"
+  },
+  {
+   "slug": "Tasalian_Greaves",
+   "name": "塔萨里奥胫甲"
+  },
+  {
+   "slug": "Cinched_Boots",
+   "name": "束带长靴"
+  },
+  {
+   "slug": "Cavalry_Boots",
+   "name": "骑兵长靴"
+  },
+  {
+   "slug": "Dragonscale_Boots",
+   "name": "龙鳞长靴"
+  },
+  {
+   "slug": "Drakeskin_Boots",
+   "name": "龙皮长靴"
+  },
+  {
+   "slug": "Bound_Sandals",
+   "name": "缚革鞋履"
+  },
+  {
+   "slug": "Luxurious_Slippers",
+   "name": "奢华便鞋"
+  },
+  {
+   "slug": "Sandsworn_Sandals",
+   "name": "沙誓鞋履"
+  },
+  {
+   "slug": "Sekhema_Sandals",
+   "name": "丝克玛便鞋"
+  },
+  {
+   "slug": "Veteran_Sabatons",
+   "name": "老兵战靴"
+  },
+  {
+   "slug": "Noble_Sabatons",
+   "name": "贵族战靴"
+  },
+  {
+   "slug": "Fortress_Sabatons",
+   "name": "要塞战靴"
+  },
+  {
+   "slug": "Blacksteel_Sabatons",
+   "name": "黑钢战靴"
+  },
+  {
+   "slug": "Faithful_Leggings",
+   "name": "信仰护腿"
+  },
+  {
+   "slug": "Apostle_Leggings",
+   "name": "使徒护腿"
+  },
+  {
+   "slug": "Warlock_Leggings",
+   "name": "术士护腿"
+  },
+  {
+   "slug": "Cryptic_Leggings",
+   "name": "隐秘绑腿"
+  },
+  {
+   "slug": "Wanderer_Shoes",
+   "name": "游荡者便鞋"
+  },
+  {
+   "slug": "Charmed_Shoes",
+   "name": "魅力便鞋"
+  },
+  {
+   "slug": "Quickslip_Shoes",
+   "name": "急迅便鞋"
+  },
+  {
+   "slug": "Daggerfoot_Shoes",
+   "name": "捷足便鞋"
+  },
+  {
+   "slug": "Runeforged_Rough_Greaves",
+   "name": "符文粗制胫甲"
+  },
+  {
+   "slug": "Runeforged_Iron_Greaves",
+   "name": "符文铁锻胫甲"
+  },
+  {
+   "slug": "Runeforged_Bronze_Greaves",
+   "name": "符文青铜胫甲"
+  },
+  {
+   "slug": "Runeforged_Trimmed_Greaves",
+   "name": "符文镶边胫甲"
+  },
+  {
+   "slug": "Runeforged_Stone_Greaves",
+   "name": "符文坚石胫甲"
+  },
+  {
+   "slug": "Runeforged_Reefsteel_Greaves",
+   "name": "符文卷钢胫甲"
+  },
+  {
+   "slug": "Runeforged_Monument_Greaves",
+   "name": "符文典范胫甲"
+  },
+  {
+   "slug": "Runeforged_Totemic_Greaves",
+   "name": "符文图腾胫甲"
+  },
+  {
+   "slug": "Runeforged_Rawhide_Boots",
+   "name": "符文生皮短靴"
+  },
+  {
+   "slug": "Runeforged_Laced_Boots",
+   "name": "符文花边靴"
+  },
+  {
+   "slug": "Runeforged_Embossed_Boots",
+   "name": "符文浮雕靴"
+  },
+  {
+   "slug": "Runeforged_Steeltoe_Boots",
+   "name": "符文钢趾靴"
+  },
+  {
+   "slug": "Runeforged_Lizardscale_Boots",
+   "name": "符文蜥鳞靴"
+  },
+  {
+   "slug": "Runeforged_Flared_Boots",
+   "name": "符文宽口靴"
+  },
+  {
+   "slug": "Runeforged_Leatherplate_Boots",
+   "name": "符文覆皮板靴"
+  },
+  {
+   "slug": "Runeforged_Embroidered_Boots",
+   "name": "符文刺绣靴"
+  },
+  {
+   "slug": "Runeforged_Straw_Sandals",
+   "name": "符文稻草鞋履"
+  },
+  {
+   "slug": "Runeforged_Wrapped_Sandals",
+   "name": "符文裹布鞋履"
+  },
+  {
+   "slug": "Runeforged_Lattice_Sandals",
+   "name": "符文硬框鞋履"
+  },
+  {
+   "slug": "Runeforged_Silk_Slippers",
+   "name": "符文丝绸便鞋"
+  },
+  {
+   "slug": "Runeforged_Feathered_Sandals",
+   "name": "符文羽饰鞋履"
+  },
+  {
+   "slug": "Runeforged_Flax_Sandals",
+   "name": "符文麻布鞋履"
+  },
+  {
+   "slug": "Runeforged_Studded_Sandals",
+   "name": "符文镶钉鞋履"
+  },
+  {
+   "slug": "Runeforged_Elaborate_Sandals",
+   "name": "符文精美鞋履"
+  },
+  {
+   "slug": "Runeforged_Mail_Sabatons",
+   "name": "符文锁链战靴"
+  },
+  {
+   "slug": "Runeforged_Braced_Sabatons",
+   "name": "符文加固战靴"
+  },
+  {
+   "slug": "Runeforged_Stacked_Sabatons",
+   "name": "符文层钢战靴"
+  },
+  {
+   "slug": "Runeforged_Covered_Sabatons",
+   "name": "符文掩护战靴"
+  },
+  {
+   "slug": "Runeforged_Flexile_Sabatons",
+   "name": "符文灵便战靴"
+  },
+  {
+   "slug": "Runeforged_Bold_Sabatons",
+   "name": "符文光鲜战靴"
+  },
+  {
+   "slug": "Runeforged_Padded_Leggings",
+   "name": "符文衬垫绑腿"
+  },
+  {
+   "slug": "Runeforged_Secured_Leggings",
+   "name": "符文牢靠绑腿"
+  },
+  {
+   "slug": "Runeforged_Pelt_Leggings",
+   "name": "符文毛皮绑腿"
+  },
+  {
+   "slug": "Runeforged_Weaver_Leggings",
+   "name": "符文织履绑腿"
+  },
+  {
+   "slug": "Runeforged_Gilt_Leggings",
+   "name": "符文镀金护腿"
+  },
+  {
+   "slug": "Runeforged_Pious_Leggings",
+   "name": "符文虔信护腿"
+  },
+  {
+   "slug": "Runeforged_Frayed_Shoes",
+   "name": "符文磨损便鞋"
+  },
+  {
+   "slug": "Runeforged_Threaded_Shoes",
+   "name": "符文线缝便鞋"
+  },
+  {
+   "slug": "Runeforged_Hunting_Shoes",
+   "name": "符文狩猎便鞋"
+  },
+  {
+   "slug": "Runeforged_Steelpoint_Shoes",
+   "name": "符文钢缘便鞋"
+  },
+  {
+   "slug": "Runeforged_Velour_Shoes",
+   "name": "符文鹅绒便鞋"
+  },
+  {
+   "slug": "Runeforged_Bladed_Shoes",
+   "name": "符文嵌刃便鞋"
+  },
+  {
+   "slug": "Runeforged_Elegant_Greaves",
+   "name": "符文雅致胫甲"
+  },
+  {
+   "slug": "Runeforged_Carved_Greaves",
+   "name": "符文雕饰胫甲"
+  },
+  {
+   "slug": "Runeforged_Studded_Boots",
+   "name": "符文镶钉长靴"
+  },
+  {
+   "slug": "Runeforged_Serpentscale_Boots",
+   "name": "符文蛇鳞长靴"
+  },
+  {
+   "slug": "Runeforged_Elegant_Slippers",
+   "name": "符文雅致便鞋"
+  },
+  {
+   "slug": "Runeforged_Dunerunner_Sandals",
+   "name": "符文沙丘行者鞋履"
+  },
+  {
+   "slug": "Runeforged_Bastion_Sabatons",
+   "name": "符文坚城壁垒战靴"
+  },
+  {
+   "slug": "Runeforged_Shamanistic_Leggings",
+   "name": "符文萨满绑腿"
+  },
+  {
+   "slug": "Runeforged_Treerunner_Shoes",
+   "name": "符文林奔者便鞋"
+  },
+  {
+   "slug": "Runeforged_Grand_Cuisses",
+   "name": "符文恢弘腿甲"
+  },
+  {
+   "slug": "Runeforged_Bulwark_Greaves",
+   "name": "符文堡垒胫甲"
+  },
+  {
+   "slug": "Runeforged_Ornate_Greaves",
+   "name": "符文华丽胫甲"
+  },
+  {
+   "slug": "Runeforged_Vaal_Greaves",
+   "name": "符文瓦尔胫甲"
+  },
+  {
+   "slug": "Runeforged_Tasalian_Greaves",
+   "name": "符文塔萨里奥胫甲"
+  },
+  {
+   "slug": "Runeforged_Cinched_Boots",
+   "name": "符文束带长靴"
+  },
+  {
+   "slug": "Runeforged_Cavalry_Boots",
+   "name": "符文骑兵长靴"
+  },
+  {
+   "slug": "Runeforged_Dragonscale_Boots",
+   "name": "符文龙鳞长靴"
+  },
+  {
+   "slug": "Runeforged_Drakeskin_Boots",
+   "name": "符文龙皮长靴"
+  },
+  {
+   "slug": "Runeforged_Bound_Sandals",
+   "name": "符文缚革鞋履"
+  },
+  {
+   "slug": "Runeforged_Luxurious_Slippers",
+   "name": "符文奢华便鞋"
+  },
+  {
+   "slug": "Runeforged_Sandsworn_Sandals",
+   "name": "符文沙誓鞋履"
+  },
+  {
+   "slug": "Runeforged_Sekhema_Sandals",
+   "name": "符文丝克玛便鞋"
+  },
+  {
+   "slug": "Runeforged_Veteran_Sabatons",
+   "name": "符文老兵战靴"
+  },
+  {
+   "slug": "Runeforged_Noble_Sabatons",
+   "name": "符文贵族战靴"
+  },
+  {
+   "slug": "Runeforged_Fortress_Sabatons",
+   "name": "符文要塞战靴"
+  },
+  {
+   "slug": "Runeforged_Blacksteel_Sabatons",
+   "name": "符文黑钢战靴"
+  },
+  {
+   "slug": "Runeforged_Faithful_Leggings",
+   "name": "符文信仰护腿"
+  },
+  {
+   "slug": "Runeforged_Apostle_Leggings",
+   "name": "符文使徒护腿"
+  },
+  {
+   "slug": "Runeforged_Warlock_Leggings",
+   "name": "符文术士护腿"
+  },
+  {
+   "slug": "Runeforged_Cryptic_Leggings",
+   "name": "符文隐秘绑腿"
+  },
+  {
+   "slug": "Runeforged_Wanderer_Shoes",
+   "name": "符文游荡者便鞋"
+  },
+  {
+   "slug": "Runeforged_Charmed_Shoes",
+   "name": "符文魅力便鞋"
+  },
+  {
+   "slug": "Runeforged_Quickslip_Shoes",
+   "name": "符文急迅便鞋"
+  },
+  {
+   "slug": "Runeforged_Daggerfoot_Shoes",
+   "name": "符文捷足便鞋"
+  },
+  {
+   "slug": "Runemastered_Rough_Greaves",
+   "name": "符文师匠粗制胫甲"
+  },
+  {
+   "slug": "Runemastered_Iron_Greaves",
+   "name": "符文师匠铁锻胫甲"
+  },
+  {
+   "slug": "Runemastered_Bronze_Greaves",
+   "name": "符文师匠青铜胫甲"
+  },
+  {
+   "slug": "Runemastered_Trimmed_Greaves",
+   "name": "符文师匠镶边胫甲"
+  },
+  {
+   "slug": "Runemastered_Stone_Greaves",
+   "name": "符文师匠坚石胫甲"
+  },
+  {
+   "slug": "Runemastered_Laced_Boots",
+   "name": "符文师匠花边靴"
+  },
+  {
+   "slug": "Runemastered_Embossed_Boots",
+   "name": "符文师匠浮雕靴"
+  },
+  {
+   "slug": "Runemastered_Steeltoe_Boots",
+   "name": "符文师匠钢趾靴"
+  },
+  {
+   "slug": "Runemastered_Lizardscale_Boots",
+   "name": "符文师匠蜥鳞靴"
+  },
+  {
+   "slug": "Runemastered_Cinched_Boots",
+   "name": "符文师匠束带长靴"
+  },
+  {
+   "slug": "Runemastered_Straw_Sandals",
+   "name": "符文师匠稻草鞋履"
+  },
+  {
+   "slug": "Runemastered_Wrapped_Sandals",
+   "name": "符文师匠裹布鞋履"
+  },
+  {
+   "slug": "Runemastered_Lattice_Sandals",
+   "name": "符文师匠硬框鞋履"
+  },
+  {
+   "slug": "Runemastered_Silk_Slippers",
+   "name": "符文师匠丝绸便鞋"
+  },
+  {
+   "slug": "Runemastered_Feathered_Sandals",
+   "name": "符文师匠羽饰鞋履"
+  },
+  {
+   "slug": "Runemastered_Mail_Sabatons",
+   "name": "符文师匠锁链战靴"
+  },
+  {
+   "slug": "Runemastered_Braced_Sabatons",
+   "name": "符文师匠加固战靴"
+  },
+  {
+   "slug": "Runemastered_Stacked_Sabatons",
+   "name": "符文师匠层钢战靴"
+  },
+  {
+   "slug": "Runemastered_Covered_Sabatons",
+   "name": "符文师匠掩护战靴"
+  },
+  {
+   "slug": "Runemastered_Secured_Leggings",
+   "name": "符文师匠牢靠绑腿"
+  },
+  {
+   "slug": "Runemastered_Ancient_Leggings",
+   "name": "符文师匠远古护腿"
+  },
+  {
+   "slug": "Runemastered_Threaded_Shoes",
+   "name": "符文师匠线缝便鞋"
+  },
+  {
+   "slug": "Runemastered_Hunting_Shoes",
+   "name": "符文师匠狩猎便鞋"
+  },
+  {
+   "slug": "Runemastered_Velour_Shoes",
+   "name": "符文师匠鹅绒便鞋"
+  },
+  {
+   "slug": "Runemastered_Grand_Cuisses",
+   "name": "符文师匠恢弘腿甲"
+  }
+ ]
+}

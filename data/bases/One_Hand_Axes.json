@@ -1,0 +1,59 @@
+{
+ "slug": "One_Hand_Axes",
+ "cnName": "单手斧",
+ "fetchedAt": "2026-09-17T07:31:06.078Z",
+ "bases": [
+  {
+   "slug": "Dull_Hatchet",
+   "name": "钝锋手斧"
+  },
+  {
+   "slug": "Hook_Axe",
+   "name": "钩斧"
+  },
+  {
+   "slug": "Bearded_Axe",
+   "name": "钩刃斧"
+  },
+  {
+   "slug": "Extended_Cleaver",
+   "name": "长柄战斧"
+  },
+  {
+   "slug": "Bandit_Hatchet",
+   "name": "盗匪手斧"
+  },
+  {
+   "slug": "Crescent_Axe",
+   "name": "月牙斧"
+  },
+  {
+   "slug": "Carving_Hatchet",
+   "name": "刨肉手斧"
+  },
+  {
+   "slug": "Sacrificial_Axe",
+   "name": "奉献之斧"
+  },
+  {
+   "slug": "Boarding_Hatchet",
+   "name": "跳帮手斧"
+  },
+  {
+   "slug": "Fury_Cleaver",
+   "name": "暴怒战斧"
+  },
+  {
+   "slug": "Battle_Axe",
+   "name": "鏖战之斧"
+  },
+  {
+   "slug": "Profane_Cleaver",
+   "name": "亵渎战斧"
+  },
+  {
+   "slug": "Dread_Hatchet",
+   "name": "恐惧手斧"
+  }
+ ]
+}

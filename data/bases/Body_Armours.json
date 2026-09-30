@@ -1,0 +1,1399 @@
+{
+ "slug": "Body_Armours",
+ "cnName": "Body_Armours",
+ "fetchedAt": "2026-09-17T07:31:28.832Z",
+ "bases": [
+  {
+   "slug": "Golden_Mantle",
+   "name": "黄金战甲"
+  },
+  {
+   "slug": "Rusted_Cuirass",
+   "name": "锈蚀胸甲"
+  },
+  {
+   "slug": "Fur_Plate",
+   "name": "覆皮之铠"
+  },
+  {
+   "slug": "Iron_Cuirass",
+   "name": "铁锻胸甲"
+  },
+  {
+   "slug": "Raider_Plate",
+   "name": "劫掠之铠"
+  },
+  {
+   "slug": "Maraketh_Cuirass",
+   "name": "马拉克斯胸甲"
+  },
+  {
+   "slug": "Steel_Plate",
+   "name": "冷钢之铠"
+  },
+  {
+   "slug": "Full_Plate",
+   "name": "连身铠甲"
+  },
+  {
+   "slug": "Vaal_Cuirass",
+   "name": "瓦尔胸甲"
+  },
+  {
+   "slug": "Juggernaut_Plate",
+   "name": "巨灵之铠"
+  },
+  {
+   "slug": "Chieftain_Cuirass",
+   "name": "酋长胸甲"
+  },
+  {
+   "slug": "Colosseum_Plate",
+   "name": "决斗之铠"
+  },
+  {
+   "slug": "Champion_Cuirass",
+   "name": "冠军胸甲"
+  },
+  {
+   "slug": "Glorious_Plate",
+   "name": "荣耀战铠"
+  },
+  {
+   "slug": "Conqueror_Plate",
+   "name": "霸王战铠"
+  },
+  {
+   "slug": "Abyssal_Cuirass",
+   "name": "深渊胸甲"
+  },
+  {
+   "slug": "Leather_Vest",
+   "name": "皮革背心"
+  },
+  {
+   "slug": "Quilted_Vest",
+   "name": "菱纹背心"
+  },
+  {
+   "slug": "Pathfinder_Coat",
+   "name": "寻路者外套"
+  },
+  {
+   "slug": "Shrouded_Vest",
+   "name": "蔽影背心"
+  },
+  {
+   "slug": "Rhoahide_Coat",
+   "name": "恐喙鸟皮外套"
+  },
+  {
+   "slug": "Studded_Vest",
+   "name": "嵌饰背心"
+  },
+  {
+   "slug": "Scouts_Vest",
+   "name": "斥候背心"
+  },
+  {
+   "slug": "Serpentscale_Coat",
+   "name": "蛇鳞外套"
+  },
+  {
+   "slug": "Corsair_Vest",
+   "name": "海贼背心"
+  },
+  {
+   "slug": "Smuggler_Coat",
+   "name": "走私者外套"
+  },
+  {
+   "slug": "Strider_Vest",
+   "name": "疾行者背心"
+  },
+  {
+   "slug": "Hardleather_Coat",
+   "name": "硬皮外套"
+  },
+  {
+   "slug": "Exquisite_Vest",
+   "name": "浮华背心"
+  },
+  {
+   "slug": "Mail_Coat",
+   "name": "锁环外套"
+  },
+  {
+   "slug": "Armoured_Vest",
+   "name": "铠装背心"
+  },
+  {
+   "slug": "Tattered_Robe",
+   "name": "破烂长袍"
+  },
+  {
+   "slug": "Feathered_Robe",
+   "name": "羽饰长袍"
+  },
+  {
+   "slug": "Hexers_Robe",
+   "name": "魔蛊长袍"
+  },
+  {
+   "slug": "Bone_Raiment",
+   "name": "坠饰之衣"
+  },
+  {
+   "slug": "Silk_Robe",
+   "name": "丝质之袍"
+  },
+  {
+   "slug": "Keth_Raiment",
+   "name": "克斯之衣"
+  },
+  {
+   "slug": "Votive_Raiment",
+   "name": "奉愿之衣"
+  },
+  {
+   "slug": "Altar_Robe",
+   "name": "祭坛长袍"
+  },
+  {
+   "slug": "Elementalist_Robe",
+   "name": "元素使长袍"
+  },
+  {
+   "slug": "Mystic_Raiment",
+   "name": "密士之衣"
+  },
+  {
+   "slug": "Imperial_Robe",
+   "name": "帝国长袍"
+  },
+  {
+   "slug": "Plated_Raiment",
+   "name": "嵌板之衣"
+  },
+  {
+   "slug": "Havoc_Raiment",
+   "name": "劫难之衣"
+  },
+  {
+   "slug": "Enlightened_Robe",
+   "name": "启迪长袍"
+  },
+  {
+   "slug": "Arcane_Raiment",
+   "name": "秘法之衣"
+  },
+  {
+   "slug": "Chain_Mail",
+   "name": "环锁甲"
+  },
+  {
+   "slug": "Rogue_Armour",
+   "name": "盗贼护甲"
+  },
+  {
+   "slug": "Vagabond_Armour",
+   "name": "漂泊者护甲"
+  },
+  {
+   "slug": "Cloaked_Mail",
+   "name": "披风锁甲"
+  },
+  {
+   "slug": "Explorer_Armour",
+   "name": "探索者护甲"
+  },
+  {
+   "slug": "Scale_Mail",
+   "name": "嵌鳞锁甲"
+  },
+  {
+   "slug": "Knight_Armour",
+   "name": "骑士护甲"
+  },
+  {
+   "slug": "Ancestral_Mail",
+   "name": "先祖锁甲"
+  },
+  {
+   "slug": "Lamellar_Mail",
+   "name": "层叠锁甲"
+  },
+  {
+   "slug": "Gladiator_Armour",
+   "name": "角斗士护甲"
+  },
+  {
+   "slug": "Heroic_Armour",
+   "name": "英武护甲"
+  },
+  {
+   "slug": "Tournament_Mail",
+   "name": "演武锁甲"
+  },
+  {
+   "slug": "Slayer_Armour",
+   "name": "惩罚者护甲"
+  },
+  {
+   "slug": "Pilgrim_Vestments",
+   "name": "朝圣者长衣"
+  },
+  {
+   "slug": "Pelt_Mantle",
+   "name": "毛皮斗篷"
+  },
+  {
+   "slug": "Mail_Vestments",
+   "name": "锁子长衣"
+  },
+  {
+   "slug": "Shaman_Mantle",
+   "name": "萨满斗篷"
+  },
+  {
+   "slug": "Ironclad_Vestments",
+   "name": "武装长衣"
+  },
+  {
+   "slug": "Sacrificial_Mantle",
+   "name": "献祭斗篷"
+  },
+  {
+   "slug": "Cleric_Vestments",
+   "name": "圣徒长衣"
+  },
+  {
+   "slug": "Tideseer_Mantle",
+   "name": "潮贤斗篷"
+  },
+  {
+   "slug": "Gilded_Vestments",
+   "name": "鎏金长衣"
+  },
+  {
+   "slug": "Venerated_Mantle",
+   "name": "崇圣斗篷"
+  },
+  {
+   "slug": "Revered_Vestments",
+   "name": "崇礼长衣"
+  },
+  {
+   "slug": "Corvus_Mantle",
+   "name": "灵鸦斗篷"
+  },
+  {
+   "slug": "Zenith_Vestments",
+   "name": "天顶长衣"
+  },
+  {
+   "slug": "Ornate_Ringmail",
+   "name": "华饰环甲"
+  },
+  {
+   "slug": "Ancient_Mail",
+   "name": "远古链甲"
+  },
+  {
+   "slug": "Hermit_Garb",
+   "name": "隐士束衣"
+  },
+  {
+   "slug": "Waxed_Jacket",
+   "name": "防水外衣"
+  },
+  {
+   "slug": "Marabout_Garb",
+   "name": "遁世束衣"
+  },
+  {
+   "slug": "Wayfarer_Jacket",
+   "name": "远行者外衣"
+  },
+  {
+   "slug": "Anchorite_Garb",
+   "name": "隐士束衣"
+  },
+  {
+   "slug": "Scalpers_Jacket",
+   "name": "猎头者外衣"
+  },
+  {
+   "slug": "Scoundrel_Jacket",
+   "name": "流贼外衣"
+  },
+  {
+   "slug": "Ascetic_Garb",
+   "name": "苦修束衣"
+  },
+  {
+   "slug": "Clandestine_Jacket",
+   "name": "无影外衣"
+  },
+  {
+   "slug": "Monastic_Garb",
+   "name": "修行束衣"
+  },
+  {
+   "slug": "Torment_Jacket",
+   "name": "磨难外衣"
+  },
+  {
+   "slug": "Devout_Garb",
+   "name": "虔心束衣"
+  },
+  {
+   "slug": "Assassin_Garb",
+   "name": "刺客束衣"
+  },
+  {
+   "slug": "Garment",
+   "name": "华服装束"
+  },
+  {
+   "slug": "Grand_Regalia",
+   "name": "恢弘盛装"
+  },
+  {
+   "slug": "Sacrificial_Regalia",
+   "name": "献祭盛装"
+  },
+  {
+   "slug": "Grasping_Mail",
+   "name": "贪婪锁甲"
+  },
+  {
+   "slug": "Runeforged_Grasping_Mail",
+   "name": "符文贪婪锁甲"
+  },
+  {
+   "slug": "Runemastered_Grasping_Mail",
+   "name": "符文师匠贪婪锁甲"
+  },
+  {
+   "slug": "Runefathers_Grasping_Mail",
+   "name": "符文之父贪婪锁甲"
+  },
+  {
+   "slug": "Golden_Plate",
+   "name": "金耀之铠"
+  },
+  {
+   "slug": "Barbarian_Plate",
+   "name": "野蛮人战铠"
+  },
+  {
+   "slug": "Rugged_Cuirass",
+   "name": "粗糙胸甲"
+  },
+  {
+   "slug": "Sandsworn_Cuirass",
+   "name": "沙誓胸甲"
+  },
+  {
+   "slug": "Elegant_Plate",
+   "name": "优雅战铠"
+  },
+  {
+   "slug": "Heavy_Plate",
+   "name": "重型战铠"
+  },
+  {
+   "slug": "Stone_Cuirass",
+   "name": "石制胸甲"
+  },
+  {
+   "slug": "Patchwork_Vest",
+   "name": "拼接背心"
+  },
+  {
+   "slug": "Hunting_Coat",
+   "name": "狩猎外套"
+  },
+  {
+   "slug": "Riding_Coat",
+   "name": "骑行外套"
+  },
+  {
+   "slug": "Layered_Vest",
+   "name": "分层背心"
+  },
+  {
+   "slug": "Runner_Vest",
+   "name": "跑者背心"
+  },
+  {
+   "slug": "Lizardscale_Coat",
+   "name": "蜥鳞外套"
+  },
+  {
+   "slug": "Avian_Robe",
+   "name": "飞羽长袍"
+  },
+  {
+   "slug": "Cursespeakers_Robe",
+   "name": "诅咒术士长袍"
+  },
+  {
+   "slug": "Luxurious_Robe",
+   "name": "奢华长袍"
+  },
+  {
+   "slug": "River_Raiment",
+   "name": "河流之衣"
+  },
+  {
+   "slug": "Adherents_Raiment",
+   "name": "信徒之衣"
+  },
+  {
+   "slug": "Ceremonial_Robe",
+   "name": "仪式长袍"
+  },
+  {
+   "slug": "Ring_Mail",
+   "name": "锁环甲"
+  },
+  {
+   "slug": "Scoundrel_Armour",
+   "name": "恶棍护甲"
+  },
+  {
+   "slug": "Wanderer_Armour",
+   "name": "流浪者护甲"
+  },
+  {
+   "slug": "Mantled_Mail",
+   "name": "斗篷锁甲"
+  },
+  {
+   "slug": "Trailblazer_Armour",
+   "name": "开拓者护甲"
+  },
+  {
+   "slug": "Golden_Mail",
+   "name": "黄金锁甲"
+  },
+  {
+   "slug": "Templar_Vestments",
+   "name": "圣堂武僧长衣"
+  },
+  {
+   "slug": "Bearskin_Mantle",
+   "name": "熊皮斗篷"
+  },
+  {
+   "slug": "Chain_Vestments",
+   "name": "链甲长衣"
+  },
+  {
+   "slug": "Occultist_Mantle",
+   "name": "秘术家斗篷"
+  },
+  {
+   "slug": "Plated_Vestments",
+   "name": "嵌板长衣"
+  },
+  {
+   "slug": "Heartcarver_Mantle",
+   "name": "刻心斗篷"
+  },
+  {
+   "slug": "Oiled_Jacket",
+   "name": "油蜡外衣"
+  },
+  {
+   "slug": "Evangelist_Garb",
+   "name": "传道士束衣"
+  },
+  {
+   "slug": "Itinerant_Jacket",
+   "name": "流浪外衣"
+  },
+  {
+   "slug": "Hatungo_Garb",
+   "name": "哈图纳格斯束衣"
+  },
+  {
+   "slug": "Hawkers_Jacket",
+   "name": "小贩外衣"
+  },
+  {
+   "slug": "Soldier_Cuirass",
+   "name": "士兵胸甲"
+  },
+  {
+   "slug": "Ornate_Plate",
+   "name": "华丽战铠"
+  },
+  {
+   "slug": "Utzaal_Cuirass",
+   "name": "乌扎尔胸甲"
+  },
+  {
+   "slug": "Warlord_Cuirass",
+   "name": "督军胸甲"
+  },
+  {
+   "slug": "Swiftstalker_Coat",
+   "name": "迅捷潜行者外套"
+  },
+  {
+   "slug": "Slipstrike_Vest",
+   "name": "滑击背心"
+  },
+  {
+   "slug": "Wyrmscale_Coat",
+   "name": "巨龙鳞外套"
+  },
+  {
+   "slug": "Corsair_Coat",
+   "name": "海盗外套"
+  },
+  {
+   "slug": "Vile_Robe",
+   "name": "邪恶束衣"
+  },
+  {
+   "slug": "Flowing_Raiment",
+   "name": "飘逸之衣"
+  },
+  {
+   "slug": "Sacramental_Robe",
+   "name": "圣礼束衣"
+  },
+  {
+   "slug": "Feathered_Raiment",
+   "name": "羽饰之衣"
+  },
+  {
+   "slug": "Dastard_Armour",
+   "name": "懦夫护甲"
+  },
+  {
+   "slug": "Shrouded_Mail",
+   "name": "蔽影锁甲"
+  },
+  {
+   "slug": "Death_Mail",
+   "name": "死亡锁甲"
+  },
+  {
+   "slug": "Thane_Mail",
+   "name": "领主锁甲"
+  },
+  {
+   "slug": "Wolfskin_Mantle",
+   "name": "狼皮斗篷"
+  },
+  {
+   "slug": "Conjurer_Mantle",
+   "name": "咒者斗篷"
+  },
+  {
+   "slug": "Death_Mantle",
+   "name": "死亡斗篷"
+  },
+  {
+   "slug": "Seastorm_Mantle",
+   "name": "海洋风暴斗篷"
+  },
+  {
+   "slug": "Sleek_Jacket",
+   "name": "滑布外衣"
+  },
+  {
+   "slug": "Rambler_Jacket",
+   "name": "漫步者外衣"
+  },
+  {
+   "slug": "Falconers_Jacket",
+   "name": "猎鹰师外衣"
+  },
+  {
+   "slug": "Austere_Garb",
+   "name": "简朴束衣"
+  },
+  {
+   "slug": "Primal_Markings",
+   "name": "原始印记"
+  },
+  {
+   "slug": "Runeforged_Rusted_Cuirass",
+   "name": "符文锈蚀胸甲"
+  },
+  {
+   "slug": "Runeforged_Fur_Plate",
+   "name": "符文覆皮之铠"
+  },
+  {
+   "slug": "Runeforged_Iron_Cuirass",
+   "name": "符文铁锻胸甲"
+  },
+  {
+   "slug": "Runeforged_Raider_Plate",
+   "name": "符文劫掠之铠"
+  },
+  {
+   "slug": "Runeforged_Maraketh_Cuirass",
+   "name": "符文马拉克斯胸甲"
+  },
+  {
+   "slug": "Runeforged_Steel_Plate",
+   "name": "符文冷钢之铠"
+  },
+  {
+   "slug": "Runeforged_Full_Plate",
+   "name": "符文连身铠甲"
+  },
+  {
+   "slug": "Runeforged_Vaal_Cuirass",
+   "name": "符文瓦尔胸甲"
+  },
+  {
+   "slug": "Runeforged_Juggernaut_Plate",
+   "name": "符文巨灵之铠"
+  },
+  {
+   "slug": "Runeforged_Chieftain_Cuirass",
+   "name": "符文酋长胸甲"
+  },
+  {
+   "slug": "Runeforged_Colosseum_Plate",
+   "name": "符文决斗之铠"
+  },
+  {
+   "slug": "Runeforged_Champion_Cuirass",
+   "name": "符文冠军胸甲"
+  },
+  {
+   "slug": "Runeforged_Glorious_Plate",
+   "name": "符文荣耀战铠"
+  },
+  {
+   "slug": "Runeforged_Conqueror_Plate",
+   "name": "符文霸王战铠"
+  },
+  {
+   "slug": "Runeforged_Abyssal_Cuirass",
+   "name": "符文深渊胸甲"
+  },
+  {
+   "slug": "Runeforged_Leather_Vest",
+   "name": "符文皮革背心"
+  },
+  {
+   "slug": "Runeforged_Quilted_Vest",
+   "name": "符文菱纹背心"
+  },
+  {
+   "slug": "Runeforged_Pathfinder_Coat",
+   "name": "符文寻路者外套"
+  },
+  {
+   "slug": "Runeforged_Shrouded_Vest",
+   "name": "符文蔽影背心"
+  },
+  {
+   "slug": "Runeforged_Rhoahide_Coat",
+   "name": "符文恐喙鸟皮外套"
+  },
+  {
+   "slug": "Runeforged_Studded_Vest",
+   "name": "符文嵌饰背心"
+  },
+  {
+   "slug": "Runeforged_Scouts_Vest",
+   "name": "符文斥候背心"
+  },
+  {
+   "slug": "Runeforged_Serpentscale_Coat",
+   "name": "符文蛇鳞外套"
+  },
+  {
+   "slug": "Runeforged_Corsair_Vest",
+   "name": "符文海贼背心"
+  },
+  {
+   "slug": "Runeforged_Smuggler_Coat",
+   "name": "符文走私者外套"
+  },
+  {
+   "slug": "Runeforged_Strider_Vest",
+   "name": "符文疾行者背心"
+  },
+  {
+   "slug": "Runeforged_Hardleather_Coat",
+   "name": "符文硬皮外套"
+  },
+  {
+   "slug": "Runeforged_Exquisite_Vest",
+   "name": "符文浮华背心"
+  },
+  {
+   "slug": "Runeforged_Mail_Coat",
+   "name": "符文锁环外套"
+  },
+  {
+   "slug": "Runeforged_Armoured_Vest",
+   "name": "符文铠装背心"
+  },
+  {
+   "slug": "Runeforged_Tattered_Robe",
+   "name": "符文破烂长袍"
+  },
+  {
+   "slug": "Runeforged_Feathered_Robe",
+   "name": "符文羽饰长袍"
+  },
+  {
+   "slug": "Runeforged_Hexers_Robe",
+   "name": "符文魔蛊长袍"
+  },
+  {
+   "slug": "Runeforged_Bone_Raiment",
+   "name": "符文坠饰之衣"
+  },
+  {
+   "slug": "Runeforged_Silk_Robe",
+   "name": "符文丝质之袍"
+  },
+  {
+   "slug": "Runeforged_Keth_Raiment",
+   "name": "符文克斯之衣"
+  },
+  {
+   "slug": "Runeforged_Votive_Raiment",
+   "name": "符文奉愿之衣"
+  },
+  {
+   "slug": "Runeforged_Altar_Robe",
+   "name": "符文祭坛长袍"
+  },
+  {
+   "slug": "Runeforged_Elementalist_Robe",
+   "name": "符文元素使长袍"
+  },
+  {
+   "slug": "Runeforged_Mystic_Raiment",
+   "name": "符文密士之衣"
+  },
+  {
+   "slug": "Runeforged_Imperial_Robe",
+   "name": "符文帝国长袍"
+  },
+  {
+   "slug": "Runeforged_Plated_Raiment",
+   "name": "符文嵌板之衣"
+  },
+  {
+   "slug": "Runeforged_Havoc_Raiment",
+   "name": "符文劫难之衣"
+  },
+  {
+   "slug": "Runeforged_Enlightened_Robe",
+   "name": "符文启迪长袍"
+  },
+  {
+   "slug": "Runeforged_Arcane_Raiment",
+   "name": "符文秘法之衣"
+  },
+  {
+   "slug": "Runeforged_Chain_Mail",
+   "name": "符文环锁甲"
+  },
+  {
+   "slug": "Runeforged_Rogue_Armour",
+   "name": "符文盗贼护甲"
+  },
+  {
+   "slug": "Runeforged_Vagabond_Armour",
+   "name": "符文漂泊者护甲"
+  },
+  {
+   "slug": "Runeforged_Cloaked_Mail",
+   "name": "符文披风锁甲"
+  },
+  {
+   "slug": "Runeforged_Explorer_Armour",
+   "name": "符文探索者护甲"
+  },
+  {
+   "slug": "Runeforged_Scale_Mail",
+   "name": "符文嵌鳞锁甲"
+  },
+  {
+   "slug": "Runeforged_Knight_Armour",
+   "name": "符文骑士护甲"
+  },
+  {
+   "slug": "Runeforged_Ancestral_Mail",
+   "name": "符文先祖锁甲"
+  },
+  {
+   "slug": "Runeforged_Lamellar_Mail",
+   "name": "符文层叠锁甲"
+  },
+  {
+   "slug": "Runeforged_Gladiator_Armour",
+   "name": "符文角斗士护甲"
+  },
+  {
+   "slug": "Runeforged_Heroic_Armour",
+   "name": "符文英武护甲"
+  },
+  {
+   "slug": "Runeforged_Tournament_Mail",
+   "name": "符文演武锁甲"
+  },
+  {
+   "slug": "Runeforged_Slayer_Armour",
+   "name": "符文惩罚者护甲"
+  },
+  {
+   "slug": "Runeforged_Pilgrim_Vestments",
+   "name": "符文朝圣者长衣"
+  },
+  {
+   "slug": "Runeforged_Pelt_Mantle",
+   "name": "符文毛皮斗篷"
+  },
+  {
+   "slug": "Runeforged_Mail_Vestments",
+   "name": "符文锁子长衣"
+  },
+  {
+   "slug": "Runeforged_Shaman_Mantle",
+   "name": "符文萨满斗篷"
+  },
+  {
+   "slug": "Runeforged_Ironclad_Vestments",
+   "name": "符文武装长衣"
+  },
+  {
+   "slug": "Runeforged_Sacrificial_Mantle",
+   "name": "符文献祭斗篷"
+  },
+  {
+   "slug": "Runeforged_Cleric_Vestments",
+   "name": "符文圣徒长衣"
+  },
+  {
+   "slug": "Runeforged_Tideseer_Mantle",
+   "name": "符文潮贤斗篷"
+  },
+  {
+   "slug": "Runeforged_Gilded_Vestments",
+   "name": "符文鎏金长衣"
+  },
+  {
+   "slug": "Runeforged_Venerated_Mantle",
+   "name": "符文崇圣斗篷"
+  },
+  {
+   "slug": "Runeforged_Revered_Vestments",
+   "name": "符文崇礼长衣"
+  },
+  {
+   "slug": "Runeforged_Corvus_Mantle",
+   "name": "符文灵鸦斗篷"
+  },
+  {
+   "slug": "Runeforged_Zenith_Vestments",
+   "name": "符文天顶长衣"
+  },
+  {
+   "slug": "Runeforged_Hermit_Garb",
+   "name": "符文隐士束衣"
+  },
+  {
+   "slug": "Runeforged_Waxed_Jacket",
+   "name": "符文防水外衣"
+  },
+  {
+   "slug": "Runeforged_Marabout_Garb",
+   "name": "符文遁世束衣"
+  },
+  {
+   "slug": "Runeforged_Wayfarer_Jacket",
+   "name": "符文远行者外衣"
+  },
+  {
+   "slug": "Runeforged_Anchorite_Garb",
+   "name": "符文隐士束衣"
+  },
+  {
+   "slug": "Runeforged_Scalpers_Jacket",
+   "name": "符文猎头者外衣"
+  },
+  {
+   "slug": "Runeforged_Scoundrel_Jacket",
+   "name": "符文流贼外衣"
+  },
+  {
+   "slug": "Runeforged_Ascetic_Garb",
+   "name": "符文苦修束衣"
+  },
+  {
+   "slug": "Runeforged_Clandestine_Jacket",
+   "name": "符文无影外衣"
+  },
+  {
+   "slug": "Runeforged_Monastic_Garb",
+   "name": "符文修行束衣"
+  },
+  {
+   "slug": "Runeforged_Torment_Jacket",
+   "name": "符文磨难外衣"
+  },
+  {
+   "slug": "Runeforged_Devout_Garb",
+   "name": "符文虔心束衣"
+  },
+  {
+   "slug": "Runeforged_Assassin_Garb",
+   "name": "符文刺客束衣"
+  },
+  {
+   "slug": "Runeforged_Garment",
+   "name": "符文华服装束"
+  },
+  {
+   "slug": "Runeforged_Grand_Regalia",
+   "name": "符文恢弘盛装"
+  },
+  {
+   "slug": "Runeforged_Sacrificial_Regalia",
+   "name": "符文献祭盛装"
+  },
+  {
+   "slug": "Runeforged_Elegant_Plate",
+   "name": "符文优雅战铠"
+  },
+  {
+   "slug": "Runeforged_Heavy_Plate",
+   "name": "符文重型战铠"
+  },
+  {
+   "slug": "Runeforged_Stone_Cuirass",
+   "name": "符文石制胸甲"
+  },
+  {
+   "slug": "Runeforged_Layered_Vest",
+   "name": "符文拼接背心"
+  },
+  {
+   "slug": "Runeforged_Runner_Vest",
+   "name": "符文跑者背心"
+  },
+  {
+   "slug": "Runeforged_Lizardscale_Coat",
+   "name": "符文蜥鳞外套"
+  },
+  {
+   "slug": "Runeforged_River_Raiment",
+   "name": "符文河流之衣"
+  },
+  {
+   "slug": "Runeforged_Adherents_Raiment",
+   "name": "符文信徒之衣"
+  },
+  {
+   "slug": "Runeforged_Ceremonial_Robe",
+   "name": "符文仪式长袍"
+  },
+  {
+   "slug": "Runeforged_Mantled_Mail",
+   "name": "符文斗篷锁甲"
+  },
+  {
+   "slug": "Runeforged_Trailblazer_Armour",
+   "name": "符文开拓者护甲"
+  },
+  {
+   "slug": "Runeforged_Golden_Mail",
+   "name": "符文黄金锁甲"
+  },
+  {
+   "slug": "Runeforged_Occultist_Mantle",
+   "name": "符文秘术家斗篷"
+  },
+  {
+   "slug": "Runeforged_Plated_Vestments",
+   "name": "符文嵌板长衣"
+  },
+  {
+   "slug": "Runeforged_Heartcarver_Mantle",
+   "name": "符文刻心斗篷"
+  },
+  {
+   "slug": "Runeforged_Itinerant_Jacket",
+   "name": "符文流浪外衣"
+  },
+  {
+   "slug": "Runeforged_Hatungo_Garb",
+   "name": "符文哈图纳格斯束衣"
+  },
+  {
+   "slug": "Runeforged_Hawkers_Jacket",
+   "name": "符文小贩外衣"
+  },
+  {
+   "slug": "Runeforged_Primal_Markings",
+   "name": "符文原始印记"
+  },
+  {
+   "slug": "Runeforged_Soldier_Cuirass",
+   "name": "符文士兵胸甲"
+  },
+  {
+   "slug": "Runeforged_Ornate_Plate",
+   "name": "符文华丽战铠"
+  },
+  {
+   "slug": "Runeforged_Utzaal_Cuirass",
+   "name": "符文乌扎尔胸甲"
+  },
+  {
+   "slug": "Runeforged_Warlord_Cuirass",
+   "name": "符文督军胸甲"
+  },
+  {
+   "slug": "Runeforged_Swiftstalker_Coat",
+   "name": "符文迅捷潜行者外套"
+  },
+  {
+   "slug": "Runeforged_Slipstrike_Vest",
+   "name": "符文滑击背心"
+  },
+  {
+   "slug": "Runeforged_Wyrmscale_Coat",
+   "name": "符文巨龙鳞外套"
+  },
+  {
+   "slug": "Runeforged_Corsair_Coat",
+   "name": "符文海盗外套"
+  },
+  {
+   "slug": "Runeforged_Vile_Robe",
+   "name": "符文邪恶束衣"
+  },
+  {
+   "slug": "Runeforged_Flowing_Raiment",
+   "name": "符文飘逸之衣"
+  },
+  {
+   "slug": "Runeforged_Sacramental_Robe",
+   "name": "符文圣礼束衣"
+  },
+  {
+   "slug": "Runeforged_Feathered_Raiment",
+   "name": "符文羽饰之衣"
+  },
+  {
+   "slug": "Runeforged_Dastard_Armour",
+   "name": "符文懦夫护甲"
+  },
+  {
+   "slug": "Runeforged_Shrouded_Mail",
+   "name": "符文蔽影锁甲"
+  },
+  {
+   "slug": "Runeforged_Death_Mail",
+   "name": "符文死亡锁甲"
+  },
+  {
+   "slug": "Runeforged_Thane_Mail",
+   "name": "符文领主锁甲"
+  },
+  {
+   "slug": "Runeforged_Wolfskin_Mantle",
+   "name": "符文狼皮斗篷"
+  },
+  {
+   "slug": "Runeforged_Conjurer_Mantle",
+   "name": "符文咒者斗篷"
+  },
+  {
+   "slug": "Runeforged_Death_Mantle",
+   "name": "符文死亡斗篷"
+  },
+  {
+   "slug": "Runeforged_Seastorm_Mantle",
+   "name": "符文海洋风暴斗篷"
+  },
+  {
+   "slug": "Runeforged_Sleek_Jacket",
+   "name": "符文滑布外衣"
+  },
+  {
+   "slug": "Runeforged_Rambler_Jacket",
+   "name": "符文漫步者外衣"
+  },
+  {
+   "slug": "Runeforged_Falconers_Jacket",
+   "name": "符文猎鹰师外衣"
+  },
+  {
+   "slug": "Runeforged_Austere_Garb",
+   "name": "符文简朴束衣"
+  },
+  {
+   "slug": "Runemastered_Rusted_Cuirass",
+   "name": "符文师匠锈蚀胸甲"
+  },
+  {
+   "slug": "Runemastered_Iron_Cuirass",
+   "name": "符文师匠铁锻胸甲"
+  },
+  {
+   "slug": "Runemastered_Raider_Plate",
+   "name": "符文师匠劫掠之铠"
+  },
+  {
+   "slug": "Runemastered_Maraketh_Cuirass",
+   "name": "符文师匠马拉克斯胸甲"
+  },
+  {
+   "slug": "Runemastered_Steel_Plate",
+   "name": "符文师匠冷钢之铠"
+  },
+  {
+   "slug": "Runemastered_Full_Plate",
+   "name": "符文师匠连身铠甲"
+  },
+  {
+   "slug": "Runemastered_Vaal_Cuirass",
+   "name": "符文师匠瓦尔胸甲"
+  },
+  {
+   "slug": "Runemastered_Leather_Vest",
+   "name": "符文师匠皮革背心"
+  },
+  {
+   "slug": "Runemastered_Quilted_Vest",
+   "name": "符文师匠菱纹背心"
+  },
+  {
+   "slug": "Runemastered_Pathfinder_Coat",
+   "name": "符文师匠寻路者外套"
+  },
+  {
+   "slug": "Runemastered_Shrouded_Vest",
+   "name": "符文师匠蔽影背心"
+  },
+  {
+   "slug": "Runemastered_Rhoahide_Coat",
+   "name": "符文师匠恐喙鸟皮外套"
+  },
+  {
+   "slug": "Runemastered_Studded_Vest",
+   "name": "符文师匠嵌饰背心"
+  },
+  {
+   "slug": "Runemastered_Scouts_Vest",
+   "name": "符文师匠斥候背心"
+  },
+  {
+   "slug": "Runemastered_Serpentscale_Coat",
+   "name": "符文师匠蛇鳞外套"
+  },
+  {
+   "slug": "Runemastered_Smuggler_Coat",
+   "name": "符文师匠走私者外套"
+  },
+  {
+   "slug": "Runemastered_Strider_Vest",
+   "name": "符文师匠疾行者背心"
+  },
+  {
+   "slug": "Runemastered_Exquisite_Vest",
+   "name": "符文师匠浮华背心"
+  },
+  {
+   "slug": "Runemastered_Armoured_Vest",
+   "name": "符文师匠铠装背心"
+  },
+  {
+   "slug": "Runemastered_Tattered_Robe",
+   "name": "符文师匠破烂长袍"
+  },
+  {
+   "slug": "Runemastered_Feathered_Robe",
+   "name": "符文师匠羽饰长袍"
+  },
+  {
+   "slug": "Runemastered_Hexers_Robe",
+   "name": "符文师匠魔蛊长袍"
+  },
+  {
+   "slug": "Runemastered_Bone_Raiment",
+   "name": "符文师匠坠饰之衣"
+  },
+  {
+   "slug": "Runemastered_Silk_Robe",
+   "name": "符文师匠丝质之袍"
+  },
+  {
+   "slug": "Runemastered_Keth_Raiment",
+   "name": "符文师匠克斯之衣"
+  },
+  {
+   "slug": "Runemastered_Votive_Raiment",
+   "name": "符文师匠奉愿之衣"
+  },
+  {
+   "slug": "Runemastered_Altar_Robe",
+   "name": "符文师匠祭坛长袍"
+  },
+  {
+   "slug": "Runemastered_Elementalist_Robe",
+   "name": "符文师匠元素使长袍"
+  },
+  {
+   "slug": "Runemastered_Plated_Raiment",
+   "name": "符文师匠嵌板之衣"
+  },
+  {
+   "slug": "Runemastered_Havoc_Raiment",
+   "name": "符文师匠劫难之衣"
+  },
+  {
+   "slug": "Runemastered_Enlightened_Robe",
+   "name": "符文师匠启迪长袍"
+  },
+  {
+   "slug": "Runemastered_Chain_Mail",
+   "name": "符文师匠环锁甲"
+  },
+  {
+   "slug": "Runemastered_Rogue_Armour",
+   "name": "符文师匠盗贼护甲"
+  },
+  {
+   "slug": "Runemastered_Vagabond_Armour",
+   "name": "符文师匠漂泊者护甲"
+  },
+  {
+   "slug": "Runemastered_Cloaked_Mail",
+   "name": "符文师匠披风锁甲"
+  },
+  {
+   "slug": "Runemastered_Explorer_Armour",
+   "name": "符文师匠探索者护甲"
+  },
+  {
+   "slug": "Runemastered_Scale_Mail",
+   "name": "符文师匠嵌鳞锁甲"
+  },
+  {
+   "slug": "Runemastered_Knight_Armour",
+   "name": "符文师匠骑士护甲"
+  },
+  {
+   "slug": "Runemastered_Ancestral_Mail",
+   "name": "符文师匠先祖锁甲"
+  },
+  {
+   "slug": "Runemastered_Heroic_Armour",
+   "name": "符文师匠英武护甲"
+  },
+  {
+   "slug": "Runemastered_Pilgrim_Vestments",
+   "name": "符文师匠朝圣者长衣"
+  },
+  {
+   "slug": "Runemastered_Mail_Vestments",
+   "name": "符文师匠锁子长衣"
+  },
+  {
+   "slug": "Runemastered_Shaman_Mantle",
+   "name": "符文师匠萨满斗篷"
+  },
+  {
+   "slug": "Runemastered_Ironclad_Vestments",
+   "name": "符文师匠武装长衣"
+  },
+  {
+   "slug": "Runemastered_Sacrificial_Mantle",
+   "name": "符文师匠献祭斗篷"
+  },
+  {
+   "slug": "Runemastered_Cleric_Vestments",
+   "name": "符文师匠圣徒长衣"
+  },
+  {
+   "slug": "Runemastered_Tideseer_Mantle",
+   "name": "符文师匠潮贤斗篷"
+  },
+  {
+   "slug": "Runemastered_Gilded_Vestments",
+   "name": "符文师匠鎏金长衣"
+  },
+  {
+   "slug": "Runemastered_Revered_Vestments",
+   "name": "符文师匠崇礼长衣"
+  },
+  {
+   "slug": "Runemastered_Corvus_Mantle",
+   "name": "符文师匠灵鸦斗篷"
+  },
+  {
+   "slug": "Runemastered_Ornate_Ringmail",
+   "name": "符文师匠华饰环甲"
+  },
+  {
+   "slug": "Runemastered_Ancient_Mail",
+   "name": "符文师匠远古链甲"
+  },
+  {
+   "slug": "Runemastered_Hermit_Garb",
+   "name": "符文师匠隐士束衣"
+  },
+  {
+   "slug": "Runemastered_Waxed_Jacket",
+   "name": "符文师匠防水外衣"
+  },
+  {
+   "slug": "Runemastered_Marabout_Garb",
+   "name": "符文师匠遁世束衣"
+  },
+  {
+   "slug": "Runemastered_Wayfarer_Jacket",
+   "name": "符文师匠远行者外衣"
+  },
+  {
+   "slug": "Runemastered_Anchorite_Garb",
+   "name": "符文师匠隐士束衣"
+  },
+  {
+   "slug": "Runemastered_Scalpers_Jacket",
+   "name": "符文师匠猎头者外衣"
+  },
+  {
+   "slug": "Runemastered_Assassin_Garb",
+   "name": "符文师匠刺客束衣"
+  },
+  {
+   "slug": "Runemastered_Garment",
+   "name": "符文师匠华服装束"
+  },
+  {
+   "slug": "Runemastered_Grand_Regalia",
+   "name": "符文师匠恢弘盛装"
+  },
+  {
+   "slug": "Runemastered_Sacrificial_Regalia",
+   "name": "符文师匠献祭盛装"
+  },
+  {
+   "slug": "Runemastered_Primal_Markings",
+   "name": "符文师匠原始印记"
+  }
+ ]
+}

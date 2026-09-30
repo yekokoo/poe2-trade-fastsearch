@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>POE2 市集速搜 — popup 交互演示</title>
+<style>
+  body { margin:0; padding:24px; font:13px/1.55 "Segoe UI","Microsoft YaHei",sans-serif; background:#faf9f7; color:#26221c; display:flex; gap:28px; justify-content:center; flex-wrap:wrap; }
+  .demo-note { max-width:300px; font-size:13px; color:#7a766e; }
+  .demo-note h1 { font-size:16px; color:#26221c; margin-bottom:10px; }
+  .demo-note li { margin:8px 0; }
+  .popup-shell { width:400px; height:600px; background:#fff; border:1px solid rgba(0,0,0,.18); border-radius:14px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 6px 24px rgba(0,0,0,.08); }
+  .popup-body { flex:1; overflow-y:auto; }
+</style>
+</head>
+<body>
+  <div class="demo-note">
+    <h1>popup 交互演示</h1>
+    <p>右侧是插件弹窗的1:1还原，数据读取自真实抓取的词缀库（双手锤 + 力量手套两个分类）。</p>
+    <ul>
+      <li>切换分类 → 词缀池联动</li>
+      <li>前缀/后缀 tab 切换</li>
+      <li>点词缀卡片选中 → 展开T级下拉（含物等门槛）与数值下限</li>
+      <li>色标：灰=基础 绿=渎灵 琥珀=合金 紫=斯鲁德 蓝=精华 红=瓦尔</li>
+      <li>物品等级过滤决定哪些T级可选</li>
+    </ul>
+    <p>正式插件里「生成并填入市集」按钮会把条件发给市集页 content script 自动填表。</p>
+  </div>
+  <div class="popup-shell">
+    <div class="popup-body">
+      <iframe src="../extension/popup.html" style="width:100%;height:100%;border:none" id="frame"></iframe>
+    </div>
+  </div>
+  <script>
+    // 让 popup.js 在 iframe 内正常工作（chrome API 缺失时降级）
+    document.getElementById('frame').addEventListener('load', () => {
+      const w = document.getElementById('frame').contentWindow;
+      if (!w.chrome) w.chrome = { runtime: { getURL: (p) => '../extension/' + p } };
+    });
+  </script>
+</body>
+</html>

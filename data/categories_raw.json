@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "Runes_of_Aldur_league",
+    "name": "奥杜尔秘符 v0.5"
+  },
+  {
+    "slug": "Atziris_Temple",
+    "name": "阿兹里 v0.4"
+  },
+  {
+    "slug": "Waystones",
+    "name": "引路石"
+  },
+  {
+    "slug": "Shrine",
+    "name": "神龛"
+  },
+  {
+    "slug": "Strongbox",
+    "name": "保险箱"
+  },
+  {
+    "slug": "Essence",
+    "name": "精华"
+  },
+  {
+    "slug": "Archnemesis",
+    "name": "罪恶枷锁"
+  },
+  {
+    "slug": "Azmeri_Spirit",
+    "name": "阿兹莫里之灵 v0.2"
+  },
+  {
+    "slug": "Rogue_Exile",
+    "name": "盗贼流放者"
+  },
+  {
+    "slug": "Abyss",
+    "name": "深渊 v0.3"
+  },
+  {
+    "slug": "Breach",
+    "name": "裂隙"
+  },
+  {
+    "slug": "Ritual",
+    "name": "驱灵仪式"
+  },
+  {
+    "slug": "Delirium",
+    "name": "惊悸迷雾"
+  },
+  {
+    "slug": "Expedition",
+    "name": "先祖秘藏"
+  },
+  {
+    "slug": "The_Burning_Monolith",
+    "name": "燃石巨塔"
+  },
+  {
+    "slug": "Trial_of_the_Sekhemas",
+    "name": "丝克玛试炼"
+  },
+  {
+    "slug": "The_Trial_of_Chaos",
+    "name": "混沌试炼"
+  }
+]

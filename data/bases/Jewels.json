@@ -1,0 +1,31 @@
+{
+ "slug": "Jewels",
+ "cnName": "珠宝",
+ "fetchedAt": "2026-09-17T07:31:39.588Z",
+ "bases": [
+  {
+   "slug": "Timeless_Jewel",
+   "name": "永恒珠宝"
+  },
+  {
+   "slug": "Ruby",
+   "name": "红玉"
+  },
+  {
+   "slug": "Emerald",
+   "name": "翡翠"
+  },
+  {
+   "slug": "Sapphire",
+   "name": "蓝玉"
+  },
+  {
+   "slug": "Diamond",
+   "name": "宝钻"
+  },
+  {
+   "slug": "Cadigans_Epiphany",
+   "name": "卡迪甘的顿悟"
+  }
+ ]
+}

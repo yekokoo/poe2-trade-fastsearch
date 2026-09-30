@@ -1,0 +1,151 @@
+{
+ "slug": "One_Hand_Maces",
+ "cnName": "单手锤",
+ "fetchedAt": "2026-09-17T07:31:07.362Z",
+ "bases": [
+  {
+   "slug": "Wooden_Club",
+   "name": "木棒"
+  },
+  {
+   "slug": "Smithing_Hammer",
+   "name": "锻铸之锤"
+  },
+  {
+   "slug": "Slim_Mace",
+   "name": "细柄钉锤"
+  },
+  {
+   "slug": "Spiked_Club",
+   "name": "钝钉木棒"
+  },
+  {
+   "slug": "Warpick",
+   "name": "战镐"
+  },
+  {
+   "slug": "Plated_Mace",
+   "name": "板锤"
+  },
+  {
+   "slug": "Brigand_Mace",
+   "name": "强盗之锤"
+  },
+  {
+   "slug": "Construct_Hammer",
+   "name": "施工锤"
+  },
+  {
+   "slug": "Morning_Star",
+   "name": "流星锤"
+  },
+  {
+   "slug": "Jade_Club",
+   "name": "翠玉战棒"
+  },
+  {
+   "slug": "Lumen_Mace",
+   "name": "流明之锤"
+  },
+  {
+   "slug": "Execratus_Hammer",
+   "name": "秽咒之锤"
+  },
+  {
+   "slug": "Torment_Club",
+   "name": "劫难战棒"
+  },
+  {
+   "slug": "Runemastered_Torment_Club",
+   "name": "符文师匠劫难战棒"
+  },
+  {
+   "slug": "Kalguuran_Forgehammer",
+   "name": "卡古兰锻造锤"
+  },
+  {
+   "slug": "Calescent_Hammer",
+   "name": "升温之锤"
+  },
+  {
+   "slug": "Flared_Mace",
+   "name": "耀焰之锤"
+  },
+  {
+   "slug": "Battle_Pick",
+   "name": "战镐"
+  },
+  {
+   "slug": "Marching_Mace",
+   "name": "行军之锤"
+  },
+  {
+   "slug": "Runeforged_Marching_Mace",
+   "name": "符文师匠行军之锤"
+  },
+  {
+   "slug": "Bandit_Mace",
+   "name": "强盗之锤"
+  },
+  {
+   "slug": "Structured_Hammer",
+   "name": "构造之锤"
+  },
+  {
+   "slug": "Runeforged_Wooden_Club",
+   "name": "符文木棒"
+  },
+  {
+   "slug": "Runemastered_Wooden_Club",
+   "name": "符文师匠木棒"
+  },
+  {
+   "slug": "Runeforged_Slim_Mace",
+   "name": "符文细柄钉锤"
+  },
+  {
+   "slug": "Runeforged_Spiked_Club",
+   "name": "符文钝钉木棒"
+  },
+  {
+   "slug": "Runeforged_Warpick",
+   "name": "符文战镐"
+  },
+  {
+   "slug": "Runeforged_Kalguuran_Forgehammer",
+   "name": "符文卡古兰锻造锤"
+  },
+  {
+   "slug": "Runeforged_Morning_Star",
+   "name": "符文流星锤"
+  },
+  {
+   "slug": "Flanged_Mace",
+   "name": "钉头锤"
+  },
+  {
+   "slug": "Crown_Mace",
+   "name": "冠首之锤"
+  },
+  {
+   "slug": "Molten_Hammer",
+   "name": "熔火之锤"
+  },
+  {
+   "slug": "Strife_Pick",
+   "name": "纷争之镐"
+  },
+  {
+   "slug": "Fortified_Hammer",
+   "name": "强固之锤"
+  },
+  {
+   "slug": "Marauding_Mace",
+   "name": "劫掠之锤"
+  },
+  {
+   "slug": "Akoyan_Club",
+   "name": "阿科扬战棒"
+  }
+ ]
+}

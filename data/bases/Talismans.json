@@ -1,0 +1,131 @@
+{
+ "slug": "Talismans",
+ "cnName": "魔符",
+ "fetchedAt": "2026-09-17T07:31:21.434Z",
+ "bases": [
+  {
+   "slug": "Changeling_Talisman",
+   "name": "易形魔符"
+  },
+  {
+   "slug": "Nettle_Talisman",
+   "name": "荨麻魔符"
+  },
+  {
+   "slug": "Cinderbark_Talisman",
+   "name": "烬皮魔符"
+  },
+  {
+   "slug": "Familial_Talisman",
+   "name": "血亲魔符"
+  },
+  {
+   "slug": "Frenzied_Talisman",
+   "name": "狂怒魔符"
+  },
+  {
+   "slug": "Primal_Talisman",
+   "name": "原初魔符"
+  },
+  {
+   "slug": "Rabid_Talisman",
+   "name": "狂犬魔符"
+  },
+  {
+   "slug": "Vicious_Talisman",
+   "name": "凶恶魔符"
+  },
+  {
+   "slug": "Voltfang_Talisman",
+   "name": "电牙魔符"
+  },
+  {
+   "slug": "Lumbering_Talisman",
+   "name": "蹒跚魔符"
+  },
+  {
+   "slug": "Roaring_Talisman",
+   "name": "怒嚎魔符"
+  },
+  {
+   "slug": "Wingbeat_Talisman",
+   "name": "翼振魔符"
+  },
+  {
+   "slug": "Condemned_Talisman",
+   "name": "罪孽魔符"
+  },
+  {
+   "slug": "Howling_Talisman",
+   "name": "怒嚎魔符"
+  },
+  {
+   "slug": "Fury_Talisman",
+   "name": "狂怒魔符"
+  },
+  {
+   "slug": "Cruel_Talisman",
+   "name": "残酷魔符"
+  },
+  {
+   "slug": "Runeforged_Changeling_Talisman",
+   "name": "符文易形魔符"
+  },
+  {
+   "slug": "Runeforged_Nettle_Talisman",
+   "name": "符文荨麻魔符"
+  },
+  {
+   "slug": "Runemastered_Nettle_Talisman",
+   "name": "符文师匠荨麻魔符"
+  },
+  {
+   "slug": "Runeforged_Familial_Talisman",
+   "name": "符文血亲魔符"
+  },
+  {
+   "slug": "Runemastered_Familial_Talisman",
+   "name": "符文师匠血亲魔符"
+  },
+  {
+   "slug": "Runeforged_Vicious_Talisman",
+   "name": "符文凶恶魔符"
+  },
+  {
+   "slug": "Spiny_Talisman",
+   "name": "荆刺魔符"
+  },
+  {
+   "slug": "Ashbark_Talisman",
+   "name": "灰烬树皮魔符"
+  },
+  {
+   "slug": "Fang_Talisman",
+   "name": "利齿魔符"
+  },
+  {
+   "slug": "Fungal_Talisman",
+   "name": "真菌魔符"
+  },
+  {
+   "slug": "Alpha_Talisman",
+   "name": "首领魔符"
+  },
+  {
+   "slug": "Maji_Talisman",
+   "name": "众神魔符"
+  },
+  {
+   "slug": "Wildwood_Talisman",
+   "name": "荒林魔符"
+  },
+  {
+   "slug": "Thunder_Talisman",
+   "name": "雷霆魔符"
+  },
+  {
+   "slug": "Jade_Talisman",
+   "name": "翡翠魔符"
+  }
+ ]
+}

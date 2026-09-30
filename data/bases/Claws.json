@@ -1,0 +1,59 @@
+{
+ "slug": "Claws",
+ "cnName": "爪类",
+ "fetchedAt": "2026-09-17T07:31:00.987Z",
+ "bases": [
+  {
+   "slug": "Crude_Claw",
+   "name": "粗制利爪"
+  },
+  {
+   "slug": "Pict_Claw",
+   "name": "绘彩利爪"
+  },
+  {
+   "slug": "Wolfbone_Claw",
+   "name": "狼骨利爪"
+  },
+  {
+   "slug": "Forked_Claw",
+   "name": "分叉利爪"
+  },
+  {
+   "slug": "Plated_Claw",
+   "name": "护板利爪"
+  },
+  {
+   "slug": "Edged_Claw",
+   "name": "锋刃利爪"
+  },
+  {
+   "slug": "Arced_Claw",
+   "name": "弧形利爪"
+  },
+  {
+   "slug": "Hooked_Claw",
+   "name": "钩齿利爪"
+  },
+  {
+   "slug": "Razorglass_Claw",
+   "name": "琉锋利爪"
+  },
+  {
+   "slug": "Sharktooth_Claw",
+   "name": "鲨颚爪"
+  },
+  {
+   "slug": "Armoured_Claw",
+   "name": "重装利爪"
+  },
+  {
+   "slug": "Piercing_Claw",
+   "name": "洞穿利爪"
+  },
+  {
+   "slug": "Talon_Claw",
+   "name": "猛禽利爪"
+  }
+ ]
+}

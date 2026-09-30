@@ -1,0 +1,59 @@
+{
+ "slug": "Two_Hand_Axes",
+ "cnName": "双手斧",
+ "fetchedAt": "2026-09-17T07:31:16.307Z",
+ "bases": [
+  {
+   "slug": "Splitting_Greataxe",
+   "name": "裂刃大斧"
+  },
+  {
+   "slug": "Light_Halberd",
+   "name": "轻装戟斧"
+  },
+  {
+   "slug": "Executioner_Greataxe",
+   "name": "惩罚者大斧"
+  },
+  {
+   "slug": "Arched_Greataxe",
+   "name": "弧刃大斧"
+  },
+  {
+   "slug": "Elegant_Glaive",
+   "name": "典雅战刃"
+  },
+  {
+   "slug": "Savage_Greataxe",
+   "name": "狂放大斧"
+  },
+  {
+   "slug": "Rending_Halberd",
+   "name": "裂肉戟斧"
+  },
+  {
+   "slug": "Jagged_Greataxe",
+   "name": "锯齿大斧"
+  },
+  {
+   "slug": "Reaver_Glaive",
+   "name": "掠夺者战刃"
+  },
+  {
+   "slug": "Ember_Greataxe",
+   "name": "飞烬大斧"
+  },
+  {
+   "slug": "Ceremonial_Halberd",
+   "name": "祭仪长戟"
+  },
+  {
+   "slug": "Monument_Greataxe",
+   "name": "丰碑大斧"
+  },
+  {
+   "slug": "Vile_Greataxe",
+   "name": "厄难大斧"
+  }
+ ]
+}

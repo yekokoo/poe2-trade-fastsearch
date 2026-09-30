@@ -1,0 +1,167 @@
+{
+ "slug": "Two_Hand_Maces",
+ "cnName": "双手锤",
+ "fetchedAt": "2026-09-17T07:31:17.598Z",
+ "bases": [
+  {
+   "slug": "Felled_Greatclub",
+   "name": "伐采巨棍"
+  },
+  {
+   "slug": "Oak_Greathammer",
+   "name": "橡木大锤"
+  },
+  {
+   "slug": "Forge_Maul",
+   "name": "锻炉巨锤"
+  },
+  {
+   "slug": "Studded_Greatclub",
+   "name": "镶钉巨棍"
+  },
+  {
+   "slug": "Cultist_Greathammer",
+   "name": "教徒大锤"
+  },
+  {
+   "slug": "Temple_Maul",
+   "name": "神殿巨锤"
+  },
+  {
+   "slug": "Leaden_Greathammer",
+   "name": "灌铅大锤"
+  },
+  {
+   "slug": "Crumbling_Maul",
+   "name": "摧枯巨锤"
+  },
+  {
+   "slug": "Pointed_Maul",
+   "name": "钉头巨锤"
+  },
+  {
+   "slug": "Totemic_Greatclub",
+   "name": "图腾巨棍"
+  },
+  {
+   "slug": "Greatmace",
+   "name": "狼牙巨锤"
+  },
+  {
+   "slug": "Precise_Greathammer",
+   "name": "精准大锤"
+  },
+  {
+   "slug": "Giant_Maul",
+   "name": "伟岸巨锤"
+  },
+  {
+   "slug": "Snakewood_Greathammer",
+   "name": "蛇纹大锤"
+  },
+  {
+   "slug": "Blacksmith_Maul",
+   "name": "锻造巨锤"
+  },
+  {
+   "slug": "Zealot_Greathammer",
+   "name": "狂热大锤"
+  },
+  {
+   "slug": "Solemn_Maul",
+   "name": "肃穆巨锤"
+  },
+  {
+   "slug": "Heavy_Greathammer",
+   "name": "沉重大锤"
+  },
+  {
+   "slug": "Disintegrating_Maul",
+   "name": "破军巨锤"
+  },
+  {
+   "slug": "Runeforged_Felled_Greatclub",
+   "name": "符文伐采巨棍"
+  },
+  {
+   "slug": "Runemastered_Felled_Greatclub",
+   "name": "符文师匠伐采巨棍"
+  },
+  {
+   "slug": "Runeforged_Oak_Greathammer",
+   "name": "符文橡木大锤"
+  },
+  {
+   "slug": "Runemastered_Oak_Greathammer",
+   "name": "符文师匠橡木大锤"
+  },
+  {
+   "slug": "Runeforged_Forge_Maul",
+   "name": "符文锻炉巨锤"
+  },
+  {
+   "slug": "Runeforged_Studded_Greatclub",
+   "name": "符文镶钉巨棍"
+  },
+  {
+   "slug": "Runemastered_Studded_Greatclub",
+   "name": "符文师匠镶钉巨棍"
+  },
+  {
+   "slug": "Runeforged_Cultist_Greathammer",
+   "name": "符文教徒大锤"
+  },
+  {
+   "slug": "Runeforged_Temple_Maul",
+   "name": "符文神殿巨锤"
+  },
+  {
+   "slug": "Runeforged_Leaden_Greathammer",
+   "name": "符文灌铅大锤"
+  },
+  {
+   "slug": "Runeforged_Crumbling_Maul",
+   "name": "符文摧枯巨锤"
+  },
+  {
+   "slug": "Runeforged_Pointed_Maul",
+   "name": "符文钉头巨锤"
+  },
+  {
+   "slug": "Anvil_Maul",
+   "name": "铁砧巨锤"
+  },
+  {
+   "slug": "Sacred_Maul",
+   "name": "神圣巨锤"
+  },
+  {
+   "slug": "Ironwood_Greathammer",
+   "name": "铁木大锤"
+  },
+  {
+   "slug": "Fanatic_Greathammer",
+   "name": "狂乱大锤"
+  },
+  {
+   "slug": "Ruination_Maul",
+   "name": "毁灭巨锤"
+  },
+  {
+   "slug": "Massive_Greathammer",
+   "name": "庞然大锤"
+  },
+  {
+   "slug": "Tawhoan_Greatclub",
+   "name": "塔赫亚巨棍"
+  },
+  {
+   "slug": "Aberrant_Sledge",
+   "name": "畸变巨锤"
+  },
+  {
+   "slug": "Runemastered_Aberrant_Sledge",
+   "name": "符文师匠畸变巨锤"
+  }
+ ]
+}

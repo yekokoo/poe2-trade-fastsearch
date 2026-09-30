@@ -1,0 +1,143 @@
+{
+ "slug": "Bows",
+ "cnName": "弓类",
+ "fetchedAt": "2026-09-17T07:31:12.500Z",
+ "bases": [
+  {
+   "slug": "Crude_Bow",
+   "name": "粗制弓"
+  },
+  {
+   "slug": "Shortbow",
+   "name": "短弓"
+  },
+  {
+   "slug": "Warden_Bow",
+   "name": "监守弓"
+  },
+  {
+   "slug": "Recurve_Bow",
+   "name": "反曲弓"
+  },
+  {
+   "slug": "Composite_Bow",
+   "name": "复合弓"
+  },
+  {
+   "slug": "Dualstring_Bow",
+   "name": "双弦弓"
+  },
+  {
+   "slug": "Cultist_Bow",
+   "name": "教徒弓"
+  },
+  {
+   "slug": "Zealot_Bow",
+   "name": "狂热弓"
+  },
+  {
+   "slug": "Artillery_Bow",
+   "name": "轰击弓"
+  },
+  {
+   "slug": "Tribal_Bow",
+   "name": "部族弓"
+  },
+  {
+   "slug": "Greatbow",
+   "name": "巨弓"
+  },
+  {
+   "slug": "Double_Limb_Bow",
+   "name": "双臂弓"
+  },
+  {
+   "slug": "Heavy_Bow",
+   "name": "重装强弓"
+  },
+  {
+   "slug": "Snakewood_Shortbow",
+   "name": "蛇纹短弓"
+  },
+  {
+   "slug": "Protector_Bow",
+   "name": "保护者之弓"
+  },
+  {
+   "slug": "Rider_Bow",
+   "name": "骑射之弓"
+  },
+  {
+   "slug": "Twin_Bow",
+   "name": "双生之弓"
+  },
+  {
+   "slug": "Adherent_Bow",
+   "name": "联排之弓"
+  },
+  {
+   "slug": "Militant_Bow",
+   "name": "军用战弓"
+  },
+  {
+   "slug": "Runeforged_Crude_Bow",
+   "name": "符文粗制弓"
+  },
+  {
+   "slug": "Runeforged_Shortbow",
+   "name": "符文短弓"
+  },
+  {
+   "slug": "Runeforged_Warden_Bow",
+   "name": "符文监守弓"
+  },
+  {
+   "slug": "Runeforged_Recurve_Bow",
+   "name": "符文反曲弓"
+  },
+  {
+   "slug": "Runeforged_Composite_Bow",
+   "name": "符文复合弓"
+  },
+  {
+   "slug": "Runeforged_Dualstring_Bow",
+   "name": "符文双弦弓"
+  },
+  {
+   "slug": "Runeforged_Zealot_Bow",
+   "name": "符文狂热弓"
+  },
+  {
+   "slug": "Ironwood_Shortbow",
+   "name": "铁木短弓"
+  },
+  {
+   "slug": "Cavalry_Bow",
+   "name": "骑兵之弓"
+  },
+  {
+   "slug": "Guardian_Bow",
+   "name": "守护者之弓"
+  },
+  {
+   "slug": "Gemini_Bow",
+   "name": "双子之弓"
+  },
+  {
+   "slug": "Fanatic_Bow",
+   "name": "狂热之弓"
+  },
+  {
+   "slug": "Warmonger_Bow",
+   "name": "寻战之弓"
+  },
+  {
+   "slug": "Obliterator_Bow",
+   "name": "毁灭者之弓"
+  },
+  {
+   "slug": "Heartwood_Shortbow",
+   "name": "心木短弓"
+  }
+ ]
+}

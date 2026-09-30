@@ -1,0 +1,59 @@
+{
+ "slug": "Sceptres",
+ "cnName": "权杖",
+ "fetchedAt": "2026-09-17T07:31:08.630Z",
+ "bases": [
+  {
+   "slug": "Rattling_Sceptre",
+   "name": "罪孽权杖"
+  },
+  {
+   "slug": "Stoic_Sceptre",
+   "name": "克己权杖"
+  },
+  {
+   "slug": "Lupine_Sceptre",
+   "name": "幽狼权杖"
+  },
+  {
+   "slug": "Omen_Sceptre",
+   "name": "预兆权杖"
+  },
+  {
+   "slug": "Ochre_Sceptre",
+   "name": "赤色权杖"
+  },
+  {
+   "slug": "Shrine_Sceptre",
+   "name": "圣地权杖"
+  },
+  {
+   "slug": "Devouring_Sceptre",
+   "name": "吞噬权杖"
+  },
+  {
+   "slug": "Clasped_Sceptre",
+   "name": "握扣权杖"
+  },
+  {
+   "slug": "Devotional_Sceptre",
+   "name": "虔诚权杖"
+  },
+  {
+   "slug": "Wrath_Sceptre",
+   "name": "愤怒权杖"
+  },
+  {
+   "slug": "Aromatic_Sceptre",
+   "name": "芳香权杖"
+  },
+  {
+   "slug": "Pious_Sceptre",
+   "name": "虔信权杖"
+  },
+  {
+   "slug": "Hallowed_Sceptre",
+   "name": "崇圣权杖"
+  }
+ ]
+}

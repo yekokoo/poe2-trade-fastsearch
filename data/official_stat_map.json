@@ -1,0 +1,1673 @@
+{
+ "builtAt": "2026-09-17T07:33:15.810Z",
+ "source": "market_dropdown_real.json(496 显示文本) + peer_trade2state_cn.json(权威 text→id) + guofu_stats_api.json(兜底)；受控同义词精确匹配，无 contains 兜底",
+ "count": 389,
+ "entries": {
+  "+#% 总冰霜抗性": [
+   "pseudo.pseudo_total_cold_resistance"
+  ],
+  "+#% 总火焰抗性": [
+   "pseudo.pseudo_total_fire_resistance"
+  ],
+  "+#% 总闪电抗性": [
+   "pseudo.pseudo_total_lightning_resistance"
+  ],
+  "+#% 总元素抗性": [
+   "pseudo.pseudo_count_elemental_resistances",
+   "pseudo.pseudo_total_elemental_resistance"
+  ],
+  "+#% 总混沌抗性": [
+   "pseudo.pseudo_total_chaos_resistance"
+  ],
+  "+#% 总抗性": [
+   "pseudo.pseudo_total_resistance"
+  ],
+  "# 抗性个数": [
+   "pseudo.pseudo_count_resistances"
+  ],
+  "+#% 总最大元素抗性": [
+   "pseudo.pseudo_total_all_elemental_resistances"
+  ],
+  "+#% 力量": [
+   "explicit.stat_4080418644",
+   "implicit.stat_4080418644",
+   "pseudo.pseudo_total_strength"
+  ],
+  "+#% 敏捷": [
+   "explicit.stat_3261801346",
+   "implicit.stat_3261801346",
+   "pseudo.pseudo_total_dexterity"
+  ],
+  "+#% 智慧": [
+   "explicit.stat_328541901",
+   "implicit.stat_328541901",
+   "pseudo.pseudo_total_intelligence"
+  ],
+  "+# 全属性": [
+   "explicit.stat_1379411836",
+   "implicit.stat_1379411836",
+   "pseudo.pseudo_total_all_attributes"
+  ],
+  "+# 最大生命值": [
+   "pseudo.pseudo_total_life"
+  ],
+  "+# 最大魔力值": [
+   "pseudo.pseudo_total_mana"
+  ],
+  "+# 最大能量护盾": [
+   "explicit.stat_3489782002",
+   "implicit.stat_3489782002",
+   "pseudo.pseudo_total_energy_shield"
+  ],
+  "#% 最大能量护盾增加": [
+   "pseudo.pseudo_increased_energy_shield"
+  ],
+  "#% 移动速度提高": [
+   "pseudo.pseudo_increased_movement_speed"
+  ],
+  "#附魔词缀": [
+   "pseudo.pseudo_number_of_enchant_mods"
+  ],
+  "# 固有词缀": [
+   "pseudo.pseudo_number_of_implicit_mods"
+  ],
+  "# 前缀": [
+   "pseudo.pseudo_number_of_prefix_mods"
+  ],
+  "# 后缀": [
+   "pseudo.pseudo_number_of_suffix_mods"
+  ],
+  "# 词缀": [
+   "pseudo.pseudo_number_of_affix_mods"
+  ],
+  "渎灵前缀": [
+   "pseudo.pseudo_number_of_desecrated_prefix_mods"
+  ],
+  "渎灵后缀": [
+   "pseudo.pseudo_number_of_desecrated_suffix_mods"
+  ],
+  "渎灵词缀": [
+   "pseudo.pseudo_number_of_desecrated_mods"
+  ],
+  "未揭露前缀": [
+   "pseudo.pseudo_number_of_unrevealed_prefix_mods"
+  ],
+  "未揭露后缀": [
+   "pseudo.pseudo_number_of_unrevealed_suffix_mods"
+  ],
+  "未揭露词缀": [
+   "pseudo.pseudo_number_of_unrevealed_mods"
+  ],
+  "# 空前缀": [
+   "pseudo.pseudo_number_of_empty_prefix_mods"
+  ],
+  "# 空后缀": [
+   "pseudo.pseudo_number_of_empty_suffix_mods"
+  ],
+  "# 空词缀": [
+   "pseudo.pseudo_number_of_empty_affix_mods"
+  ],
+  "# 分裂词缀": [
+   "pseudo.pseudo_number_of_fractured_mods"
+  ],
+  "# 工艺词缀": [
+   "pseudo.pseudo_number_of_crafted_mods"
+  ],
+  "# 生命上限": [
+   "explicit.stat_3299347043",
+   "implicit.stat_3299347043"
+  ],
+  "# 魔力上限": [
+   "explicit.stat_1050105434",
+   "implicit.stat_1050105434"
+  ],
+  "冰霜抗性 #%": [
+   "explicit.stat_4220027924",
+   "implicit.stat_4220027924"
+  ],
+  "闪电抗性 #%": [
+   "explicit.stat_1671376347",
+   "implicit.stat_1671376347"
+  ],
+  "火焰抗性 #%": [
+   "explicit.stat_3372524247",
+   "implicit.stat_3372524247"
+  ],
+  "物品稀有度提高 #%": [
+   "explicit.stat_3917489142",
+   "implicit.stat_3917489142"
+  ],
+  "# 智慧": [
+   "explicit.stat_328541901",
+   "implicit.stat_328541901",
+   "pseudo.pseudo_total_intelligence"
+  ],
+  "# 敏捷": [
+   "explicit.stat_3261801346",
+   "implicit.stat_3261801346",
+   "pseudo.pseudo_total_dexterity"
+  ],
+  "能量护盾提高 #%": [
+   "explicit.stat_4015621042"
+  ],
+  "# 能量护盾上限 (区域)": [
+   "explicit.stat_4052037485"
+  ],
+  "攻击附加 # - # 物理伤害": [
+   "explicit.stat_3032590688",
+   "implicit.stat_3032590688"
+  ],
+  "# 力量": [
+   "explicit.stat_4080418644",
+   "implicit.stat_4080418644",
+   "pseudo.pseudo_total_strength"
+  ],
+  "施法速度提高 #%": [
+   "explicit.stat_2891184298",
+   "implicit.stat_2891184298"
+  ],
+  "法术伤害提高 #%": [
+   "explicit.stat_2974417149"
+  ],
+  "魔力再生率提高 #%": [
+   "explicit.stat_789117908",
+   "implicit.stat_789117908"
+  ],
+  "# 精魂": [
+   "explicit.stat_2704225257",
+   "explicit.stat_3981240776",
+   "implicit.stat_3981240776"
+  ],
+  "生命每秒再生 #": [
+   "explicit.stat_3325883026",
+   "explicit.stat_836936635",
+   "implicit.stat_3325883026",
+   "implicit.stat_836936635"
+  ],
+  "攻击附加 # - # 基础闪电伤害": [
+   "explicit.stat_1754445556"
+  ],
+  "移动速度提高 #%": [
+   "pseudo.pseudo_increased_movement_speed"
+  ],
+  "所有元素抗性 #%": [
+   "explicit.stat_2901986750",
+   "implicit.stat_2901986750"
+  ],
+  "混沌抗性 #%": [
+   "explicit.stat_2923486259",
+   "implicit.stat_2923486259"
+  ],
+  "# 点闪避值 (区域)": [
+   "explicit.stat_53045048"
+  ],
+  "暴击率提高 #%": [
+   "explicit.stat_587431675"
+  ],
+  "攻击附加 # - # 基础火焰伤害": [
+   "explicit.stat_1573130764",
+   "implicit.stat_1573130764"
+  ],
+  "能量护盾上限提高 #%": [
+   "explicit.stat_2482852589"
+  ],
+  "# 命中值": [
+   "explicit.stat_803737631",
+   "implicit.stat_803737631"
+  ],
+  "闪避值提高 #% (区域)": [
+   "explicit.stat_124859000"
+  ],
+  "攻击附加 # - # 基础冰霜伤害": [
+   "explicit.stat_4067062424"
+  ],
+  "闪避与能量护盾提高 #%": [
+   "explicit.stat_1999113824"
+  ],
+  "暴击伤害加成提高 #%": [
+   "explicit.stat_3556824919"
+  ],
+  "# 晕眩阈值": [
+   "explicit.stat_915769802"
+  ],
+  "冰霜伤害提高 #%": [
+   "explicit.stat_3291658075"
+  ],
+  "物理伤害提高 #%": [
+   "explicit.stat_1509134228"
+  ],
+  "属性需求提高 #%": [
+   "explicit.stat_3639275092"
+  ],
+  "每击败一名敌人获得 # 点生命": [
+   "explicit.stat_3695891184"
+  ],
+  "闪电伤害提高 #%": [
+   "explicit.stat_2231156303"
+  ],
+  "法术暴击率提高 #%": [
+   "explicit.stat_737908626"
+  ],
+  "照亮范围提高 #%": [
+   "explicit.stat_1263695895"
+  ],
+  "每击败一名敌人获得 # 点魔力": [
+   "explicit.stat_1368271171"
+  ],
+  "获得相当于闪避值 #% 的偏转值": [
+   "explicit.stat_3033371881"
+  ],
+  "附加 # - # 闪电伤害": [
+   "explicit.stat_3336890334"
+  ],
+  "所有召唤生物技能等级 #": [
+   "explicit.stat_2162097452"
+  ],
+  "攻击速度提高 #%": [
+   "explicit.stat_681332047",
+   "implicit.stat_681332047"
+  ],
+  "# 点闪避值": [
+   "explicit.stat_2144192055"
+  ],
+  "附加 # - # 物理伤害": [
+   "explicit.stat_1940865751"
+  ],
+  "# 能量护盾上限": [
+   "explicit.stat_3489782002",
+   "implicit.stat_3489782002",
+   "pseudo.pseudo_total_energy_shield"
+  ],
+  "闪避值提高 #%": [
+   "explicit.stat_2106365538"
+  ],
+  "混沌伤害提高 #%": [
+   "explicit.stat_736967255"
+  ],
+  "攻击速度提高 #% (区域)": [
+   "explicit.stat_210067635"
+  ],
+  "召唤生物的伤害提高 #%": [
+   "explicit.stat_1589917703"
+  ],
+  "法术暴击伤害加成提高 #%": [
+   "explicit.stat_274716455"
+  ],
+  "# 命中值 (区域)": [
+   "explicit.stat_691932474"
+  ],
+  "# 全属性": [
+   "explicit.stat_1379411836",
+   "implicit.stat_1379411836",
+   "pseudo.pseudo_total_all_attributes"
+  ],
+  "暴击几率 #%": [
+   "explicit.stat_518292764"
+  ],
+  "附加 # - # 火焰伤害": [
+   "explicit.stat_709508406"
+  ],
+  "所有投射物技能等级 #": [
+   "explicit.stat_1202301673"
+  ],
+  "火焰伤害提高 #%": [
+   "explicit.stat_3962278098"
+  ],
+  "护甲提高 #% (区域)": [
+   "explicit.stat_1062208444"
+  ],
+  "护甲提高 #%": [
+   "explicit.stat_2866361420"
+  ],
+  "# 护甲 (区域)": [
+   "explicit.stat_3484657501"
+  ],
+  "在此区域中可找到的金币数量提高 #% (金币堆)": [
+   "explicit.stat_1276056105"
+  ],
+  "所有近战技能等级 #": [
+   "explicit.stat_9187492"
+  ],
+  "元素伤害提高 #%": [
+   "explicit.stat_3141070085"
+  ],
+  "召唤生物的生命上限提高 #%": [
+   "explicit.stat_770672621"
+  ],
+  "附加 # - # 冰霜伤害": [
+   "explicit.stat_1037193709"
+  ],
+  "护甲与能量护盾提高 #%": [
+   "explicit.stat_3321629045"
+  ],
+  "所有法术技能等级 #": [
+   "explicit.stat_124131830"
+  ],
+  "获得相当于伤害 #% 的额外闪电伤害": [
+   "explicit.stat_3278136794"
+  ],
+  "获得相当于伤害 #% 的额外冰霜伤害": [
+   "explicit.stat_2505884597"
+  ],
+  "护甲与闪避提高 #%": [
+   "explicit.stat_2451402625"
+  ],
+  "获得相当于伤害 #% 的额外火焰伤害": [
+   "explicit.stat_3015669065"
+  ],
+  "怪物的攻击，施法，移动速度提高 #%": [
+   "explicit.stat_3909654181"
+  ],
+  "怪物生命总增 #%": [
+   "explicit.stat_95249895"
+  ],
+  "能量护盾充能率提高 #%": [
+   "explicit.stat_2339757871"
+  ],
+  "#% 怪物暴击伤害加成": [
+   "explicit.stat_57326096"
+  ],
+  "怪物暴击率提高 #%": [
+   "explicit.stat_2753083623"
+  ],
+  "召唤生物的攻击和施法速度提高 #%": [
+   "explicit.stat_3091578504"
+  ],
+  "召唤生物的暴击率提高 #%": [
+   "explicit.stat_491450213"
+  ],
+  "攻击技能的元素伤害提高 #%": [
+   "explicit.stat_387439868"
+  ],
+  "获得的经验值提高 #%": [
+   "explicit.stat_3666934677"
+  ],
+  "怪物的晕眩积蓄提高 #%": [
+   "explicit.stat_115425161"
+  ],
+  "怪物的击中有 #% 的几率造成流血": [
+   "explicit.stat_2506820610"
+  ],
+  "攻击暴击率提高 #%": [
+   "explicit.stat_2194114101",
+   "implicit.stat_2194114101"
+  ],
+  "玩家的生命和能量护盾总回复速度总降 #%": [
+   "explicit.stat_4181072906"
+  ],
+  "攻击伤害的暴击伤害加成 #%": [
+   "explicit.stat_3714003708"
+  ],
+  "召唤生物的暴击伤害加成提高 #%": [
+   "explicit.stat_1854213750"
+  ],
+  "物理攻击伤害的 #% 转化为生命偷取": [
+   "explicit.stat_2557965901"
+  ],
+  "# - # 物理荆棘伤害": [
+   "explicit.stat_2881298780"
+  ],
+  "怪物的击中有 #% 的几率造成中毒": [
+   "explicit.stat_95221307"
+  ],
+  "将所受伤害的#%吸纳为生命": [
+   "explicit.stat_1444556985",
+   "implicit.stat_1444556985"
+  ],
+  "魔力上限提高 #%": [
+   "explicit.stat_2748665614"
+  ],
+  "投射物速度提高 #%": [
+   "explicit.stat_3759663284"
+  ],
+  "怪物受到的暴击伤害降低 #%": [
+   "explicit.stat_337935900"
+  ],
+  "物理攻击伤害的 #% 转化为魔力偷取": [
+   "explicit.stat_707457662"
+  ],
+  "+#% 怪物的元素抗性": [
+   "explicit.stat_1054098949"
+  ],
+  "该区域会出现额外 1 个稀有箱子": [
+   "explicit.stat_231864447"
+  ],
+  "投射物伤害提高 #%": [
+   "explicit.stat_1839076647"
+  ],
+  "怪物将生命上限的 #% 转化为额外能量护盾上限": [
+   "explicit.stat_2887760183"
+  ],
+  "玩家获得的药剂充能降低 #%": [
+   "explicit.stat_2549889921"
+  ],
+  "怪物具有闪避": [
+   "explicit.stat_2570249991"
+  ],
+  "怪物造成相当于伤害 #% 的额外火焰伤害": [
+   "explicit.stat_92381065"
+  ],
+  "区域内有点燃地面": [
+   "explicit.stat_133340941"
+  ],
+  "物理伤害的 #% 转化为生命偷取": [
+   "explicit.stat_55876295"
+  ],
+  "怪物的晕眩阈值提高 #%": [
+   "explicit.stat_4101943684"
+  ],
+  "易燃强度提高 #%": [
+   "explicit.stat_2968503605"
+  ],
+  "#% 暴击伤害加成": [
+   "explicit.stat_2694482655",
+   "implicit.stat_2694482655"
+  ],
+  "怪物的异常状态阈值提高 #%": [
+   "explicit.stat_1994551050"
+  ],
+  "# 护甲": [
+   "explicit.stat_809229260",
+   "implicit.stat_809229260"
+  ],
+  "怪物伤害提高 #%": [
+   "explicit.stat_1890519597"
+  ],
+  "区域包含神龛的几率提高 #%": [
+   "explicit.stat_689816330"
+  ],
+  "怪物造成相当于伤害 #% 的额外冰霜伤害": [
+   "explicit.stat_211727"
+  ],
+  "物理伤害的 #% 转化为魔力偷取": [
+   "explicit.stat_669069897"
+  ],
+  "区域内有冰缓地面": [
+   "explicit.stat_349586058"
+  ],
+  "生命在击败敌人时恢复 #%": [
+   "explicit.stat_2023107756"
+  ],
+  "#% 的护甲同样作用于元素伤害": [
+   "explicit.stat_3362812763",
+   "implicit.stat_3362812763"
+  ],
+  "怪物造成相当于伤害 #% 的额外混沌伤害": [
+   "explicit.stat_2200661314"
+  ],
+  "怪物粉碎护甲，相当于造成物理伤害的 #%": [
+   "explicit.stat_1879340377"
+  ],
+  "伤害穿透 #% 冰霜抗性": [
+   "explicit.stat_3417711605"
+  ],
+  "获得的咒符充能提高 #%": [
+   "explicit.stat_3585532255",
+   "implicit.stat_3585532255"
+  ],
+  "怪物造成相当于伤害 #% 的额外闪电伤害": [
+   "explicit.stat_512071314"
+  ],
+  "玩家的抗性上限 #%": [
+   "explicit.stat_3376488707"
+  ],
+  "感电几率提高 #%": [
+   "explicit.stat_293638271"
+  ],
+  "怪物受到的诅咒效果总降 #%": [
+   "explicit.stat_3796523155"
+  ],
+  "玩家的冷却回复率总增 #%": [
+   "explicit.stat_941368244"
+  ],
+  "召唤生物的伤害穿透 #% 元素抗性": [
+   "explicit.stat_1898978455"
+  ],
+  "区域内有感电地面": [
+   "explicit.stat_3477720557"
+  ],
+  "怪物的命中值提高 #%": [
+   "explicit.stat_1588049749"
+  ],
+  "攻击伤害提高 #%": [
+   "explicit.stat_2843214518"
+  ],
+  "被触发法术的法术伤害提高 #%": [
+   "explicit.stat_3067892458"
+  ],
+  "生命上限提高 #%": [
+   "explicit.stat_983749596"
+  ],
+  "弓类攻击的攻击速度提高 #%": [
+   "explicit.stat_3759735052"
+  ],
+  "咒符效果的持续时间提高 #%": [
+   "explicit.stat_1389754388",
+   "implicit.stat_1389754388"
+  ],
+  "技能效果持续时间提高 #%": [
+   "explicit.stat_3377888098"
+  ],
+  "使用的咒符充能降低 #%": [
+   "explicit.stat_1570770415",
+   "implicit.stat_1570770415"
+  ],
+  "药剂生命回复速度提高 #%": [
+   "explicit.stat_51994685"
+  ],
+  "诅咒的效果范围提高 #%": [
+   "explicit.stat_153777645"
+  ],
+  "玩家周期性受到衰弱诅咒": [
+   "explicit.stat_2029171424"
+  ],
+  "区域内有阿兹莫里之灵的几率提高 #%": [
+   "explicit.stat_3815617979"
+  ],
+  "弓类伤害提高 #%": [
+   "explicit.stat_4188894176"
+  ],
+  "装备法器的能量护盾提高 #%": [
+   "explicit.stat_3174700878"
+  ],
+  "获得的药剂充能提高 #%": [
+   "explicit.stat_1836676211",
+   "implicit.stat_1836676211"
+  ],
+  "点燃强度提高 #%": [
+   "explicit.stat_3791899485"
+  ],
+  "获得相当于伤害 #% 的额外混沌伤害": [
+   "explicit.stat_3398787959"
+  ],
+  "区域包含精华的几率提高 #%": [
+   "explicit.stat_1825943485"
+  ],
+  "区域包含保险箱的几率提高 #%": [
+   "explicit.stat_4279535856"
+  ],
+  "弓类技能伤害提高 #%": [
+   "explicit.stat_1241625305"
+  ],
+  "区域内的惊悸迷雾遭遇战生成传奇首领的几率总增 #%": [
+   "explicit.stat_3962960008"
+  ],
+  "将所受伤害的#%吸纳为魔力": [
+   "explicit.stat_472520716"
+  ],
+  "所有闪电法术技能等级 #": [
+   "explicit.stat_1545858329"
+  ],
+  "晕眩持续时间提高 #%": [
+   "explicit.stat_748522257"
+  ],
+  "所有攻击技能等级 #": [
+   "explicit.stat_3035140377"
+  ],
+  "造成的晕眩积蓄值提高 #%": [
+   "explicit.stat_791928121",
+   "implicit.stat_791928121"
+  ],
+  "获得相当于能量护盾上限 #% 的晕眩阈值": [
+   "explicit.stat_416040624"
+  ],
+  "区域包含召唤法阵的几率提高 #%": [
+   "explicit.stat_866117935"
+  ],
+  "技能速度提高 #%": [
+   "explicit.stat_970213192"
+  ],
+  "每击中一名敌人获得 # 点生命": [
+   "explicit.stat_821021828"
+  ],
+  "药剂魔力回复速度提高 #%": [
+   "explicit.stat_1412217137"
+  ],
+  "获得额外异常状态阈值，相当于能量护盾上限的 #%": [
+   "explicit.stat_3398301358"
+  ],
+  "战矛的伤害提高 #%": [
+   "explicit.stat_2696027455"
+  ],
+  "伤害穿透 #% 的闪电抗性": [
+   "explicit.stat_818778753"
+  ],
+  "玩家周期性受到时空锁链诅咒": [
+   "explicit.stat_1629357380"
+  ],
+  "伙伴的伤害提高 #%": [
+   "explicit.stat_234296660"
+  ],
+  "战矛的攻击速度提高 #%": [
+   "explicit.stat_1165163804"
+  ],
+  "#% 闪电与混沌抗性": [
+   "explicit.stat_3465022881"
+  ],
+  "装备右边戒指获得的加成提高 #%": [
+   "explicit.stat_3885501357"
+  ],
+  "装备左边戒指获得的加成提高 #%": [
+   "explicit.stat_513747733"
+  ],
+  "伙伴的生命上限提高 #%": [
+   "explicit.stat_1805182458"
+  ],
+  "全局物理伤害提高 #%": [
+   "explicit.stat_1310194496"
+  ],
+  "玩家周期性受到元素要害诅咒": [
+   "explicit.stat_554690751"
+  ],
+  "冻结积蓄值提高 #%": [
+   "explicit.stat_473429811"
+  ],
+  "效果区域提高 #%": [
+   "explicit.stat_280731498"
+  ],
+  "生命再生率提高 #%": [
+   "explicit.stat_44972811"
+  ],
+  "裂隙的怪物密度提高 #%": [
+   "explicit.stat_1210760818"
+  ],
+  "#% 的几率穿透一个敌人": [
+   "explicit.stat_2321178454",
+   "implicit.stat_2321178454"
+  ],
+  "区域内的梦魇拟像裂片堆叠数量提高 #%": [
+   "explicit.stat_3836551197"
+  ],
+  "区域内惊悸迷雾怪物的怪物群规模提高 #%": [
+   "explicit.stat_3465791711"
+  ],
+  "你造成的感电强度提高 #%": [
+   "explicit.stat_2527686725"
+  ],
+  "生命偷取量提高 #%": [
+   "explicit.stat_2112395885"
+  ],
+  "在场的友军每秒再生 # 点生命": [
+   "explicit.stat_4010677958"
+  ],
+  "命中值提高 #%": [
+   "explicit.stat_624954515",
+   "implicit.stat_624954515"
+  ],
+  "冷却回复速度提高 #%": [
+   "explicit.stat_1004011302"
+  ],
+  "非凡技能获得的能量提高 #%": [
+   "explicit.stat_4236566306"
+  ],
+  "感电持续时间提高 #%": [
+   "explicit.stat_3668351662"
+  ],
+  "你被点燃的持续时间降低 #%": [
+   "explicit.stat_986397080"
+  ],
+  "近战击中时获得 # 怒火": [
+   "explicit.stat_2709367754"
+  ],
+  "护甲、闪避和能量护盾提高 #%": [
+   "explicit.stat_3523867985"
+  ],
+  "受到流血的持续时间提高 #%": [
+   "explicit.stat_1692879867"
+  ],
+  "你被冰缓的持续时间降低 #%": [
+   "explicit.stat_1874553720"
+  ],
+  "晕眩积蓄值提高 #%": [
+   "explicit.stat_239367161",
+   "implicit.stat_239367161"
+  ],
+  "你的暴击造成的伤害性异常状态强度提高 #%": [
+   "explicit.stat_440490623"
+  ],
+  "近战伤害提高 #%": [
+   "explicit.stat_1002362373"
+  ],
+  "战矛的暴击伤害加成提高 #%": [
+   "explicit.stat_2456523742"
+  ],
+  "诅咒强度提高 #%": [
+   "explicit.stat_2353576063"
+  ],
+  "你被感电的持续时间降低 #%": [
+   "explicit.stat_99927264"
+  ],
+  "战弩的攻击速度提高 #%": [
+   "explicit.stat_1135928777"
+  ],
+  "击中时有 #% 的几率使目标中毒": [
+   "explicit.stat_795138349"
+  ],
+  "在场的友军造成的伤害提高 #%": [
+   "explicit.stat_1798257884"
+  ],
+  "造成异常状态的几率提高 #%": [
+   "explicit.stat_1772247089"
+  ],
+  "敌人受到伤害性异常状态的持续时间提高 #%": [
+   "explicit.stat_1829102168"
+  ],
+  "召唤生物的效果区域提高 #%": [
+   "explicit.stat_3811191316"
+  ],
+  "诅咒持续时间提高 #%": [
+   "explicit.stat_3824372849"
+  ],
+  "#% 火焰与混沌抗性": [
+   "explicit.stat_378817135"
+  ],
+  "你受到的中毒持续时间提高 #%": [
+   "explicit.stat_3301100256"
+  ],
+  "所有冰霜法术技能等级 #": [
+   "explicit.stat_2254480358"
+  ],
+  "晕眩阈值提高 #%": [
+   "explicit.stat_680068163",
+   "implicit.stat_680068163"
+  ],
+  "奉献的生命上限提高 #%": [
+   "explicit.stat_3787460122"
+  ],
+  "捷技能造成的伤害提高 #%": [
+   "explicit.stat_21071013"
+  ],
+  "战弩的伤害提高 #%": [
+   "explicit.stat_427684353"
+  ],
+  "被敌人击中时获得 # 点怒火": [
+   "explicit.stat_3292710273"
+  ],
+  "#% 的伤害优先从魔力扣除": [
+   "explicit.stat_458438597",
+   "implicit.stat_458438597"
+  ],
+  "所有火焰法术技能等级 #": [
+   "explicit.stat_591105508"
+  ],
+  "#% 冰霜与混沌抗性": [
+   "explicit.stat_3393628375"
+  ],
+  "区域有盗贼流放者的几率提高 #%": [
+   "explicit.stat_1352729973"
+  ],
+  "召唤生物的移动速度提高 #%": [
+   "explicit.stat_174664100",
+   "implicit.stat_174664100"
+  ],
+  "使用的药剂充能降低 #%": [
+   "explicit.stat_644456512",
+   "implicit.stat_644456512"
+  ],
+  "药剂的生命回复提高 #%": [
+   "explicit.stat_821241191",
+   "implicit.stat_821241191"
+  ],
+  "你受到的秘术增强效果提高 #%": [
+   "explicit.stat_2103650854"
+  ],
+  "在场的友军附加 # - # 攻击闪电伤害": [
+   "explicit.stat_2854751904"
+  ],
+  "药剂效果的持续时间提高 #%": [
+   "explicit.stat_3741323227"
+  ],
+  "节杖的攻击速度提高 #%": [
+   "explicit.stat_3283482523"
+  ],
+  "法术技能的效果区域提高 #%": [
+   "explicit.stat_1967040409"
+  ],
+  "魔力偷取量提高 #%": [
+   "explicit.stat_2839066308"
+  ],
+  "在场的友军附加 # - # 攻击火焰伤害": [
+   "explicit.stat_849987426"
+  ],
+  "你造成的异常状态强度提高 #%": [
+   "explicit.stat_1303248024"
+  ],
+  "在场的友军的攻击速度提高 #%": [
+   "explicit.stat_1998951374"
+  ],
+  "召唤生物的复活速度加快 #%": [
+   "explicit.stat_2639966148"
+  ],
+  "穿戴对人物属性无需求": [
+   "explicit.stat_2739148464"
+  ],
+  "区域内的惊悸迷雾生成的破溃之镜数量提高 #%": [
+   "explicit.stat_551040294"
+  ],
+  "在场的友军附加 # - # 攻击冰霜伤害": [
+   "explicit.stat_2347036682"
+  ],
+  "击中时有 #% 的几率造成流血": [
+   "explicit.stat_2174054121"
+  ],
+  "奉献技能的持续时间提高 #%": [
+   "explicit.stat_2957407601"
+  ],
+  "技能的魔力消耗的 #% 转化为生命消耗": [
+   "explicit.stat_2480498143"
+  ],
+  "敌人被冰缓的持续时间提高 #%": [
+   "explicit.stat_3485067555"
+  ],
+  "在场的友军的施法速度提高 #%": [
+   "explicit.stat_289128254"
+  ],
+  "区域内在驱灵祭坛重置恩典消耗的贡品提高 #%": [
+   "explicit.stat_2282052746"
+  ],
+  "节杖的伤害提高 #%": [
+   "explicit.stat_4045894391"
+  ],
+  "魔力消耗效能提高 #%": [
+   "explicit.stat_4101445926"
+  ],
+  "区域内的驱灵祭坛恩典为预兆的几率提高 #%": [
+   "explicit.stat_4219853180"
+  ],
+  "战吼速度提高 #%": [
+   "explicit.stat_1316278494"
+  ],
+  "若你在过去 8 秒内造成过近战击中，投射物伤害提高 #%": [
+   "explicit.stat_3596695232"
+  ],
+  "#% 冰霜抗性上限": [
+   "explicit.stat_3676141501"
+  ],
+  "冻结阈值提高 #%": [
+   "explicit.stat_3780644166"
+  ],
+  "装备身体护甲的能量护盾提高 #%": [
+   "explicit.stat_1195319608"
+  ],
+  "区域内有一个额外的保险箱": [
+   "explicit.stat_3240183538"
+  ],
+  "攻击每击中一名敌人获得#点生命": [
+   "explicit.stat_2797971005",
+   "implicit.stat_2797971005"
+  ],
+  "在场的友军附加 # - # 攻击物理伤害": [
+   "explicit.stat_1574590649"
+  ],
+  "你造成的中毒强度提高 #%": [
+   "explicit.stat_2487305362"
+  ],
+  "在场的友军的暴击伤害加成提高 #%": [
+   "explicit.stat_3057012405"
+  ],
+  "该区域会出现额外 1 个精华": [
+   "explicit.stat_395808938"
+  ],
+  "在场的友军的所有元素抗性 #%": [
+   "explicit.stat_3850614073"
+  ],
+  "在场的友军的暴击几率提高 #%": [
+   "explicit.stat_1250712710"
+  ],
+  "#% 火焰抗性上限": [
+   "explicit.stat_4095671657"
+  ],
+  "所有混沌法术技能等级 #": [
+   "explicit.stat_4226189338"
+  ],
+  "召唤生物有 #% 额外物理伤害减免": [
+   "explicit.stat_3119612865"
+  ],
+  "#%闪电抗性上限": [
+   "explicit.stat_1011760251"
+  ],
+  "地图首领掉落的物品稀有度提高 #%": [
+   "explicit.stat_4255069232"
+  ],
+  "你的图腾放置速度提高 #%": [
+   "explicit.stat_3374165039"
+  ],
+  "若你在过去 8 秒内造成过投射物攻击击中，近战伤害提高 #%": [
+   "explicit.stat_3028809864"
+  ],
+  "区域内的惊悸迷雾在消散前额外持续 # 秒": [
+   "explicit.stat_3226351972"
+  ],
+  "格挡几率提高 #%": [
+   "explicit.stat_4147897060"
+  ],
+  "阻止 #% 的偏转击中伤害": [
+   "explicit.stat_3552135623"
+  ],
+  "每次使用消耗的充能次数提高 #%": [
+   "explicit.stat_388617051"
+  ],
+  "所有物理法术技能等级 #": [
+   "explicit.stat_1600707273"
+  ],
+  "你受到的异常状态的减速强度提高 #%": [
+   "explicit.stat_924253255",
+   "implicit.stat_924253255"
+  ],
+  "获得的充能提高 #%": [
+   "explicit.stat_3196823591"
+  ],
+  "弓类攻击的命中值提高 #%": [
+   "explicit.stat_169946467"
+  ],
+  "无法使用投射物攻击": [
+   "explicit.stat_1961849903"
+  ],
+  "技能的精魂保留效能提高 #%": [
+   "explicit.stat_53386210"
+  ],
+  "击中时击退敌人": [
+   "explicit.stat_3739186583"
+  ],
+  "# 力量和智慧": [
+   "explicit.stat_1535626285"
+  ],
+  "图腾伤害提高 #%": [
+   "explicit.stat_3851254963"
+  ],
+  "药剂的魔力回复提高 #%": [
+   "explicit.stat_2222186378",
+   "implicit.stat_2222186378"
+  ],
+  "当你的伙伴在场时，伤害提高 #%": [
+   "explicit.stat_693180608"
+  ],
+  "装备箭袋获得的加成提高 #%": [
+   "explicit.stat_1200678966"
+  ],
+  "地图首领掉落的物品数量提高 #%": [
+   "explicit.stat_3119172063"
+  ],
+  "战吼冷却回复速度提高 #%": [
+   "explicit.stat_4159248054"
+  ],
+  "战弩装填速度提高 #%": [
+   "explicit.stat_3192728503"
+  ],
+  "回复量提高 #%": [
+   "explicit.stat_700317374"
+  ],
+  "击中时使目标恍惚": [
+   "explicit.stat_2933846633",
+   "explicit.stat_3146310524",
+   "implicit.stat_2933846633"
+  ],
+  "伤害穿透 #% 火焰抗性": [
+   "explicit.stat_2653955271"
+  ],
+  "旗帜技能的持续时间提高 #%": [
+   "explicit.stat_2720982137"
+  ],
+  "锤类的伤害提高 #%": [
+   "explicit.stat_1181419800"
+  ],
+  "史实": [
+   "explicit.stat_3787436548"
+  ],
+  "渎灵词缀强度提高 #%": [
+   "explicit.stat_586037801"
+  ],
+  "旗帜技能的荣耀产生速度提高 #%": [
+   "explicit.stat_1869147066"
+  ],
+  "攻击击中有 #% 的几率致盲敌人": [
+   "explicit.stat_318953428"
+  ],
+  "地图首领提供的经验值提高 #%": [
+   "explicit.stat_3860150265"
+  ],
+  "来自你身体护甲的闪避值提高 #%": [
+   "explicit.stat_3509362078"
+  ],
+  "区域内惊悸迷雾的消散速度加快 #%": [
+   "explicit.stat_3350944114"
+  ],
+  "格挡几率提高 #% (区域)": [
+   "explicit.stat_2481353198"
+  ],
+  "智慧提高 #%": [
+   "explicit.stat_656461285"
+  ],
+  "敌人受到的点燃、感电和冰缓持续时间提高 #%": [
+   "explicit.stat_1062710370"
+  ],
+  "击退距离提高 #%": [
+   "explicit.stat_565784293"
+  ],
+  "激活咒符时，伤害提高 #%": [
+   "explicit.stat_627767961"
+  ],
+  "图腾的生命提高 #%": [
+   "explicit.stat_686254215"
+  ],
+  "你造成的流血强度提高 #%": [
+   "explicit.stat_3166958180"
+  ],
+  "锤类的晕眩积蓄提高 #%": [
+   "explicit.stat_872504239"
+  ],
+  "危害伤害提高 #%": [
+   "explicit.stat_1697951953"
+  ],
+  "#% 法术物理伤害提高": [
+   "explicit.stat_2768835289"
+  ],
+  "印记技能的施法速度提高 #%": [
+   "explicit.stat_4189061307"
+  ],
+  "品质上限 #%": [
+   "implicit.stat_275498888"
+  ],
+  "区域内会出现额外 # 个盗贼流放者": [
+   "explicit.stat_3550168289"
+  ],
+  "节杖的冻结积蓄值提高 #%": [
+   "explicit.stat_1697447343"
+  ],
+  "区域内在驱灵祭坛延时恩典消耗的贡品提高 #%": [
+   "explicit.stat_1345835998"
+  ],
+  "你地图中的惊悸迷雾永不消散": [
+   "explicit.stat_1084853859"
+  ],
+  "#% 元素抗性上限": [
+   "explicit.stat_1978899297",
+   "implicit.stat_1978899297"
+  ],
+  "# 智慧需求": [
+   "explicit.stat_2153364323"
+  ],
+  "你地图中的驱灵祭坛可以重置恩典的次数变为两倍": [
+   "explicit.stat_2500154144"
+  ],
+  "敏捷提高 #%": [
+   "explicit.stat_4139681126"
+  ],
+  "区域内的驱灵祭坛恩典消耗的贡品提高 #%": [
+   "explicit.stat_1228222525"
+  ],
+  "召唤生物获得相当于生命上限 #% 的能量护盾上限": [
+   "explicit.stat_943702197"
+  ],
+  "力量提高 #%": [
+   "explicit.stat_734614379"
+  ],
+  "持续时间提高 #% (咒符)": [
+   "explicit.stat_2541588185"
+  ],
+  "诅咒激活速度加快 #%": [
+   "explicit.stat_1104825894"
+  ],
+  "召唤生物有 #% 混沌抗性": [
+   "explicit.stat_3837707023"
+  ],
+  "获得相当于元素伤害 #% 的额外冰霜伤害": [
+   "explicit.stat_1158842087"
+  ],
+  "双重分叉造成暴击": [
+   "explicit.stat_1451444093"
+  ],
+  "此武器进行造成最后一击时有 #% 的几率获得猛攻": [
+   "explicit.stat_1881230714"
+  ],
+  "将范围升级为中型": [
+   "explicit.stat_3891355829|1"
+  ],
+  "触发技能有 #% 的几率返还消耗能量的一半": [
+   "explicit.stat_599320227"
+  ],
+  "招架伤害提高 #%": [
+   "explicit.stat_1569159338"
+  ],
+  "对护甲完全破损的敌人造成的伤害提高 #%": [
+   "explicit.stat_2301718443"
+  ],
+  "定身积蓄值提高 #%": [
+   "explicit.stat_3473929743"
+  ],
+  "强化攻击造成的伤害提高 #%": [
+   "explicit.stat_1569101201"
+  ],
+  "投射物击中地形时有 #% 的几率额外连锁一次": [
+   "explicit.stat_4081947835"
+  ],
+  "与在场的友军分享能量球": [
+   "explicit.stat_2535267021"
+  ],
+  "每秒获得 # 次充能": [
+   "explicit.stat_1873752457"
+  ],
+  "所有技能品质 #%": [
+   "explicit.stat_3655769732"
+  ],
+  "若你近期未被晕眩，晕眩阈值提高 #%": [
+   "explicit.stat_1405298142"
+  ],
+  "中毒持续时间提高 #%": [
+   "explicit.stat_2011656677"
+  ],
+  "残片收集距离延长 #%": [
+   "explicit.stat_3482326075"
+  ],
+  "在场的友军获得相当于伤害 #% 的额外混沌伤害": [
+   "explicit.stat_4258251165"
+  ],
+  "每个镶嵌的插槽使精魂 +#": [
+   "explicit.stat_4163415912"
+  ],
+  "击败区域内的稀有怪物使惊悸迷雾之镜的倒计时暂停 1 秒": [
+   "explicit.stat_2323782229"
+  ],
+  "所有火焰技能等级 #": [
+   "explicit.stat_599749213"
+  ],
+  "伤害型异常状态生效速度加快 #%": [
+   "explicit.stat_538241406"
+  ],
+  "你造成的冰缓强度提高 #%": [
+   "explicit.stat_828179689"
+  ],
+  "粉碎的护甲提高 #%": [
+   "explicit.stat_1776411443"
+  ],
+  "每个镶嵌的插槽使所有元素抗性 +#%": [
+   "explicit.stat_2593651571"
+  ],
+  "你的抗性上限为 #%": [
+   "explicit.stat_798767971"
+  ],
+  "地图首领掉落的引路石数量提高 #%": [
+   "explicit.stat_1457896329"
+  ],
+  "战吼的伤害提高 #%": [
+   "explicit.stat_1594812856"
+  ],
+  "被包围需要的敌人增加 # 名": [
+   "explicit.stat_2267564181"
+  ],
+  "区域内的驱灵祭坛上延时的恩典重现速度加快 #%": [
+   "explicit.stat_28208665"
+  ],
+  "在场的敌人获得相当于伤害 #% 的额外混沌伤害": [
+   "explicit.stat_1224838456"
+  ],
+  "生命回复率提高 #%": [
+   "explicit.stat_3240073117"
+  ],
+  "对你的击中的暴击伤害加成降低 #%": [
+   "explicit.stat_3855016469",
+   "implicit.stat_3855016469"
+  ],
+  "装填速度提高 #%": [
+   "explicit.stat_710476746"
+  ],
+  "# 力量和敏捷": [
+   "explicit.stat_538848803"
+  ],
+  "法术技能有 #% 的几率发射 2 个额外投射物": [
+   "explicit.stat_2910761524"
+  ],
+  "同时获得 # 防卫": [
+   "explicit.stat_2676834156"
+  ],
+  "区域内的驱灵祭坛再生怪物为稀有怪物的几率提高 #%": [
+   "explicit.stat_3979184174"
+  ],
+  "使用时回复 # 生命": [
+   "explicit.stat_2365392475"
+  ],
+  "未保留的生命全满时不移除效果": [
+   "explicit.stat_2932359713"
+  ],
+  "区域内的驱灵祭坛再生怪物为魔法怪物的几率提高 #%": [
+   "explicit.stat_1031644647"
+  ],
+  "该装备附加 # - # 基础混沌伤害": [
+   "explicit.stat_2223678961"
+  ]
+ },
+ "unmatched": [
+  {
+   "text": "+# 属性总和",
+   "reason": "no-match"
+  },
+  {
+   "text": "使用剩余 # 次（石板）",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内获取物品的稀有度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "在场范围提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内找到的金币数量提高 #% (金币堆)",
+   "reason": "no-match"
+  },
+  {
+   "text": "怪物的效能提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图上的怪物稀有度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内魔法怪物数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内稀有怪物数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内的经验值获取提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "召唤生物有 #% 元素抗性",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内找到的引路石数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "能量护盾充能时间提前 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内怪物群规模提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "怪物具有护甲",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含一个额外的稀有宝箱",
+   "reason": "no-match"
+  },
+  {
+   "text": "怪物的元素异常状态应用提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含神龛的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "该装备精魂提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "魔力在击败敌人时恢复 #% (珠宝)",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图有阿兹莫里之灵的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "召唤生物使用命令技能造成的伤害提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含精华的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含保险箱的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内的惊悸迷雾遭遇战生成传奇首领的几率总增 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含召唤法阵的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "镶嵌的增幅器物品效果提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的不稳定裂隙在稳定时会生成一个额外的稀有怪物",
+   "reason": "no-match"
+  },
+  {
+   "text": "变形时，技能速度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图裂隙中的怪物群落规模提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "变形时伤害提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内的梦魇拟像裂片堆叠数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内惊悸迷雾怪物的怪物群规模提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "法术的魔力消耗效能提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "全局护甲，闪避与能量护盾提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "区域中的惊悸迷雾使玩家的亢奋度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的惊悸迷雾使玩家的亢奋度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "你被冻结的持续时间降低 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "元素异常状态阈值提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "击中稀有和传奇敌人的伤害提高#%",
+   "reason": "no-match"
+  },
+  {
+   "text": "该区域会出现 # 个阿兹莫里之灵正在游荡",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含 # 个额外的阿兹莫里之灵",
+   "reason": "no-match"
+  },
+  {
+   "text": "召唤生物的不可移动积蓄值提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "植物技能的伤害提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图有盗贼流放者的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图拥有 # 个额外的随机词缀",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中稀有裂隙怪物的效能提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内获取物品的数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内的惊悸迷雾生成的破溃之镜数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内在驱灵祭坛重置恩典消耗的贡品提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "区域内包含一个召唤法阵",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含一个额外的召唤法阵",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内驱灵恩典为预兆的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "该区域包含一个额外的神龛",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含一个额外的神龛",
+   "reason": "no-match"
+  },
+  {
+   "text": "充能次数提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含 # 个额外的保险箱",
+   "reason": "no-match"
+  },
+  {
+   "text": "传奇怪物额外具有 # 个词缀",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图包含一个额外的精华",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中孕育赠礼的掉落数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中虫巢之血的掉落数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内的惊悸迷雾在消散前额外持续 # 秒",
+   "reason": "no-match"
+  },
+  {
+   "text": "在区域中的驱灵祭坛处献祭怪物提供的贡品提高#%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内在驱灵祭坛献祭怪物提供的贡品提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "你身上的减益消失速度加快 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "打击造成溅射伤害",
+   "reason": "no-match"
+  },
+  {
+   "text": "偏转击中无法造成轻度晕眩",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的不稳定裂隙在计时器填满后，会额外延迟一秒塌缩",
+   "reason": "no-match"
+  },
+  {
+   "text": "区域有 #% 的几率额外包含四个深渊",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图有 #% 的几率额外包含四个深渊",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的惊悸迷雾生成的破溃之镜碎片数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "被偏转命中伤害的 #% 在你承受之前，由你的可承伤伙伴的生命承受",
+   "reason": "no-match"
+  },
+  {
+   "text": "每损失 50 点能量护盾使偏转值 #",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的裂隙巢穴拥有一个额外的裂隙虫群怪物波次",
+   "reason": "no-match"
+  },
+  {
+   "text": "#% 的溢出几率发射一支额外箭矢",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的不稳定裂隙包含薛斯的元帅弗伦的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内惊悸迷雾消散速度加快 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "投射物分叉时，有 #% 的几率发射一个额外投射物",
+   "reason": "no-match"
+  },
+  {
+   "text": "该物品仅能镶嵌灵核",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中掉落的孕育赠礼有 #% 的几率高一级",
+   "reason": "no-match"
+  },
+  {
+   "text": "印记技能的技能效果持续时间提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内会出现 # 个额外的盗贼流放者",
+   "reason": "no-match"
+  },
+  {
+   "text": "已装备盾牌获得的护甲，闪避与能量护盾提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "召唤生物的打击造成近战溅射伤害",
+   "reason": "no-match"
+  },
+  {
+   "text": "击败敌人时有 #% 的几率获得一个能量球",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内在驱灵祭坛延时恩典消耗的贡品提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "使用技能时，每消耗一个连击，获得绝杀，持续 # 秒",
+   "reason": "no-match"
+  },
+  {
+   "text": "使用技能时，每消耗一个连击，获得 # 层 防卫，持续 0.5 秒",
+   "reason": "no-match"
+  },
+  {
+   "text": "被腐化宝石的技能将魔力消耗的 #% 转化为生命消耗",
+   "reason": "no-match"
+  },
+  {
+   "text": "在场有稀有或传奇敌人时，攻击速度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "深渊额外生成 # 个稀有怪物",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的深渊额外生成 # 个稀有怪物",
+   "reason": "no-match"
+  },
+  {
+   "text": "召唤生物伤害提高或降低，将同样作用于自身",
+   "reason": "no-match"
+  },
+  {
+   "text": "非吟唱法术额外消耗 #% 的生命上限",
+   "reason": "no-match"
+  },
+  {
+   "text": "有 #% 的几率使击中闪电伤害幸运",
+   "reason": "no-match"
+  },
+  {
+   "text": "后缀效果提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "击败地图内的稀有怪物使惊悸迷雾之镜的倒计时暂停 1 秒",
+   "reason": "no-match"
+  },
+  {
+   "text": "有 #% 的几率为地图增加一个瓦尔灯塔传奇怪物",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的深渊怪物带有深渊词缀的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "区域内的深渊巨坑有双倍几率有奖励",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的深渊巨坑有双倍几率有奖励",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的瓦尔灯塔附近的怪物群落规模提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内驱灵祭坛上延时的恩典重现速度加快 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "深渊生成的怪物数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图中的深渊生成的怪物数量提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "你造成的减益的减速强度提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内的驱灵祭坛再生怪物为稀有怪物的几率提高 #%",
+   "reason": "no-match"
+  },
+  {
+   "text": "地图内驱灵祭坛再生怪物为魔法怪物的几率提高 #%",
+   "reason": "no-match"
+  }
+ ]
+}

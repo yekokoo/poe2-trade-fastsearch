@@ -1,0 +1,39 @@
+{
+ "slug": "Waystones",
+ "cnName": "引路石",
+ "fetchedAt": "2026-09-17T07:31:40.873Z",
+ "bases": [
+  {
+   "slug": "Omen_of_Chaotic_Rarity",
+   "name": "混沌稀有预兆"
+  },
+  {
+   "slug": "Omen_of_Chaotic_Quantity",
+   "name": "混沌数量预兆"
+  },
+  {
+   "slug": "Omen_of_Chaotic_Monsters",
+   "name": "混沌怪物预兆"
+  },
+  {
+   "slug": "Omen_of_Chaotic_Effectiveness",
+   "name": "混沌效能预兆"
+  },
+  {
+   "slug": "Breach_Precursor_Tablet",
+   "name": "裂痕碑牌"
+  },
+  {
+   "slug": "Ritual_Precursor_Tablet",
+   "name": "祭祀碑牌"
+  },
+  {
+   "slug": "Delirium_Precursor_Tablet",
+   "name": "谵妄碑牌"
+  },
+  {
+   "slug": "Expedition_Precursor_Tablet",
+   "name": "探险碑牌"
+  }
+ ]
+}

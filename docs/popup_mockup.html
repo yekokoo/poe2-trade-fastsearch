@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POE2 速搜 · popup 新版布局</title>
+<style>
+:root{
+  --bg:#faf9f6; --panel:#ffffff; --border:#d8d6cd; --border2:#b8b6ad;
+  --tx:#2c2c2a; --tx2:#6b6a64; --tx3:#94938c;
+  --purple:#534AB7; --purple-bg:#EEEDFE;
+  --gold:#BA7517; --gold-bg:#FAEEDA;
+  --green:#0F6E56; --green-bg:#E1F5EE;
+  --red:#A32D2D; --red-bg:#FCEBEB;
+  --gray-bg:#F1EFE8; --gray-fg:#444441;
+  --blue:#0C447C; --blue-bg:#E6F1FB;
+  --amber:#633806; --amber-bg:#FAEEDA;
+  --radius:10px;
+  font-family:"Segoe UI","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#e9e8e2;display:flex;justify-content:center;align-items:flex-start;padding:24px;min-height:100vh}
+.phone{width:400px;background:var(--panel);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.07)}
+header{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid var(--border)}
+header .logo{font-weight:600;font-size:14px;color:var(--tx)}
+header .ver{font-size:11px;color:var(--tx3)}
+main{padding:10px 14px 14px;display:flex;flex-direction:column;gap:10px}
+
+/* tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:4px}
+.tab{padding:4px 10px;border:1px solid var(--border);border-radius:999px;font-size:12px;color:var(--tx2);cursor:pointer;background:var(--panel)}
+.tab.on{background:var(--purple);color:#fff;border-color:var(--purple)}
+.cats{display:flex;flex-wrap:wrap;gap:4px}
+.cat{padding:3px 8px;border:1px dashed var(--border2);border-radius:6px;font-size:11px;color:var(--tx2);cursor:pointer}
+.cat.on{border:1px solid var(--purple);color:var(--purple);background:var(--purple-bg);font-weight:600}
+
+.step-label{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.step-label .n{width:16px;height:16px;border-radius:50%;background:var(--purple);color:#fff;font-size:10px;display:flex;align-items:center;justify-content:center}
+.step-label .t{font-size:12px;font-weight:600;color:var(--tx)}
+.step-label .hint{margin-left:auto;font-size:10px;color:var(--tx3)}
+
+/* bases grid */
+.bases{display:flex;flex-wrap:wrap;gap:6px}
+.base{width:52px;text-align:center;cursor:pointer;padding:4px 2px;border:1px solid var(--border);border-radius:8px}
+.base img{width:36px;height:36px;object-fit:contain}
+.base .bn{font-size:10px;color:var(--tx2);line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.base.on{border:2px solid var(--gold);background:var(--gold-bg)}
+
+/* props table for selected base */
+.props{background:var(--gray-bg);border-radius:8px;padding:8px 10px;font-size:11px;color:var(--tx2);display:flex;flex-direction:column;gap:4px}
+.props .row{display:flex;align-items:center;gap:6px}
+.props .row .pl{flex:1}
+.props input{width:56px;padding:2px 5px;border:1px solid var(--border2);border-radius:4px;font-size:11px}
+
+/* affix list */
+.filters{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:6px}
+.fchip{padding:2px 8px;border-radius:999px;font-size:10px;border:1px solid var(--border);cursor:pointer;color:var(--tx2)}
+.fchip.on{color:#fff}
+.afx{display:flex;align-items:center;gap:6px;padding:6px 8px;border:1px solid var(--border);border-radius:8px;margin-bottom:5px;background:var(--panel)}
+.afx.pinned{border:2px solid var(--gold);background:var(--gold-bg);order:-1}
+.afx .chip{font-size:9px;padding:1px 5px;border-radius:4px;flex:none;font-weight:600}
+.afx .tmpl{flex:1;font-size:11px;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.afx select{max-width:74px;font-size:11px;padding:2px;border:1px solid var(--border2);border-radius:4px}
+.afx .mm{display:flex;flex-direction:column;gap:2px}
+.afx .mm input{width:54px;font-size:10px;padding:2px 4px;border:1px solid var(--border2);border-radius:4px}
+.afx .pin{width:22px;height:22px;border:1px solid var(--border2);border-radius:6px;background:var(--panel);cursor:pointer;font-size:11px;color:var(--tx3);display:flex;align-items:center;justify-content:center;flex:none}
+.afx.pinned .pin{background:var(--gold);color:#fff;border-color:var(--gold)}
+
+/* extras */
+.extras{display:flex;flex-wrap:wrap;gap:6px}
+.ext{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--tx2);padding:4px 8px;border:1px dashed var(--border2);border-radius:6px}
+.ext select{font-size:11px;padding:1px 4px}
+
+footer{padding:10px 14px 14px;border-top:1px solid var(--border);display:flex;gap:8px}
+footer .go{flex:1;background:var(--purple);color:#fff;border:none;border-radius:8px;padding:10px 0;font-size:13px;font-weight:600;cursor:pointer}
+footer .cp{border:1px solid var(--border2);border-radius:8px;padding:10px 12px;font-size:12px;color:var(--tx2);background:var(--panel);cursor:pointer}
+</style>
+</head>
+<body>
+<div class="phone">
+  <header><span class="logo">POE2 速搜</span><span class="ver">v0.2 · 0.5赛季库</span></header>
+  <main>
+    <!-- step1 tabs + cats -->
+    <div>
+      <div class="step-label"><span class="n">1</span><span class="t">分类</span></div>
+      <div class="tabs">
+        <span class="tab on">双手武器</span><span class="tab">单手武器</span><span class="tab">副手</span><span class="tab">护甲</span><span class="tab">饰品</span><span class="tab">腰带</span><span class="tab">药剂</span><span class="tab">引路石</span><span class="tab">珠宝</span><span class="tab">其他</span>
+      </div>
+      <div style="height:6px"></div>
+      <div class="cats"><span class="cat">弓类</span><span class="cat">长杖</span><span class="cat on">双手锤</span><span class="cat">双手剑</span><span class="cat">双手斧</span><span class="cat">节杖</span><span class="cat">战弩</span><span class="cat">魔符</span></div>
+    </div>
+    <!-- step2 bases -->
+    <div>
+      <div class="step-label"><span class="n">2</span><span class="t">基底</span><span class="hint">默认不选=不限基底</span></div>
+      <div class="bases">
+        <div class="base on"><img src="https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Basetypes/2HMace01.webp"><div class="bn">伐采巨棍</div></div>
+        <div class="base"><img src="https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Basetypes/2HMace02.webp"><div class="bn">橡木大锤</div></div>
+        <div class="base"><img src="https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Basetypes/2HMace03.webp"><div class="bn">战斗重锤</div></div>
+        <div class="base"><img src="https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Basetypes/2HMace04.webp"><div class="bn">教士重锤</div></div>
+        <div class="base"><img src="https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Basetypes/2HMace05.webp"><div class="bn">晨星锤</div></div>
+        <div class="base"><img src="https://cdn.poe2db.tw/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Basetypes/2HMace06.webp"><div class="bn">巨人重锤</div></div>
+      </div>
+      <div class="props" style="margin-top:6px">
+        <div class="row"><span class="pl">物理伤害 13–18</span><input placeholder="最小" value="15"><input placeholder="最大"></div>
+        <div class="row"><span class="pl">攻速 1.1/秒 · 暴击 5%</span><input placeholder="最小"><input placeholder="最大"></div>
+      </div>
+    </div>
+    <!-- step3 prefixes -->
+    <div>
+      <div class="step-label"><span class="n">3</span><span class="t">前缀</span><span class="hint">点★=必有（置顶金色），选T级自动填min/max</span></div>
+      <div class="filters">
+        <span class="fchip on" style="background:var(--gray-bg);color:var(--gray-fg)">基础 24</span>
+        <span class="fchip on" style="background:var(--green-bg);color:var(--green)">渎灵 9</span>
+        <span class="fchip on" style="background:var(--amber-bg);color:var(--amber)">合金 7</span>
+        <span class="fchip on" style="background:var(--purple-bg);color:var(--purple)">斯鲁德 2</span>
+        <span class="fchip off" style="background:var(--red-bg);color:var(--red);opacity:.55">瓦尔 3</span>
+      </div>
+      <div class="afx pinned"><span class="chip" style="background:var(--gray-bg);color:var(--gray-fg)">基础</span><span class="tmpl">物理伤害提高 #%</span><select><option>T2</option></select><div class="mm"><input value="90"><input value="129"></div><span class="pin">★</span></div>
+      <div class="afx pinned"><span class="chip" style="background:var(--amber-bg);color:var(--amber)">合金</span><span class="tmpl">攻击速度提高 #%</span><select><option>T1</option></select><div class="mm"><input value="7"><input value="9"></div><span class="pin">★</span></div>
+      <div class="afx"><span class="chip" style="background:var(--gray-bg);color:var(--gray-fg)">基础</span><span class="tmpl">火焰伤害提高 #%</span><select><option>—</option></select><div class="mm"><input placeholder="min"><input placeholder="max"></div><span class="pin">★</span></div>
+      <div class="afx"><span class="chip" style="background:var(--green-bg);color:var(--green)">渎灵</span><span class="tmpl">古加尔的…</span><select><option>—</option></select><div class="mm"><input placeholder="min"><input placeholder="max"></div><span class="pin">★</span></div>
+      <div class="afx"><span class="chip" style="background:var(--purple-bg);color:var(--purple)">斯鲁德</span><span class="tmpl">斯鲁德的…</span><select><option>—</option></select><div class="mm"><input placeholder="min"><input placeholder="max"></div><span class="pin">★</span></div>
+    </div>
+    <!-- step4 suffixes -->
+    <div>
+      <div class="step-label"><span class="n">4</span><span class="t">后缀</span><span class="hint">同前缀操作</span></div>
+      <div class="afx"><span class="chip" style="background:var(--gray-bg);color:var(--gray-fg)">基础</span><span class="tmpl">近战晕眩门槛突破基线 #%</span><select><option>—</option></select><div class="mm"><input placeholder="min"><input placeholder="max"></div><span class="pin">★</span></div>
+      <div class="afx pinned"><span class="chip" style="background:var(--gray-bg);color:var(--gray-fg)">基础</span><span class="tmpl">力量 +N</span><select><option>T3</option></select><div class="mm"><input value="25"><input value="34"></div><span class="pin">★</span></div>
+      <div class="afx"><span class="chip" style="background:var(--gray-bg);color:var(--gray-fg)">基础</span><span class="tmpl">敏捷 +N</span><select><option>—</option></select><div class="mm"><input placeholder="min"><input placeholder="max"></div><span class="pin">★</span></div>
+    </div>
+    <!-- step5 extras -->
+    <div>
+      <div class="step-label"><span class="n">5</span><span class="t">附加</span><span class="hint">该物品类型有才显示</span></div>
+      <div class="extras">
+        <div class="ext">腐化 <select><option>不限</option><option>已腐化</option><option>未腐化</option></select></div>
+        <div class="ext">圣化 <select><option>不限</option><option>已圣化</option><option>未圣化</option></select></div>
+        <div class="ext">插槽 <select><option>不限</option><option>2</option><option>3</option><option>4</option></select></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <button class="go">去市集填表</button>
+    <button class="cp">复制清单</button>
+  </footer>
+</div>
+</body>
+</html>

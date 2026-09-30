@@ -1,0 +1,52 @@
+# ===== data/ 大文件/中间产物 — 不推送 =====
+# 以下子目录全部排除
+data/backup/
+data/tmp/
+data/raw/
+data/parsed/
+data/elevateDir/
+data/evacuateDir/
+data/probe/
+data/maps/
+
+# data/ 顶层的中间产物（css/html/png/txt 都是抓取/构建中间文件）
+data/*.css
+data/*.html
+data/*.png
+data/*.txt
+data/*.log
+data/fetch_failures.json
+data/mods_db_v07_backup.json
+
+# ===== 交易首页/ 浏览器下载文件 =====
+交易首页/
+*.下载
+*.crdownload
+*.part
+
+# ===== 系统/编辑器/工具文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+node_modules/
+npm-debug.log*
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+*.zip
+*.7z
+*.tar.gz
+
+# workbuddy 内部（不推）
+.workbuddy/
+
+# ninja 原始抓取数据（chars/ 角色数据 + raw_*.json 中间产物，~20MB）
+# 只保留 links_*.json（构建链接索引，build_builds_db.js 要用）
+data/ninja/chars/
+data/ninja/raw_*.json

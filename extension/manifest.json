@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "POE2 市集速搜",
+  "version": "0.8.3",
+  "description": "流放之路2国服市集快速筛选：经典模式（部位/变体分类→基底→词缀块）+ 进阶模式（职业→升华→部位→点亮天梯前10构建流行装备与词条→一键填入）→ 自动填入并搜索",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://poe.game.qq.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "POE2 市集速搜"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup.html",
+        "data/builds_db.json",
+        "data/mods_db.json",
+        "data/stats_db.json",
+        "data/stat_mapping.json"
+      ],
+      "matches": [
+        "https://poe.game.qq.com/*"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://poe.game.qq.com/trade*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

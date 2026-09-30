@@ -1,0 +1,43 @@
+{
+ "slug": "Life_Flasks",
+ "cnName": "生命药剂",
+ "fetchedAt": "2026-09-17T07:31:35.872Z",
+ "bases": [
+  {
+   "slug": "Lesser_Life_Flask",
+   "name": "次级生命药剂"
+  },
+  {
+   "slug": "Medium_Life_Flask",
+   "name": "中型生命药剂"
+  },
+  {
+   "slug": "Greater_Life_Flask",
+   "name": "良质生命药剂"
+  },
+  {
+   "slug": "Grand_Life_Flask",
+   "name": "优质生命药剂"
+  },
+  {
+   "slug": "Giant_Life_Flask",
+   "name": "巨型生命药剂"
+  },
+  {
+   "slug": "Colossal_Life_Flask",
+   "name": "高阶生命药剂"
+  },
+  {
+   "slug": "Gargantuan_Life_Flask",
+   "name": "恢弘生命药剂"
+  },
+  {
+   "slug": "Transcendent_Life_Flask",
+   "name": "非凡生命药剂"
+  },
+  {
+   "slug": "Ultimate_Life_Flask",
+   "name": "终极生命药剂"
+  }
+ ]
+}

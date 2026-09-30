@@ -1,0 +1,47 @@
+{
+ "slug": "Quivers",
+ "cnName": "箭袋",
+ "fetchedAt": "2026-09-17T07:31:22.572Z",
+ "bases": [
+  {
+   "slug": "Broadhead_Quiver",
+   "name": "宽矢箭袋"
+  },
+  {
+   "slug": "Fire_Quiver",
+   "name": "火灵箭袋"
+  },
+  {
+   "slug": "Sacral_Quiver",
+   "name": "圣骨箭袋"
+  },
+  {
+   "slug": "Blunt_Quiver",
+   "name": "钝矢箭袋"
+  },
+  {
+   "slug": "Toxic_Quiver",
+   "name": "淬毒箭袋"
+  },
+  {
+   "slug": "Serrated_Quiver",
+   "name": "锯齿箭袋"
+  },
+  {
+   "slug": "Primed_Quiver",
+   "name": "精工箭袋"
+  },
+  {
+   "slug": "Penetrating_Quiver",
+   "name": "穿射箭袋"
+  },
+  {
+   "slug": "Volant_Quiver",
+   "name": "飞矢箭袋"
+  },
+  {
+   "slug": "Visceral_Quiver",
+   "name": "贯心箭袋"
+  }
+ ]
+}

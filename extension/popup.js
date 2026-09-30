@@ -1,0 +1,1305 @@
+/** popup.js — POE2 市集速搜（市集页内 80% 悬浮面板）
+ * 流程：一级 tab（10 组）→ 二级 tab（分类/部位）→ 三级 tab（属性变体，默认全不选=不区分，
+ * 仅护甲/副手/其他·遗物有）→ 基底可选（暗金金色置底）→ 词缀过滤块（前缀/后缀/瓦尔/特殊
+ * 从上到下，每块「+ 增加状态过滤器」加行：生效框 + 词缀下拉（按来源归类）+ T级（默认空，
+ * 选中后自动填数值范围）+ 最小/最大值 + ×删除）→ 附加条件 → 填入当前市集页并搜索。
+ * 数据：mods_db.json（词缀/T 级/基底/暗金/面板属性） + stat_mapping.json + stats_db.json（官方 stat_id）。
+ */
+let DB = null, STATMAP = null, STATS = null;
+
+const state = {
+  group: null, slug: null,
+  sub: null, variant: null,  // 二级（部位）/ 三级（属性变体）tab 选中项
+  query: '',
+  rows: {},                 // slug -> { prefix:[], suffix:[], corrupted:[], special:[], unique:[] }
+};
+
+const $ = (s) => document.querySelector(s);
+
+/* ---------- 来源 meta（下拉分组显示名，色取市集 mutate-type） ---------- */
+const SRC_META = {
+  implicit:   { label: '基底（固有）' },
+  base:       { label: '基础' },
+  desecrated: { label: '渎灵' },
+  alloy:      { label: '合金' },
+  destruction:{ label: '斯鲁德' },
+  essence:    { label: '精华' },
+  corrupted:  { label: '瓦尔' },
+};
+/* 词缀块：从上到下（基底固有排最前 —— 先定基底词缀再看前后缀） */
+const BLOCKS = [
+  { ps: 'implicit',  label: '基底' },
+  { ps: 'prefix',    label: '前缀' },
+  { ps: 'suffix',    label: '后缀' },
+  { ps: 'corrupted', label: '瓦尔' },
+  { ps: 'special',   label: '特殊' },
+];
+
+/* ---------- 二级→三级 tab 映射（部位分类，来自用户实际分类习惯） ----------
+ * key = 组名，value = { 部位名: [baseSlug…，最后一个可含变体] }
+ * 护甲：手套/鞋子/胸甲/头盔，各部位下再按属性变体分（力量/敏捷/…）
+ * 副手：箭袋/盾牌/轻盾/法器，仅盾牌有属性变体
+ * 其他：遗物（遗物下再按器型分）
+ */
+const SUB_MAP = {
+  '护甲': [
+    { name: '手套', baseSlug: 'Gloves' },
+    { name: '鞋子', baseSlug: 'Boots' },
+    { name: '护甲', baseSlug: 'Body_Armours' },
+    { name: '头盔', baseSlug: 'Helmets' },
+  ],
+  '副手': [
+    { name: '箭袋', baseSlug: 'Quivers' },
+    { name: '盾牌', baseSlug: 'Shields' },
+    { name: '轻盾', baseSlug: 'Bucklers' },
+    { name: '法器', baseSlug: 'Foci' },
+  ],
+  '其他': [
+    { name: '遗物', baseSlug: 'Relics' },
+  ],
+};
+/* 属性变体固定顺序（三级 tab 排序用） */
+const VARIANT_ORDER = ['力量', '敏捷', '敏智', '智慧', '力敏', '力智', '全属性'];
+
+/* 部位显示名（baseSlug → 部位名，合并视图 cnName 用） */
+const SUB_LABEL = {};
+Object.values(SUB_MAP).flat().forEach((s) => { SUB_LABEL[s.baseSlug] = s.name; });
+
+/* 合并视图缓存：三级不选（不区分）时 = 部位下全部变体的并集 */
+const VIRTUAL = {};
+function mergedCat(baseSlug) {
+  const parts = DB.categories.filter((c) => c.baseSlug === baseSlug);
+  if (!parts.length) return null;
+  if (parts.length === 1) return parts[0];
+  const slug = baseSlug + '_any';
+  if (!VIRTUAL[slug]) {
+    // 词缀并集：同 id 取首个；首个无官方对齐则用后有对齐那条补
+    const amap = new Map();
+    parts.forEach((c) => c.affixGroups.forEach((g) => {
+      const prev = amap.get(g.id);
+      if (!prev) amap.set(g.id, { ...g });
+      else if (!(prev.statIds || []).length && (g.statIds || []).length) {
+        prev.statIds = g.statIds;
+        prev.officialText = g.officialText || prev.officialText;
+      }
+    }));
+    // 基底并集：普通按「名称」去重（同名基底填入市集的字符串一致，重复项纯属噪音；
+    // 跨变体同名合并后标注全部来源变体，如 隐士束衣（敏捷/智慧）= Hermit_Garb + Anchorite_Garb）；
+    // 暗金按「名字 类型」(text) 去重 —— 同一暗金在每个变体分类里 slug 不同（U_244~U_249），
+    // 按 slug 去重会重复 6~7 份，而同名暗金跨变体的固定词条完全一致，按 text 合并为一条即可。
+    // 普通基底同 slug 跨变体合并时不标变体（每个变体分类里都有，标注无信息量）；
+    // 仅同名不同 slug 的（如 隐士束衣=Hermit_Garb/Anchorite_Garb）才标来源变体供区分。
+    const bmap = new Map();
+    const umap = new Map();
+    parts.forEach((c) => (c.bases || []).forEach((b) => {
+      if (b.unique) {
+        const prev = umap.get(b.text);
+        if (!prev) umap.set(b.text, { ...b });
+        else if ((b.mods || []).length > (prev.mods || []).length) umap.set(b.text, { ...b });
+      } else {
+        const prev = bmap.get(b.name);
+        if (!prev) bmap.set(b.name, { ...b, _variants: [c.variant], _slugs: [b.slug] });
+        else {
+          if (!prev._variants.includes(c.variant)) prev._variants.push(c.variant);
+          if (!prev._slugs.includes(b.slug)) prev._slugs.push(b.slug);
+        }
+      }
+    }));
+    bmap.forEach((b) => {
+      // 同名不同基底才标注；但覆盖全部变体时标注无信息量（如 隐士束衣 7 变体全有），不标
+      const fullCover = b._variants.length >= parts.length;
+      b._variant = b._slugs.length > 1 && !fullCover ? b._variants.join('/') : null;
+      delete b._variants;
+      delete b._slugs;
+    });
+    VIRTUAL[slug] = {
+      slug, baseSlug, variant: null,
+      cnName: SUB_LABEL[baseSlug] || parts[0].baseSlug,
+      group: parts[0].group,
+      affixGroups: [...amap.values()],
+      bases: [...bmap.values(), ...umap.values()],
+      socketable: parts.some((c) => c.socketable),
+    };
+  }
+  return VIRTUAL[slug];
+}
+
+/* ---------- 工具 ---------- */
+let rowSeq = 0;
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+function catById(slug) { return DB.categories.find((c) => c.slug === slug) || VIRTUAL[slug] || null; }
+/** 当前选中的基底对象（含 unique 标记），未选返回 null */
+function selectedBaseObj() {
+  const cat = catById(state.slug);
+  const v = $('#baseSel').value;
+  if (!v || !cat) return null;
+  return (cat.bases || []).find((b) => (b.unique ? b.text : b.name) === v) || null;
+}
+function rowsFor(slug = state.slug) {
+  if (!state.rows[slug]) state.rows[slug] = { implicit: [], prefix: [], suffix: [], corrupted: [], special: [], unique: [] };
+  return state.rows[slug];
+}
+function officialTextOf(statId) {
+  const s = STATS.stats.find((x) => x.id === statId);
+  return s ? s.text : null;
+}
+
+/* ---------- 初始化 ---------- */
+/** 数据路径：扩展环境用 getURL（chrome-extension://…）；直接打开时按候选路径探测 */
+function dataURL(p) {
+  try {
+    if (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.getURL) return chrome.runtime.getURL(p);
+  } catch (_) {}
+  const name = p.replace(/^data\//, '');
+  return '../extension/data/' + name; // 相对 extension/ 目录（http 直开 popup.html 场景）
+}
+async function fetchDB(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.json();
+}
+async function init() {
+  try {
+    DB = await fetchDB(dataURL('data/mods_db.json'));
+  } catch (e) {
+    $('#dbInfo').textContent = '数据加载失败：请通过扩展面板或项目根目录的 demo 查看';
+    return;
+  }
+  try { STATMAP = await fetchDB(dataURL('data/stat_mapping.json')); } catch (_) { STATMAP = {}; }
+  try {
+    STATS = await fetchDB(dataURL('data/stats_db.json'));
+  } catch (_) { STATS = { stats: [] }; }
+
+  $('#dbInfo').textContent = `词缀库 v${DB.version} · ${DB.categories.length} 分类`;
+
+  // 一级 tab：10 组，固定顺序
+  const order = ['单手武器', '双手武器', '副手', '护甲', '饰品', '腰带', '药剂', '引路石', '珠宝', '其他'];
+  const groups = {};
+  DB.categories.forEach((c) => { (groups[c.group] = groups[c.group] || []).push(c); });
+  const gt = $('#groupTabs');
+  order.filter((g) => groups[g]).forEach((g, i) => {
+    const t = document.createElement('span');
+    t.className = 'tab' + (i === 0 ? ' active' : '');
+    t.textContent = g;
+    t.onclick = () => {
+      gt.querySelectorAll('.tab').forEach((x) => x.classList.remove('active'));
+      t.classList.add('active');
+      state.group = g;
+      renderCatTabs(groups);
+    };
+    gt.appendChild(t);
+  });
+  state.group = order.find((g) => groups[g]) || Object.keys(groups)[0];
+  renderCatTabs(groups);
+
+  $('#affixSearch').oninput = (e) => { state.query = e.target.value.trim(); renderBlocks(); };
+  $('#baseSel').onchange = () => { renderBlocks(); };
+  $('#goBtn').onclick = onGo;
+  $('#closeBtn').onclick = () => { try { window.parent.postMessage({ type: 'P2_CLOSE_PANEL' }, '*'); } catch (_) {} };
+  renderBlocks();
+}
+
+/** 二级 tab：当前组下的分类（有 SUB_MAP 的组按部位聚合显示）
+ * 返回选中分类的 slug（普通组 = 首个分类；部位组 = 由 renderSubTabs 决定）
+ */
+function renderCatTabs(groups) {
+  const ct = $('#catTabs');
+  ct.innerHTML = '';
+  const cats = groups[state.group] || [];
+  state.sub = null; state.variant = null;
+
+  if (SUB_MAP[state.group]) {
+    // 按部位聚合：tab 名 = 部位名，后面标基底总数
+    state.sub = SUB_MAP[state.group][0].name;
+    SUB_MAP[state.group].forEach((sub) => {
+      const total = mergedCat(sub.baseSlug)?.bases.length ||
+        cats.filter((c) => c.baseSlug === sub.baseSlug).reduce((n, c) => n + (c.bases || []).length, 0);
+      const t = document.createElement('span');
+      t.className = 'tab';
+      t.innerHTML = `${sub.name}<span class="n">${total}</span>`;
+      t.title = `${sub.name}（共 ${total} 个基底）`;
+      t.onclick = () => {
+        ct.querySelectorAll('.tab').forEach((x) => x.classList.remove('active'));
+        t.classList.add('active');
+        state.sub = sub.name;
+        renderSubTabs(cats, sub);
+      };
+      ct.appendChild(t);
+    });
+    ct.firstChild.classList.add('active');
+    const first = SUB_MAP[state.group][0];
+    renderSubTabs(cats, first);
+    return null;
+  }
+  // 普通组：tab 即分类（分类名去掉组前缀）
+  const shortName = (c) => c.cnName.replace(state.group + '·', '') || c.cnName;
+  cats.forEach((c) => {
+    const t = document.createElement('span');
+    t.className = 'tab';
+    t.textContent = shortName(c);
+    t.title = c.cnName;
+    t.onclick = () => {
+      ct.querySelectorAll('.tab').forEach((x) => x.classList.remove('active'));
+      t.classList.add('active');
+      state.slug = c.slug;
+      renderBaseSel();
+      renderBlocks();
+    };
+    ct.appendChild(t);
+  });
+  state.slug = cats[0] ? cats[0].slug : null;
+  renderBaseSel();
+  renderBlocks();
+  return state.slug;
+}
+
+/** 三级 tab：部位下的属性变体。默认「不区分」选中 = 部位下全部变体合并视图 */
+function renderSubTabs(cats, sub) {
+  const st = $('#subTabs');
+  st.innerHTML = '';
+  state.variant = null;
+
+  const part = cats.filter((c) => c.baseSlug === sub.baseSlug);
+  // 唯一分类（箭袋/轻盾/法器）无变体：直接选定，隐藏三级行
+  if (part.length <= 1) {
+    st.classList.remove('show');
+    state.slug = part[0] ? part[0].slug : null;
+    renderBaseSel();
+    renderBlocks();
+    return;
+  }
+  part.sort((a, b) => {
+    const ia = VARIANT_ORDER.indexOf(a.variant), ib = VARIANT_ORDER.indexOf(b.variant);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  });
+
+  const setTab = (el, apply) => {
+    [...st.children].forEach((x) => x.classList.remove('active'));
+    el.classList.add('active');
+    apply();
+    renderBaseSel();
+    renderBlocks();
+  };
+  // 「不区分」（默认选中）：合并全部变体
+  const any = document.createElement('span');
+  any.className = 'tab active';
+  any.textContent = '不区分';
+  any.onclick = () => setTab(any, () => {
+    state.variant = null;
+    state.slug = mergedCat(sub.baseSlug).slug;
+  });
+  st.appendChild(any);
+  // 各变体（带基底数角标）
+  part.forEach((c) => {
+    const t = document.createElement('span');
+    t.className = 'tab';
+    t.innerHTML = `${c.variant}<span class="n">${(c.bases || []).length}</span>`;
+    t.title = `${sub.name}·${c.variant}（${(c.bases || []).length} 个基底）`;
+    t.onclick = () => setTab(t, () => {
+      state.variant = c.variant;
+      state.slug = c.slug;
+    });
+    st.appendChild(t);
+  });
+
+  st.classList.add('show');
+  state.slug = mergedCat(sub.baseSlug).slug;
+  renderBaseSel();
+  renderBlocks();
+}
+
+/** 基底下拉（可选，默认不限）。
+ * Opt1：普通基底在上（按等级升序），暗金（unique）在下、金色标注「◆ 名字」。
+ * Opt3：普通基底展示基础面板（护甲/闪避/ES/物理伤害等）+ 需求 + 固有词缀。 */
+function renderBaseSel() {
+  const cat = catById(state.slug);
+  const sel = $('#baseSel');
+  sel.innerHTML = '<option value="">不限基底（推荐）</option>';
+  const isMerged = !!(cat && cat.variant === null && cat.slug.endsWith('_any'));
+  let bases = (cat?.bases || []).slice();
+  // 同 value 兜底去重：填入市集的字符串（普通=name、暗金=text）相同即重复选项，保留 mods 更多那条
+  {
+    const seen = new Map();
+    bases.forEach((b) => {
+      const v = b.unique ? (b.text || b.name) : b.name;
+      const prev = seen.get(v);
+      if (!prev) seen.set(v, b);
+      else if ((b.mods || []).length > (prev.mods || []).length) seen.set(v, b);
+    });
+    bases = [...seen.values()];
+  }
+  // 普通在前（等级升序），暗金在后（名称排序）
+  const norm = bases.filter((b) => !b.unique).sort((a, b) => (a.level || 0) - (b.level || 0));
+  const uniq = bases.filter((b) => b.unique).sort((a, b) => a.text.localeCompare(b.text, 'zh'));
+  const panelTxt = (b) => {
+    const p = b.panel || (b.props && (b.props.main ? b.props : (Object.keys(b.props).length ? b.props : null)));
+    if (!p) return '';
+    const main = (p.main || []).join(' / ');
+    return main ? ` · ${main}` : '';
+  };
+  const optFor = (b) => {
+    const o = document.createElement('option');
+    o.value = b.unique ? (b.text || `${b.name}`) : b.name; // 暗金填「名字 类型」供市集精确搜索
+    const imp = b.props && b.props.implicit ? ` · ${b.props.implicit}` : '';
+    const vt = isMerged && b._variant ? `（${b._variant}）` : '';
+    // 所见即所填：暗金下拉文本 = 填入市集的字符串（◆ 前缀仅为标记，value 严格一致）
+    o.textContent = b.unique
+      ? `◆ ${b.text || b.name}`
+      : `${b.name}${vt}${b.level ? ` (L${b.level})` : ''}${panelTxt(b)}${imp}`;
+    if (b.unique) o.className = 'unique-opt';
+    return o;
+  };
+  norm.forEach((b) => sel.appendChild(optFor(b)));
+  if (uniq.length) {
+    const og = document.createElement('optgroup');
+    og.label = `— 暗金（${uniq.length}）—`;
+    uniq.forEach((b) => og.appendChild(optFor(b)));
+    sel.appendChild(og);
+  }
+}
+
+/* ---------- 词缀过滤块 ---------- */
+/** 基底固有词缀自动填值：面板文本里数值固定（如「+(10—15) 精魂」「移动速度提高 10%」），
+ * 选中后直接填入最小/最大，省去手填。
+ * 规则：官方模板含 # 才有数值可填 → 面板文本取值：
+ *   区间「x—y」→ min/max；「x - y」（双 # 模板）→ min/max；单值 → min=max。
+ * 无 # 模板（击中时使目标恍惚、溅射等布尔筛项）不填。 */
+function implicitAutoFill(panelText, officialText) {
+  if (!panelText || !officialText || !officialText.includes('#')) return null;
+  const range = panelText.match(/[+（(]?(-?[\d.]+)\s*[—~到]\s*(-?[\d.]+)/);
+  if (range) return { min: Number(range[1]), max: Number(range[2]) };
+  const dash = panelText.match(/(-?[\d.]+)\s*-\s*(-?[\d.]+)/);
+  if (dash && (officialText.match(/#/g) || []).length >= 2) {
+    return { min: Number(dash[1]), max: Number(dash[2]) };
+  }
+  const nums = panelText.match(/-?[\d.]+/g);
+  if (!nums || !nums.length) return null;
+  const v = Number(nums[0]);
+  return Number.isNaN(v) ? null : { min: v, max: v };
+}
+
+function renderBlocks() {
+  // 焦点保持：搜索框触发重渲染时恢复焦点与光标
+  let keepId = null, keepPos = 0;
+  const ae = document.activeElement;
+  if (ae && ae.id === 'affixSearch') {
+    keepId = ae.id;
+    try { keepPos = ae.selectionStart; } catch (_) {}
+  }
+
+  const cat = catById(state.slug);
+  const box = $('#affixBlocks');
+  box.innerHTML = '';
+  buildExtras();
+  if (!cat) { updateGo(); return; }
+
+  // 暗金：词缀区切换为「固定词条」模式 —— 自动带出该暗金的全部固定词条（数值留空待填）
+  const ub = selectedBaseObj();
+  if (ub?.unique) {
+    renderUniqueBlocks(ub, keepId, keepPos);
+    return;
+  }
+
+  // 无词缀分类：不渲染过滤块，只提示选基底
+  if (!cat.affixGroups.length) {
+    box.innerHTML = '<div class="no-affix-hint">该分类没有词缀，选择基底后直接搜索即可。</div>';
+    updateGo();
+    if (keepId) {
+      const el = $('#' + keepId);
+      if (el) { el.focus(); try { el.setSelectionRange(keepPos, keepPos); } catch (_) {} }
+    }
+    return;
+  }
+
+  const rows = rowsFor();
+  const visibleBlocks = [];   // 实际渲染的块（空块隐藏后 DOM 索引 ≠ BLOCKS 索引）
+  for (const b of BLOCKS) {
+    // 池子：本块 preSuf + 搜索过滤（词缀的排序归类来排：按来源 optgroup）
+    let pool = cat.affixGroups.filter((g) => g.preSuf === b.ps);
+    if (state.query) {
+      const q = state.query.toLowerCase();
+      pool = pool.filter((g) =>
+        g.template.toLowerCase().includes(q) ||
+        g.text.toLowerCase().includes(q) ||
+        (g.officialText || '').toLowerCase().includes(q));
+    }
+
+    // 空块隐藏：该块无词缀且无已加行（如无固有词缀的分类不显示「基底」空卡）
+    if (!pool.length && !rows[b.ps].length) continue;
+    visibleBlocks.push(b);
+
+    const block = document.createElement('div');
+    block.className = 'filter-block' + (b.ps === 'implicit' ? ' implicit-block' : '');
+    const head = document.createElement('div');
+    head.className = 'filter-block-header';
+    head.innerHTML = `<span class="filter-title">${b.label}</span><span class="cnt">(${pool.length})</span>`;
+    block.appendChild(head);
+
+    rows[b.ps].forEach((r) => block.appendChild(renderRow(cat, b, r, pool)));
+
+    const add = document.createElement('button');
+    add.type = 'button';
+    add.className = 'add-filter-btn';
+    add.textContent = '+ 增加状态过滤器';
+    add.onclick = () => {
+      rows[b.ps].push({ id: ++rowSeq, enabled: true, groupId: '', tier: null, min: null, max: null });
+      renderBlocks();
+      // 新行聚焦到词缀下拉，直接可搜（按可见块定位）
+      const domBlocks = $('#affixBlocks').querySelectorAll('.filter-block');
+      const vi = visibleBlocks.indexOf(b);
+      const thisBlock = domBlocks[vi === -1 ? domBlocks.length - 1 : vi];
+      const sel = thisBlock?.querySelectorAll('.filter-row .affix-sel');
+      sel && sel[sel.length - 1]?.focus();
+    };
+    block.appendChild(add);
+    box.appendChild(block);
+  }
+  updateGo();
+
+  if (keepId) {
+    const el = $('#' + keepId);
+    if (el) { el.focus(); try { el.setSelectionRange(keepPos, keepPos); } catch (_) {} }
+  }
+}
+
+/** 暗金固定词条：自动带出该暗金的全部词条（数值留空由用户填写）。
+ * v0.6.3 反馈③：基底（固有词缀，市集「基底」组下拉）单独分块，与词条（外延）分开。
+ * 块序：◆ 基底 → ◆ 词条 → ◆ 不可筛选（灰行，如获得技能）。
+ * 行结构复用 state.rows[slug].unique；row.groupId 置空，row.uidx = 词条索引。
+ * - 可筛词条（有官方对齐）：正常展示，填表时带官方文本选中下拉
+ * - 不可筛词条（获得技能/内部词条等）：下拉换成不可编辑文本，默认停用，随搜索一并提示 */
+function renderUniqueBlocks(ub, keepId, keepPos) {
+  const box = $('#affixBlocks');
+  const rows = rowsFor();
+  const mods = ub.mods || [];
+  const { base, word, unpick } = splitUniqueMods(mods);
+
+  if (!rows.unique) rows.unique = [];
+  const urows = rows.unique;
+  // 词条变了（换暗金/首次）：按 mods 重建行；已有行保留勾选与数值
+  if (urows._key !== ub.text) {
+    const prev = new Map(urows.filter((r) => r.uidx != null).map((r) => [r.uidx, r]));
+    urows.length = 0;
+    mods.forEach((m, i) => {
+      const old = prev.get(i);
+      urows.push({
+        id: old ? old.id : ++rowSeq,
+        enabled: old ? old.enabled : !!(m.s && m.s.length), // 可筛默认启用，不可筛默认停用
+        uidx: i, groupId: '', tier: null,
+        min: old ? old.min : null, max: old ? old.max : null,
+      });
+    });
+    urows._key = ub.text;
+  }
+
+  const mkBlock = (title, items, opts = {}) => {
+    if (!items.length && !opts.showEmpty) return null;
+    const blk = document.createElement('div');
+    blk.className = 'filter-block unique-block-' + opts.cls;
+    const head = document.createElement('div');
+    head.className = 'filter-block-header';
+    head.innerHTML = `<span class="filter-title">${title}</span>` +
+      `<span class="cnt">(${items.length} 条${opts.hint ? ' · ' + opts.hint : ''})</span>`;
+    blk.appendChild(head);
+    items.forEach(({ m, i }) => {
+      const r = urows.find((x) => x.uidx === i);
+      if (r) blk.appendChild(renderUniqueRow(r, m));
+    });
+    return blk;
+  };
+
+  // 基底块在最上（固有词缀先筛），词条块次之，不可筛最后（灰行展示）
+  const blocks = [
+    mkBlock('◆ 基底（固有）', base, { cls: 'base', hint: '市集「基底」组' }),
+    mkBlock('◆ 词条', word, { cls: 'word' }),
+    mkBlock('不可筛选', unpick, { cls: 'unpick', hint: '官方下拉无此项' }),
+  ].filter(Boolean);
+
+  const tip = document.createElement('div');
+  tip.className = 'unique-tip';
+  tip.textContent = '词条自动带出，填写需要的数值（留空 = 不限）；灰行为官方无法筛选的词条（如获得技能）。';
+  if (blocks.length) blocks[blocks.length - 1].appendChild(tip);
+  else {
+    // 无任何词条块（如未完成的暗金/官方暂无数据）：给占位提示，避免空面板与 blocks[-1] 崩溃
+    const empty = document.createElement('div');
+    empty.className = 'no-affix-hint';
+    empty.textContent = '该暗金暂无词条数据（未完成或官方未收录），选基底直接搜索即可。';
+    box.appendChild(empty);
+  }
+
+  blocks.forEach((b) => box.appendChild(b));
+  updateGo();
+  if (keepId) {
+    const el = $('#' + keepId);
+    if (el) { el.focus(); try { el.setSelectionRange(keepPos, keepPos); } catch (_) {} }
+  }
+}
+
+/** 暗金词条行：[✓] [词条文本/官方文本] [固/词] [最小] [最大] [×]
+ * 不可筛词条（无官方对齐）：生效框禁用、无数值框 */
+function renderUniqueRow(r, m) {
+  const pickable = !!(m.s && m.s.length);
+  const div = document.createElement('div');
+  div.className = 'filter-row' + (r.enabled ? '' : ' off') + (pickable ? '' : ' unpickable');
+
+  // 生效框
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.checked = r.enabled;
+  cb.disabled = !pickable;
+  cb.title = pickable ? '启用/停用该词条筛选' : '该词条官方市集无法筛选，仅作展示';
+  cb.onchange = () => {
+    r.enabled = cb.checked;
+    div.classList.toggle('off', !r.enabled);
+    updateGo();
+  };
+
+  // 词条文本（展示 poe2db 原文；title 提示官方下拉文本）
+  const name = document.createElement('span');
+  name.className = 'u-mod-name';
+  name.textContent = m.text;
+  if (m.o) name.title = `市集下拉：${m.o}\n数值留空 = 只筛词条存在`;
+
+  // 类型标记：基=基底（固有，市集「基底」组）/ 词=词条（外延）。
+  // 不可筛词条无 t 字段，回退按 kind 判断
+  const isImp = m.t ? m.t === 'implicit' : m.kind === 'implicit';
+  const tag = document.createElement('span');
+  tag.className = 'u-tag' + (isImp ? ' u-imp' : '');
+  tag.textContent = isImp ? '基' : '词';
+
+  if (pickable) {
+    const min = document.createElement('input');
+    min.type = 'number';
+    min.className = 'u-num';
+    min.placeholder = '最小';
+    min.value = r.min == null ? '' : r.min;
+    min.oninput = () => { r.min = min.value === '' ? null : Number(min.value); updateGo(); };
+    const max = document.createElement('input');
+    max.type = 'number';
+    max.className = 'u-num';
+    max.placeholder = '最大';
+    max.value = r.max == null ? '' : r.max;
+    max.oninput = () => { r.max = max.value === '' ? null : Number(max.value); updateGo(); };
+    div.append(cb, name, tag, min, max);
+  } else {
+    div.append(cb, name, tag);
+  }
+
+  // × 删除（仅隐藏本行：enabled=false 且不参与填表；重新选基底恢复）
+  const del = document.createElement('span');
+  del.className = 'row-del';
+  del.textContent = '×';
+  del.title = '停用并隐藏此词条';
+  del.onclick = () => {
+    r.enabled = false;
+    div.classList.add('off', 'hidden-row');
+    updateGo();
+  };
+  div.append(del);
+  return div;
+}
+
+/** 一行过滤器（普通词缀）：[✓生效] [词缀下拉] [T级下拉] [最小] [最大] [×]
+ * Opt2：选中 T 级后自动填入该级数值范围（min/max 可再手改） */
+function renderRow(cat, b, r, pool) {
+  const div = document.createElement('div');
+  div.className = 'filter-row' + (r.enabled ? '' : ' off');
+
+  // 生效框（跟官网一致：最前面，停用置灰）
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.checked = r.enabled;
+  cb.title = '启用/停用该过滤器';
+  cb.onchange = () => {
+    r.enabled = cb.checked;
+    div.classList.toggle('off', !r.enabled);
+    updateGo();
+  };
+
+  // 词缀下拉（名称常在；选项按来源分组，组内按模板排序）
+  const bySrc = {};
+  pool.forEach((g) => { (bySrc[g.source] = bySrc[g.source] || []).push(g); });
+  Object.values(bySrc).forEach((arr) => arr.sort((a, b) => a.template.localeCompare(b.template, 'zh')));
+  const sel = document.createElement('select');
+  sel.className = 'affix-sel';
+  sel.innerHTML = '<option value="">选择词缀…</option>';
+  const addOpt = (g) => {
+    const o = document.createElement('option');
+    o.value = g.id;
+    o.textContent = g.text;
+    if (g._noTrade) {
+      o.disabled = true;
+      o.textContent += '（市集已无此筛选项）';
+    }
+    return o;
+  };
+  Object.keys(SRC_META).forEach((s) => {
+    if (!bySrc[s]) return;
+    const og = document.createElement('optgroup');
+    og.label = SRC_META[s].label;
+    bySrc[s].forEach((g) => og.appendChild(addOpt(g)));
+    sel.appendChild(og);
+  });
+  // 已选词缀即使被搜索过滤掉也保留在选项里
+  if (r.groupId && !sel.querySelector(`option[value="${CSS.escape(r.groupId)}"]`)) {
+    const g = cat.affixGroups.find((x) => x.id === r.groupId);
+    if (g) {
+      const og = document.createElement('optgroup');
+      og.label = (SRC_META[g.source] || {}).label || g.source;
+      og.appendChild(addOpt(g));
+      sel.appendChild(og);
+    }
+  }
+  sel.value = r.groupId || '';
+  sel.onchange = () => {
+    r.groupId = sel.value || '';
+    r.tier = null; r.min = null; r.max = null;
+    // 基底固有：数值固定在文本里，选中后直接填入，省去手填
+    if (b.ps === 'implicit' && r.groupId) {
+      const gi = cat.affixGroups.find((x) => x.id === r.groupId);
+      const v = implicitAutoFill(gi && gi.text, gi && gi.officialText);
+      if (v) { r.min = v.min; r.max = v.max; }
+    }
+    renderBlocks();
+  };
+
+  // T级下拉（紧跟名称后，默认空 = 不限）。无 T 级数据的词缀（固有等）灰显
+  const g = r.groupId ? cat.affixGroups.find((x) => x.id === r.groupId) : null;
+  const tiers = (g && g.tiers) || [];
+  const tsel = document.createElement('select');
+  tsel.className = 'tier-sel';
+  tsel.disabled = !tiers.length;
+  tsel.title = tiers.length ? 'T 级（默认不限；选中后自动填数值范围）' : '该词缀无 T 级，直接填数值范围';
+  tsel.innerHTML = '<option value="">T级</option>' +
+    tiers.map((t) => `<option value="${t.tier}" ${r.tier === t.tier ? 'selected' : ''}>T${t.tier} · 数值${t.values[0][0]}–${t.values[0][1]} · 物等${t.ilvl}+</option>`).join('');
+  tsel.onchange = () => {
+    r.tier = tsel.value === '' ? null : Number(tsel.value);
+    // Opt2：选 T 级自动填最小/最大 = 该级数值范围；取消选择则清空
+    if (r.tier != null) {
+      const t = g.tiers.find((x) => x.tier === r.tier);
+      if (t) { r.min = t.values[0][0]; r.max = t.values[0][1]; }
+    } else {
+      r.min = null; r.max = null;
+    }
+    renderBlocks();
+  };
+
+  // 最小/最大值（选填，不自动填；超出所选 T 级范围标红）
+  const tierObj = g && r.tier != null ? g.tiers.find((t) => t.tier === r.tier) : null;
+  const rangeHint = document.createElement('span');
+  rangeHint.className = 'range-hint';
+  const numInput = (val, ph, set, isMin) => {
+    const i = document.createElement('input');
+    i.type = 'number';
+    i.placeholder = ph;
+    i.value = val == null ? '' : val;
+    if (tierObj) {
+      const [lo, hi] = tierObj.values[0];
+      const v = Number(i.value);
+      const out = i.value !== '' && (v < lo || v > hi);
+      if (out) {
+        i.classList.add('invalid');
+        i.title = `超出 T${tierObj.tier} 范围 ${lo}–${hi}`;
+      }
+    }
+    i.oninput = () => {
+      set(i.value === '' ? null : Number(i.value));
+      // 实时标红校验（不重渲染，保持输入焦点）
+      if (tierObj && i.value !== '') {
+        const [lo, hi] = tierObj.values[0];
+        const v = Number(i.value);
+        const bad = v < lo || v > hi;
+        i.classList.toggle('invalid', bad);
+        i.title = bad ? `超出 T${tierObj.tier} 范围 ${lo}–${hi}` : '';
+        rangeHint.textContent = bad ? `超出T${tierObj.tier}范围 ${lo}–${hi}` : '';
+      } else {
+        i.classList.remove('invalid');
+        i.title = '';
+        rangeHint.textContent = '';
+      }
+      updateGo();
+    };
+    return i;
+  };
+  const min = numInput(r.min, '最小', (v) => { r.min = v; }, true);
+  const max = numInput(r.max, '最大', (v) => { r.max = v; }, false);
+  if (rangeHint.textContent) min.after(rangeHint);
+
+  // × 删除
+  const del = document.createElement('span');
+  del.className = 'row-del';
+  del.textContent = '×';
+  del.title = '删除此过滤器';
+  del.onclick = () => {
+    const arr = rowsFor()[b.ps];
+    arr.splice(arr.indexOf(r), 1);
+    renderBlocks();
+  };
+
+  div.append(cb, sel, tsel, min, max, del);
+  return div;
+}
+
+/* ---------- 发送 ---------- */
+/** 暗金词条行 → 填表 payload（只含启用且可筛的行） */
+function currentUniqueAffixes(ub) {
+  const rows = state.rows[state.slug];
+  if (!rows || !rows.unique) return [];
+  const mods = ub.mods || [];
+  const out = [];
+  for (const r of rows.unique) {
+    if (!r.enabled || r.uidx == null) continue;
+    const m = mods[r.uidx];
+    if (!m || !m.s || !m.s.length) continue; // 不可筛词条不进 payload
+    out.push({
+      uniqueMod: true, uid: m.s[0],
+      minValue: r.min, maxValue: r.max,
+      text: m.text, officialText: m.o || null, statIds: m.s, statType: m.t || 'explicit',
+    });
+  }
+  return out;
+}
+
+/** 暗金词条分组：基底（kind=implicit 且对齐到基底组）与词条（explicit 等）分开，
+ * 不可筛（含获得技能类 skill）单独算，用于分块渲染 */
+function splitUniqueMods(mods) {
+  const base = [], word = [], unpick = [];
+  (mods || []).forEach((m, i) => {
+    if (!m.s || !m.s.length) unpick.push({ m, i });
+    else if (m.t === 'implicit') base.push({ m, i });
+    else word.push({ m, i });
+  });
+  return { base, word, unpick };
+}
+
+function currentAffixes() {
+  const rows = state.rows[state.slug];
+  const cat = catById(state.slug);
+  if (!rows || !cat) return [];
+  const out = [];
+  for (const b of BLOCKS) {
+    for (const r of rows[b.ps]) {
+      if (!r.enabled || !r.groupId) continue;
+      const g = cat.affixGroups.find((x) => x.id === r.groupId);
+      if (!g) continue;
+      // 官方对齐链：mods_db.statIds（市集真实下拉对齐产物）→ STATMAP → 空
+      const statIds = g.statIds?.length ? g.statIds : ((STATMAP && STATMAP[g.id]) || []);
+      const officialText = g.officialText || (statIds.length ? officialTextOf(statIds[0]) : null);
+      // statType：市集下拉类型标签（pseudo=综合 / implicit=基底 / skill=技能 / 其余=外延）
+      const head = statIds[0] ? String(statIds[0]) : '';
+      const statType = head.startsWith('pseudo.') ? 'pseudo'
+        : head.startsWith('implicit.') ? 'implicit'
+        : head.startsWith('skill.') ? 'skill'
+        : g.statType || 'explicit';
+      out.push({
+        groupId: g.id, tier: r.tier, minValue: r.min, maxValue: r.max,
+        text: g.text, template: g.template, source: g.source, preSuf: g.preSuf,
+        slug: state.slug, statIds, officialText, statType,
+        tierRange: (r.tier != null && g.tiers.find((t) => t.tier === r.tier))
+          ? g.tiers.find((t) => t.tier === r.tier).values[0] : null,
+      });
+    }
+  }
+  return out;
+}
+
+function updateGo() {
+  const cat = catById(state.slug);
+  const hasBase = !!$('#baseSel').value;
+  // 暗金基底：固定词条已自动带出，选了就能搜
+  if (selectedBaseObj()?.unique) {
+    $('#goBtn').disabled = !hasBase;
+    return;
+  }
+  const hasAffix = cat && cat.affixGroups.length > 0;
+  $('#goBtn').disabled = hasAffix ? currentAffixes().length === 0 : !hasBase;
+}
+
+function onGo() {
+  const cat = catById(state.slug);
+  const hasBase = !!$('#baseSel').value;
+  if (!cat || !hasBase) return;
+  const ub = selectedBaseObj();
+  // 暗金：带出启用的可筛固定词条（数值留空 = 只筛词条存在）
+  const affixes = ub?.unique ? currentUniqueAffixes(ub) : currentAffixes();
+  if (!affixes.length && !ub?.unique) return;
+  // 虚拟合并分类（不区分变体）：content.js 不需要它，真实分类名即可
+  const realCat = DB.categories.find((c) => c.slug === cat.slug) || DB.categories.find((c) => c.baseSlug === cat.baseSlug);
+  window.parent.postMessage({
+    type: 'P2_FILL',
+    payload: {
+      category: realCat ? realCat.cnName.replace(/^.*·/, '') : cat.cnName,
+      categorySlug: realCat ? realCat.slug : cat.slug,
+      base: $('#baseSel').value || null,
+      affixes,
+      extras: { ...extrasState, sockets: extrasState.socketsMin != null && extrasState.socketsMin > 0 },
+      generatedAt: Date.now(),
+    },
+  }, '*');
+}
+
+/* ---------- 附加条件 ---------- */
+function buildExtras() {
+  const cat = catById(state.slug);
+  const box = $('#extras');
+  const items = [];
+  // 布尔开关（填表时按市集实际可用性自动跳过）
+  items.push(`<label><input type="checkbox" data-x="identified" ${extrasState.identified ? 'checked' : ''}> 已鉴定</label>`);
+  items.push(`<label><input type="checkbox" data-x="corrupted" ${extrasState.corrupted ? 'checked' : ''}> 已腐化</label>`);
+  items.push(`<label><input type="checkbox" data-x="sanctified" ${extrasState.sanctified ? 'checked' : ''}> 已圣化</label>`);
+  if (cat?.socketable) {
+    items.push(`<label>插槽数量 ≥ <input type="number" class="sockets-in" data-x="socketsMin" min="0" max="6" value="${extrasState.socketsMin ?? ''}" placeholder="不限"></label>`);
+  }
+  box.innerHTML = items.join('');
+}
+// 勾选状态跨渲染保留
+const extrasState = {};
+$('#extras')?.addEventListener('change', (e) => {
+  const k = e.target.dataset.x;
+  if (k && e.target.type === 'checkbox') extrasState[k] = e.target.checked;
+});
+$('#extras')?.addEventListener('input', (e) => {
+  const k = e.target.dataset.x;
+  if (k === 'socketsMin') extrasState.socketsMin = e.target.value === '' ? null : Number(e.target.value);
+});
+
+/* ================================================================
+ * 进阶模式：ninja 流行构建数据（builds_db.json）
+ * 职业 → 升华职业 → 装备类型 → 点亮装备/词条 chips → 填入
+ * 数据口径（v0.8）：天梯榜前 10 构建的装备归类（n/10 使用率）
+ * payload 复用 P2_FILL：普通基底走 category+affixes，暗金走 uniqueMod 链
+ * ================================================================ */
+let BUILDS = null;        // builds_db.json
+const advState = {
+  asc: null,              // 升华职业英文名（ninja key）
+  slot: null,             // 槽位 key（Rings/Helmets/...）
+  items: new Set(),       // 点亮的装备 key（r:基底名 / u:暗金名）
+  mods: {},               // 点亮的词条 tpl -> { min, max }（null = 只筛存在）
+};
+
+/* 装备槽位显示顺序（进阶模式 tab 固定顺序，与需求一致） */
+const ADV_SLOT_ORDER = ['Weapon', 'Helmets', 'Body_Armours', 'Gloves', 'Boots', 'Amulets', 'Rings', 'Belts', 'Charms', 'Flask'];
+const ADV_SLOT_CN = {
+  Weapon: '武器', Helmets: '头盔', Body_Armours: '护甲', Gloves: '手套', Boots: '鞋',
+  Amulets: '项链', Rings: '戒指', Belts: '腰带', Charms: '咒符', Flask: '药水',
+};
+
+/* 暗金词条英文名很少被点亮（固定词条自动带出），仅「「基底固有」提示用 */
+
+async function loadBuilds() {
+  if (BUILDS) return BUILDS;
+  try { BUILDS = await fetchDB(dataURL('data/builds_db.json')); } catch (_) { BUILDS = null; }
+  return BUILDS;
+}
+
+/** 进阶模式初始化：加载数据 + 渲染第一级 */
+async function initAdv() {
+  const ok = await loadBuilds();
+  const info = ok
+    ? `builds v${BUILDS.version} · ${BUILDS.league.label}`
+    : 'builds 数据加载失败（经典模式可用）';
+  renderAdvRoot(info);
+}
+
+function renderAdvRoot(info) {
+  $('#dbInfo').textContent = info;
+  const root = $('#advRoot');
+  root.classList.add('show');
+  if (!BUILDS) {
+    $('#advSummary').innerHTML = '<b>builds 数据加载失败</b>（extension/data/builds_db.json 缺失），请切回经典模式。';
+    return;
+  }
+  renderAdvSummary();
+  renderAdvClassStep();
+  renderAdvAscStep();
+  renderAdvSlotStep();
+  renderAdvPickStep();
+  updateAdvGo();
+}
+
+/** 顶部摘要（面包屑 + 已点亮计数 + 重置） */
+function renderAdvSummary() {
+  const box = $('#advSummary');
+  const a = BUILDS.ascs[advState.asc];
+  const parts = [];
+  if (a) {
+    parts.push(`<span class="crumb">${BUILDS.classes.find((c) => c.asc.includes(advState.asc))?.cn || ''}</span>`);
+    parts.push(`<span class="crumb">${a.cn || advState.asc}</span>`);
+    if (advState.slot) parts.push(`<span class="crumb">${ADV_SLOT_CN[advState.slot] || advState.slot}</span>`);
+    const nItem = advState.items.size;
+    const nMod = Object.keys(advState.mods).length;
+    if (nItem || nMod) parts.push(`<b>已点亮 ${nItem} 装备 · ${nMod} 词条</b>`);
+    parts.push(`<span style="margin-left:auto;cursor:pointer;color:#7ea4c8" id="advReset">重置</span>`);
+  } else {
+    parts.push('选择职业开始：');
+  }
+  box.innerHTML = parts.join('');
+  const r = $('#advReset');
+  if (r) r.onclick = () => {
+    Object.assign(advState, { asc: null, slot: null, items: new Set(), mods: {}, _class: null });
+    renderAdvRoot();
+  };
+}
+
+/* ---- ① 职业 tab ---- */
+function renderAdvClassStep() {
+  const step = $('#advClassStep');
+  const tabs = BUILDS.classes;
+  step.innerHTML = '<div class="adv-label">① 职业</div>';
+  const wrap = document.createElement('div');
+  wrap.className = 'tabs sec';
+  tabs.forEach((c) => {
+    // 高亮：当前升华所属职业，或显式选的职业
+    const cur = advState._class ? c.en === advState._class : c.asc.includes(advState.asc);
+    const t = document.createElement('span');
+    t.className = 'tab' + (cur ? ' active' : '');
+    t.textContent = c.cn;
+    t.title = c.en + '：' + c.asc.map((x) => BUILDS.ascs[x]?.cn || x).join('、');
+    t.onclick = () => {
+      // 点职业：记住该职业并过滤升华列表（不强制清空升华——若当前升华属于该职业则保留）
+      if (advState._class !== c.en) {
+        const keep = advState.asc && BUILDS.ascs[advState.asc]?.class === c.en;
+        Object.assign(advState, { _class: c.en });
+        if (!keep) Object.assign(advState, { asc: null, slot: null, items: new Set(), mods: {} });
+      }
+      renderAdvRoot();
+    };
+    wrap.appendChild(t);
+  });
+  step.appendChild(wrap);
+}
+
+/* ---- ② 升华职业 tab（人气%）----
+ * 已选职业 → 只显示该职业的升华；未选 → 全部按人气。
+ * 点击「职业」后保持该职业升华列表过滤状态（用 classOf 记忆），选升华后收起为单项。 */
+function renderAdvAscStep() {
+  const step = $('#advAscStep');
+  step.innerHTML = '<div class="adv-label">② 升华职业<span class="sub">按 poe.ninja 使用率排序</span></div>';
+  const classOf = advState._class || null;
+  let list;
+  if (advState.asc) {
+    list = [advState.asc];
+  } else if (classOf) {
+    const cls = BUILDS.classes.find((c) => c.en === classOf || c.cn === classOf);
+    list = cls ? cls.asc : BUILDS.classes.flatMap((c) => c.asc);
+  } else {
+    list = BUILDS.classes.flatMap((c) => c.asc)
+      .sort((x, y) => (BUILDS.ascs[y]?.popPct || 0) - (BUILDS.ascs[x]?.popPct || 0));
+  }
+  const wrap = document.createElement('div');
+  wrap.className = 'tabs sec';
+  list.forEach((ascName) => {
+    const a = BUILDS.ascs[ascName];
+    const t = document.createElement('span');
+    t.className = 'tab' + (advState.asc === ascName ? ' active' : '');
+    t.innerHTML = `${esc(a?.cn || ascName)}<span class="pct">${a ? a.popPct + '%' : ''}</span>`;
+    t.title = `${ascName} · 采样 ${a?.sampled || 0} 个构建`;
+    t.onclick = () => {
+      if (advState.asc !== ascName) {
+        // 记住升华所属职业（供 ① tab 高亮），清后级
+        const clsEn = BUILDS.ascs[ascName]?.class;
+        Object.assign(advState, { _class: clsEn || null, asc: ascName, slot: null, items: new Set(), mods: {} });
+      }
+      renderAdvRoot();
+    };
+    wrap.appendChild(t);
+  });
+  step.appendChild(wrap);
+}
+
+/* ---- ③ 装备类型 tab（10 槽位） ---- */
+function renderAdvSlotStep() {
+  const step = $('#advSlotStep');
+  step.innerHTML = '<div class="adv-label">③ 装备类型</div>';
+  if (!advState.asc) { step.style.display = 'none'; return; }
+  step.style.display = '';
+  const a = BUILDS.ascs[advState.asc];
+  const wrap = document.createElement('div');
+  wrap.className = 'tabs sec';
+  ADV_SLOT_ORDER.forEach((slot) => {
+    const s = a.slots[slot];
+    const t = document.createElement('span');
+    t.className = 'tab' + (advState.slot === slot ? ' active' : '');
+    t.innerHTML = `${ADV_SLOT_CN[slot]}${s ? `<span class="n">${s.items.length}</span>` : '<span class="n">0</span>'}`;
+    if (!s) t.classList.add('off'), t.title = '该升华职业数据中无此部位';
+    t.onclick = () => {
+      if (!s) return;
+      if (advState.slot !== slot) { advState.slot = slot; advState.items = new Set(); advState.mods = {}; }
+      renderAdvRoot();
+    };
+    wrap.appendChild(t);
+  });
+  step.appendChild(wrap);
+}
+
+/* ---- ④ 装备 + 词条 chips ---- */
+function renderAdvPickStep() {
+  const step = $('#advPickStep');
+  if (!advState.asc || !advState.slot) { step.style.display = 'none'; return; }
+  step.style.display = '';
+  step.innerHTML = '';
+  const a = BUILDS.ascs[advState.asc];
+  const slot = a.slots[advState.slot];
+
+  // 装备榜（暗金金色、普通白色，点亮反色）——天梯前 10 构建在用装备归类
+  const itemLabel = document.createElement('div');
+  itemLabel.className = 'adv-label';
+  itemLabel.innerHTML = `④ ${ADV_SLOT_CN[advState.slot]} 流行装备<span class="sub">天梯前 10 构建 · 点亮=选中（可多选）</span>`;
+  step.appendChild(itemLabel);
+  const itemChips = document.createElement('div');
+  itemChips.className = 'chips';
+  slot.items.forEach((it) => {
+    const name = it.cn || it.en;
+    const chip = document.createElement('span');
+    chip.className = 'chip' + (it.rarity === 'u' ? ' unique-chip' : '') + (advState.items.has(it.key) ? ' on' : '');
+    chip.innerHTML = `${esc(name)}<span class="n">${it.pct}%</span>`;
+    chip.title = it.en + (it.cn && it.cn !== it.en ? `（${it.rarity === 'u' ? '暗金' : '普通'} · ${it.pct}% 使用率）` : '');
+    chip.onclick = () => {
+      if (advState.items.has(it.key)) advState.items.delete(it.key);
+      else advState.items.add(it.key);
+      renderAdvRoot();
+    };
+    itemChips.appendChild(chip);
+  });
+  step.appendChild(itemChips);
+
+  // 词条榜（仅普通基底可筛词条；点亮后出现 min/max 输入）——全量展示
+  const hasMods = (slot.modStats || []).length > 0;
+  if (hasMods) {
+    const modLabel = document.createElement('div');
+    modLabel.className = 'adv-label';
+    modLabel.style.marginTop = '10px';
+    modLabel.innerHTML = `词条热度<span class="sub">前 10 构建装备归类 · 点亮后可填数值范围（留空=只筛存在）</span>`;
+    step.appendChild(modLabel);
+    const modChips = document.createElement('div');
+    modChips.className = 'chips';
+    slot.modStats.forEach((m) => {
+      const on = advState.mods[m.tpl] !== undefined;
+      const ref = m.filterable === false;   // 无官方 stat 对齐：仅参考展示
+      const chip = document.createElement('span');
+      chip.className = 'chip' + (on ? ' on' : '') + (ref ? ' ref' : '');
+      chip.innerHTML = `${ref ? '<span class="rtag">参</span>' : ''}${esc(m.cn || m.en)}<span class="n">${m.pct}%</span>`;
+      if (ref) chip.title = '市集暂无此筛选项，仅展示热度参考\n' + (m.en || m.tpl) + `（${m.pct}% 出现率）`;
+      else if (m.cn && m.en !== m.cn) chip.title = m.en + `（${m.pct}% 出现率）`;
+      if (!ref) chip.dataset.presuf = (m._preSuf || advModPreSuf(slot, m)) || '';
+      chip.onclick = () => {
+        if (on) delete advState.mods[m.tpl];
+        else advState.mods[m.tpl] = { min: null, max: null };
+        renderAdvRoot();
+      };
+      modChips.appendChild(chip);
+      if (on) {
+        const vals = document.createElement('div');
+        vals.className = 'mod-vals';
+        vals.innerHTML = `<span class="tip">↳ ${esc(m.cn || m.en)}${chip.dataset.presuf === 'suffix' ? '（后缀）' : chip.dataset.presuf === 'prefix' ? '（前缀）' : ''}：</span>` +
+          `<input type="number" placeholder="最小" value="${advState.mods[m.tpl].min ?? ''}" data-tpl="${esc(m.tpl)}" data-k="min">` +
+          `<input type="number" placeholder="最大" value="${advState.mods[m.tpl].max ?? ''}" data-tpl="${esc(m.tpl)}" data-k="max">` +
+          `<span class="tip">留空 = 不限数值</span>`;
+        modChips.appendChild(vals);
+      }
+    });
+    step.appendChild(modChips);
+    // 数值输入事件（不重渲染，直接改 advState）
+    modChips.oninput = (e) => {
+      const tpl = e.target.dataset.tpl, k = e.target.dataset.k;
+      if (tpl && k && advState.mods[tpl]) advState.mods[tpl][k] = e.target.value === '' ? null : Number(e.target.value);
+      updateAdvGo();
+    };
+  }
+}
+
+/* ---- payload 组装 + 提交 ---- */
+function updateAdvGo() {
+  const hasPick = advState.items.size > 0 || Object.keys(advState.mods).length > 0;
+  $('#goBtn').disabled = !(advState.asc && advState.slot && hasPick);
+  $('#goBtn').textContent = advState.asc && advState.slot
+    ? `填入${ADV_SLOT_CN[advState.slot] || ''}并搜索`
+    : '填入市集并搜索';
+}
+
+/** 暗金点亮 → 找 mods_db 暗金基底对象（跨部位唯一按 uSlug） */
+function advFindUnique(uSlug) {
+  for (const c of DB.categories) {
+    for (const b of c.bases || []) {
+      if (b.unique && b.slug === uSlug) return { cat: c, base: b };
+    }
+  }
+  return null;
+}
+
+function onGoAdv() {
+  if (!advState.asc || !advState.slot) return;
+  const a = BUILDS.ascs[advState.asc];
+  const slot = a.slots[advState.slot];
+  const affixes = [];
+  const skippedMods = [];   // 对不齐 mods_db 的点亮词条（提交后提示）
+
+  // ① 暗金装备：点亮即带固定词条（走经典模式暗金 uniqueMod 链，数值留空=只筛存在）
+  // ② 普通基底：key r:/m:/n: → it.cn → payload.base
+  const bases = [];
+  const uniqEntries = [];
+  for (const key of advState.items) {
+    const [kind, ...rest] = key.split(':');
+    const en = rest.join(':');
+    const it = slot.items.find((x) => x.key === key);
+    if (!it) continue;
+    if (kind === 'u') {
+      if (it.uSlug) uniqEntries.push(it);
+    } else {
+      if (it.cn) bases.push(it.cn);
+    }
+  }
+  // 市集单基底搜索：多个基底时取最热的一个（chips 按占比排序，首个即最热）
+  const baseName = bases[0] || null;
+
+  // 暗金词条：每个点亮暗金 → mods_db 固定词条（全部启用）
+  const usedUniqNames = new Set();
+  for (const it of uniqEntries) {
+    const hit = advFindUnique(it.uSlug);
+    if (!hit) continue;
+    const { base } = hit;
+    usedUniqNames.add(base.text);
+    for (const m of base.mods || []) {
+      if (!m.s || !m.s.length) continue;    // 不可筛词条跳过
+      affixes.push({
+        uniqueMod: true, uid: m.s[0],
+        minValue: null, maxValue: null,
+        text: m.text, officialText: m.o || null, statIds: m.s, statType: m.t || 'explicit',
+      });
+    }
+  }
+
+  // 普通词条：modStats 点亮 → statIds 交集对齐 mods_db affixGroups（对不齐的提示用户）
+  for (const [tpl, val] of Object.entries(advState.mods)) {
+    const m = slot.modStats.find((x) => x.tpl === tpl);
+    if (!m) continue;
+    if (m.filterable === false) continue;   // 不可筛词条：仅参考，不填表
+    const g = findAdvAffixGroup(slot, m);
+    if (g) {
+      affixes.push({
+        groupId: g.id, tier: null,
+        minValue: val.min, maxValue: val.max,
+        text: g.text, template: g.template, source: g.source, preSuf: g.preSuf,
+        slug: g._catSlug, statIds: g.statIds || [], officialText: g.officialText || null,
+        statType: guessStatType(g.statIds),
+        tierRange: null,
+      });
+    } else if (m.statIds && m.statIds.length && m.cn) {
+      // 直填通道：无 mods_db 词缀组，但 statIds 在国服官方 stat 宇宙内 → 按官方文本直接搜索下拉
+      affixes.push({
+        directText: true, tier: null,
+        minValue: val.min, maxValue: val.max,
+        text: m.cn, officialText: m.cn,
+        statIds: m.statIds, statType: guessStatType(m.statIds),
+        preSuf: 'prefix',
+      });
+    } else {
+      skippedMods.push(m.cn || m.en || tpl);
+    }
+  }
+
+  // 无任何可填内容：直接返回（面板上 词条/装备 全部对不齐时）
+  if (!affixes.length && !baseName && !usedUniqNames.size) return;
+
+  // 基底优先级：暗金基底文本 > 普通基底名
+  const finalBase = usedUniqNames.size ? [...usedUniqNames][0] : baseName;
+
+  // 分类：走 slot.baseSlugs 首个分类的真实 slug（content.js 只用 cnName 显示）
+  const catSlug = slot.baseSlugs[0];
+  const realCat = DB.categories.find((c) => c.slug === catSlug) || DB.categories.find((c) => c.baseSlug === catSlug);
+  window.parent.postMessage({
+    type: 'P2_FILL',
+    payload: {
+      category: realCat ? realCat.cnName.replace(/^.*·/, '') : (slot.cn || advState.slot),
+      categorySlug: realCat ? realCat.slug : catSlug,
+      base: finalBase,
+      affixes,
+      extras: { ...extrasState, sockets: extrasState.socketsMin != null && extrasState.socketsMin > 0 },
+      generatedAt: Date.now(),
+    },
+  }, '*');
+  // 有对不齐的点亮词条：明确告知（不静默丢弃）
+  if (skippedMods.length) {
+    const tip = $('#dbInfo');
+    if (tip) {
+      tip.textContent = `已填入，但 ${skippedMods.length} 条市集暂不支持筛选，已跳过：${skippedMods[0]}${skippedMods.length > 1 ? ' 等' : ''}`;
+      tip.style.color = '#c77700';
+      setTimeout(() => { tip.style.color = ''; }, 6000);
+    }
+  }
+}
+
+/** 在 slot.baseSlugs 对应分类的 affixGroups 里找 statIds 命中的组（交集 + 打分选最优） */
+function advModPreSuf(slot, m) {
+  const g = findAdvAffixGroup(slot, m);
+  return g ? g.preSuf : null;
+}
+
+/** 在 slot.baseSlugs 对应分类的 affixGroups 里找 statIds 命中的组（交集 + 打分选最优） */
+function findAdvAffixGroup(slot, m) {
+  const mids = m.statIds || (m.statId ? [m.statId] : []);
+  if (!mids.length) return null;
+  const midSet = new Set(mids);
+  let best = null, bestScore = -1;
+  for (const baseSlug of slot.baseSlugs) {
+    const cats = DB.categories.filter((c) => c.baseSlug === baseSlug);
+    for (const c of cats) {
+      for (const g of c.affixGroups || []) {
+        const gids = g.statIds || [];
+        if (!gids.some((s) => midSet.has(s))) continue;
+        // 打分：base(可合成) > corrupted/special；单词条组 > 混合组（混合组填进去会带多余词条）
+        let score = 0;
+        if (g.source === 'base') score += 4;
+        else if (g.source === 'corrupted') score += 2;
+        if (g.preSuf === 'prefix' || g.preSuf === 'suffix') score += 2;
+        if ((g.tierCount || 0) > 0) score += 1;
+        score += gids.length <= mids.length ? 2 : 0;
+        if (score > bestScore) { bestScore = score; best = { ...g, _catSlug: c.slug }; }
+      }
+    }
+  }
+  return best;
+}
+
+function guessStatType(statIds) {
+  const head = (statIds && statIds[0]) || '';
+  if (head.startsWith('pseudo.')) return 'pseudo';
+  if (head.startsWith('implicit.')) return 'implicit';
+  if (head.startsWith('skill.')) return 'skill';
+  return 'explicit';
+}
+
+/* ---------- 进阶模式挂载：模式切换 + goBtn 分流 ---------- */
+let MODE = 'classic';
+try { MODE = localStorage.getItem('p2_mode') || 'classic'; } catch (_) {}
+function setMode(m) {
+  MODE = m;
+  try { localStorage.setItem('p2_mode', m); } catch (_) {}
+  document.body.classList.toggle('adv', m === 'adv');
+  document.querySelectorAll('#modeSwitch span').forEach((s) => {
+    s.classList.toggle('active', s.dataset.mode === m);
+  });
+  if (m === 'adv') initAdv();
+  else {
+    $('#advRoot').classList.remove('show');
+    $('#dbInfo').textContent = `词缀库 v${DB.version} · ${DB.categories.length} 分类`;
+  }
+}
+
+const _origOnGo = onGo;
+onGo = function () {
+  if (MODE === 'adv') onGoAdv();
+  else _origOnGo();
+};
+
+const modeSwitch = $('#modeSwitch');
+modeSwitch.addEventListener('click', (e) => {
+  const m = e.target.dataset && e.target.dataset.mode;
+  if (m) setMode(m);
+});
+// 恢复上次模式（DB 加载完成后）
+if (MODE === 'adv') setMode('adv');
+
+init();

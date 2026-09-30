@@ -1,0 +1,75 @@
+{
+ "slug": "Belts",
+ "cnName": "腰带",
+ "fetchedAt": "2026-09-17T07:31:34.277Z",
+ "bases": [
+  {
+   "slug": "Golden_Obi",
+   "name": "金羽腰带"
+  },
+  {
+   "slug": "Rawhide_Belt",
+   "name": "生皮腰带"
+  },
+  {
+   "slug": "Linen_Belt",
+   "name": "亚麻腰带"
+  },
+  {
+   "slug": "Wide_Belt",
+   "name": "宽大腰带"
+  },
+  {
+   "slug": "Long_Belt",
+   "name": "加长腰带"
+  },
+  {
+   "slug": "Plate_Belt",
+   "name": "嵌板腰带"
+  },
+  {
+   "slug": "Ornate_Belt",
+   "name": "华丽腰带"
+  },
+  {
+   "slug": "Mail_Belt",
+   "name": "环锁腰带"
+  },
+  {
+   "slug": "Double_Belt",
+   "name": "双重腰带"
+  },
+  {
+   "slug": "Heavy_Belt",
+   "name": "重革腰带"
+  },
+  {
+   "slug": "Runemastered_Heavy_Belt",
+   "name": "符文师匠重革腰带"
+  },
+  {
+   "slug": "Utility_Belt",
+   "name": "万用腰带"
+  },
+  {
+   "slug": "Fine_Belt",
+   "name": "精致腰带"
+  },
+  {
+   "slug": "Stalking_Belt",
+   "name": "追踪腰带"
+  },
+  {
+   "slug": "Invoking_Belt",
+   "name": "祈求腰带"
+  },
+  {
+   "slug": "Sinew_Belt",
+   "name": "肌力腰带"
+  },
+  {
+   "slug": "Forking_Belt",
+   "name": "分叉腰带"
+  }
+ ]
+}

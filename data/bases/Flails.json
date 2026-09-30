@@ -1,0 +1,59 @@
+{
+ "slug": "Flails",
+ "cnName": "连枷",
+ "fetchedAt": "2026-09-17T07:31:11.210Z",
+ "bases": [
+  {
+   "slug": "Splintered_Flail",
+   "name": "碎裂连枷"
+  },
+  {
+   "slug": "Chain_Flail",
+   "name": "精索连枷"
+  },
+  {
+   "slug": "Holy_Flail",
+   "name": "神祝连枷"
+  },
+  {
+   "slug": "Iron_Flail",
+   "name": "钢铁连枷"
+  },
+  {
+   "slug": "Twin_Flail",
+   "name": "双首连枷"
+  },
+  {
+   "slug": "Slender_Flail",
+   "name": "长鞭连枷"
+  },
+  {
+   "slug": "Stone_Flail",
+   "name": "巨石连枷"
+  },
+  {
+   "slug": "Ring_Flail",
+   "name": "环锁连枷"
+  },
+  {
+   "slug": "Guarded_Flail",
+   "name": "卫甲连枷"
+  },
+  {
+   "slug": "Icicle_Flail",
+   "name": "冰刺连枷"
+  },
+  {
+   "slug": "Tearing_Flail",
+   "name": "碎肉连枷"
+  },
+  {
+   "slug": "Great_Flail",
+   "name": "巨型连枷"
+  },
+  {
+   "slug": "Abyssal_Flail",
+   "name": "深渊连枷"
+  }
+ ]
+}

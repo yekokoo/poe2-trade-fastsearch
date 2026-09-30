@@ -1,0 +1,71 @@
+{
+ "slug": "Wands",
+ "cnName": "法杖",
+ "fetchedAt": "2026-09-17T07:31:03.531Z",
+ "bases": [
+  {
+   "slug": "Withered_Wand",
+   "name": "凋零法杖"
+  },
+  {
+   "slug": "Bone_Wand",
+   "name": "钙石法杖"
+  },
+  {
+   "slug": "Attuned_Wand",
+   "name": "调谐法杖"
+  },
+  {
+   "slug": "Siphoning_Wand",
+   "name": "虹吸法杖"
+  },
+  {
+   "slug": "Volatile_Wand",
+   "name": "易变法杖"
+  },
+  {
+   "slug": "Galvanic_Wand",
+   "name": "电流法杖"
+  },
+  {
+   "slug": "Acrid_Wand",
+   "name": "刻薄法杖"
+  },
+  {
+   "slug": "Offering_Wand",
+   "name": "供奉法杖"
+  },
+  {
+   "slug": "Frigid_Wand",
+   "name": "严寒法杖"
+  },
+  {
+   "slug": "Torture_Wand",
+   "name": "煎熬法杖"
+  },
+  {
+   "slug": "Critical_Wand",
+   "name": "批判法杖"
+  },
+  {
+   "slug": "Primordial_Wand",
+   "name": "始源法杖"
+  },
+  {
+   "slug": "Dueling_Wand",
+   "name": "决斗法杖"
+  },
+  {
+   "slug": "Twisted_Wand",
+   "name": "扭曲法杖"
+  },
+  {
+   "slug": "Runic_Fork",
+   "name": "符文之叉"
+  },
+  {
+   "slug": "Runemastered_Runic_Fork",
+   "name": "符文师匠符文之叉"
+  }
+ ]
+}

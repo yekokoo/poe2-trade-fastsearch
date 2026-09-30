@@ -1,0 +1,215 @@
+{
+ "slug": "Foci",
+ "cnName": "法器",
+ "fetchedAt": "2026-09-17T07:31:25.091Z",
+ "bases": [
+  {
+   "slug": "Twig_Focus",
+   "name": "枝条法器"
+  },
+  {
+   "slug": "Woven_Focus",
+   "name": "织造法器"
+  },
+  {
+   "slug": "Antler_Focus",
+   "name": "鹿角法器"
+  },
+  {
+   "slug": "Engraved_Focus",
+   "name": "铭刻法器"
+  },
+  {
+   "slug": "Tonal_Focus",
+   "name": "音调法器"
+  },
+  {
+   "slug": "Crystal_Focus",
+   "name": "水晶法器"
+  },
+  {
+   "slug": "Voodoo_Focus",
+   "name": "巫毒法器"
+  },
+  {
+   "slug": "Plumed_Focus",
+   "name": "彩羽法器"
+  },
+  {
+   "slug": "Runed_Focus",
+   "name": "符文法器"
+  },
+  {
+   "slug": "Whorl_Focus",
+   "name": "涡旋法器"
+  },
+  {
+   "slug": "Elegant_Focus",
+   "name": "优雅法器"
+  },
+  {
+   "slug": "Attuned_Focus",
+   "name": "协调法器"
+  },
+  {
+   "slug": "Magus_Focus",
+   "name": "术士法器"
+  },
+  {
+   "slug": "Wreath_Focus",
+   "name": "花环法器"
+  },
+  {
+   "slug": "Staghorn_Focus",
+   "name": "鹿角法器"
+  },
+  {
+   "slug": "Jingling_Focus",
+   "name": "铃鸣法器"
+  },
+  {
+   "slug": "Arrayed_Focus",
+   "name": "排列法器"
+  },
+  {
+   "slug": "Cultist_Focus",
+   "name": "密会法器"
+  },
+  {
+   "slug": "Hallowed_Focus",
+   "name": "神圣法器"
+  },
+  {
+   "slug": "Druidic_Focus",
+   "name": "德鲁伊法器"
+  },
+  {
+   "slug": "Leyline_Focus",
+   "name": "荒凉原野法器"
+  },
+  {
+   "slug": "Sacred_Focus",
+   "name": "圣洁法器"
+  },
+  {
+   "slug": "Tasalian_Focus",
+   "name": "塔萨里奥法器"
+  },
+  {
+   "slug": "Runeforged_Twig_Focus",
+   "name": "符文枝条法器"
+  },
+  {
+   "slug": "Runeforged_Woven_Focus",
+   "name": "符文织造法器"
+  },
+  {
+   "slug": "Runeforged_Antler_Focus",
+   "name": "符文鹿角法器"
+  },
+  {
+   "slug": "Runeforged_Engraved_Focus",
+   "name": "符文铭刻法器"
+  },
+  {
+   "slug": "Runeforged_Tonal_Focus",
+   "name": "符文音调法器"
+  },
+  {
+   "slug": "Runeforged_Crystal_Focus",
+   "name": "符文水晶法器"
+  },
+  {
+   "slug": "Runeforged_Voodoo_Focus",
+   "name": "符文巫毒法器"
+  },
+  {
+   "slug": "Runeforged_Plumed_Focus",
+   "name": "符文彩羽法器"
+  },
+  {
+   "slug": "Runeforged_Runed_Focus",
+   "name": "符文符文法器"
+  },
+  {
+   "slug": "Runeforged_Whorl_Focus",
+   "name": "符文涡旋法器"
+  },
+  {
+   "slug": "Runeforged_Elegant_Focus",
+   "name": "符文优雅法器"
+  },
+  {
+   "slug": "Runeforged_Attuned_Focus",
+   "name": "符文协调法器"
+  },
+  {
+   "slug": "Runeforged_Magus_Focus",
+   "name": "符文术士法器"
+  },
+  {
+   "slug": "Runeforged_Arrayed_Focus",
+   "name": "符文排列法器"
+  },
+  {
+   "slug": "Runeforged_Cultist_Focus",
+   "name": "符文密会法器"
+  },
+  {
+   "slug": "Runeforged_Hallowed_Focus",
+   "name": "符文神圣法器"
+  },
+  {
+   "slug": "Runeforged_Druidic_Focus",
+   "name": "符文德鲁伊法器"
+  },
+  {
+   "slug": "Runeforged_Leyline_Focus",
+   "name": "符文荒凉原野法器"
+  },
+  {
+   "slug": "Runeforged_Sacred_Focus",
+   "name": "符文圣洁法器"
+  },
+  {
+   "slug": "Runeforged_Tasalian_Focus",
+   "name": "符文塔萨里奥法器"
+  },
+  {
+   "slug": "Runemastered_Twig_Focus",
+   "name": "符文师匠枝条法器"
+  },
+  {
+   "slug": "Runemastered_Woven_Focus",
+   "name": "符文师匠织造法器"
+  },
+  {
+   "slug": "Runemastered_Antler_Focus",
+   "name": "符文师匠鹿角法器"
+  },
+  {
+   "slug": "Runemastered_Engraved_Focus",
+   "name": "符文师匠铭刻法器"
+  },
+  {
+   "slug": "Runemastered_Tonal_Focus",
+   "name": "符文师匠音调法器"
+  },
+  {
+   "slug": "Runemastered_Crystal_Focus",
+   "name": "符文师匠水晶法器"
+  },
+  {
+   "slug": "Runemastered_Voodoo_Focus",
+   "name": "符文师匠巫毒法器"
+  },
+  {
+   "slug": "Runemastered_Plumed_Focus",
+   "name": "符文师匠彩羽法器"
+  },
+  {
+   "slug": "Atmohuas_Soul_Core_of_Retreat",
+   "name": "阿特莫瓦的退却灵核"
+  }
+ ]
+}

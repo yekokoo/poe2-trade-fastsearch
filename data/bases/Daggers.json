@@ -1,0 +1,63 @@
+{
+ "slug": "Daggers",
+ "cnName": "匕首",
+ "fetchedAt": "2026-09-17T07:31:02.248Z",
+ "bases": [
+  {
+   "slug": "Ethereal_Blade",
+   "name": "虚空飞刃"
+  },
+  {
+   "slug": "Glass_Shank",
+   "name": "玻璃利片"
+  },
+  {
+   "slug": "Crone_Knife",
+   "name": "巫妪小刀"
+  },
+  {
+   "slug": "Simple_Dagger",
+   "name": "朴实匕首"
+  },
+  {
+   "slug": "Skinning_Knife",
+   "name": "剥皮刀"
+  },
+  {
+   "slug": "Moon_Dagger",
+   "name": "月刃匕首"
+  },
+  {
+   "slug": "Engraved_Knife",
+   "name": "雕纹小刀"
+  },
+  {
+   "slug": "Obsidian_Dagger",
+   "name": "黑曜石匕首"
+  },
+  {
+   "slug": "Bloodletting_Dagger",
+   "name": "放血匕首"
+  },
+  {
+   "slug": "Mail_Breaker",
+   "name": "拆信刀"
+  },
+  {
+   "slug": "Kris_Knife",
+   "name": "波刃小刀"
+  },
+  {
+   "slug": "Parrying_Dagger",
+   "name": "格挡匕首"
+  },
+  {
+   "slug": "Arcane_Dirk",
+   "name": "秘术短匕"
+  },
+  {
+   "slug": "Cinquedea",
+   "name": "五指剑"
+  }
+ ]
+}

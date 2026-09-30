@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <style>
+    /* ==== 国服市集设计 token（提取自 chunk.wJlSwJGUjdI_.css）==== */
+    :root {
+      --bg: #2b2b2b;            /* 市集 body #333 调深适配弹窗 */
+      --panel: #1e2124;         /* multiselect tags / controls button 底 */
+      --surface: #2d3136;       /* 选中态 / option selected 底 */
+      --hover: #465260;         /* option highlight / 标题分隔线 */
+      --text: #e2e2e2;
+      --muted: #a38d6d;         /* 市集正文字色（金棕） */
+      --title: #fff8e1;         /* filter-title 字色 */
+      --title-bg: rgba(45,49,54,.30);  /* filter-title #2d31364d */
+      --title-border: #634928;  /* filter-title 左边框 */
+      --border: #000;
+      --accent: #0f304d;        /* search-btn */
+      --accent-border: #4c4c7d;
+      --accent-hover: #133d62;
+      --input-bg: #222;
+      --gold: #a38d6d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 100%; height: 100%; overflow-y: auto;
+      font: 13px/1.45 "Helvetica Neue", Verdana, "Microsoft YaHei", sans-serif;
+      color: var(--text); background: var(--bg);
+    }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 12px; border-bottom: 1px solid #465260;
+      position: sticky; top: 0; background: var(--panel); z-index: 20;
+    }
+    header .brand { display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--title); }
+    header .logo { width: 20px; height: 20px; background: var(--accent); border: 1px solid var(--accent-border); color: #fff; font-size: 10px; display: flex; align-items: center; justify-content: center; }
+    header .hint { font-size: 11px; color: var(--muted); }
+    header .right { display: flex; align-items: center; }
+    #closeBtn {
+      width: 22px; height: 22px; margin-left: 10px; cursor: pointer; line-height: 1;
+      background: transparent; border: 1px solid #465260; color: var(--muted); font-size: 14px;
+    }
+    #closeBtn:hover { background: var(--surface); color: #fff; }
+
+    main { padding: 10px 12px 4px; }
+    section { margin-bottom: 10px; }
+
+    /* ---- 一级/二级/三级 tab：市集 toggle-btn 样式 ---- */
+    .tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+    .tab {
+      padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 0;
+      background: var(--panel); color: var(--text); border: 1px solid var(--border);
+      cursor: pointer; user-select: none;
+    }
+    .tab:hover { background: var(--surface); }
+    .tab.active { background: var(--accent); border-color: var(--accent-border); color: #fff; }
+    .tabs.sec .tab { font-size: 12px; padding: 4px 9px; background: transparent; border-color: #465260; color: var(--muted); }
+    .tabs.sec .tab.active { background: var(--surface); color: var(--title); border-color: var(--hover); }
+    .tabs.sec .tab .n { font-size: 10px; opacity: .7; margin-left: 3px; }
+    .tabs.sec .tab.active .n { color: var(--muted); }
+    /* 三级 tab（部位下的属性变体）：更弱化的胶囊样式；隐藏由 JS 控制 */
+    .tabs.third { display: none; }
+    .tabs.third.show { display: flex; }
+    .tabs.third .tab { font-size: 11px; padding: 3px 8px; background: transparent; border-color: #3a4048; color: #8a919b; }
+    .tabs.third .tab:hover { background: var(--surface); color: var(--text); }
+    .tabs.third .tab.active { background: #26404f; color: var(--title); border-color: #3f6a86; }
+    .tabs.third .tab .n { font-size: 10px; opacity: .65; margin-left: 3px; }
+
+    /* ---- 行内工具条 ---- */
+    .toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+    .toolbar select, .toolbar input[type=number] {
+      height: 32px; padding: 6px 12px; font-size: 13px; line-height: 1.45;
+      color: #fff; background-color: var(--input-bg); border: 1px solid var(--border);
+      border-radius: 0; box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    }
+    .toolbar select:focus, .toolbar input:focus { border-color: #777; outline: 0; box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(119,119,119,.6); }
+    .toolbar label { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    #baseSel { width: 320px; }
+    .toolbar .tip { font-size: 11px; color: var(--muted); }
+    /* 基底下拉里的暗金选项：金色（Chrome 下拉选项颜色支持有限，仍尽力） */
+    #baseSel option.unique-opt { color: var(--gold); }
+
+    /* ---- 搜索行 ---- */
+    .search-row { padding: 6px 10px; border-bottom: 1px solid #33383e; display: flex; gap: 6px; }
+    .search-row input {
+      flex: 1; height: 32px; padding: 6px 12px; font-size: 13px; color: #fff;
+      background-color: var(--input-bg); border: 1px solid var(--border); border-radius: 0;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    }
+    .search-row input:focus { border-color: #777; outline: 0; box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(119,119,119,.6); }
+    .search-row input::placeholder { color: #6f7379; }
+
+    /* ---- 词缀过滤块：前缀/后缀/瓦尔/特殊 从上到下 ---- */
+    .filter-block { border: 1px solid #465260; background: var(--panel); margin-bottom: 10px; }
+    .filter-block-header { display: flex; align-items: center; padding: 5px 10px; border-bottom: 1px solid var(--hover); }
+    .filter-block-header .filter-title {
+      text-shadow: 1px 1px 2px var(--panel); color: var(--title); font-size: 13px;
+    }
+    .filter-block-header .cnt { color: var(--muted); font-size: 11px; margin-left: 6px; }
+    .filter-row {
+      display: flex; align-items: center; gap: 6px; padding: 5px 10px;
+      border-bottom: 1px solid #2a2e33;
+    }
+    .filter-row.off { opacity: .45; }
+    .filter-row input[type=checkbox] { accent-color: #0f304d; flex-shrink: 0; }
+    .filter-row select, .filter-row input[type=number] {
+      height: 30px; padding: 4px 8px; font-size: 12px; color: #fff;
+      background-color: var(--input-bg); border: 1px solid var(--border); border-radius: 0;
+    }
+    .filter-row select:focus, .filter-row input[type=number]:focus { border-color: #777; outline: 0; }
+    .filter-row .affix-sel { flex: 1; min-width: 0; }
+    .filter-row .tier-sel { width: 170px; flex-shrink: 0; }
+    /* 无 T 级的词缀（基底固有等）：灰显置禁用态 */
+    .filter-row .tier-sel:disabled { opacity: .38; color: #6f7379; cursor: default; }
+    .filter-row input[type=number] { width: 80px; flex-shrink: 0; }
+    .filter-row input.invalid { border-color: #c0392b !important; background: #2a1512 !important; }
+    .filter-row input.invalid:focus { border-color: #e74c3c !important; box-shadow: 0 0 6px rgba(231,76,60,.4) !important; }
+    .filter-row .range-hint { font-size: 10px; color: #d9776f; white-space: nowrap; }
+    .filter-row .row-del {
+      width: 22px; height: 22px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; user-select: none; color: #6f7379; font-size: 14px;
+    }
+    .filter-row .row-del:hover { color: #d9776f; }
+    .add-filter-btn {
+      margin: 8px 10px; padding: 4px 12px; font-size: 12px; cursor: pointer;
+      background: transparent; border: 1px dashed #465260; color: var(--muted); border-radius: 0;
+    }
+    .add-filter-btn:hover { background: var(--surface); color: var(--title); border-color: var(--hover); }
+
+    /* ---- 附加条件 ---- */
+    .extras { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; padding: 6px 10px; border: 1px solid #465260; background: var(--panel); }
+    .extras label { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); cursor: pointer; }
+    .extras input[type=checkbox] { accent-color: #0f304d; }
+    .extras input.sockets-in { width: 56px; height: 26px; padding: 2px 6px; color: #fff; background: var(--input-bg); border: 1px solid var(--border); }
+    .extras input.sockets-in:focus { border-color: #777; outline: 0; }
+
+    /* ---- 无词缀分类提示（宝库钥匙等） ---- */
+    .no-affix-hint {
+      padding: 18px 12px; color: var(--muted); font-size: 12px;
+      border: 1px solid #465260; background: var(--panel);
+    }
+    /* 暗金固定词条块（v0.6.3：基底/词条/不可筛 分块） */
+    .unique-tip { padding: 6px 10px; color: var(--muted); font-size: 11px; border-top: 1px dashed #3a4048; line-height: 1.6; }
+    .filter-row.unpickable { opacity: .55; }
+    .filter-row.hidden-row { display: none; }
+    .filter-row .u-mod-name { flex: 1; min-width: 0; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .filter-row .u-tag {
+      flex-shrink: 0; width: 20px; height: 18px; display: flex; align-items: center; justify-content: center;
+      font-size: 10px; color: #c8a86d; border: 1px solid #634928; background: rgba(99,73,40,.25);
+    }
+    .filter-row .u-tag.u-imp { color: #8fa8c8; border-color: #3d566e; background: rgba(61,86,110,.25); }
+    .filter-row .u-num { width: 80px; flex-shrink: 0; }
+    /* 基底块：蓝调边框呼应市集「基底」类型标签 */
+    .unique-block-base { border-color: #3d566e; }
+    .unique-block-base .filter-block-header { border-bottom-color: #3d566e; }
+    .unique-block-base .filter-title { color: #a9c4e2; }
+    /* 普通基底固有块（implicit）：同蓝调，与暗金基底块一致 */
+    .implicit-block { border-color: #3d566e; }
+    .implicit-block .filter-block-header { border-bottom-color: #3d566e; }
+    .implicit-block .filter-title { color: #a9c4e2; }
+
+    footer {
+      display: flex; gap: 10px; align-items: center; padding: 8px 12px;
+      border-top: 1px solid #465260; position: sticky; bottom: 0; background: var(--panel);
+    }
+    #goBtn {
+      width: 60%; min-height: 34px; cursor: pointer; border-radius: 0;
+      background-color: var(--accent); border: 1px solid var(--accent-border);
+      color: #e2e2e2; font: 600 13px "Helvetica Neue", Verdana, "Microsoft YaHei", sans-serif;
+    }
+    #goBtn:hover { background-color: var(--accent-hover); }
+    #goBtn:disabled { opacity: .45; cursor: default; }
+    footer .note { font-size: 10px; color: var(--muted); }
+
+    /* ==== 进阶模式 ==== */
+    .mode-switch { display: flex; border: 1px solid #465260; margin-right: 8px; }
+    .mode-switch span {
+      padding: 3px 10px; font-size: 11px; cursor: pointer; color: var(--muted);
+      background: transparent; user-select: none;
+    }
+    .mode-switch span.active { background: var(--accent); color: #fff; }
+    #advRoot { display: none; }
+    #advRoot.show { display: block; }
+    body.adv #classicRoot { display: none; }
+    body.adv #advRoot.show { display: block; }
+    /* 进阶五级选择：步骤标题行 */
+    .adv-step { margin-bottom: 10px; }
+    .adv-step .adv-label {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 12px; color: var(--title); margin-bottom: 5px;
+    }
+    .adv-step .adv-label::before {
+      content: ''; width: 3px; height: 12px; background: var(--title-border); display: inline-block;
+    }
+    .adv-step .adv-label .sub { color: var(--muted); font-size: 10px; font-weight: 400; }
+    /* 升华职业 tab：人气角标 */
+    .tabs.sec .tab .pct { font-size: 10px; color: #7ea4c8; margin-left: 3px; }
+    /* chips：点亮式（装备 + 词条通用） */
+    .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+    .chip {
+      padding: 4px 10px; font-size: 12px; line-height: 1.4; cursor: pointer; user-select: none;
+      background: var(--panel); color: var(--text); border: 1px solid var(--border);
+    }
+    .chip:hover { background: var(--surface); }
+    .chip.on { background: var(--accent); border-color: var(--accent-border); color: #fff; }
+    .chip .n { font-size: 10px; opacity: .75; margin-left: 4px; }
+    .chip.unique-chip { color: #c8a86d; border-color: #634928; }
+    .chip.unique-chip.on { color: #fff; }
+    .chip .en { font-size: 10px; color: #8a919b; margin-left: 3px; }
+    .chip.ref { color: #8a919b; border-style: dashed; background: transparent; }
+    .chip.ref:hover { background: var(--panel); }
+    .chip.ref.on { background: #4b4f55; border-color: #5a5f66; color: #cfd4da; }
+    .chip.ref .n { opacity: .6; }
+    .chip .rtag {
+      display: inline-block; margin-right: 4px; padding: 0 4px; font-size: 9px; line-height: 14px;
+      background: #3a3d42; color: #aeb4bb; border-radius: 2px;
+    }
+    /* 词条 chip 选中后的数值输入行 */
+    .mod-vals { display: flex; gap: 6px; margin-top: 4px; align-items: center; }
+    .mod-vals input[type=number] {
+      width: 76px; height: 24px; padding: 2px 6px; font-size: 11px; color: #fff;
+      background: var(--input-bg); border: 1px solid var(--border);
+    }
+    .mod-vals .tip { font-size: 10px; color: var(--muted); }
+    /* 选中摘要条 */
+    .adv-summary {
+      display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+      padding: 5px 8px; margin-bottom: 8px; font-size: 11px; color: var(--muted);
+      background: rgba(15,48,77,.25); border: 1px solid #26404f;
+    }
+    .adv-summary b { color: var(--title); font-weight: 600; }
+    .adv-summary .crumb { color: var(--title); }
+    .adv-summary .crumb:after { content: '›'; color: var(--muted); margin: 0 5px; }
+    .adv-summary .crumb:last-child:after { content: ''; margin: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="logo">P2</span>POE2 市集速搜
+      <span class="mode-switch" id="modeSwitch">
+        <span data-mode="classic" class="active">经典</span><span data-mode="adv">进阶</span>
+      </span>
+    </div>
+    <span class="right">
+      <span class="hint" id="dbInfo"></span>
+      <button id="closeBtn" title="关闭面板">✕</button>
+    </span>  </header>
+  <main>
+    <div id="classicRoot">
+    <section>
+      <div class="tabs" id="groupTabs"></div>
+      <div class="tabs sec" id="catTabs"></div>
+      <div class="tabs third" id="subTabs"></div>
+      <div class="toolbar">
+        <label>基底</label>
+        <select id="baseSel"><option value="">不限基底（推荐）</option></select>
+        <span class="tip">暗金在列表底部，金色标注</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="filter-block">
+        <div class="search-row">
+          <input type="text" id="affixSearch" placeholder="搜索词缀（过滤下方各块下拉选项）…">
+        </div>
+      </div>
+      <div id="affixBlocks"></div>
+      <div class="extras" id="extras"></div>
+    </section>
+    </div>
+
+    <div id="advRoot">
+      <div class="adv-summary" id="advSummary"></div>
+      <div class="adv-step" id="advClassStep"></div>
+      <div class="adv-step" id="advAscStep"></div>
+      <div class="adv-step" id="advSlotStep"></div>
+      <div class="adv-step" id="advPickStep"></div>
+    </div>
+  </main>
+  <footer>
+    <button id="goBtn" disabled>填入市集并搜索</button>
+    <span class="note">在当前市集页直接填入<br>填入后自动点击「搜索」</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{
+ "slug": "Spears",
+ "cnName": "战矛",
+ "fetchedAt": "2026-09-17T07:31:09.933Z",
+ "bases": [
+  {
+   "slug": "Hardwood_Spear",
+   "name": "硬木长矛"
+  },
+  {
+   "slug": "Ironhead_Spear",
+   "name": "铁头长矛"
+  },
+  {
+   "slug": "Hunting_Spear",
+   "name": "狩猎长矛"
+  },
+  {
+   "slug": "Winged_Spear",
+   "name": "飞翼长矛"
+  },
+  {
+   "slug": "War_Spear",
+   "name": "历战长矛"
+  },
+  {
+   "slug": "Forked_Spear",
+   "name": "分叉长矛"
+  },
+  {
+   "slug": "Barbed_Spear",
+   "name": "倒刺长矛"
+  },
+  {
+   "slug": "Broad_Spear",
+   "name": "宽首长矛"
+  },
+  {
+   "slug": "Crossblade_Spear",
+   "name": "十字长矛"
+  },
+  {
+   "slug": "Seaglass_Spear",
+   "name": "海琉长矛"
+  },
+  {
+   "slug": "Sword_Spear",
+   "name": "剑刃长矛"
+  },
+  {
+   "slug": "Striking_Spear",
+   "name": "精标长矛"
+  },
+  {
+   "slug": "Helix_Spear",
+   "name": "螺旋长矛"
+  },
+  {
+   "slug": "Steelhead_Spear",
+   "name": "钢头战矛"
+  },
+  {
+   "slug": "Coursing_Spear",
+   "name": "追击战矛"
+  },
+  {
+   "slug": "Swift_Spear",
+   "name": "迅捷战矛"
+  },
+  {
+   "slug": "Branched_Spear",
+   "name": "分叉战矛"
+  },
+  {
+   "slug": "Jagged_Spear",
+   "name": "锯齿战矛"
+  },
+  {
+   "slug": "Massive_Spear",
+   "name": "重型战矛"
+  },
+  {
+   "slug": "Runeforged_Hardwood_Spear",
+   "name": "符文硬木长矛"
+  },
+  {
+   "slug": "Runeforged_Ironhead_Spear",
+   "name": "符文铁头长矛"
+  },
+  {
+   "slug": "Runemastered_Ironhead_Spear",
+   "name": "符文师匠铁头长矛"
+  },
+  {
+   "slug": "Runeforged_Hunting_Spear",
+   "name": "符文狩猎长矛"
+  },
+  {
+   "slug": "Runeforged_Winged_Spear",
+   "name": "符文飞翼长矛"
+  },
+  {
+   "slug": "Runeforged_War_Spear",
+   "name": "符文历战长矛"
+  },
+  {
+   "slug": "Runeforged_Forked_Spear",
+   "name": "符文分叉长矛"
+  },
+  {
+   "slug": "Runeforged_Barbed_Spear",
+   "name": "符文倒刺长矛"
+  },
+  {
+   "slug": "Orichalcum_Spear",
+   "name": "奥利哈刚战矛"
+  },
+  {
+   "slug": "Soaring_Spear",
+   "name": "翱翔战矛"
+  },
+  {
+   "slug": "Pronged_Spear",
+   "name": "叉尖战矛"
+  },
+  {
+   "slug": "Stalking_Spear",
+   "name": "潜行战矛"
+  },
+  {
+   "slug": "Flying_Spear",
+   "name": "飞行战矛"
+  },
+  {
+   "slug": "Grand_Spear",
+   "name": "宏伟战矛"
+  },
+  {
+   "slug": "Spiked_Spear",
+   "name": "尖刺战矛"
+  },
+  {
+   "slug": "Guardian_Spear",
+   "name": "守护者战矛"
+  },
+  {
+   "slug": "Akoyan_Spear",
+   "name": "阿科扬战矛"
+  }
+ ]
+}

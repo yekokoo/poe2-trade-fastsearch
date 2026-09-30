@@ -1,0 +1,823 @@
+{
+ "slug": "Gloves",
+ "cnName": "手套",
+ "fetchedAt": "2026-09-17T07:31:26.373Z",
+ "bases": [
+  {
+   "slug": "Golden_Bracers",
+   "name": "黄金臂甲"
+  },
+  {
+   "slug": "Stocky_Mitts",
+   "name": "敦实护手"
+  },
+  {
+   "slug": "Riveted_Mitts",
+   "name": "铆接护手"
+  },
+  {
+   "slug": "Tempered_Mitts",
+   "name": "淬炼护手"
+  },
+  {
+   "slug": "Bolstered_Mitts",
+   "name": "增固护手"
+  },
+  {
+   "slug": "Moulded_Mitts",
+   "name": "铸锻护手"
+  },
+  {
+   "slug": "Detailed_Mitts",
+   "name": "精工护手"
+  },
+  {
+   "slug": "Titan_Mitts",
+   "name": "泰坦护手"
+  },
+  {
+   "slug": "Grand_Mitts",
+   "name": "堂皇护手"
+  },
+  {
+   "slug": "Suede_Bracers",
+   "name": "绒皮护腕"
+  },
+  {
+   "slug": "Firm_Bracers",
+   "name": "牢固护腕"
+  },
+  {
+   "slug": "Bound_Bracers",
+   "name": "缚革护腕"
+  },
+  {
+   "slug": "Sectioned_Bracers",
+   "name": "截片护腕"
+  },
+  {
+   "slug": "Spined_Bracers",
+   "name": "精纺护腕"
+  },
+  {
+   "slug": "Fine_Bracers",
+   "name": "精工护腕"
+  },
+  {
+   "slug": "Hardened_Bracers",
+   "name": "硬化护腕"
+  },
+  {
+   "slug": "Engraved_Bracers",
+   "name": "雕饰护腕"
+  },
+  {
+   "slug": "Torn_Gloves",
+   "name": "破碎手套"
+  },
+  {
+   "slug": "Sombre_Gloves",
+   "name": "肃穆手套"
+  },
+  {
+   "slug": "Stitched_Gloves",
+   "name": "缝合手套"
+  },
+  {
+   "slug": "Jewelled_Gloves",
+   "name": "宝石手套"
+  },
+  {
+   "slug": "Intricate_Gloves",
+   "name": "精致手套"
+  },
+  {
+   "slug": "Pauascale_Gloves",
+   "name": "海灵鳞缀手套"
+  },
+  {
+   "slug": "Embroidered_Gloves",
+   "name": "刺绣手套"
+  },
+  {
+   "slug": "Adorned_Gloves",
+   "name": "华饰手套"
+  },
+  {
+   "slug": "Ringmail_Gauntlets",
+   "name": "环锁手甲"
+  },
+  {
+   "slug": "Layered_Gauntlets",
+   "name": "垫层护手"
+  },
+  {
+   "slug": "Doubled_Gauntlets",
+   "name": "合钢手甲"
+  },
+  {
+   "slug": "Plate_Gauntlets",
+   "name": "铁板护手"
+  },
+  {
+   "slug": "Burnished_Gauntlets",
+   "name": "冷芒手甲"
+  },
+  {
+   "slug": "Ornate_Gauntlets",
+   "name": "华贵护手"
+  },
+  {
+   "slug": "Ancient_Gauntlets",
+   "name": "远古护手"
+  },
+  {
+   "slug": "Rope_Cuffs",
+   "name": "绳索袖带"
+  },
+  {
+   "slug": "Aged_Cuffs",
+   "name": "风霜袖带"
+  },
+  {
+   "slug": "Goldcast_Cuffs",
+   "name": "金索袖带"
+  },
+  {
+   "slug": "Kalguuran_Cuffs",
+   "name": "卡古兰袖带"
+  },
+  {
+   "slug": "Righteous_Cuffs",
+   "name": "正义袖带"
+  },
+  {
+   "slug": "Signet_Cuffs",
+   "name": "纹饰袖带"
+  },
+  {
+   "slug": "Gauze_Wraps",
+   "name": "薄纱裹手"
+  },
+  {
+   "slug": "Linen_Wraps",
+   "name": "亚麻裹手"
+  },
+  {
+   "slug": "Spiral_Wraps",
+   "name": "螺旋裹手"
+  },
+  {
+   "slug": "Buckled_Wraps",
+   "name": "扣带裹手"
+  },
+  {
+   "slug": "Furtive_Wraps",
+   "name": "鬼祟裹手"
+  },
+  {
+   "slug": "Utility_Wraps",
+   "name": "万用裹手"
+  },
+  {
+   "slug": "Grand_Manchettes",
+   "name": "恢弘袖口"
+  },
+  {
+   "slug": "Plated_Mitts",
+   "name": "坚铁护手"
+  },
+  {
+   "slug": "Elegant_Mitts",
+   "name": "优雅护手"
+  },
+  {
+   "slug": "Ancient_Mitts",
+   "name": "远古护手"
+  },
+  {
+   "slug": "Feathered_Mitts",
+   "name": "羽饰护手"
+  },
+  {
+   "slug": "Hunting_Bracers",
+   "name": "狩猎护腕"
+  },
+  {
+   "slug": "Swift_Bracers",
+   "name": "迅捷护腕"
+  },
+  {
+   "slug": "Refined_Bracers",
+   "name": "精制护腕"
+  },
+  {
+   "slug": "Spiked_Bracers",
+   "name": "尖刺护腕"
+  },
+  {
+   "slug": "Ominous_Gloves",
+   "name": "噩兆手套"
+  },
+  {
+   "slug": "Embellished_Gloves",
+   "name": "华饰手套"
+  },
+  {
+   "slug": "Baroque_Gloves",
+   "name": "巴洛克手套"
+  },
+  {
+   "slug": "Gold_Gloves",
+   "name": "黄金手套"
+  },
+  {
+   "slug": "Ironmail_Gauntlets",
+   "name": "铁甲手套"
+  },
+  {
+   "slug": "Captain_Gauntlets",
+   "name": "队长手套"
+  },
+  {
+   "slug": "Zealot_Gauntlets",
+   "name": "狂热者手套"
+  },
+  {
+   "slug": "Braided_Cuffs",
+   "name": "编织袖带"
+  },
+  {
+   "slug": "Heirloom_Cuffs",
+   "name": "传家袖带"
+  },
+  {
+   "slug": "Ornate_Cuffs",
+   "name": "华丽袖带"
+  },
+  {
+   "slug": "Bandage_Wraps",
+   "name": "绷带裹手"
+  },
+  {
+   "slug": "Cambric_Wraps",
+   "name": "细麻布裹手"
+  },
+  {
+   "slug": "Adorned_Wraps",
+   "name": "华饰裹手"
+  },
+  {
+   "slug": "Knightly_Mitts",
+   "name": "骑士护手"
+  },
+  {
+   "slug": "Ornate_Mitts",
+   "name": "华丽护手"
+  },
+  {
+   "slug": "Vaal_Mitts",
+   "name": "瓦尔护手"
+  },
+  {
+   "slug": "Massive_Mitts",
+   "name": "巨型护手"
+  },
+  {
+   "slug": "Stalking_Bracers",
+   "name": "潜行护腕"
+  },
+  {
+   "slug": "Grand_Bracers",
+   "name": "宏伟护腕"
+  },
+  {
+   "slug": "Barbed_Bracers",
+   "name": "倒刺护腕"
+  },
+  {
+   "slug": "Polished_Bracers",
+   "name": "闪耀护腕"
+  },
+  {
+   "slug": "Grim_Gloves",
+   "name": "冷酷手套"
+  },
+  {
+   "slug": "Opulent_Gloves",
+   "name": "丰裕手套"
+  },
+  {
+   "slug": "Vaal_Gloves",
+   "name": "瓦尔手套"
+  },
+  {
+   "slug": "Sirenscale_Gloves",
+   "name": "海妖之鳞手套"
+  },
+  {
+   "slug": "Steelmail_Gauntlets",
+   "name": "钢甲手甲"
+  },
+  {
+   "slug": "Commander_Gauntlets",
+   "name": "军官手甲"
+  },
+  {
+   "slug": "Cultist_Gauntlets",
+   "name": "密会手甲"
+  },
+  {
+   "slug": "Blacksteel_Gauntlets",
+   "name": "黑钢手甲"
+  },
+  {
+   "slug": "Bound_Cuffs",
+   "name": "缚革袖带"
+  },
+  {
+   "slug": "Ancient_Cuffs",
+   "name": "远古袖带"
+  },
+  {
+   "slug": "Gleaming_Cuffs",
+   "name": "闪亮袖带"
+  },
+  {
+   "slug": "Adherent_Cuffs",
+   "name": "信徒袖带"
+  },
+  {
+   "slug": "Tethering_Bands",
+   "name": "锁魂束带"
+  },
+  {
+   "slug": "War_Wraps",
+   "name": "战争裹手"
+  },
+  {
+   "slug": "Elegant_Wraps",
+   "name": "雅致裹手"
+  },
+  {
+   "slug": "Vaal_Wraps",
+   "name": "瓦尔裹手"
+  },
+  {
+   "slug": "Secured_Wraps",
+   "name": "坚固裹手"
+  },
+  {
+   "slug": "Fists_of_Stone",
+   "name": "石拳"
+  },
+  {
+   "slug": "Runeforged_Fists_of_Stone",
+   "name": "符文石拳"
+  },
+  {
+   "slug": "Runeforged_Stocky_Mitts",
+   "name": "符文敦实护手"
+  },
+  {
+   "slug": "Runeforged_Riveted_Mitts",
+   "name": "符文铆接护手"
+  },
+  {
+   "slug": "Runeforged_Tempered_Mitts",
+   "name": "符文淬炼护手"
+  },
+  {
+   "slug": "Runeforged_Bolstered_Mitts",
+   "name": "符文增固护手"
+  },
+  {
+   "slug": "Runeforged_Moulded_Mitts",
+   "name": "符文铸锻护手"
+  },
+  {
+   "slug": "Runeforged_Detailed_Mitts",
+   "name": "符文精工护手"
+  },
+  {
+   "slug": "Runeforged_Titan_Mitts",
+   "name": "符文泰坦护手"
+  },
+  {
+   "slug": "Runeforged_Grand_Mitts",
+   "name": "符文堂皇护手"
+  },
+  {
+   "slug": "Runeforged_Suede_Bracers",
+   "name": "符文绒皮护腕"
+  },
+  {
+   "slug": "Runeforged_Firm_Bracers",
+   "name": "符文牢固护腕"
+  },
+  {
+   "slug": "Runeforged_Bound_Bracers",
+   "name": "符文缚革护腕"
+  },
+  {
+   "slug": "Runeforged_Sectioned_Bracers",
+   "name": "符文截片护腕"
+  },
+  {
+   "slug": "Runeforged_Spined_Bracers",
+   "name": "符文精纺护腕"
+  },
+  {
+   "slug": "Runeforged_Fine_Bracers",
+   "name": "符文精工护腕"
+  },
+  {
+   "slug": "Runeforged_Hardened_Bracers",
+   "name": "符文硬化护腕"
+  },
+  {
+   "slug": "Runeforged_Engraved_Bracers",
+   "name": "符文雕饰护腕"
+  },
+  {
+   "slug": "Runeforged_Torn_Gloves",
+   "name": "符文破碎手套"
+  },
+  {
+   "slug": "Runeforged_Sombre_Gloves",
+   "name": "符文肃穆手套"
+  },
+  {
+   "slug": "Runeforged_Stitched_Gloves",
+   "name": "符文缝合手套"
+  },
+  {
+   "slug": "Runeforged_Jewelled_Gloves",
+   "name": "符文宝石手套"
+  },
+  {
+   "slug": "Runeforged_Intricate_Gloves",
+   "name": "符文精致手套"
+  },
+  {
+   "slug": "Runeforged_Pauascale_Gloves",
+   "name": "符文海灵鳞缀手套"
+  },
+  {
+   "slug": "Runeforged_Embroidered_Gloves",
+   "name": "符文刺绣手套"
+  },
+  {
+   "slug": "Runeforged_Adorned_Gloves",
+   "name": "符文华饰手套"
+  },
+  {
+   "slug": "Runeforged_Ringmail_Gauntlets",
+   "name": "符文环锁手甲"
+  },
+  {
+   "slug": "Runeforged_Layered_Gauntlets",
+   "name": "符文垫层护手"
+  },
+  {
+   "slug": "Runeforged_Doubled_Gauntlets",
+   "name": "符文合钢手甲"
+  },
+  {
+   "slug": "Runeforged_Plate_Gauntlets",
+   "name": "符文铁板护手"
+  },
+  {
+   "slug": "Runeforged_Burnished_Gauntlets",
+   "name": "符文冷芒手甲"
+  },
+  {
+   "slug": "Runeforged_Ornate_Gauntlets",
+   "name": "符文华贵护手"
+  },
+  {
+   "slug": "Runeforged_Rope_Cuffs",
+   "name": "符文绳索袖带"
+  },
+  {
+   "slug": "Runeforged_Aged_Cuffs",
+   "name": "符文风霜袖带"
+  },
+  {
+   "slug": "Runeforged_Goldcast_Cuffs",
+   "name": "符文金索袖带"
+  },
+  {
+   "slug": "Runeforged_Kalguuran_Cuffs",
+   "name": "符文卡古兰袖带"
+  },
+  {
+   "slug": "Runeforged_Righteous_Cuffs",
+   "name": "符文正义袖带"
+  },
+  {
+   "slug": "Runeforged_Signet_Cuffs",
+   "name": "符文纹饰袖带"
+  },
+  {
+   "slug": "Runeforged_Gauze_Wraps",
+   "name": "符文薄纱裹手"
+  },
+  {
+   "slug": "Runeforged_Linen_Wraps",
+   "name": "符文亚麻裹手"
+  },
+  {
+   "slug": "Runeforged_Spiral_Wraps",
+   "name": "符文螺旋裹手"
+  },
+  {
+   "slug": "Runeforged_Buckled_Wraps",
+   "name": "符文扣带裹手"
+  },
+  {
+   "slug": "Runeforged_Furtive_Wraps",
+   "name": "符文鬼祟裹手"
+  },
+  {
+   "slug": "Runeforged_Utility_Wraps",
+   "name": "符文万用裹手"
+  },
+  {
+   "slug": "Runeforged_Ancient_Mitts",
+   "name": "符文远古护手"
+  },
+  {
+   "slug": "Runeforged_Feathered_Mitts",
+   "name": "符文羽饰护手"
+  },
+  {
+   "slug": "Runeforged_Refined_Bracers",
+   "name": "符文精制护腕"
+  },
+  {
+   "slug": "Runeforged_Spiked_Bracers",
+   "name": "符文尖刺护腕"
+  },
+  {
+   "slug": "Runeforged_Baroque_Gloves",
+   "name": "符文巴洛克手套"
+  },
+  {
+   "slug": "Runeforged_Gold_Gloves",
+   "name": "符文黄金手套"
+  },
+  {
+   "slug": "Runeforged_Zealot_Gauntlets",
+   "name": "符文狂热者手套"
+  },
+  {
+   "slug": "Runeforged_Ornate_Cuffs",
+   "name": "符文华丽袖带"
+  },
+  {
+   "slug": "Runeforged_Adorned_Wraps",
+   "name": "符文华饰裹手"
+  },
+  {
+   "slug": "Runeforged_Grand_Manchettes",
+   "name": "符文恢弘袖口"
+  },
+  {
+   "slug": "Runeforged_Knightly_Mitts",
+   "name": "符文骑士护手"
+  },
+  {
+   "slug": "Runeforged_Ornate_Mitts",
+   "name": "符文华丽护手"
+  },
+  {
+   "slug": "Runeforged_Vaal_Mitts",
+   "name": "符文瓦尔护手"
+  },
+  {
+   "slug": "Runeforged_Massive_Mitts",
+   "name": "符文巨型护手"
+  },
+  {
+   "slug": "Runeforged_Stalking_Bracers",
+   "name": "符文潜行护腕"
+  },
+  {
+   "slug": "Runeforged_Grand_Bracers",
+   "name": "符文宏伟护腕"
+  },
+  {
+   "slug": "Runeforged_Barbed_Bracers",
+   "name": "符文倒刺护腕"
+  },
+  {
+   "slug": "Runeforged_Polished_Bracers",
+   "name": "符文闪耀护腕"
+  },
+  {
+   "slug": "Runeforged_Grim_Gloves",
+   "name": "符文冷酷手套"
+  },
+  {
+   "slug": "Runeforged_Opulent_Gloves",
+   "name": "符文丰裕手套"
+  },
+  {
+   "slug": "Runeforged_Vaal_Gloves",
+   "name": "符文瓦尔手套"
+  },
+  {
+   "slug": "Runeforged_Sirenscale_Gloves",
+   "name": "符文海妖之鳞手套"
+  },
+  {
+   "slug": "Runeforged_Steelmail_Gauntlets",
+   "name": "符文钢甲手甲"
+  },
+  {
+   "slug": "Runeforged_Commander_Gauntlets",
+   "name": "符文军官手甲"
+  },
+  {
+   "slug": "Runeforged_Cultist_Gauntlets",
+   "name": "符文密会手甲"
+  },
+  {
+   "slug": "Runeforged_Blacksteel_Gauntlets",
+   "name": "符文黑钢手甲"
+  },
+  {
+   "slug": "Runeforged_Bound_Cuffs",
+   "name": "符文缚革袖带"
+  },
+  {
+   "slug": "Runeforged_Ancient_Cuffs",
+   "name": "符文远古袖带"
+  },
+  {
+   "slug": "Runeforged_Gleaming_Cuffs",
+   "name": "符文闪亮袖带"
+  },
+  {
+   "slug": "Runeforged_Adherent_Cuffs",
+   "name": "符文信徒袖带"
+  },
+  {
+   "slug": "Runeforged_War_Wraps",
+   "name": "符文战争裹手"
+  },
+  {
+   "slug": "Runeforged_Elegant_Wraps",
+   "name": "符文雅致裹手"
+  },
+  {
+   "slug": "Runeforged_Vaal_Wraps",
+   "name": "符文瓦尔裹手"
+  },
+  {
+   "slug": "Runeforged_Secured_Wraps",
+   "name": "符文坚固裹手"
+  },
+  {
+   "slug": "Runemastered_Stocky_Mitts",
+   "name": "符文师匠敦实护手"
+  },
+  {
+   "slug": "Runemastered_Riveted_Mitts",
+   "name": "符文师匠铆接护手"
+  },
+  {
+   "slug": "Runemastered_Tempered_Mitts",
+   "name": "符文师匠淬炼护手"
+  },
+  {
+   "slug": "Runemastered_Bolstered_Mitts",
+   "name": "符文师匠增固护手"
+  },
+  {
+   "slug": "Runemastered_Moulded_Mitts",
+   "name": "符文师匠铸锻护手"
+  },
+  {
+   "slug": "Runemastered_Titan_Mitts",
+   "name": "符文师匠泰坦护手"
+  },
+  {
+   "slug": "Runemastered_Suede_Bracers",
+   "name": "符文师匠绒皮护腕"
+  },
+  {
+   "slug": "Runemastered_Firm_Bracers",
+   "name": "符文师匠牢固护腕"
+  },
+  {
+   "slug": "Runemastered_Sectioned_Bracers",
+   "name": "符文师匠截片护腕"
+  },
+  {
+   "slug": "Runemastered_Spined_Bracers",
+   "name": "符文师匠精纺护腕"
+  },
+  {
+   "slug": "Runemastered_Fine_Bracers",
+   "name": "符文师匠精工护腕"
+  },
+  {
+   "slug": "Runemastered_Torn_Gloves",
+   "name": "符文师匠破碎手套"
+  },
+  {
+   "slug": "Runemastered_Sombre_Gloves",
+   "name": "符文师匠肃穆手套"
+  },
+  {
+   "slug": "Runemastered_Stitched_Gloves",
+   "name": "符文师匠缝合手套"
+  },
+  {
+   "slug": "Runemastered_Jewelled_Gloves",
+   "name": "符文师匠宝石手套"
+  },
+  {
+   "slug": "Runemastered_Intricate_Gloves",
+   "name": "符文师匠精致手套"
+  },
+  {
+   "slug": "Runemastered_Pauascale_Gloves",
+   "name": "符文师匠海灵鳞缀手套"
+  },
+  {
+   "slug": "Runemastered_Embroidered_Gloves",
+   "name": "符文师匠刺绣手套"
+  },
+  {
+   "slug": "Runemastered_Ringmail_Gauntlets",
+   "name": "符文师匠环锁手甲"
+  },
+  {
+   "slug": "Runemastered_Layered_Gauntlets",
+   "name": "符文师匠垫层护手"
+  },
+  {
+   "slug": "Runemastered_Doubled_Gauntlets",
+   "name": "符文师匠合钢手甲"
+  },
+  {
+   "slug": "Runemastered_Plate_Gauntlets",
+   "name": "符文师匠铁板护手"
+  },
+  {
+   "slug": "Runemastered_Burnished_Gauntlets",
+   "name": "符文师匠冷芒手甲"
+  },
+  {
+   "slug": "Runemastered_Rope_Cuffs",
+   "name": "符文师匠绳索袖带"
+  },
+  {
+   "slug": "Runemastered_Aged_Cuffs",
+   "name": "符文师匠风霜袖带"
+  },
+  {
+   "slug": "Runemastered_Goldcast_Cuffs",
+   "name": "符文师匠金索袖带"
+  },
+  {
+   "slug": "Runemastered_Verisium_Cuffs",
+   "name": "符文师匠维金袖带"
+  },
+  {
+   "slug": "Runemastered_Gauze_Wraps",
+   "name": "符文师匠薄纱裹手"
+  },
+  {
+   "slug": "Runemastered_Linen_Wraps",
+   "name": "符文师匠亚麻裹手"
+  },
+  {
+   "slug": "Runemastered_Spiral_Wraps",
+   "name": "符文师匠螺旋裹手"
+  },
+  {
+   "slug": "Runemastered_Furtive_Wraps",
+   "name": "符文师匠鬼祟裹手"
+  },
+  {
+   "slug": "Runemastered_Utility_Wraps",
+   "name": "符文师匠万用裹手"
+  },
+  {
+   "slug": "Runemastered_Grand_Manchettes",
+   "name": "符文师匠恢弘袖口"
+  },
+  {
+   "slug": "Katlas_Gloom",
+   "name": "卡塔拉的阴霾"
+  },
+  {
+   "slug": "Kolrs_Hunt",
+   "name": "克尔的狩猎"
+  }
+ ]
+}

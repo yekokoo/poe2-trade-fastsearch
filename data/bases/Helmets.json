@@ -1,0 +1,1035 @@
+{
+ "slug": "Helmets",
+ "cnName": "头盔",
+ "fetchedAt": "2026-09-17T07:31:29.981Z",
+ "bases": [
+  {
+   "slug": "Golden_Wreath",
+   "name": "金黄花环"
+  },
+  {
+   "slug": "Golden_Visage",
+   "name": "金色面具"
+  },
+  {
+   "slug": "Rusted_Greathelm",
+   "name": "锈蚀巨盔"
+  },
+  {
+   "slug": "Soldier_Greathelm",
+   "name": "兵卒巨盔"
+  },
+  {
+   "slug": "Wrapped_Greathelm",
+   "name": "裹布巨盔"
+  },
+  {
+   "slug": "Spired_Greathelm",
+   "name": "螺旋巨盔"
+  },
+  {
+   "slug": "Elite_Greathelm",
+   "name": "精锐巨盔"
+  },
+  {
+   "slug": "Warrior_Greathelm",
+   "name": "战士巨盔"
+  },
+  {
+   "slug": "Commander_Greathelm",
+   "name": "军官巨盔"
+  },
+  {
+   "slug": "Fierce_Greathelm",
+   "name": "刚烈巨盔"
+  },
+  {
+   "slug": "Sentinel_Greathelm",
+   "name": "哨卫巨盔"
+  },
+  {
+   "slug": "Goliath_Greathelm",
+   "name": "歌利亚巨盔"
+  },
+  {
+   "slug": "Guardian_Greathelm",
+   "name": "守护者巨盔"
+  },
+  {
+   "slug": "Shabby_Hood",
+   "name": "破旧兜帽"
+  },
+  {
+   "slug": "Felt_Cap",
+   "name": "毛毡帽"
+  },
+  {
+   "slug": "Lace_Hood",
+   "name": "花边兜帽"
+  },
+  {
+   "slug": "Swathed_Cap",
+   "name": "缠丝帽"
+  },
+  {
+   "slug": "Hunter_Hood",
+   "name": "猎者兜帽"
+  },
+  {
+   "slug": "Viper_Cap",
+   "name": "毒蝰帽"
+  },
+  {
+   "slug": "Corsair_Cap",
+   "name": "海贼帽"
+  },
+  {
+   "slug": "Leatherbound_Hood",
+   "name": "皮缚兜帽"
+  },
+  {
+   "slug": "Velvet_Cap",
+   "name": "丝绒帽"
+  },
+  {
+   "slug": "Covert_Hood",
+   "name": "匿踪兜帽"
+  },
+  {
+   "slug": "Armoured_Cap",
+   "name": "覆甲帽"
+  },
+  {
+   "slug": "Twig_Circlet",
+   "name": "细枝头冠"
+  },
+  {
+   "slug": "Wicker_Tiara",
+   "name": "柳枝冠冕"
+  },
+  {
+   "slug": "Beaded_Circlet",
+   "name": "珠饰头冠"
+  },
+  {
+   "slug": "Chain_Tiara",
+   "name": "锁链冠冕"
+  },
+  {
+   "slug": "Feathered_Tiara",
+   "name": "羽饰冠冕"
+  },
+  {
+   "slug": "Gold_Circlet",
+   "name": "烁金头冠"
+  },
+  {
+   "slug": "Vermeil_Circlet",
+   "name": "朱砂头冠"
+  },
+  {
+   "slug": "Jade_Tiara",
+   "name": "翠玉冠冕"
+  },
+  {
+   "slug": "Noble_Circlet",
+   "name": "贵族头冠"
+  },
+  {
+   "slug": "Twilight_Tiara",
+   "name": "暮光冠冕"
+  },
+  {
+   "slug": "Magus_Tiara",
+   "name": "术士冠冕"
+  },
+  {
+   "slug": "Brimmed_Helm",
+   "name": "宽沿之盔"
+  },
+  {
+   "slug": "Guarded_Helm",
+   "name": "守护之盔"
+  },
+  {
+   "slug": "Visored_Helm",
+   "name": "护面之盔"
+  },
+  {
+   "slug": "Cowled_Helm",
+   "name": "掩面之盔"
+  },
+  {
+   "slug": "Shielded_Helm",
+   "name": "卫护之盔"
+  },
+  {
+   "slug": "Closed_Helm",
+   "name": "封闭之盔"
+  },
+  {
+   "slug": "Decorated_Helm",
+   "name": "华饰之盔"
+  },
+  {
+   "slug": "Gallant_Helm",
+   "name": "英武之盔"
+  },
+  {
+   "slug": "Ancient_Visor",
+   "name": "远古面甲"
+  },
+  {
+   "slug": "Iron_Crown",
+   "name": "铁锻王冠"
+  },
+  {
+   "slug": "Horned_Crown",
+   "name": "犄角王冠"
+  },
+  {
+   "slug": "Cultist_Crown",
+   "name": "密教头冠"
+  },
+  {
+   "slug": "Martyr_Crown",
+   "name": "英烈之冠"
+  },
+  {
+   "slug": "Heavy_Crown",
+   "name": "沉重王冠"
+  },
+  {
+   "slug": "Spiritbone_Crown",
+   "name": "灵骨王冠"
+  },
+  {
+   "slug": "Lavish_Crown",
+   "name": "奢华王冠"
+  },
+  {
+   "slug": "Archon_Crown",
+   "name": "执政官王冠"
+  },
+  {
+   "slug": "Tenebrous_Crown",
+   "name": "阴暗王冠"
+  },
+  {
+   "slug": "Hewn_Mask",
+   "name": "凿制之面"
+  },
+  {
+   "slug": "Face_Mask",
+   "name": "覆颜面具"
+  },
+  {
+   "slug": "Hooded_Mask",
+   "name": "兜帽之面"
+  },
+  {
+   "slug": "Veiled_Mask",
+   "name": "蒙纱之面"
+  },
+  {
+   "slug": "Tribal_Mask",
+   "name": "部族之面"
+  },
+  {
+   "slug": "Solid_Mask",
+   "name": "坚固之面"
+  },
+  {
+   "slug": "Shaded_Mask",
+   "name": "影蔽之面"
+  },
+  {
+   "slug": "Death_Mask",
+   "name": "死神之面"
+  },
+  {
+   "slug": "Grand_Visage",
+   "name": "恢弘面罩"
+  },
+  {
+   "slug": "Corroded_Greathelm",
+   "name": "腐蚀巨盔"
+  },
+  {
+   "slug": "Mercenary_Greathelm",
+   "name": "佣兵巨盔"
+  },
+  {
+   "slug": "Homeguard_Greathelm",
+   "name": "族卫巨盔"
+  },
+  {
+   "slug": "Elegant_Greathelm",
+   "name": "雅致巨盔"
+  },
+  {
+   "slug": "Noble_Greathelm",
+   "name": "贵族巨盔"
+  },
+  {
+   "slug": "Rotted_Hood",
+   "name": "腐烂兜帽"
+  },
+  {
+   "slug": "Wool_Cap",
+   "name": "羊毛帽"
+  },
+  {
+   "slug": "Narrow_Hood",
+   "name": "窄型兜帽"
+  },
+  {
+   "slug": "Wrapped_Cap",
+   "name": "包裹帽"
+  },
+  {
+   "slug": "Deerstalker_Hood",
+   "name": "猎踪兜帽"
+  },
+  {
+   "slug": "Druidic_Circlet",
+   "name": "德鲁伊头冠"
+  },
+  {
+   "slug": "Avian_Tiara",
+   "name": "飞羽冠冕"
+  },
+  {
+   "slug": "Desert_Circlet",
+   "name": "沙漠头冠"
+  },
+  {
+   "slug": "Sandsworn_Tiara",
+   "name": "沙誓冠冕"
+  },
+  {
+   "slug": "Jungle_Tiara",
+   "name": "丛林冠冕"
+  },
+  {
+   "slug": "Domed_Helm",
+   "name": "圆顶头盔"
+  },
+  {
+   "slug": "Engraved_Helm",
+   "name": "雕饰头盔"
+  },
+  {
+   "slug": "Soldier_Helm",
+   "name": "士兵头盔"
+  },
+  {
+   "slug": "Cabalist_Helm",
+   "name": "秘法家头盔"
+  },
+  {
+   "slug": "Cassis_Helm",
+   "name": "海螺头盔"
+  },
+  {
+   "slug": "Mailed_Crown",
+   "name": "锁甲王冠"
+  },
+  {
+   "slug": "Forest_Crown",
+   "name": "森林王冠"
+  },
+  {
+   "slug": "Zealot_Crown",
+   "name": "狂热者王冠"
+  },
+  {
+   "slug": "Hallowed_Crown",
+   "name": "神圣王冠"
+  },
+  {
+   "slug": "Inquisitor_Crown",
+   "name": "判官王冠"
+  },
+  {
+   "slug": "Oak_Mask",
+   "name": "欧克面具"
+  },
+  {
+   "slug": "Bandit_Mask",
+   "name": "盗贼面具"
+  },
+  {
+   "slug": "Skulking_Mask",
+   "name": "潜行面具"
+  },
+  {
+   "slug": "Pariah_Mask",
+   "name": "贱民面具"
+  },
+  {
+   "slug": "Avian_Mask",
+   "name": "飞羽面具"
+  },
+  {
+   "slug": "Warmonger_Greathelm",
+   "name": "好战者巨盔"
+  },
+  {
+   "slug": "Masked_Greathelm",
+   "name": "蒙面巨盔"
+  },
+  {
+   "slug": "Paragon_Greathelm",
+   "name": "典范巨盔"
+  },
+  {
+   "slug": "Imperial_Greathelm",
+   "name": "帝国巨盔"
+  },
+  {
+   "slug": "Woven_Cap",
+   "name": "编织帽"
+  },
+  {
+   "slug": "Desert_Cap",
+   "name": "沙漠帽"
+  },
+  {
+   "slug": "Trapper_Hood",
+   "name": "猎人兜帽"
+  },
+  {
+   "slug": "Freebooter_Cap",
+   "name": "劫掠者之帽"
+  },
+  {
+   "slug": "Skycrown_Tiara",
+   "name": "天冠冠冕"
+  },
+  {
+   "slug": "Sorcerous_Tiara",
+   "name": "法术冠冕"
+  },
+  {
+   "slug": "Kamasan_Tiara",
+   "name": "卡马萨冠冕"
+  },
+  {
+   "slug": "Ancestral_Tiara",
+   "name": "先祖冠冕"
+  },
+  {
+   "slug": "Warded_Helm",
+   "name": "掩蔽头盔"
+  },
+  {
+   "slug": "Cryptic_Helm",
+   "name": "神秘头盔"
+  },
+  {
+   "slug": "Champion_Helm",
+   "name": "勇士头盔"
+  },
+  {
+   "slug": "Gladiatorial_Helm",
+   "name": "角斗士头盔"
+  },
+  {
+   "slug": "Druidic_Crown",
+   "name": "德鲁伊王冠"
+  },
+  {
+   "slug": "Saintly_Crown",
+   "name": "圣洁王冠"
+  },
+  {
+   "slug": "Divine_Crown",
+   "name": "神礼王冠"
+  },
+  {
+   "slug": "Cryptic_Crown",
+   "name": "隐秘之冠"
+  },
+  {
+   "slug": "Brigand_Mask",
+   "name": "强盗面具"
+  },
+  {
+   "slug": "Faridun_Mask",
+   "name": "法里顿面具"
+  },
+  {
+   "slug": "Soaring_Mask",
+   "name": "翱翔面具"
+  },
+  {
+   "slug": "Grinning_Mask",
+   "name": "狞笑面罩"
+  },
+  {
+   "slug": "Runeforged_Rusted_Greathelm",
+   "name": "符文锈蚀巨盔"
+  },
+  {
+   "slug": "Runeforged_Soldier_Greathelm",
+   "name": "符文兵卒巨盔"
+  },
+  {
+   "slug": "Runeforged_Wrapped_Greathelm",
+   "name": "符文裹布巨盔"
+  },
+  {
+   "slug": "Runeforged_Spired_Greathelm",
+   "name": "符文螺旋巨盔"
+  },
+  {
+   "slug": "Runeforged_Elite_Greathelm",
+   "name": "符文精锐巨盔"
+  },
+  {
+   "slug": "Runeforged_Warrior_Greathelm",
+   "name": "符文战士巨盔"
+  },
+  {
+   "slug": "Runeforged_Commander_Greathelm",
+   "name": "符文军官巨盔"
+  },
+  {
+   "slug": "Runeforged_Fierce_Greathelm",
+   "name": "符文刚烈巨盔"
+  },
+  {
+   "slug": "Runeforged_Sentinel_Greathelm",
+   "name": "符文哨卫巨盔"
+  },
+  {
+   "slug": "Runeforged_Goliath_Greathelm",
+   "name": "符文歌利亚巨盔"
+  },
+  {
+   "slug": "Runeforged_Guardian_Greathelm",
+   "name": "符文守护者巨盔"
+  },
+  {
+   "slug": "Runeforged_Shabby_Hood",
+   "name": "符文破旧兜帽"
+  },
+  {
+   "slug": "Runeforged_Felt_Cap",
+   "name": "符文毛毡帽"
+  },
+  {
+   "slug": "Runeforged_Lace_Hood",
+   "name": "符文花边兜帽"
+  },
+  {
+   "slug": "Runeforged_Swathed_Cap",
+   "name": "符文缠丝帽"
+  },
+  {
+   "slug": "Runeforged_Hunter_Hood",
+   "name": "符文猎者兜帽"
+  },
+  {
+   "slug": "Runeforged_Viper_Cap",
+   "name": "符文毒蝰帽"
+  },
+  {
+   "slug": "Runeforged_Corsair_Cap",
+   "name": "符文海贼帽"
+  },
+  {
+   "slug": "Runeforged_Leatherbound_Hood",
+   "name": "符文皮缚兜帽"
+  },
+  {
+   "slug": "Runeforged_Velvet_Cap",
+   "name": "符文丝绒帽"
+  },
+  {
+   "slug": "Runeforged_Covert_Hood",
+   "name": "符文匿踪兜帽"
+  },
+  {
+   "slug": "Runeforged_Armoured_Cap",
+   "name": "符文覆甲帽"
+  },
+  {
+   "slug": "Runeforged_Twig_Circlet",
+   "name": "符文细枝头冠"
+  },
+  {
+   "slug": "Runeforged_Wicker_Tiara",
+   "name": "符文柳枝冠冕"
+  },
+  {
+   "slug": "Runeforged_Beaded_Circlet",
+   "name": "符文珠饰头冠"
+  },
+  {
+   "slug": "Runeforged_Chain_Tiara",
+   "name": "符文锁链冠冕"
+  },
+  {
+   "slug": "Runeforged_Feathered_Tiara",
+   "name": "符文羽饰冠冕"
+  },
+  {
+   "slug": "Runeforged_Gold_Circlet",
+   "name": "符文烁金头冠"
+  },
+  {
+   "slug": "Runeforged_Vermeil_Circlet",
+   "name": "符文朱砂头冠"
+  },
+  {
+   "slug": "Runeforged_Jade_Tiara",
+   "name": "符文翠玉冠冕"
+  },
+  {
+   "slug": "Runeforged_Noble_Circlet",
+   "name": "符文贵族头冠"
+  },
+  {
+   "slug": "Runeforged_Twilight_Tiara",
+   "name": "符文暮光冠冕"
+  },
+  {
+   "slug": "Runeforged_Magus_Tiara",
+   "name": "符文术士冠冕"
+  },
+  {
+   "slug": "Runeforged_Brimmed_Helm",
+   "name": "符文宽沿之盔"
+  },
+  {
+   "slug": "Runeforged_Guarded_Helm",
+   "name": "符文守护之盔"
+  },
+  {
+   "slug": "Runeforged_Visored_Helm",
+   "name": "符文护面之盔"
+  },
+  {
+   "slug": "Runeforged_Cowled_Helm",
+   "name": "符文掩面之盔"
+  },
+  {
+   "slug": "Runeforged_Shielded_Helm",
+   "name": "符文卫护之盔"
+  },
+  {
+   "slug": "Runeforged_Closed_Helm",
+   "name": "符文封闭之盔"
+  },
+  {
+   "slug": "Runeforged_Decorated_Helm",
+   "name": "符文华饰之盔"
+  },
+  {
+   "slug": "Runeforged_Gallant_Helm",
+   "name": "符文英武之盔"
+  },
+  {
+   "slug": "Runeforged_Iron_Crown",
+   "name": "符文铁锻王冠"
+  },
+  {
+   "slug": "Runeforged_Horned_Crown",
+   "name": "符文犄角王冠"
+  },
+  {
+   "slug": "Runeforged_Cultist_Crown",
+   "name": "符文密教头冠"
+  },
+  {
+   "slug": "Runeforged_Martyr_Crown",
+   "name": "符文英烈之冠"
+  },
+  {
+   "slug": "Runeforged_Heavy_Crown",
+   "name": "符文沉重王冠"
+  },
+  {
+   "slug": "Runeforged_Spiritbone_Crown",
+   "name": "符文灵骨王冠"
+  },
+  {
+   "slug": "Runeforged_Lavish_Crown",
+   "name": "符文奢华王冠"
+  },
+  {
+   "slug": "Runeforged_Archon_Crown",
+   "name": "符文执政官王冠"
+  },
+  {
+   "slug": "Runeforged_Hewn_Mask",
+   "name": "符文凿制之面"
+  },
+  {
+   "slug": "Runeforged_Face_Mask",
+   "name": "符文覆颜面具"
+  },
+  {
+   "slug": "Runeforged_Hooded_Mask",
+   "name": "符文兜帽之面"
+  },
+  {
+   "slug": "Runeforged_Veiled_Mask",
+   "name": "符文蒙纱之面"
+  },
+  {
+   "slug": "Runeforged_Tribal_Mask",
+   "name": "符文部族之面"
+  },
+  {
+   "slug": "Runeforged_Solid_Mask",
+   "name": "符文坚固之面"
+  },
+  {
+   "slug": "Runeforged_Shaded_Mask",
+   "name": "符文影蔽之面"
+  },
+  {
+   "slug": "Runeforged_Death_Mask",
+   "name": "符文死神之面"
+  },
+  {
+   "slug": "Runeforged_Elegant_Greathelm",
+   "name": "符文雅致巨盔"
+  },
+  {
+   "slug": "Runeforged_Noble_Greathelm",
+   "name": "符文贵族巨盔"
+  },
+  {
+   "slug": "Runeforged_Wrapped_Cap",
+   "name": "符文包裹帽"
+  },
+  {
+   "slug": "Runeforged_Deerstalker_Hood",
+   "name": "符文猎踪兜帽"
+  },
+  {
+   "slug": "Runeforged_Sandsworn_Tiara",
+   "name": "符文沙誓冠冕"
+  },
+  {
+   "slug": "Runeforged_Jungle_Tiara",
+   "name": "符文丛林冠冕"
+  },
+  {
+   "slug": "Runeforged_Cabalist_Helm",
+   "name": "符文秘法家头盔"
+  },
+  {
+   "slug": "Runeforged_Gladiatorial_Helm",
+   "name": "符文角斗士头盔"
+  },
+  {
+   "slug": "Runeforged_Hallowed_Crown",
+   "name": "符文神圣王冠"
+  },
+  {
+   "slug": "Runeforged_Inquisitor_Crown",
+   "name": "符文判官王冠"
+  },
+  {
+   "slug": "Runeforged_Pariah_Mask",
+   "name": "符文贱民面具"
+  },
+  {
+   "slug": "Runeforged_Avian_Mask",
+   "name": "符文飞羽面具"
+  },
+  {
+   "slug": "Runeforged_Grand_Visage",
+   "name": "符文恢弘面罩"
+  },
+  {
+   "slug": "Runeforged_Warmonger_Greathelm",
+   "name": "符文好战者巨盔"
+  },
+  {
+   "slug": "Runeforged_Masked_Greathelm",
+   "name": "符文蒙面巨盔"
+  },
+  {
+   "slug": "Runeforged_Paragon_Greathelm",
+   "name": "符文典范巨盔"
+  },
+  {
+   "slug": "Runeforged_Imperial_Greathelm",
+   "name": "符文帝国巨盔"
+  },
+  {
+   "slug": "Runeforged_Woven_Cap",
+   "name": "符文编织帽"
+  },
+  {
+   "slug": "Runeforged_Desert_Cap",
+   "name": "符文沙漠帽"
+  },
+  {
+   "slug": "Runeforged_Trapper_Hood",
+   "name": "符文猎人兜帽"
+  },
+  {
+   "slug": "Runeforged_Freebooter_Cap",
+   "name": "符文劫掠者之帽"
+  },
+  {
+   "slug": "Runeforged_Skycrown_Tiara",
+   "name": "符文天冠冠冕"
+  },
+  {
+   "slug": "Runeforged_Sorcerous_Tiara",
+   "name": "符文法术冠冕"
+  },
+  {
+   "slug": "Runeforged_Kamasan_Tiara",
+   "name": "符文卡马萨冠冕"
+  },
+  {
+   "slug": "Runeforged_Ancestral_Tiara",
+   "name": "符文先祖冠冕"
+  },
+  {
+   "slug": "Runeforged_Warded_Helm",
+   "name": "符文掩蔽头盔"
+  },
+  {
+   "slug": "Runeforged_Cryptic_Helm",
+   "name": "符文神秘头盔"
+  },
+  {
+   "slug": "Runeforged_Champion_Helm",
+   "name": "符文勇士头盔"
+  },
+  {
+   "slug": "Runeforged_Druidic_Crown",
+   "name": "符文德鲁伊王冠"
+  },
+  {
+   "slug": "Runeforged_Saintly_Crown",
+   "name": "符文圣洁王冠"
+  },
+  {
+   "slug": "Runeforged_Divine_Crown",
+   "name": "符文神礼王冠"
+  },
+  {
+   "slug": "Runeforged_Cryptic_Crown",
+   "name": "符文隐秘之冠"
+  },
+  {
+   "slug": "Runeforged_Brigand_Mask",
+   "name": "符文强盗面具"
+  },
+  {
+   "slug": "Runeforged_Faridun_Mask",
+   "name": "符文法里顿面具"
+  },
+  {
+   "slug": "Runeforged_Soaring_Mask",
+   "name": "符文翱翔面具"
+  },
+  {
+   "slug": "Runeforged_Grinning_Mask",
+   "name": "符文狞笑面罩"
+  },
+  {
+   "slug": "Runemastered_Rusted_Greathelm",
+   "name": "符文师匠锈蚀巨盔"
+  },
+  {
+   "slug": "Runemastered_Soldier_Greathelm",
+   "name": "符文师匠兵卒巨盔"
+  },
+  {
+   "slug": "Runemastered_Wrapped_Greathelm",
+   "name": "符文师匠裹布巨盔"
+  },
+  {
+   "slug": "Runemastered_Spired_Greathelm",
+   "name": "符文师匠螺旋巨盔"
+  },
+  {
+   "slug": "Runemastered_Elite_Greathelm",
+   "name": "符文师匠精锐巨盔"
+  },
+  {
+   "slug": "Runemastered_Warrior_Greathelm",
+   "name": "符文师匠战士巨盔"
+  },
+  {
+   "slug": "Runemastered_Fierce_Greathelm",
+   "name": "符文师匠刚烈巨盔"
+  },
+  {
+   "slug": "Runemastered_Shabby_Hood",
+   "name": "符文师匠破旧兜帽"
+  },
+  {
+   "slug": "Runemastered_Felt_Cap",
+   "name": "符文师匠毛毡帽"
+  },
+  {
+   "slug": "Runemastered_Hunter_Hood",
+   "name": "符文师匠猎者兜帽"
+  },
+  {
+   "slug": "Runemastered_Viper_Cap",
+   "name": "符文师匠毒蝰帽"
+  },
+  {
+   "slug": "Runemastered_Corsair_Cap",
+   "name": "符文师匠海贼帽"
+  },
+  {
+   "slug": "Runemastered_Leatherbound_Hood",
+   "name": "符文师匠皮缚兜帽"
+  },
+  {
+   "slug": "Runemastered_Velvet_Cap",
+   "name": "符文师匠丝绒帽"
+  },
+  {
+   "slug": "Runemastered_Covert_Hood",
+   "name": "符文师匠匿踪兜帽"
+  },
+  {
+   "slug": "Runemastered_Armoured_Cap",
+   "name": "符文师匠覆甲帽"
+  },
+  {
+   "slug": "Runemastered_Twig_Circlet",
+   "name": "符文师匠细枝头冠"
+  },
+  {
+   "slug": "Runemastered_Wicker_Tiara",
+   "name": "符文师匠柳枝冠冕"
+  },
+  {
+   "slug": "Runemastered_Beaded_Circlet",
+   "name": "符文师匠珠饰头冠"
+  },
+  {
+   "slug": "Runemastered_Chain_Tiara",
+   "name": "符文师匠锁链冠冕"
+  },
+  {
+   "slug": "Runemastered_Feathered_Tiara",
+   "name": "符文师匠羽饰冠冕"
+  },
+  {
+   "slug": "Runemastered_Gold_Circlet",
+   "name": "符文师匠烁金头冠"
+  },
+  {
+   "slug": "Runemastered_Vermeil_Circlet",
+   "name": "符文师匠朱砂头冠"
+  },
+  {
+   "slug": "Runemastered_Jade_Tiara",
+   "name": "符文师匠翠玉冠冕"
+  },
+  {
+   "slug": "Runemastered_Twilight_Tiara",
+   "name": "符文师匠暮光冠冕"
+  },
+  {
+   "slug": "Runemastered_Magus_Tiara",
+   "name": "符文师匠术士冠冕"
+  },
+  {
+   "slug": "Runemastered_Brimmed_Helm",
+   "name": "符文师匠宽沿之盔"
+  },
+  {
+   "slug": "Runemastered_Guarded_Helm",
+   "name": "符文师匠守护之盔"
+  },
+  {
+   "slug": "Runemastered_Visored_Helm",
+   "name": "符文师匠护面之盔"
+  },
+  {
+   "slug": "Runemastered_Cowled_Helm",
+   "name": "符文师匠掩面之盔"
+  },
+  {
+   "slug": "Runemastered_Shielded_Helm",
+   "name": "符文师匠卫护之盔"
+  },
+  {
+   "slug": "Runemastered_Decorated_Helm",
+   "name": "符文师匠华饰之盔"
+  },
+  {
+   "slug": "Runemastered_Ancient_Visor",
+   "name": "符文师匠远古面甲"
+  },
+  {
+   "slug": "Runemastered_Iron_Crown",
+   "name": "符文师匠铁锻王冠"
+  },
+  {
+   "slug": "Runemastered_Horned_Crown",
+   "name": "符文师匠犄角王冠"
+  },
+  {
+   "slug": "Runemastered_Cultist_Crown",
+   "name": "符文师匠密教头冠"
+  },
+  {
+   "slug": "Runemastered_Martyr_Crown",
+   "name": "符文师匠英烈之冠"
+  },
+  {
+   "slug": "Runemastered_Heavy_Crown",
+   "name": "符文师匠沉重王冠"
+  },
+  {
+   "slug": "Runemastered_Spiritbone_Crown",
+   "name": "符文师匠灵骨王冠"
+  },
+  {
+   "slug": "Runemastered_Grand_Visage",
+   "name": "符文师匠恢弘面罩"
+  },
+  {
+   "slug": "Runemastered_Tenebrous_Crown",
+   "name": "符文师匠阴暗王冠"
+  },
+  {
+   "slug": "Runemastered_Hewn_Mask",
+   "name": "符文师匠凿制之面"
+  },
+  {
+   "slug": "Runemastered_Face_Mask",
+   "name": "符文师匠覆颜面具"
+  },
+  {
+   "slug": "Runemastered_Hooded_Mask",
+   "name": "符文师匠兜帽之面"
+  },
+  {
+   "slug": "Runemastered_Veiled_Mask",
+   "name": "符文师匠蒙纱之面"
+  },
+  {
+   "slug": "Runemastered_Tribal_Mask",
+   "name": "符文师匠部族之面"
+  },
+  {
+   "slug": "Runemastered_Solid_Mask",
+   "name": "符文师匠坚固之面"
+  },
+  {
+   "slug": "Runemastered_Death_Mask",
+   "name": "符文师匠死神之面"
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>POE2 速搜 — 界面形态讨论</title>
+<style>
+  :root{--bg:#fff;--surface:#f6f5f2;--text:#26221c;--muted:#7a766e;--border:rgba(0,0,0,.14);--accent:#185fa5;--accent-bg:#e6f1fb;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font:13px/1.6 "Segoe UI","Microsoft YaHei",sans-serif;color:var(--text);background:#faf9f7;padding:28px 20px 60px}
+  .wrap{max-width:1080px;margin:0 auto}
+  h1{font-size:20px;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:26px}
+  h2{font-size:16px;margin:34px 0 12px;border-left:3px solid var(--accent);padding-left:10px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:16px}
+  .card{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+  .card h3{font-size:14px;margin-bottom:8px}
+  .card .tag{display:inline-block;font-size:11px;padding:2px 9px;border-radius:999px;background:var(--accent-bg);color:var(--accent);margin-bottom:8px}
+  .card p{color:var(--muted);font-size:12.5px}
+  .card ul{margin:8px 0 0 18px;color:var(--text);font-size:12.5px}
+  .card li{margin:4px 0}
+  table{width:100%;border-collapse:collapse;background:var(--bg);border-radius:12px;overflow:hidden;font-size:12.5px}
+  th,td{border-bottom:1px solid var(--border);padding:9px 12px;text-align:left;vertical-align:top}
+  th{background:var(--surface);font-weight:600}
+  tr:last-child td{border-bottom:none}
+  .good{color:#27500A}.bad{color:#A32D2D}.mid{color:#854F0B}
+  .note{background:var(--surface);border-radius:10px;padding:12px 16px;color:var(--muted);font-size:12.5px;margin-top:10px}
+  .q{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+  .q h3{font-size:14px;margin-bottom:6px}
+  .q p{color:var(--muted);font-size:12.5px;margin-bottom:8px}
+  .opt{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;border:1px solid var(--border);border-radius:9px;margin:6px 0;cursor:pointer}
+  .opt:hover{border-color:rgba(0,0,0,.3)}
+  .opt input{margin-top:3px}
+  .opt b{font-size:13px}
+  .opt span{display:block;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>POE2 速搜 · 界面形态讨论</h1>
+  <div class="sub">基于 68 分类 / 4747 词缀组的真实数据。三类物品结构差异明显，下面是发现和方案，看完回答最后 3 个问题即可。</div>
+
+  <h2>一、数据揭示的问题：词缀池不是一种形态</h2>
+  <table>
+    <tr><th>物品原型</th><th>前缀/后缀规模</th><th>词缀文本特征</th><th>来源分布特征</th><th>筛选交互挑战</th></tr>
+    <tr>
+      <td><b>装备</b>（武器/护甲/饰品）</td>
+      <td>前缀 14–27 / 后缀 38–44</td>
+      <td>规整：「+X 生命上限」「附加 X-Y 火焰伤害」，一屏可浏览</td>
+      <td>六源齐全（基础/渎灵/合金/斯鲁德/精华/瓦尔）</td>
+      <td class="good">低 — 现有「卡片列表+T级下拉」直接适用</td>
+    </tr>
+    <tr>
+      <td><b>珠宝</b></td>
+      <td>前缀 99 / 后缀 93（钻石）</td>
+      <td>长文本多、复合词缀多（一词条含 2–3 个效果）</td>
+      <td>仅 3 源（基础/渎灵/瓦尔），无合金/斯鲁德</td>
+      <td class="mid">中 — 190+ 条必须加搜索框+来源筛选，不能靠滚动</td>
+    </tr>
+    <tr>
+      <td><b>引路石</b></td>
+      <td>前缀 26 / 后缀 20</td>
+      <td>超长复合文本（一词条 3–4 个效果连排）</td>
+      <td>仅基础+渎灵</td>
+      <td class="mid">中 — 同珠宝，需搜索；T级结构不同（低中高阶已分页）</td>
+    </tr>
+    <tr>
+      <td><b>药剂/遗物/宝库钥匙</b></td>
+      <td>前缀 7–12 / 后缀 5–8</td>
+      <td>短文本、数量少</td>
+      <td>1–2 源</td>
+      <td class="good">低 — 列表直接摆开</td>
+    </tr>
+  </table>
+  <div class="note">结论：装备是主战场（形态 A 天然适配）；珠宝/引路石需要「搜索+过滤」增强（形态 B）；药剂等小池子随便放。不需要为每类物品单独设计一套表单——两套形态 + 按类别隐藏不适用的来源色标即可。</div>
+
+  <h2>二、两种界面形态（同一弹窗内自动切换）</h2>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">形态 A · 装备类（59 分类）</span>
+      <h3>分类 → 基底 → 词缀卡片 → T级</h3>
+      <ul>
+        <li>选大分类（如「双手武器」）→ 基底下拉（40 个基底）</li>
+        <li>前缀/后缀 tab + 来源色标 chips（六源齐全时显示）</li>
+        <li>词缀卡片列表，点选展开 T级+数值下限</li>
+        <li>顶部「物品等级」决定可用 T 级</li>
+      </ul>
+      <p>即已实现的 popup 骨架，覆盖 59/68 分类。</p>
+    </div>
+    <div class="card">
+      <span class="tag">形态 B · 珠宝/引路石（9 分类）</span>
+      <h3>同样布局 + 顶部增强条</h3>
+      <ul>
+        <li>词缀列表顶部加<b>关键词搜索框</b>（如输「抗性」立即过滤）</li>
+        <li>来源 chips 变成<b>可点击过滤器</b>（点「渎灵」只看渎灵词缀）</li>
+        <li>长文本复合词缀用两行卡片，主效果加粗、次效果灰色小字</li>
+        <li>珠宝无物等概念 → 隐藏物品等级输入，T级选择照常</li>
+      </ul>
+      <p>复用形态 A 的全部组件，只加 3 个增强。</p>
+    </div>
+  </div>
+
+  <h2>三、跨分类通用交互（所有形态共享）</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>已选条件托盘</h3>
+      <p>底部固定条：显示已选词缀数（如「前缀 2 · 后缀 1」），点开展开明细可单独删除；「生成并填入市集」按钮常驻。避免选了 3 个词缀后要滚回原处逐个改。</p>
+    </div>
+    <div class="card">
+      <h3>表单适配声明</h3>
+      <p>你提到「很多物品不是同样的表单」——市集侧的表单差异（武器有 DPS 筛选、护甲有品行、地图有掉率）由 content script 按分类路由不同的填充策略，界面侧不感知；自动填表失败时统一降级为条件清单浮层。</p>
+    </div>
+  </div>
+
+  <h2>四、需要你拍板的 3 个问题</h2>
+  <div class="q">
+    <h3>Q1 · 形态 B 的增强范围</h3>
+    <p>搜索框 + 来源过滤器 + 两行卡片，只给珠宝/引路石，还是全部 68 个分类统一都加？</p>
+    <label class="opt"><input type="radio" name="q1"><div><b>只给珠宝/引路石（推荐）</b><span>装备池子小、色标即过滤器，加搜索框反而多一步</span></div></label>
+    <label class="opt"><input type="radio" name="q1"><div><b>全部分类统一加</b><span>交互完全一致，学习成本低，但装备界面更拥挤</span></div></label>
+  </div>
+  <div class="q">
+    <h3>Q2 · 基底选择的必要性</h3>
+    <p>市集搜词缀时基底可以不选（更宽泛）。基底下拉是必选步骤还是可选步骤？</p>
+    <label class="opt"><input type="radio" name="q2"><div><b>可选（推荐）</b><span>默认「全部基底」，选了才锁；找抗性装时常常不限基底</span></div></label>
+    <label class="opt"><input type="radio" name="q2"><div><b>必选</b><span>强制先选基底再选词缀，结果更精确但多一步</span></div></label>
+  </div>
+  <div class="q">
+    <h3>Q3 · 词缀池里的「瓦尔腐化」词缀</h3>
+    <p>瓦尔词缀占全库 1450 条（最大来源），但国服市集能否搜到腐化附魔待验证。界面上怎么处理？</p>
+    <label class="opt"><input type="radio" name="q3"><div><b>保留并默认折叠（推荐）</b><span>点「瓦尔腐化」chip 才展开；市集搜不到就在条件清单里标注</span></div></label>
+    <label class="opt"><input type="radio" name="q3"><div><b>首版直接不显示</b><span>界面最干净，等确认市集可搜再加回</span></div></label>
+  </div>
+</div>
+</body>
+</html>

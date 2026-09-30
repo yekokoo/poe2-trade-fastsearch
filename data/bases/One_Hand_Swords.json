@@ -1,0 +1,67 @@
+{
+ "slug": "One_Hand_Swords",
+ "cnName": "单手剑",
+ "fetchedAt": "2026-09-17T07:31:04.802Z",
+ "bases": [
+  {
+   "slug": "Golden_Blade",
+   "name": "金色之刃"
+  },
+  {
+   "slug": "Energy_Blade",
+   "name": "能量之刃"
+  },
+  {
+   "slug": "Shortsword",
+   "name": "短剑"
+  },
+  {
+   "slug": "Broadsword",
+   "name": "阔剑"
+  },
+  {
+   "slug": "Vampiric_Blade",
+   "name": "喋血之刃"
+  },
+  {
+   "slug": "Scimitar",
+   "name": "弯刀"
+  },
+  {
+   "slug": "Charred_Shortsword",
+   "name": "焦痕短剑"
+  },
+  {
+   "slug": "Sickle_Sword",
+   "name": "镰刃剑"
+  },
+  {
+   "slug": "Falchion",
+   "name": "弯刃大刀"
+  },
+  {
+   "slug": "Treasured_Blade",
+   "name": "珍奇之刃"
+  },
+  {
+   "slug": "Cutlass",
+   "name": "军用长刀"
+  },
+  {
+   "slug": "Runic_Shortsword",
+   "name": "符文短剑"
+  },
+  {
+   "slug": "Messer",
+   "name": "大砍刀"
+  },
+  {
+   "slug": "Commander_Sword",
+   "name": "统帅利剑"
+  },
+  {
+   "slug": "Dark_Blade",
+   "name": "黑暗之锋"
+  }
+ ]
+}

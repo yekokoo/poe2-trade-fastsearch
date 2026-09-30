@@ -1,0 +1,207 @@
+{
+ "slug": "Bucklers",
+ "cnName": "轻盾",
+ "fetchedAt": "2026-09-17T07:31:23.821Z",
+ "bases": [
+  {
+   "slug": "Leather_Buckler",
+   "name": "皮制轻盾"
+  },
+  {
+   "slug": "Wooden_Buckler",
+   "name": "木制轻盾"
+  },
+  {
+   "slug": "Plated_Buckler",
+   "name": "嵌板轻盾"
+  },
+  {
+   "slug": "Iron_Buckler",
+   "name": "锻铁轻盾"
+  },
+  {
+   "slug": "Ridged_Buckler",
+   "name": "凸脊轻盾"
+  },
+  {
+   "slug": "Spiked_Buckler",
+   "name": "尖刺轻盾"
+  },
+  {
+   "slug": "Ringed_Buckler",
+   "name": "环锁轻盾"
+  },
+  {
+   "slug": "Edged_Buckler",
+   "name": "锋缘轻盾"
+  },
+  {
+   "slug": "Laminate_Buckler",
+   "name": "合板轻盾"
+  },
+  {
+   "slug": "Pearl_Buckler",
+   "name": "珠光轻盾"
+  },
+  {
+   "slug": "Ornate_Buckler",
+   "name": "华丽轻盾"
+  },
+  {
+   "slug": "Array_Buckler",
+   "name": "阵列轻盾"
+  },
+  {
+   "slug": "Aegis_Buckler",
+   "name": "神佑轻盾"
+  },
+  {
+   "slug": "Oak_Buckler",
+   "name": "橡木轻盾"
+  },
+  {
+   "slug": "Painted_Buckler",
+   "name": "彩绘轻盾"
+  },
+  {
+   "slug": "Coiled_Buckler",
+   "name": "盘曲轻盾"
+  },
+  {
+   "slug": "Spikeward_Buckler",
+   "name": "尖刺守护轻盾"
+  },
+  {
+   "slug": "Jingling_Buckler",
+   "name": "铃鸣轻盾"
+  },
+  {
+   "slug": "Bladeguard_Buckler",
+   "name": "刀刃守护轻盾"
+  },
+  {
+   "slug": "Gutspike_Buckler",
+   "name": "肠刺轻盾"
+  },
+  {
+   "slug": "Ancient_Buckler",
+   "name": "远古轻盾"
+  },
+  {
+   "slug": "Desert_Buckler",
+   "name": "沙漠轻盾"
+  },
+  {
+   "slug": "Runeforged_Leather_Buckler",
+   "name": "符文皮制轻盾"
+  },
+  {
+   "slug": "Runeforged_Wooden_Buckler",
+   "name": "符文木制轻盾"
+  },
+  {
+   "slug": "Runeforged_Plated_Buckler",
+   "name": "符文嵌板轻盾"
+  },
+  {
+   "slug": "Runeforged_Iron_Buckler",
+   "name": "符文锻铁轻盾"
+  },
+  {
+   "slug": "Runeforged_Ridged_Buckler",
+   "name": "符文凸脊轻盾"
+  },
+  {
+   "slug": "Runeforged_Spiked_Buckler",
+   "name": "符文尖刺轻盾"
+  },
+  {
+   "slug": "Runeforged_Ringed_Buckler",
+   "name": "符文环锁轻盾"
+  },
+  {
+   "slug": "Runeforged_Edged_Buckler",
+   "name": "符文锋缘轻盾"
+  },
+  {
+   "slug": "Runeforged_Laminate_Buckler",
+   "name": "符文合板轻盾"
+  },
+  {
+   "slug": "Runeforged_Pearl_Buckler",
+   "name": "符文珠光轻盾"
+  },
+  {
+   "slug": "Runeforged_Ornate_Buckler",
+   "name": "符文华丽轻盾"
+  },
+  {
+   "slug": "Runeforged_Array_Buckler",
+   "name": "符文阵列轻盾"
+  },
+  {
+   "slug": "Runeforged_Aegis_Buckler",
+   "name": "符文神佑轻盾"
+  },
+  {
+   "slug": "Runeforged_Spikeward_Buckler",
+   "name": "符文尖刺守护轻盾"
+  },
+  {
+   "slug": "Runeforged_Jingling_Buckler",
+   "name": "符文铃鸣轻盾"
+  },
+  {
+   "slug": "Runeforged_Bladeguard_Buckler",
+   "name": "符文刀刃守护轻盾"
+  },
+  {
+   "slug": "Runeforged_Gutspike_Buckler",
+   "name": "符文肠刺轻盾"
+  },
+  {
+   "slug": "Runeforged_Ancient_Buckler",
+   "name": "符文远古轻盾"
+  },
+  {
+   "slug": "Runeforged_Desert_Buckler",
+   "name": "符文沙漠轻盾"
+  },
+  {
+   "slug": "Runemastered_Leather_Buckler",
+   "name": "符文师匠皮制轻盾"
+  },
+  {
+   "slug": "Runemastered_Wooden_Buckler",
+   "name": "符文师匠木制轻盾"
+  },
+  {
+   "slug": "Runemastered_Plated_Buckler",
+   "name": "符文师匠嵌板轻盾"
+  },
+  {
+   "slug": "Runemastered_Iron_Buckler",
+   "name": "符文师匠锻铁轻盾"
+  },
+  {
+   "slug": "Runemastered_Ridged_Buckler",
+   "name": "符文师匠凸脊轻盾"
+  },
+  {
+   "slug": "Runemastered_Spiked_Buckler",
+   "name": "符文师匠尖刺轻盾"
+  },
+  {
+   "slug": "Runemastered_Ornate_Buckler",
+   "name": "符文师匠华丽轻盾"
+  },
+  {
+   "slug": "Runemastered_Array_Buckler",
+   "name": "符文师匠阵列轻盾"
+  },
+  {
+   "slug": "Runemastered_Venerable_Defender",
+   "name": "符文师匠庄严护卫"
+  }
+ ]
+}

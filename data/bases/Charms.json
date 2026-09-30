@@ -1,0 +1,147 @@
+{
+ "slug": "Charms",
+ "cnName": "咒符",
+ "fetchedAt": "2026-09-17T07:31:38.449Z",
+ "bases": [
+  {
+   "slug": "Thawing_Charm",
+   "name": "融冰咒符"
+  },
+  {
+   "slug": "Staunching_Charm",
+   "name": "止血咒符"
+  },
+  {
+   "slug": "Antidote_Charm",
+   "name": "抗毒咒符"
+  },
+  {
+   "slug": "Dousing_Charm",
+   "name": "浸润咒符"
+  },
+  {
+   "slug": "Grounding_Charm",
+   "name": "根基咒符"
+  },
+  {
+   "slug": "Stone_Charm",
+   "name": "磐石咒符"
+  },
+  {
+   "slug": "Silver_Charm",
+   "name": "真银咒符"
+  },
+  {
+   "slug": "Ruby_Charm",
+   "name": "红玉咒符"
+  },
+  {
+   "slug": "Sapphire_Charm",
+   "name": "蓝玉咒符"
+  },
+  {
+   "slug": "Topaz_Charm",
+   "name": "黄玉咒符"
+  },
+  {
+   "slug": "Amethyst_Charm",
+   "name": "紫晶咒符"
+  },
+  {
+   "slug": "Golden_Charm",
+   "name": "黄金咒符"
+  },
+  {
+   "slug": "Cleansing_Charm",
+   "name": "净化咒符"
+  },
+  {
+   "slug": "Golden_Obi",
+   "name": "金羽腰带"
+  },
+  {
+   "slug": "Idol_of_Maxarius",
+   "name": "玛萨留斯之雕像"
+  },
+  {
+   "slug": "Idol_of_Eramir",
+   "name": "艾米尔之雕像"
+  },
+  {
+   "slug": "Cat_Idol",
+   "name": "灵猫雕像"
+  },
+  {
+   "slug": "Rawhide_Belt",
+   "name": "生皮腰带"
+  },
+  {
+   "slug": "Linen_Belt",
+   "name": "亚麻腰带"
+  },
+  {
+   "slug": "Wide_Belt",
+   "name": "宽大腰带"
+  },
+  {
+   "slug": "Long_Belt",
+   "name": "加长腰带"
+  },
+  {
+   "slug": "Plate_Belt",
+   "name": "嵌板腰带"
+  },
+  {
+   "slug": "Ornate_Belt",
+   "name": "华丽腰带"
+  },
+  {
+   "slug": "Mail_Belt",
+   "name": "环锁腰带"
+  },
+  {
+   "slug": "Double_Belt",
+   "name": "双重腰带"
+  },
+  {
+   "slug": "Heavy_Belt",
+   "name": "重革腰带"
+  },
+  {
+   "slug": "Runemastered_Heavy_Belt",
+   "name": "符文师匠重革腰带"
+  },
+  {
+   "slug": "Utility_Belt",
+   "name": "万用腰带"
+  },
+  {
+   "slug": "Fine_Belt",
+   "name": "精致腰带"
+  },
+  {
+   "slug": "Stalking_Belt",
+   "name": "追踪腰带"
+  },
+  {
+   "slug": "Invoking_Belt",
+   "name": "祈求腰带"
+  },
+  {
+   "slug": "Sinew_Belt",
+   "name": "肌力腰带"
+  },
+  {
+   "slug": "Forking_Belt",
+   "name": "分叉腰带"
+  },
+  {
+   "slug": "Rune_of_Acrobatics",
+   "name": "杂技符文"
+  },
+  {
+   "slug": "Legacy_of_Elevore",
+   "name": "艾尔弗雷之遗产"
+  }
+ ]
+}

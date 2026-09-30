@@ -1,0 +1,151 @@
+{
+ "slug": "Quarterstaves",
+ "cnName": "节杖",
+ "fetchedAt": "2026-09-17T07:31:18.872Z",
+ "bases": [
+  {
+   "slug": "Wrapped_Quarterstaff",
+   "name": "裹布节杖"
+  },
+  {
+   "slug": "Long_Quarterstaff",
+   "name": "长柄节杖"
+  },
+  {
+   "slug": "Gothic_Quarterstaff",
+   "name": "哥特节杖"
+  },
+  {
+   "slug": "Crackling_Quarterstaff",
+   "name": "霹雳节杖"
+  },
+  {
+   "slug": "Crescent_Quarterstaff",
+   "name": "月牙节杖"
+  },
+  {
+   "slug": "Steelpoint_Quarterstaff",
+   "name": "钢缘节杖"
+  },
+  {
+   "slug": "Slicing_Quarterstaff",
+   "name": "锋缘节杖"
+  },
+  {
+   "slug": "Barrier_Quarterstaff",
+   "name": "护身节杖"
+  },
+  {
+   "slug": "Hefty_Quarterstaff",
+   "name": "沉重节杖"
+  },
+  {
+   "slug": "Smooth_Quarterstaff",
+   "name": "优雅节杖"
+  },
+  {
+   "slug": "Anima_Quarterstaff",
+   "name": "心能节杖"
+  },
+  {
+   "slug": "Graceful_Quarterstaff",
+   "name": "风雅节杖"
+  },
+  {
+   "slug": "Wyrm_Quarterstaff",
+   "name": "腾龙节杖"
+  },
+  {
+   "slug": "Reaching_Quarterstaff",
+   "name": "延伸节杖"
+  },
+  {
+   "slug": "Barbarous_Quarterstaff",
+   "name": "蛮族节杖"
+  },
+  {
+   "slug": "Arcing_Quarterstaff",
+   "name": "弧影节杖"
+  },
+  {
+   "slug": "Waxing_Quarterstaff",
+   "name": "蜡饰节杖"
+  },
+  {
+   "slug": "Bladed_Quarterstaff",
+   "name": "锋刃节杖"
+  },
+  {
+   "slug": "Guardian_Quarterstaff",
+   "name": "守护者节杖"
+  },
+  {
+   "slug": "Runeforged_Wrapped_Quarterstaff",
+   "name": "符文裹布节杖"
+  },
+  {
+   "slug": "Runeforged_Long_Quarterstaff",
+   "name": "符文长柄节杖"
+  },
+  {
+   "slug": "Runemastered_Long_Quarterstaff",
+   "name": "符文师匠长柄节杖"
+  },
+  {
+   "slug": "Runeforged_Gothic_Quarterstaff",
+   "name": "符文哥特节杖"
+  },
+  {
+   "slug": "Runemastered_Gothic_Quarterstaff",
+   "name": "符文师匠哥特节杖"
+  },
+  {
+   "slug": "Runeforged_Crescent_Quarterstaff",
+   "name": "符文月牙节杖"
+  },
+  {
+   "slug": "Runeforged_Steelpoint_Quarterstaff",
+   "name": "符文钢缘节杖"
+  },
+  {
+   "slug": "Sinister_Quarterstaff",
+   "name": "邪恶节杖"
+  },
+  {
+   "slug": "Lunar_Quarterstaff",
+   "name": "月光节杖"
+  },
+  {
+   "slug": "Striking_Quarterstaff",
+   "name": "打击节杖"
+  },
+  {
+   "slug": "Bolting_Quarterstaff",
+   "name": "霹雳节杖"
+  },
+  {
+   "slug": "Aegis_Quarterstaff",
+   "name": "神盾节杖"
+  },
+  {
+   "slug": "Razor_Quarterstaff",
+   "name": "刀锋节杖"
+  },
+  {
+   "slug": "Skullcrusher_Quarterstaff",
+   "name": "碎颅节杖"
+  },
+  {
+   "slug": "Dreaming_Quarterstaff",
+   "name": "梦境节杖"
+  },
+  {
+   "slug": "Warding_Quarterstaff",
+   "name": "守护节杖"
+  },
+  {
+   "slug": "Runemastered_Warding_Quarterstaff",
+   "name": "符文师匠守护节杖"
+  }
+ ]
+}

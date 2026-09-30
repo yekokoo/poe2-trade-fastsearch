@@ -1,0 +1,99 @@
+{
+ "slug": "Amulets",
+ "cnName": "项链",
+ "fetchedAt": "2026-09-17T07:31:31.478Z",
+ "bases": [
+  {
+   "slug": "Crimson_Amulet",
+   "name": "赤红项链"
+  },
+  {
+   "slug": "Azure_Amulet",
+   "name": "碧蓝项链"
+  },
+  {
+   "slug": "Amber_Amulet",
+   "name": "琥珀项链"
+  },
+  {
+   "slug": "Jade_Amulet",
+   "name": "翠玉项链"
+  },
+  {
+   "slug": "Lapis_Amulet",
+   "name": "海玉项链"
+  },
+  {
+   "slug": "Lunar_Amulet",
+   "name": "月影项链"
+  },
+  {
+   "slug": "Bloodstone_Amulet",
+   "name": "血岩项链"
+  },
+  {
+   "slug": "Stellar_Amulet",
+   "name": "星辉项链"
+  },
+  {
+   "slug": "Solar_Amulet",
+   "name": "日曜项链"
+  },
+  {
+   "slug": "Gold_Amulet",
+   "name": "帝金项链"
+  },
+  {
+   "slug": "Pearlescent_Amulet",
+   "name": "珠光项链"
+  },
+  {
+   "slug": "Veridical_Chain",
+   "name": "真相之链"
+  },
+  {
+   "slug": "Runemastered_Veridical_Chain",
+   "name": "符文师匠真相之链"
+  },
+  {
+   "slug": "Lament_Amulet",
+   "name": "哀悼项链"
+  },
+  {
+   "slug": "Portent_Amulet",
+   "name": "预兆项链"
+  },
+  {
+   "slug": "Absent_Amulet",
+   "name": "失神项链"
+  },
+  {
+   "slug": "Corona_Amulet",
+   "name": "日冕项链"
+  },
+  {
+   "slug": "Dusk_Amulet",
+   "name": "暮色项链"
+  },
+  {
+   "slug": "Gloam_Amulet",
+   "name": "薄暮项链"
+  },
+  {
+   "slug": "Penumbra_Amulet",
+   "name": "半影项链"
+  },
+  {
+   "slug": "Tenebrous_Amulet",
+   "name": "暗黑项链"
+  },
+  {
+   "slug": "Twisted_Amulet",
+   "name": "畸变项链"
+  },
+  {
+   "slug": "Distorted_Amulet",
+   "name": "扭曲项链"
+  }
+ ]
+}

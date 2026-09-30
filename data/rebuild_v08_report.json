@@ -1,0 +1,6479 @@
+{
+ "removedCats": [
+  {
+   "slug": "Waystones_mid_tier",
+   "cnName": "引路石·中阶",
+   "reason": "引路石重建合并"
+  },
+  {
+   "slug": "Waystones_top_tier",
+   "cnName": "引路石·高阶",
+   "reason": "引路石重建合并"
+  },
+  {
+   "slug": "Amphora_Relic",
+   "cnName": "其他·土罐",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Coffer_Relic",
+   "cnName": "其他·匣柜",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Crossbows",
+   "cnName": "战弩",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Flails",
+   "cnName": "连枷",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Foci",
+   "cnName": "法器",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Incense_Relic",
+   "cnName": "其他·熏香",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "One_Hand_Axes",
+   "cnName": "单手斧",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Quarterstaves",
+   "cnName": "节杖",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Sceptres",
+   "cnName": "权杖",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Seal_Relic",
+   "cnName": "其他·封印",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Shields_str",
+   "cnName": "副手·力量",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Shields_str_dex",
+   "cnName": "副手·力敏",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Shields_str_int",
+   "cnName": "副手·力智",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Spears",
+   "cnName": "战矛",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Staves",
+   "cnName": "长杖",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Talismans",
+   "cnName": "魔符",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Tapestry_Relic",
+   "cnName": "其他·挂毯",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Two_Hand_Axes",
+   "cnName": "双手斧",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Two_Hand_Maces",
+   "cnName": "双手锤",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Urn_Relic",
+   "cnName": "其他·壶瓮",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Vase_Relic",
+   "cnName": "其他·花瓶",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Wands",
+   "cnName": "法杖",
+   "reason": "基底清空且官网无此类型"
+  },
+  {
+   "slug": "Waystones_low_tier",
+   "cnName": "引路石·低阶",
+   "reason": "基底清空且官网无此类型"
+  }
+ ],
+ "waystoneRebuild": {
+  "kept": "Waystones_low_tier",
+  "bases": 0
+ },
+ "jewelRepartition": {
+  "Diamond": [
+   "永恒珠宝"
+  ],
+  "Emerald": [],
+  "Ruby": [],
+  "Sapphire": []
+ },
+ "uniquesAdded": {
+  "Rings": 75,
+  "Belts": 12,
+  "Charms": 12,
+  "Amulets": 1,
+  "Boots": 48,
+  "Gloves": 54,
+  "Quivers": 7,
+  "Body_Armours": 49,
+  "Helmets": 6,
+  "Bucklers": 2,
+  "Mana_Flasks": 3,
+  "Jewels": 6,
+  "One_Hand_Swords": 2,
+  "Daggers": 3,
+  "One_Hand_Maces": 1,
+  "Bows": 7
+ },
+ "uniquesSkipped": [
+  {
+   "name": "咒逐",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "隐灵之符",
+   "type": "珊瑚护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "阿恩的痛苦",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "伊基阿霍之诺言",
+   "type": "珊瑚护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "变节者",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "群星之灰",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "均衡之符",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "阿兹里圣徽",
+   "type": "海灵护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "奥尔之兴",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "奥术之符",
+   "type": "水晶腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "兄弟会徽章",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "凝息",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "熊之束腰",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "贝雷克的冰与雷之曲",
+   "type": "双玉戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "贝雷克的冰与火之歌",
+   "type": "双玉戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "贝雷克的火与雷之乐",
+   "type": "双玉戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "背叛邪刺",
+   "type": "合金戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "比斯克的项圈",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "枯井",
+   "type": "附壳巨蟹魔符",
+   "group": "accessory"
+  },
+  {
+   "name": "鲜血支配",
+   "type": "大理石护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "堕落之血",
+   "type": "琥珀护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "浸血徽章",
+   "type": "琥珀护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "骨融",
+   "type": "大理石护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "既定命途",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "意志呼唤",
+   "type": "双玉戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "屠戮之心",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "仁德腰带",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "坚韧之链",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "脱缚之锁",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "暴风之语",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "懦夫之链",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "懦夫之遗",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "结晶全知",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "巨岩指套",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "德瑞索的战礼",
+   "type": "黄晶护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "夜临",
+   "type": "深渊腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "命运之抗争",
+   "type": "海灵护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "德瑞的魔具",
+   "type": "海灵戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "德瑞之舌",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "敌意的怀抱",
+   "type": "朱砂之戒",
+   "group": "accessory"
+  },
+  {
+   "name": "永恒诅咒",
+   "type": "玛瑙护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "心灵抽取",
+   "type": "玛瑙护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "寻宝者的心眼",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "无罪之眼",
+   "type": "黄晶护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "巨狼之眼",
+   "type": "狼王魔符",
+   "group": "accessory"
+  },
+  {
+   "name": "饥荒之结",
+   "type": "素布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "命中注定",
+   "type": "海灵戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "盛宴之结",
+   "type": "素布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "愤怒之阀",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "神赐",
+   "type": "宝钻戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "昏暗之牙",
+   "type": "碧珠护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "暴食",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "盖拉图斯印戒",
+   "type": "宝钻戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "葛拉文的秘宝",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "萦绕往事",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "猎首",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "结魂之环",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "辛格拉的凝视",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "尊贵的同盟",
+   "type": "珊瑚戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "极北",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "西里的真相",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "永生",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "隐逝",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "冈姆的远见",
+   "type": "珊瑚戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "冈姆之路",
+   "type": "珊瑚戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "卡鲁充能",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "卡鲁的战徽",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "卡哈塔之泉",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "卡哈塔之哭",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "铁心复仇的束带",
+   "type": "先锋腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "领袖的代价",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "圣体之绳",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "失落归一",
+   "type": "无形戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "马雷格罗的残酷",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "马雷格罗的染血之环",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "裂界之印",
+   "type": "合金戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "塑界之印",
+   "type": "蛋白石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "玛莉琳的护体之符",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "自然组织",
+   "type": "凶鸟魔符",
+   "group": "accessory"
+  },
+  {
+   "name": "涅瓦里乌斯的传承",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "努葛玛呼之像",
+   "type": "珊瑚护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "夜守",
+   "type": "黑牙魔符",
+   "group": "accessory"
+  },
+  {
+   "name": "奥莱西亚的喜悦",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "普兰德斯之印",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "普兰德斯之记",
+   "type": "海灵戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "珀奎尔之趾",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "恒毅意志",
+   "type": "先锋腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "毁灭激波",
+   "type": "蛋白石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "普拉克斯",
+   "type": "海灵戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "先驱的纹章",
+   "type": "双玉戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "夏乌拉之印",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "幻彩菱织",
+   "type": "素布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "火爆之拥",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "拉什卡德的耐心",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "阿兹里圣徽【仿品】",
+   "type": "海灵护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "兄弟会徽章【仿品】",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "凝息【仿品】",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "德瑞的魔具【仿品】",
+   "type": "海灵戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "龙牙之翔【仿品】",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "神赐【仿品】",
+   "type": "宝钻戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "猎首【仿品】",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "辛格拉的凝视【仿品】",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "西里的真相【仿品】",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "卡鲁的战徽【仿品】",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "幻彩菱织【仿品】",
+   "type": "素布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "灵魂羁绊【仿品】",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "冬之心【仿品】",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "复仇的魅力",
+   "type": "黄晶护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "瑞佛之冠",
+   "type": "双玉戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "瑞佛诅咒",
+   "type": "头狼魔符",
+   "group": "accessory"
+  },
+  {
+   "name": "罗米拉的潜力之环",
+   "type": "宝钻戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "瑞斯拉萨的线圈",
+   "type": "扣钉腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "祭祀之心",
+   "type": "海灵护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "萨瑞斯的黑暗",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "枯萎尖叫",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "塑界者之籽",
+   "type": "玛瑙护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "薛朗的启示之环",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "希比尔之叹",
+   "type": "珊瑚戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "魔灵之符",
+   "type": "海灵护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "索瑞的辉光",
+   "type": "扣链腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "至日不眠",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "灵魂绑定",
+   "type": "海灵戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "灵魂羁绊",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "嗜魂",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "瓦尔克拉斯之星",
+   "type": "血色护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "拉兹瓦的灵石",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "风暴之炎",
+   "type": "蛋白石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "绞杀之息",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "日炎",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "玷污契约",
+   "type": "珊瑚护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "圣令",
+   "type": "珊瑚护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "陶哈努库之时间",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "纯净之泪",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "信念之砧",
+   "type": "琥珀护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "首席院士的工具",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "苦行",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "埃拉黛丝",
+   "type": "玛瑙护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "真相之担",
+   "type": "水晶腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "复苏之药",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "耀阳徽记",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "短暂羁绊",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "永恒之战",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "费伯之牙",
+   "type": "黄晶护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "流逝之时",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "太平",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "憎恨控诉",
+   "type": "无名戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "烈阳徽记",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "厄运护符",
+   "type": "黄晶护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "坚毅之环",
+   "type": "扣钉腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "游牧之环",
+   "type": "扣钉腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "群魔殿",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "原始锁链",
+   "type": "珊瑚护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "心灵的息灭",
+   "type": "无名戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "呕吐",
+   "type": "素布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "利己的牧者",
+   "type": "无名戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "崩解意志",
+   "type": "逃亡戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "谋士之环",
+   "type": "扣钉腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "时光浪潮",
+   "type": "先锋腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "沧海桑田",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "未现之彩",
+   "type": "蛋白石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "不动之魂",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "临峰",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "艾许的意志",
+   "type": "突触戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "托沃的意志",
+   "type": "冰凝戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "乌尔尼多的意志",
+   "type": "有机戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "索伏的意志",
+   "type": "炽能戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "时光之握",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "时空扭曲",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "不朽系命",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "恩吉尔的和谐",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "不洁帮凶",
+   "type": "饰布腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "乌尔尼多之誓",
+   "type": "潜能项链",
+   "group": "accessory"
+  },
+  {
+   "name": "女武神",
+   "type": "月光石戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "维纳留斯的星盘",
+   "type": "星盘项链",
+   "group": "accessory"
+  },
+  {
+   "name": "维多里奥的捷思",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "暴风之言",
+   "type": "海玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "福尔的忠诚之符",
+   "type": "玛瑙护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "时空扭曲",
+   "type": "青玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "无尽呢喃",
+   "type": "海晶护符",
+   "group": "accessory"
+  },
+  {
+   "name": "柳树之赐",
+   "type": "翠玉护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "冬之心",
+   "type": "帝金护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "冬日之织",
+   "type": "珊瑚戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "灾厄棘刺",
+   "type": "合金戒指",
+   "group": "accessory"
+  },
+  {
+   "name": "龙蜕之带",
+   "type": "皮革腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "索伏之血",
+   "type": "琥珀护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "索伏之心",
+   "type": "琥珀护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "茵达的坚守",
+   "type": "扣钉腰带",
+   "group": "accessory"
+  },
+  {
+   "name": "苦难羁绊",
+   "type": "黑曜护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "泽佛伊之心",
+   "type": "海灵护身符",
+   "group": "accessory"
+  },
+  {
+   "name": "地动",
+   "type": "羊皮短靴",
+   "group": "armour"
+  },
+  {
+   "name": "水火不容",
+   "type": "伏击护手",
+   "group": "armour"
+  },
+  {
+   "name": "深渊之唤",
+   "type": "锥顶盔",
+   "group": "armour"
+  },
+  {
+   "name": "深渊之唤",
+   "type": "艾兹麦坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "提督的傲慢",
+   "type": "古钢护手",
+   "group": "armour"
+  },
+  {
+   "name": "幻芒圣盾",
+   "type": "斗士鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "汉恩的蔑视",
+   "type": "领主战冠",
+   "group": "armour"
+  },
+  {
+   "name": "汉恩的遗产",
+   "type": "巨型塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "阿华纳之牙",
+   "type": "鲨齿箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "阿寇亚之凝视",
+   "type": "弑君之面",
+   "group": "armour"
+  },
+  {
+   "name": "阿尔贝隆的征途",
+   "type": "战士之靴",
+   "group": "armour"
+  },
+  {
+   "name": "尸僵",
+   "type": "禁礼护手",
+   "group": "armour"
+  },
+  {
+   "name": "相生相克",
+   "type": "缎布手套",
+   "group": "armour"
+  },
+  {
+   "name": "极地之眼",
+   "type": "罪者之帽",
+   "group": "armour"
+  },
+  {
+   "name": "安姆布的战甲",
+   "type": "圣战锁甲",
+   "group": "armour"
+  },
+  {
+   "name": "上古之颅",
+   "type": "唤骨头盔",
+   "group": "armour"
+  },
+  {
+   "name": "艾普之梦",
+   "type": "瓦尔魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "艾普的霸权",
+   "type": "瓦尔魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "建筑师之手",
+   "type": "伏击护手",
+   "group": "armour"
+  },
+  {
+   "name": "安赛娜丝的优雅之歌",
+   "type": "铁锻之冠",
+   "group": "armour"
+  },
+  {
+   "name": "安赛娜丝的安抚之语",
+   "type": "丝绸手套",
+   "group": "armour"
+  },
+  {
+   "name": "安赛娜丝的迅敏之冠",
+   "type": "铁锻之冠",
+   "group": "armour"
+  },
+  {
+   "name": "拂烬",
+   "type": "鹿皮外套",
+   "group": "armour"
+  },
+  {
+   "name": "冰灵之吼",
+   "type": "飞羽箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "千里狙敌",
+   "type": "罪者之帽",
+   "group": "armour"
+  },
+  {
+   "name": "阿兹里之镜",
+   "type": "金阳轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "阿兹里的反击",
+   "type": "金阳轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "阿兹里的威权",
+   "type": "祭礼束衣",
+   "group": "armour"
+  },
+  {
+   "name": "阿兹里的金履",
+   "type": "迷踪短靴",
+   "group": "armour"
+  },
+  {
+   "name": "奥库娜的意志",
+   "type": "环带护手",
+   "group": "armour"
+  },
+  {
+   "name": "富贵之运",
+   "type": "钢影护手",
+   "group": "armour"
+  },
+  {
+   "name": "阿扎迪纹章",
+   "type": "漆彩轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "疯狂的象征",
+   "type": "异色鞋 (火冰)",
+   "group": "armour"
+  },
+  {
+   "name": "疯狂的象征",
+   "type": "异色鞋(冰闪)",
+   "group": "armour"
+  },
+  {
+   "name": "疯狂的象征",
+   "type": "异色鞋 (火闪)",
+   "group": "armour"
+  },
+  {
+   "name": "兽腹",
+   "type": "连身龙鳞战甲",
+   "group": "armour"
+  },
+  {
+   "name": "苦痛之处",
+   "type": "巨人魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "苦涩本能",
+   "type": "棘刺圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "黑炎之芒",
+   "type": "火焰箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "黑炎之芒",
+   "type": "燃矢箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "黑阳之冠",
+   "type": "漆彩之盔",
+   "group": "armour"
+  },
+  {
+   "name": "漆黑天顶",
+   "type": "丝绸手套",
+   "group": "armour"
+  },
+  {
+   "name": "亵渎者之握",
+   "type": "刺客护手",
+   "group": "armour"
+  },
+  {
+   "name": "血脉相连",
+   "type": "骨制战甲",
+   "group": "armour"
+  },
+  {
+   "name": "血债",
+   "type": "掠夺者之盔",
+   "group": "armour"
+  },
+  {
+   "name": "蹒跚巨兽",
+   "type": "星芒战铠",
+   "group": "armour"
+  },
+  {
+   "name": "刺棘宝甲",
+   "type": "铁制背心",
+   "group": "armour"
+  },
+  {
+   "name": "扼息者",
+   "type": "火蝮鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "布琳洛特之旗",
+   "type": "环形魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "布琳洛特捕鲸人",
+   "type": "猎人之靴",
+   "group": "armour"
+  },
+  {
+   "name": "荒途",
+   "type": "日光皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "破碎信念",
+   "type": "威能鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "布隆的影衣",
+   "type": "死神之装",
+   "group": "armour"
+  },
+  {
+   "name": "鼠疫之源",
+   "type": "暗影者长靴",
+   "group": "armour"
+  },
+  {
+   "name": "卡迪甘王冠",
+   "type": "符文王冠",
+   "group": "armour"
+  },
+  {
+   "name": "致命之体",
+   "type": "映彩外套",
+   "group": "armour"
+  },
+  {
+   "name": "无尽盛宴",
+   "type": "扣钉手套",
+   "group": "armour"
+  },
+  {
+   "name": "将军的复生",
+   "type": "圣洁锁甲",
+   "group": "armour"
+  },
+  {
+   "name": "恐惧之缶",
+   "type": "战争轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "五芒屏障",
+   "type": "乌木塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "薛鲁宾的恶作剧",
+   "type": "胜利盔甲",
+   "group": "armour"
+  },
+  {
+   "name": "切特斯的威权",
+   "type": "操灵者之冠",
+   "group": "armour"
+  },
+  {
+   "name": "卫道之袍",
+   "type": "薄衬衣",
+   "group": "armour"
+  },
+  {
+   "name": "卫道之袍",
+   "type": "漆彩束衣",
+   "group": "armour"
+  },
+  {
+   "name": "烈炎之袍",
+   "type": "学者之袍",
+   "group": "armour"
+  },
+  {
+   "name": "塔温的披风",
+   "type": "智者之袍",
+   "group": "armour"
+  },
+  {
+   "name": "巨坑之令",
+   "type": "仪式手套",
+   "group": "armour"
+  },
+  {
+   "name": "灵盒行者",
+   "type": "禁礼之靴",
+   "group": "armour"
+  },
+  {
+   "name": "卡斯普里意志",
+   "type": "刺客之装",
+   "group": "armour"
+  },
+  {
+   "name": "懦夫哀嚎",
+   "type": "艾兹麦塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "嗜雷之冠",
+   "type": "日耀之冠",
+   "group": "armour"
+  },
+  {
+   "name": "嗜寒之冠",
+   "type": "绸缎之兜",
+   "group": "armour"
+  },
+  {
+   "name": "嗜火之冠",
+   "type": "艾兹麦坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "深海魔角",
+   "type": "行政者战冠",
+   "group": "armour"
+  },
+  {
+   "name": "深海魔钳",
+   "type": "巨人护手",
+   "group": "armour"
+  },
+  {
+   "name": "深海魔足",
+   "type": "巨灵胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "渴望之冠",
+   "type": "全罩战盔",
+   "group": "armour"
+  },
+  {
+   "name": "普兰德斯之徽",
+   "type": "松木轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "邪眼之冠",
+   "type": "灵主之环",
+   "group": "armour"
+  },
+  {
+   "name": "内省之冠",
+   "type": "箴言战冠",
+   "group": "armour"
+  },
+  {
+   "name": "殒皇之冠",
+   "type": "弑君之面",
+   "group": "armour"
+  },
+  {
+   "name": "暴君王冠",
+   "type": "行政者战冠",
+   "group": "armour"
+  },
+  {
+   "name": "刺棘之冠",
+   "type": "藤蔓之冠",
+   "group": "armour"
+  },
+  {
+   "name": "水晶墓穴",
+   "type": "精制环甲",
+   "group": "armour"
+  },
+  {
+   "name": "夜幕召唤",
+   "type": "疫灾之面",
+   "group": "armour"
+  },
+  {
+   "name": "献祭舞鞋",
+   "type": "禁礼之靴",
+   "group": "armour"
+  },
+  {
+   "name": "德瑞索的勇者之盾",
+   "type": "古代圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "德瑞索的卫衣",
+   "type": "连身龙鳞铠",
+   "group": "armour"
+  },
+  {
+   "name": "破晓者",
+   "type": "巨型塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "死亡大门",
+   "type": "圣战长靴",
+   "group": "armour"
+  },
+  {
+   "name": "冥使之体",
+   "type": "星芒战铠",
+   "group": "armour"
+  },
+  {
+   "name": "猎踪",
+   "type": "鹿皮短靴",
+   "group": "armour"
+  },
+  {
+   "name": "丧钟",
+   "type": "金面护盔",
+   "group": "armour"
+  },
+  {
+   "name": "丧吼",
+   "type": "金面护盔",
+   "group": "armour"
+  },
+  {
+   "name": "恶魔缝补者",
+   "type": "缎布手套",
+   "group": "armour"
+  },
+  {
+   "name": "箭丽毒蛙",
+   "type": "哨兵之衣",
+   "group": "armour"
+  },
+  {
+   "name": "德沃托的信念之盔",
+   "type": "梦魇战盔",
+   "group": "armour"
+  },
+  {
+   "name": "无悔之爱",
+   "type": "贤者之袍",
+   "group": "armour"
+  },
+  {
+   "name": "德瑞的恶念",
+   "type": "丝绒手套",
+   "group": "armour"
+  },
+  {
+   "name": "德瑞的蔑视",
+   "type": "月影之冠",
+   "group": "armour"
+  },
+  {
+   "name": "德瑞之肤",
+   "type": "毒蛛丝之袍",
+   "group": "armour"
+  },
+  {
+   "name": "德瑞的精神手套",
+   "type": "丝绒手套",
+   "group": "armour"
+  },
+  {
+   "name": "变形者外衣",
+   "type": "狂虐者束衣",
+   "group": "armour"
+  },
+  {
+   "name": "多利亚尼的幻想",
+   "type": "海怪胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "多利亚尼的幻想",
+   "type": "咒士之靴",
+   "group": "armour"
+  },
+  {
+   "name": "多利亚尼的幻想",
+   "type": "丝绒之靴",
+   "group": "armour"
+  },
+  {
+   "name": "多里亚尼的试作甲",
+   "type": "圣者链甲",
+   "group": "armour"
+  },
+  {
+   "name": "幽暗凋零",
+   "type": "铁影长靴",
+   "group": "armour"
+  },
+  {
+   "name": "迎暮",
+   "type": "铁影长靴",
+   "group": "armour"
+  },
+  {
+   "name": "希伯的霸权",
+   "type": "灵主之环",
+   "group": "armour"
+  },
+  {
+   "name": "创造回声",
+   "type": "皇室坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "伊兰雅本之容",
+   "type": "击剑士之盔",
+   "group": "armour"
+  },
+  {
+   "name": "艾尔弗雷",
+   "type": "狼首皮盔",
+   "group": "armour"
+  },
+  {
+   "name": "皇帝的警戒",
+   "type": "冷钢鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "帝国之掌",
+   "type": "巨灵护手",
+   "group": "armour"
+  },
+  {
+   "name": "熵能毁灭",
+   "type": "刺客护手",
+   "group": "armour"
+  },
+  {
+   "name": "艾许之镜",
+   "type": "瓦尔魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "艾许之面",
+   "type": "瓦尔魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "远征尽头",
+   "type": "哨兵之衣",
+   "group": "armour"
+  },
+  {
+   "name": "怨恨之眼",
+   "type": "无情之面",
+   "group": "armour"
+  },
+  {
+   "name": "艾兹麦之握",
+   "type": "粗铁盔",
+   "group": "armour"
+  },
+  {
+   "name": "艾兹麦的荣光",
+   "type": "粗铁盔",
+   "group": "armour"
+  },
+  {
+   "name": "毁面者",
+   "type": "扣环护手",
+   "group": "armour"
+  },
+  {
+   "name": "费尔之帽",
+   "type": "三角帽",
+   "group": "armour"
+  },
+  {
+   "name": "信仰守卫",
+   "type": "符文头盔",
+   "group": "armour"
+  },
+  {
+   "name": "大地之牙",
+   "type": "鹰喙之面",
+   "group": "armour"
+  },
+  {
+   "name": "大地之痕",
+   "type": "迷踪短靴",
+   "group": "armour"
+  },
+  {
+   "name": "大地之护",
+   "type": "胜利盔甲",
+   "group": "armour"
+  },
+  {
+   "name": "大地之握",
+   "type": "火蝮鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "暗夜弑衣",
+   "type": "毒蛛丝之袍",
+   "group": "armour"
+  },
+  {
+   "name": "暗夜刺足",
+   "type": "刺客之靴",
+   "group": "armour"
+  },
+  {
+   "name": "暗夜毒牙",
+   "type": "操灵者之冠",
+   "group": "armour"
+  },
+  {
+   "name": "暗夜织礼",
+   "type": "禁礼护手",
+   "group": "armour"
+  },
+  {
+   "name": "卓识",
+   "type": "日耀之冠",
+   "group": "armour"
+  },
+  {
+   "name": "肉体与魂灵",
+   "type": "铁影手套",
+   "group": "armour"
+  },
+  {
+   "name": "塑血巨匠",
+   "type": "操灵者背心",
+   "group": "armour"
+  },
+  {
+   "name": "雷鸣洗礼",
+   "type": "钢镜刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "禁断的军帽",
+   "type": "强化巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "狐运强铠",
+   "type": "狂野部族皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "狐毛铠",
+   "type": "狂野部族皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "分形思维",
+   "type": "瓦尔之面",
+   "group": "armour"
+  },
+  {
+   "name": "冰狱",
+   "type": "革兜",
+   "group": "armour"
+  },
+  {
+   "name": "灰眼",
+   "type": "日耀之冠",
+   "group": "armour"
+  },
+  {
+   "name": "博运步伐",
+   "type": "火蝮鳞长靴",
+   "group": "armour"
+  },
+  {
+   "name": "刚勇",
+   "type": "军团长靴",
+   "group": "armour"
+  },
+  {
+   "name": "无常法袍",
+   "type": "智者之袍",
+   "group": "armour"
+  },
+  {
+   "name": "盖卢坎的飞升",
+   "type": "匿踪短靴",
+   "group": "armour"
+  },
+  {
+   "name": "吉尔菲的荣光",
+   "type": "强化巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "吉尔菲的遗产",
+   "type": "强化巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "吉尔菲的圣殿",
+   "type": "权贵环甲",
+   "group": "armour"
+  },
+  {
+   "name": "代笔人",
+   "type": "绸缎背心",
+   "group": "armour"
+  },
+  {
+   "name": "巨灵灾星",
+   "type": "青铜护手",
+   "group": "armour"
+  },
+  {
+   "name": "混沌一瞥",
+   "type": "瓦尔之面",
+   "group": "armour"
+  },
+  {
+   "name": "七彩碟",
+   "type": "冷芒刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "金缕帽",
+   "type": "皮帽",
+   "group": "armour"
+  },
+  {
+   "name": "龙炎足迹",
+   "type": "砂影短靴",
+   "group": "armour"
+  },
+  {
+   "name": "葛尔贡的凝视",
+   "type": "弑君之面",
+   "group": "armour"
+  },
+  {
+   "name": "坟场之链",
+   "type": "火蝮鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "伟大旧神之触手",
+   "type": "鳗皮手套",
+   "group": "armour"
+  },
+  {
+   "name": "邪神庇护",
+   "type": "波纹轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "贪欲之诱",
+   "type": "丝绒便鞋",
+   "group": "armour"
+  },
+  {
+   "name": "议会之握",
+   "type": "秘术手套",
+   "group": "armour"
+  },
+  {
+   "name": "欺诈獠牙",
+   "type": "龙鳞战甲",
+   "group": "armour"
+  },
+  {
+   "name": "血友病",
+   "type": "蛇鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "强健否决者",
+   "type": "灵能之笼",
+   "group": "armour"
+  },
+  {
+   "name": "异端之手",
+   "type": "先烈手套",
+   "group": "armour"
+  },
+  {
+   "name": "领主之手",
+   "type": "禁礼护手",
+   "group": "armour"
+  },
+  {
+   "name": "神主之手",
+   "type": "圣战手套",
+   "group": "armour"
+  },
+  {
+   "name": "寒焰",
+   "type": "革兜",
+   "group": "armour"
+  },
+  {
+   "name": "异教面纱",
+   "type": "弑神之面",
+   "group": "armour"
+  },
+  {
+   "name": "私欲的光辉",
+   "type": "士兵之盔",
+   "group": "armour"
+  },
+  {
+   "name": "惊啸裂痕",
+   "type": "艾兹麦坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "李姆本",
+   "type": "羊皮手套",
+   "group": "armour"
+  },
+  {
+   "name": "雷姆诺的豪情",
+   "type": "萨姆尼盔",
+   "group": "armour"
+  },
+  {
+   "name": "冰冷之眼",
+   "type": "羊皮手套",
+   "group": "armour"
+  },
+  {
+   "name": "西里的嗜血之矢",
+   "type": "鲨齿箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "西里之逝",
+   "type": "鲨齿箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "西里的战衣",
+   "type": "星辰皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "冰息",
+   "type": "精制环甲",
+   "group": "armour"
+  },
+  {
+   "name": "烈炎之心",
+   "type": "圣洁锁甲",
+   "group": "armour"
+  },
+  {
+   "name": "靛蓝之冠",
+   "type": "灵主之环",
+   "group": "armour"
+  },
+  {
+   "name": "宿命",
+   "type": "逃亡之靴",
+   "group": "armour"
+  },
+  {
+   "name": "炼狱之心",
+   "type": "毒蛛丝之袍",
+   "group": "armour"
+  },
+  {
+   "name": "速度之力",
+   "type": "狂虐者束衣",
+   "group": "armour"
+  },
+  {
+   "name": "耀日",
+   "type": "威能鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "茵雅的启蒙",
+   "type": "秘术便鞋",
+   "group": "armour"
+  },
+  {
+   "name": "苦痛狂鲨",
+   "type": "霸者刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "卡胡图罗阿之确信",
+   "type": "远古胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "卡莉莎的优雅之影",
+   "type": "绣布手套",
+   "group": "armour"
+  },
+  {
+   "name": "冈姆的命令",
+   "type": "破城之盔",
+   "group": "armour"
+  },
+  {
+   "name": "冈姆的稳重之靴",
+   "type": "巨人胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "冈姆的精神",
+   "type": "巨人护手",
+   "group": "armour"
+  },
+  {
+   "name": "基洛瓦之风暴",
+   "type": "钢木轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "皇家卫甲",
+   "type": "征战锁甲",
+   "group": "armour"
+  },
+  {
+   "name": "金珏之缮",
+   "type": "精制皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "尤图拉之贪噬",
+   "type": "庄严之铠",
+   "group": "armour"
+  },
+  {
+   "name": "奇塔弗之渴望",
+   "type": "热战之盔",
+   "group": "armour"
+  },
+  {
+   "name": "孔明的神算",
+   "type": "远古魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "共鸣之面",
+   "type": "节庆之面",
+   "group": "armour"
+  },
+  {
+   "name": "愤恨遗产",
+   "type": "地蝮鳞长靴",
+   "group": "armour"
+  },
+  {
+   "name": "临死的施舍",
+   "type": "钢镜刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "魔道之衣",
+   "type": "华丽环甲",
+   "group": "armour"
+  },
+  {
+   "name": "雷语",
+   "type": "荒野锁铠",
+   "group": "armour"
+  },
+  {
+   "name": "月影之耀",
+   "type": "灵相魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "光明偷猎者",
+   "type": "强化巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "狮眼的斗志",
+   "type": "铜影长靴",
+   "group": "armour"
+  },
+  {
+   "name": "狮眼的荣耀之盾",
+   "type": "坚毅塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "狮眼的视线",
+   "type": "征战重铠",
+   "group": "armour"
+  },
+  {
+   "name": "意识之缘",
+   "type": "铁锻护手",
+   "group": "armour"
+  },
+  {
+   "name": "满溢之甲",
+   "type": "权贵环甲",
+   "group": "armour"
+  },
+  {
+   "name": "狼蛛",
+   "type": "生皮塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "马奇纳护手",
+   "type": "暗影者护手",
+   "group": "armour"
+  },
+  {
+   "name": "坚毅之食",
+   "type": "坚毅塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "马赫索托之诈",
+   "type": "冷钢鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "玛拉凯之觉醒",
+   "type": "铁锻之面",
+   "group": "armour"
+  },
+  {
+   "name": "轮回",
+   "type": "和谐魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "马拉凯之记",
+   "type": "暗影者护手",
+   "group": "armour"
+  },
+  {
+   "name": "玛拉凯的祭具",
+   "type": "铁锻之面",
+   "group": "armour"
+  },
+  {
+   "name": "玛拉凯的远见",
+   "type": "领主战冠",
+   "group": "armour"
+  },
+  {
+   "name": "马雷格罗的染血透镜",
+   "type": "复合刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "马雷格罗的玫红手套",
+   "type": "鹿皮手套",
+   "group": "armour"
+  },
+  {
+   "name": "马洛尼的技巧",
+   "type": "华美箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "马洛尼的暮光",
+   "type": "恶矢箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "魔力风暴",
+   "type": "软橡魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "军团的进击",
+   "type": "军团长靴",
+   "group": "armour"
+  },
+  {
+   "name": "红契符印",
+   "type": "祭仪之冠",
+   "group": "armour"
+  },
+  {
+   "name": "烈士之冠",
+   "type": "藤蔓之冠",
+   "group": "armour"
+  },
+  {
+   "name": "饮魂者面罩",
+   "type": "行政者战冠",
+   "group": "armour"
+  },
+  {
+   "name": "缝合恶魔面罩",
+   "type": "行政者战冠",
+   "group": "armour"
+  },
+  {
+   "name": "裁决面罩",
+   "type": "行政者战冠",
+   "group": "armour"
+  },
+  {
+   "name": "远祖之颅",
+   "type": "环形魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "征服之口",
+   "type": "冷钢之冠",
+   "group": "armour"
+  },
+  {
+   "name": "害人之口",
+   "type": "唤骨头盔",
+   "group": "armour"
+  },
+  {
+   "name": "梅德维德的挑战",
+   "type": "符文手甲",
+   "group": "armour"
+  },
+  {
+   "name": "梅吉诺德的巨力腕甲",
+   "type": "冷钢护手",
+   "group": "armour"
+  },
+  {
+   "name": "记忆囚笼",
+   "type": "领主战冠",
+   "group": "armour"
+  },
+  {
+   "name": "佣兵领地",
+   "type": "迷踪手套",
+   "group": "armour"
+  },
+  {
+   "name": "智者之秘",
+   "type": "鹰喙之面",
+   "group": "armour"
+  },
+  {
+   "name": "灵漩",
+   "type": "战意之盔",
+   "group": "armour"
+  },
+  {
+   "name": "迷雾之墙",
+   "type": "漆彩轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "哑风尖旗",
+   "type": "釉彩轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "暗夜之握",
+   "type": "符文笼手",
+   "group": "armour"
+  },
+  {
+   "name": "诺米克的风暴",
+   "type": "扣环短靴",
+   "group": "armour"
+  },
+  {
+   "name": "虚空",
+   "type": "军团手套",
+   "group": "armour"
+  },
+  {
+   "name": "厌食者",
+   "type": "狮首皮盔",
+   "group": "armour"
+  },
+  {
+   "name": "暴君之握",
+   "type": "军团手套",
+   "group": "armour"
+  },
+  {
+   "name": "欧罗什的指控",
+   "type": "符文护腿",
+   "group": "armour"
+  },
+  {
+   "name": "至高天堂",
+   "type": "禁礼之靴",
+   "group": "armour"
+  },
+  {
+   "name": "恩德的迅影",
+   "type": "裹趾护手",
+   "group": "armour"
+  },
+  {
+   "name": "维多里奥的飞升",
+   "type": "羊皮短靴",
+   "group": "armour"
+  },
+  {
+   "name": "欧巴拉的坚守",
+   "type": "鳗皮短靴",
+   "group": "armour"
+  },
+  {
+   "name": "欧斯卡姆",
+   "type": "砂影手套",
+   "group": "armour"
+  },
+  {
+   "name": "苦难探寻者",
+   "type": "粗革手套",
+   "group": "armour"
+  },
+  {
+   "name": "峰回路转",
+   "type": "艾兹麦刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "追逐之羽",
+   "type": "灵骨之冠",
+   "group": "armour"
+  },
+  {
+   "name": "元素的庇护",
+   "type": "威能鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "科塔拉的调节器",
+   "type": "王权刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "森林之后",
+   "type": "命运皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "虹幕",
+   "type": "咒者长靴",
+   "group": "armour"
+  },
+  {
+   "name": "拉克斯的渴望",
+   "type": "仪式短靴",
+   "group": "armour"
+  },
+  {
+   "name": "献祭之心",
+   "type": "巨人魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "鼠巢",
+   "type": "熊首皮盔",
+   "group": "armour"
+  },
+  {
+   "name": "吞灭之情",
+   "type": "热战之盔",
+   "group": "armour"
+  },
+  {
+   "name": "红刃旗帜",
+   "type": "彩绘塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "红刃蹂躏靴",
+   "type": "远古胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "孤绝避难所",
+   "type": "圣骑士头冠",
+   "group": "armour"
+  },
+  {
+   "name": "帝国的残壁",
+   "type": "羊皮轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "悔悟之掌",
+   "type": "圣战手套",
+   "group": "armour"
+  },
+  {
+   "name": "深渊之唤【仿品】",
+   "type": "艾兹麦坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "阿尔贝隆的征途【仿品】",
+   "type": "战士之靴",
+   "group": "armour"
+  },
+  {
+   "name": "相生相克【仿品】",
+   "type": "缎布手套",
+   "group": "armour"
+  },
+  {
+   "name": "极地之眼【仿品】",
+   "type": "罪者之帽",
+   "group": "armour"
+  },
+  {
+   "name": "安姆布的战甲【仿品】",
+   "type": "圣战锁甲",
+   "group": "armour"
+  },
+  {
+   "name": "血誓【仿品】",
+   "type": "蛛丝之袍",
+   "group": "armour"
+  },
+  {
+   "name": "永恒幽影【仿品】",
+   "type": "血色之衣",
+   "group": "armour"
+  },
+  {
+   "name": "大地之护【仿品】",
+   "type": "胜利盔甲",
+   "group": "armour"
+  },
+  {
+   "name": "禁断的军帽【仿品】",
+   "type": "强化巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "议会之握【仿品】",
+   "type": "秘术手套",
+   "group": "armour"
+  },
+  {
+   "name": "寒焰【仿品】",
+   "type": "革兜",
+   "group": "armour"
+  },
+  {
+   "name": "西里的战衣【仿品】",
+   "type": "星辰皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "茵雅的启蒙【仿品】",
+   "type": "秘术便鞋",
+   "group": "armour"
+  },
+  {
+   "name": "卡莉莎的优雅之影【仿品】",
+   "type": "绣布手套",
+   "group": "armour"
+  },
+  {
+   "name": "共鸣之面【仿品】",
+   "type": "节庆之面",
+   "group": "armour"
+  },
+  {
+   "name": "狮眼的斗志【仿品】",
+   "type": "铜影长靴",
+   "group": "armour"
+  },
+  {
+   "name": "满溢之甲【仿品】",
+   "type": "权贵环甲",
+   "group": "armour"
+  },
+  {
+   "name": "马洛尼的技巧【仿品】",
+   "type": "华美箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "迷雾之墙【仿品】",
+   "type": "漆彩轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "完美姿态【仿品】",
+   "type": "星辰皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "赤红踪迹【仿品】",
+   "type": "巨人胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "无尽之卫【仿品】",
+   "type": "禁礼之甲",
+   "group": "armour"
+  },
+  {
+   "name": "泯光寿衣【仿品】",
+   "type": "禁礼之甲",
+   "group": "armour"
+  },
+  {
+   "name": "灵魂打击【仿品】",
+   "type": "刺锋箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "溃败【仿品】",
+   "type": "刺客之靴",
+   "group": "armour"
+  },
+  {
+   "name": "强袭者【仿品】",
+   "type": "粗革短靴",
+   "group": "armour"
+  },
+  {
+   "name": "图克哈玛堡垒【仿品】",
+   "type": "乌木塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "夜幕【仿品】",
+   "type": "巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "维多里奥的贡献【仿品】",
+   "type": "合板鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "虚空行者【仿品】",
+   "type": "暗影者长靴",
+   "group": "armour"
+  },
+  {
+   "name": "瑞佛狩猎",
+   "type": "将军铠甲",
+   "group": "armour"
+  },
+  {
+   "name": "瑞佛之羽",
+   "type": "双锋箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "酷寒的凝视",
+   "type": "灵能之笼",
+   "group": "armour"
+  },
+  {
+   "name": "烈炎之翼",
+   "type": "厚装鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "腐朽军团",
+   "type": "覆体环甲",
+   "group": "armour"
+  },
+  {
+   "name": "猎宝者的护手",
+   "type": "羊毛手套",
+   "group": "armour"
+  },
+  {
+   "name": "勇者之礼",
+   "type": "飞羽箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "萨费尔的智慧",
+   "type": "圣记鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "禁域面容",
+   "type": "操灵者之冠",
+   "group": "armour"
+  },
+  {
+   "name": "苍空之翎",
+   "type": "绸缎之兜",
+   "group": "armour"
+  },
+  {
+   "name": "苍空之巢",
+   "type": "血色之衣",
+   "group": "armour"
+  },
+  {
+   "name": "苍空之爪",
+   "type": "火蝮鳞长靴",
+   "group": "armour"
+  },
+  {
+   "name": "苍空之翼",
+   "type": "战士手套",
+   "group": "armour"
+  },
+  {
+   "name": "禁语",
+   "type": "灵能之笼",
+   "group": "armour"
+  },
+  {
+   "name": "蔑视之流",
+   "type": "缎布便鞋",
+   "group": "armour"
+  },
+  {
+   "name": "魔蝎的呼唤",
+   "type": "重矢箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "深海水疱",
+   "type": "棘刺圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "山特立的回应",
+   "type": "铜锻魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "腐朽仆从",
+   "type": "刑罚者束衣",
+   "group": "armour"
+  },
+  {
+   "name": "七大教义",
+   "type": "蜡封束衣",
+   "group": "armour"
+  },
+  {
+   "name": "悲运之缚",
+   "type": "链甲手套",
+   "group": "armour"
+  },
+  {
+   "name": "沙尘之影",
+   "type": "环带护手",
+   "group": "armour"
+  },
+  {
+   "name": "暗影缝合",
+   "type": "祭礼束衣",
+   "group": "armour"
+  },
+  {
+   "name": "塑界之触",
+   "type": "圣战手套",
+   "group": "armour"
+  },
+  {
+   "name": "破裂碎片",
+   "type": "绯红圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "薛朗的诡计",
+   "type": "学者长靴",
+   "group": "armour"
+  },
+  {
+   "name": "薛朗的秘术长靴",
+   "type": "学者长靴",
+   "group": "armour"
+  },
+  {
+   "name": "薛朗的护身长袍",
+   "type": "秘术长衣",
+   "group": "armour"
+  },
+  {
+   "name": "泯光寿衣",
+   "type": "禁礼之甲",
+   "group": "armour"
+  },
+  {
+   "name": "敏锐思维",
+   "type": "匿踪短靴",
+   "group": "armour"
+  },
+  {
+   "name": "君主之肤",
+   "type": "简易之袍",
+   "group": "armour"
+  },
+  {
+   "name": "忠诚之肤",
+   "type": "简易之袍",
+   "group": "armour"
+  },
+  {
+   "name": "小会战",
+   "type": "双锋箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "光辉之颅",
+   "type": "精兵之盔",
+   "group": "armour"
+  },
+  {
+   "name": "空向",
+   "type": "术士长靴",
+   "group": "armour"
+  },
+  {
+   "name": "奴隶贩子之手",
+   "type": "伏击护手",
+   "group": "armour"
+  },
+  {
+   "name": "苍蟒之鳞",
+   "type": "铜影手套",
+   "group": "armour"
+  },
+  {
+   "name": "蝮吻",
+   "type": "刺客护手",
+   "group": "armour"
+  },
+  {
+   "name": "烈阳铠",
+   "type": "铜锻板甲",
+   "group": "armour"
+  },
+  {
+   "name": "灵魂飞升",
+   "type": "禁礼护手",
+   "group": "armour"
+  },
+  {
+   "name": "祖灵之约",
+   "type": "蛛丝之袍",
+   "group": "armour"
+  },
+  {
+   "name": "灵魂打击",
+   "type": "刺锋箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "南方",
+   "type": "战士手套",
+   "group": "armour"
+  },
+  {
+   "name": "众生指引",
+   "type": "箴言战冠",
+   "group": "armour"
+  },
+  {
+   "name": "棘雹",
+   "type": "恶矢箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "孢囊守卫",
+   "type": "圣者链甲",
+   "group": "armour"
+  },
+  {
+   "name": "新生之徽",
+   "type": "朽木鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "斯塔空加之首",
+   "type": "绸缎之兜",
+   "group": "armour"
+  },
+  {
+   "name": "禁锢监狱",
+   "type": "禁礼之甲",
+   "group": "armour"
+  },
+  {
+   "name": "绝地魔履",
+   "type": "术士长靴",
+   "group": "armour"
+  },
+  {
+   "name": "风暴觅者",
+   "type": "伏击护手",
+   "group": "armour"
+  },
+  {
+   "name": "风暴赐福",
+   "type": "刺客护手",
+   "group": "armour"
+  },
+  {
+   "name": "源质兼并",
+   "type": "信仰之盔",
+   "group": "armour"
+  },
+  {
+   "name": "曙光骤现",
+   "type": "冷钢之冠",
+   "group": "armour"
+  },
+  {
+   "name": "日耀",
+   "type": "环带长靴",
+   "group": "armour"
+  },
+  {
+   "name": "日怨",
+   "type": "环带长靴",
+   "group": "armour"
+  },
+  {
+   "name": "浪涌缚者",
+   "type": "龙鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "斯瓦林",
+   "type": "征战塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "无尽之衣",
+   "type": "简易之袍",
+   "group": "armour"
+  },
+  {
+   "name": "烈火送葬",
+   "type": "蝮鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "诱惑阶梯",
+   "type": "粗革短靴",
+   "group": "armour"
+  },
+  {
+   "name": "海军上将",
+   "type": "映彩外套",
+   "group": "armour"
+  },
+  {
+   "name": "悬念",
+   "type": "艾兹麦塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "破弃信仰",
+   "type": "秘术法衣",
+   "group": "armour"
+  },
+  {
+   "name": "男爵",
+   "type": "护面盔",
+   "group": "armour"
+  },
+  {
+   "name": "兽毛披肩",
+   "type": "瓦尔法衣",
+   "group": "armour"
+  },
+  {
+   "name": "血影",
+   "type": "鲨皮短靴",
+   "group": "armour"
+  },
+  {
+   "name": "巨铜之顶",
+   "type": "角斗重铠",
+   "group": "armour"
+  },
+  {
+   "name": "海王冠冕",
+   "type": "箴言战冠",
+   "group": "armour"
+  },
+  {
+   "name": "祭礼之雨",
+   "type": "梦魇战盔",
+   "group": "armour"
+  },
+  {
+   "name": "缺角帝冠",
+   "type": "箴言战冠",
+   "group": "armour"
+  },
+  {
+   "name": "笼中猛犸",
+   "type": "古钢护手",
+   "group": "armour"
+  },
+  {
+   "name": "天界拥怀",
+   "type": "巨灵护手",
+   "group": "armour"
+  },
+  {
+   "name": "灵魂甲胄",
+   "type": "灭世法衣",
+   "group": "armour"
+  },
+  {
+   "name": "血誓",
+   "type": "蛛丝之袍",
+   "group": "armour"
+  },
+  {
+   "name": "黑暗君主",
+   "type": "巫妖之冠",
+   "group": "armour"
+  },
+  {
+   "name": "深渊绝壁",
+   "type": "铆钉圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "噬心饕餮",
+   "type": "猪面头盔",
+   "group": "armour"
+  },
+  {
+   "name": "吞噬者王冠",
+   "type": "操灵者之冠",
+   "group": "armour"
+  },
+  {
+   "name": "尸鬼提灯",
+   "type": "远古魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "入殓师",
+   "type": "禁礼护手",
+   "group": "armour"
+  },
+  {
+   "name": "永恒苹果",
+   "type": "魂相魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "永恒幽影",
+   "type": "血色之衣",
+   "group": "armour"
+  },
+  {
+   "name": "破落的庇护",
+   "type": "枫木圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "雏鸟",
+   "type": "漆彩之盔",
+   "group": "armour"
+  },
+  {
+   "name": "无形火炬",
+   "type": "皇室坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "无形炼狱",
+   "type": "皇室坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "第四誓言",
+   "type": "虔诚链甲",
+   "group": "armour"
+  },
+  {
+   "name": "惊悸剧院",
+   "type": "柚木圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "鸥喙",
+   "type": "祸鸦之面",
+   "group": "armour"
+  },
+  {
+   "name": "圣洁君临",
+   "type": "信仰之盔",
+   "group": "armour"
+  },
+  {
+   "name": "费西亚之手",
+   "type": "网眼手套",
+   "group": "armour"
+  },
+  {
+   "name": "不朽意志",
+   "type": "威能鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "无尽之距",
+   "type": "巨人胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "钢铁要塞",
+   "type": "征战重铠",
+   "group": "armour"
+  },
+  {
+   "name": "象牙之塔",
+   "type": "圣者链甲",
+   "group": "armour"
+  },
+  {
+   "name": "橡树",
+   "type": "朽木鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "压迫者",
+   "type": "权贵圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "疾风的沉思",
+   "type": "清视护盔",
+   "group": "armour"
+  },
+  {
+   "name": "完美姿态",
+   "type": "星辰皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "平衡棱镜",
+   "type": "原矢箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "女王的饥饿",
+   "type": "瓦尔法衣",
+   "group": "armour"
+  },
+  {
+   "name": "疫鼠囚笼",
+   "type": "鲨皮之衣",
+   "group": "armour"
+  },
+  {
+   "name": "赤红踪迹",
+   "type": "巨人胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "无尽之卫",
+   "type": "禁礼之甲",
+   "group": "armour"
+  },
+  {
+   "name": "正义之鳞",
+   "type": "魂相魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "狼烟",
+   "type": "燃矢箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "雪盲恩惠",
+   "type": "星辰皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "侍从",
+   "type": "权贵圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "溃败",
+   "type": "刺客之靴",
+   "group": "armour"
+  },
+  {
+   "name": "降伏",
+   "type": "艾兹麦塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "骤起狂岚",
+   "type": "巨灵胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "风暴拘束",
+   "type": "无情之面",
+   "group": "armour"
+  },
+  {
+   "name": "风雪释放",
+   "type": "无情之面",
+   "group": "armour"
+  },
+  {
+   "name": "三龙战纪",
+   "type": "黄金之面",
+   "group": "armour"
+  },
+  {
+   "name": "敲诈笑颜",
+   "type": "清视护盔",
+   "group": "armour"
+  },
+  {
+   "name": "不眨之眼",
+   "type": "鹰喙之面",
+   "group": "armour"
+  },
+  {
+   "name": "不屈之志",
+   "type": "威能鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "谜容",
+   "type": "瓦尔之面",
+   "group": "armour"
+  },
+  {
+   "name": "颤栗之饥",
+   "type": "战争轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "千缎",
+   "type": "简易之袍",
+   "group": "armour"
+  },
+  {
+   "name": "千齿",
+   "type": "瓦尔轻盾",
+   "group": "armour"
+  },
+  {
+   "name": "强袭者",
+   "type": "粗革短靴",
+   "group": "armour"
+  },
+  {
+   "name": "惊险刺激",
+   "type": "轻骑盔",
+   "group": "armour"
+  },
+  {
+   "name": "轰天雷",
+   "type": "暗影者护手",
+   "group": "armour"
+  },
+  {
+   "name": "雷目",
+   "type": "日耀之冠",
+   "group": "armour"
+  },
+  {
+   "name": "钟表匠的华服",
+   "type": "狂虐者束衣",
+   "group": "armour"
+  },
+  {
+   "name": "提图库斯的坚盾",
+   "type": "强化塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "陵拳",
+   "type": "钢影护手",
+   "group": "armour"
+  },
+  {
+   "name": "火柳胫甲",
+   "type": "古钢胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "三重扣",
+   "type": "网眼手套",
+   "group": "armour"
+  },
+  {
+   "name": "巫木",
+   "type": "松木塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "图克哈玛堡垒",
+   "type": "乌木塔盾",
+   "group": "armour"
+  },
+  {
+   "name": "不屈烈焰",
+   "type": "威能鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "篡夺者的救赎",
+   "type": "永恒坚盔",
+   "group": "armour"
+  },
+  {
+   "name": "瓦尔的灵手",
+   "type": "铜影手套",
+   "group": "armour"
+  },
+  {
+   "name": "夜幕",
+   "type": "巨盔",
+   "group": "armour"
+  },
+  {
+   "name": "维鲁索的壮怀",
+   "type": "缚足长靴",
+   "group": "armour"
+  },
+  {
+   "name": "陨落之环",
+   "type": "巨人护手",
+   "group": "armour"
+  },
+  {
+   "name": "维多里奥的贡献",
+   "type": "合板鸢盾",
+   "group": "armour"
+  },
+  {
+   "name": "维多里奥之绝响",
+   "type": "漆彩束衣",
+   "group": "armour"
+  },
+  {
+   "name": "毒蛇之度",
+   "type": "连身鳞甲",
+   "group": "armour"
+  },
+  {
+   "name": "维里迪的面纱",
+   "type": "领主战冠",
+   "group": "armour"
+  },
+  {
+   "name": "兀鸣",
+   "type": "操灵者背心",
+   "group": "armour"
+  },
+  {
+   "name": "影月",
+   "type": "祭者圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "虚空之力",
+   "type": "咒者手套",
+   "group": "armour"
+  },
+  {
+   "name": "虚空制箭者",
+   "type": "华美箭袋",
+   "group": "armour"
+  },
+  {
+   "name": "虚空行者",
+   "type": "暗影者长靴",
+   "group": "armour"
+  },
+  {
+   "name": "福尔的战铠",
+   "type": "圣语锁甲",
+   "group": "armour"
+  },
+  {
+   "name": "福尔的远见",
+   "type": "领主战冠",
+   "group": "armour"
+  },
+  {
+   "name": "沃拉娜的征途",
+   "type": "符文战靴",
+   "group": "armour"
+  },
+  {
+   "name": "覆灭之兆",
+   "type": "网眼长靴",
+   "group": "armour"
+  },
+  {
+   "name": "荆棘之墙",
+   "type": "铁制背心",
+   "group": "armour"
+  },
+  {
+   "name": "苦行之履",
+   "type": "羊毛之鞋",
+   "group": "armour"
+  },
+  {
+   "name": "蜡黄之魂",
+   "type": "圣者链甲",
+   "group": "armour"
+  },
+  {
+   "name": "瓦卡图图里",
+   "type": "环形魔盾",
+   "group": "armour"
+  },
+  {
+   "name": "暴雨之舵",
+   "type": "朽木圆盾",
+   "group": "armour"
+  },
+  {
+   "name": "荒野之绕",
+   "type": "扣环皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "意志交锋",
+   "type": "黄金之面",
+   "group": "armour"
+  },
+  {
+   "name": "威尔玛的报偿",
+   "type": "日耀之冠",
+   "group": "armour"
+  },
+  {
+   "name": "恶风足迹",
+   "type": "强化胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "风哮",
+   "type": "强化胫甲",
+   "group": "armour"
+  },
+  {
+   "name": "回光之迹",
+   "type": "丝绒便鞋",
+   "group": "armour"
+  },
+  {
+   "name": "世界雕刻者",
+   "type": "龙鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "幽冥灵王",
+   "type": "灵骨之冠",
+   "group": "armour"
+  },
+  {
+   "name": "费西亚的花环",
+   "type": "铁锻之冠",
+   "group": "armour"
+  },
+  {
+   "name": "龙族印记",
+   "type": "蝮鳞手套",
+   "group": "armour"
+  },
+  {
+   "name": "伊芙班的诡计",
+   "type": "灵主之环",
+   "group": "armour"
+  },
+  {
+   "name": "伊瑞的精通",
+   "type": "精制皮甲",
+   "group": "armour"
+  },
+  {
+   "name": "札德图斯的圣衣",
+   "type": "贤者之袍",
+   "group": "armour"
+  },
+  {
+   "name": "泽尔的放大器",
+   "type": "光辉刺盾",
+   "group": "armour"
+  },
+  {
+   "name": "同化奇珍",
+   "type": "始源碎片",
+   "group": "currency"
+  },
+  {
+   "name": "噬灭奇珍",
+   "type": "始源碎片",
+   "group": "currency"
+  },
+  {
+   "name": "枯败奇珍",
+   "type": "始源碎片",
+   "group": "currency"
+  },
+  {
+   "name": "潜力奇珍",
+   "type": "始源碎片",
+   "group": "currency"
+  },
+  {
+   "name": "求知",
+   "type": "瓦尔之相",
+   "group": "currency"
+  },
+  {
+   "name": "秘法先驱者碎片I",
+   "type": "军团长剑(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "残暴先驱者碎片I",
+   "type": "帝国长杖(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "射术先驱者碎片I",
+   "type": "钝矢箭袋(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "不屈先驱者I",
+   "type": "威能鸢盾(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "冰雷先驱者I",
+   "type": "无情之面(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "时空先驱者碎片I",
+   "type": "饰布腰带(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "不屈先驱者IV",
+   "type": "威能鸢盾(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "合作",
+   "type": "瓦尔之相",
+   "group": "currency"
+  },
+  {
+   "name": "秘法先驱者碎片II",
+   "type": "军团长剑(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "残暴先驱者碎片II",
+   "type": "帝国长杖(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "射术先驱者碎片II",
+   "type": "钝矢箭袋(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "不屈先驱者II",
+   "type": "威能鸢盾(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "冰雷先驱者II",
+   "type": "无情之面(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "时空先驱者碎片II",
+   "type": "饰布腰带(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "秘法先驱者碎片III",
+   "type": "军团长剑(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "残暴先驱者碎片III",
+   "type": "帝国长杖(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "射术先驱者碎片III",
+   "type": "钝矢箭袋(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "不屈先驱者III",
+   "type": "威能鸢盾(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "冰雷先驱者III",
+   "type": "无情之面(碎片)",
+   "group": "currency"
+  },
+  {
+   "name": "美艳",
+   "type": "瓦尔之相",
+   "group": "currency"
+  },
+  {
+   "name": "雄心",
+   "type": "瓦尔之相",
+   "group": "currency"
+  },
+  {
+   "name": "阿兹里的诺言",
+   "type": "紫晶药剂",
+   "group": "flask"
+  },
+  {
+   "name": "卡鲁之血",
+   "type": "圣化生命药剂",
+   "group": "flask"
+  },
+  {
+   "name": "瓶中信仰",
+   "type": "硫磺药剂",
+   "group": "flask"
+  },
+  {
+   "name": "灰烬之瓮",
+   "type": "真银药剂",
+   "group": "flask"
+  },
+  {
+   "name": "克拉里多之名",
+   "type": "宝钻药剂",
+   "group": "flask"
+  },
+  {
+   "name": "闪耀精华",
+   "type": "红玉药剂",
+   "group": "flask"
+  },
+  {
+   "name": "宝视精华",
+   "type": "大型复合药剂",
+   "group": "flask"
+  },
+  {
+   "name": "逝日",
+   "type": "红玉药剂",
+   "group": "flask"
+  },
+  {
+   "name": "不坏圣环灵药",
+   "type": "坚铁药剂",
+   "group": "flask"
+  },
+  {
+   "name": "禁果",
+   "type": "石英药剂",
+   "group": "flask"
+  },
+  {
+   "name": "奇亚拉的决心",
+   "type": "真银药剂",
+   "group": "flask"
+  },
+  {
+   "name": "拉维安加之泉",
+   "type": "圣化魔力药剂",
+   "group": "flask"
+  },
+  {
+   "name": "狮吼精华",
+   "type": "坚岩药剂",
+   "group": "flask"
+  },
+  {
+   "name": "欧罗什的决心",
+   "type": "坚铁药剂",
+   "group": "flask"
+  },
+  {
+   "name": "奥瑞亚的尽头",
+   "type": "灰岩药剂",
+   "group": "flask"
+  },
+  {
+   "name": "茁育助长",
+   "type": "紫晶药剂",
+   "group": "flask"
+  },
+  {
+   "name": "拉维安加之泉【仿品】",
+   "type": "圣化魔力药剂",
+   "group": "flask"
+  },
+  {
+   "name": "鲁米的灵药【仿品】",
+   "type": "坚岩药剂",
+   "group": "flask"
+  },
+  {
+   "name": "神圣哀悼【仿品】",
+   "type": "硫磺药剂",
+   "group": "flask"
+  },
+  {
+   "name": "巫酿之水【仿品】",
+   "type": "迷雾药剂",
+   "group": "flask"
+  },
+  {
+   "name": "伤胃酒",
+   "type": "水银药剂",
+   "group": "flask"
+  },
+  {
+   "name": "鲁米的灵药",
+   "type": "坚岩药剂",
+   "group": "flask"
+  },
+  {
+   "name": "再生的罪恶",
+   "type": "迷雾药剂",
+   "group": "flask"
+  },
+  {
+   "name": "捕魂者",
+   "type": "石英药剂",
+   "group": "flask"
+  },
+  {
+   "name": "裂魂者",
+   "type": "石英药剂",
+   "group": "flask"
+  },
+  {
+   "name": "星光圣杯",
+   "type": "坚铁药剂",
+   "group": "flask"
+  },
+  {
+   "name": "风暴之血",
+   "type": "蓝玉药剂",
+   "group": "flask"
+  },
+  {
+   "name": "风暴之血",
+   "type": "黄玉药剂",
+   "group": "flask"
+  },
+  {
+   "name": "恨意",
+   "type": "蓝玉药剂",
+   "group": "flask"
+  },
+  {
+   "name": "高洁圣杯",
+   "type": "硫磺药剂",
+   "group": "flask"
+  },
+  {
+   "name": "神圣哀悼",
+   "type": "硫磺药剂",
+   "group": "flask"
+  },
+  {
+   "name": "聪明的欧克",
+   "type": "灰岩药剂",
+   "group": "flask"
+  },
+  {
+   "name": "扭曲之罐",
+   "type": "祝福复合药剂",
+   "group": "flask"
+  },
+  {
+   "name": "维克塔血器",
+   "type": "黄玉药剂",
+   "group": "flask"
+  },
+  {
+   "name": "沃拉娜的准备",
+   "type": "坚铁药剂",
+   "group": "flask"
+  },
+  {
+   "name": "先知之茗",
+   "type": "黄金药剂",
+   "group": "flask"
+  },
+  {
+   "name": "巫酿之水",
+   "type": "迷雾药剂",
+   "group": "flask"
+  },
+  {
+   "name": "埃曼纳姆的凝视",
+   "type": "苍白之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "真知灼见",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "先祖的远视",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "远古基石",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "巅峰状态",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "映像",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "刺客之影",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "阿兹里之权",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "噩兆统御",
+   "type": "安睡之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "血痕",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "血牺",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "命运的拘束",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "筋骨强化",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "易碎屏障",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "蛮力冲撞",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "坚守军团",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "灾祸异象",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "审慎计划",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "廉价建设",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "腐化寒息",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "理智",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "榴星",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "冷钢",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "附带伤害",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "战斗专注",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "战斗专注",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "战斗专注",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "燃尽",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "征服者的迅捷",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "征服者的长生",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "征服者的力量",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "腐化能量",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "死亡清算",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "毁灭渴望",
+   "type": "苍白之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "血肉分崩",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "怒火中烧",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "神圣炼狱",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "充分训练",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "异能知识",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "帝王的诡计",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "帝王的纯熟",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "帝王的霸权",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "帝王的智慧",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "无尽之苦",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "能量坚甲",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "潜能防护",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "熄灭之握",
+   "type": "锐利之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "丰富心灵",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "溃烂复仇",
+   "type": "凶残之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "狂热之心",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "为生存而战",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "炎域",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "烈火之歌",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "初雪",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "流畅行动",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "禁断之火",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "禁断之肉",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "要塞誓约",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "脆弱的繁华",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "脆弱",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "尘土归来",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "冰冻痕迹",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "聚光之石",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "聚光之石",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "聚光之石",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "茁壮苦痛",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "发闸机关",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "危险研究",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "灵体转换",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "深藏的潜能",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "鲁莽",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "饥馑深渊",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "永恒之力",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "无所遁形",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "惯性",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "不可避免",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "求知的热情",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "直觉之跃",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "伊泽洛之乱",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "奇塔弗的指教",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "库加尔的凝视",
+   "type": "安睡之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "狮眼的陨落",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "钢铁之主",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "不善意图",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "烈炎之兆",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "武艺之相",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "妄想症",
+   "type": "中型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "血肉融合",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "蛮力与影响",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "卓绝之力",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "温柔之力",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "堕落异体",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "低谷状态",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "自然之喜",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "风之启示",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "徒手空拳",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "压倒性",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "和平主义",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "黯黑之调",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "盗猎者的准心",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "无力",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "起源卓越",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "起源和谐",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "起源力量",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "迅击者",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "纯才",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "加速誓约",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "碎镞雨",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "急速扩张",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "理性主义",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "鲁莽防御",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "再造恶意",
+   "type": "聚合之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "血牺【仿品】",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "廉价建设【仿品】",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "征服者的迅捷【仿品】",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "脆弱的繁华【仿品】",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "脆弱【仿品】",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "鲁莽【仿品】",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "和平主义【仿品】",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "无力【仿品】",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "起源力量【仿品】",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "纯才【仿品】",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "鲁莽防御【仿品】",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "不稳定承载【仿品】",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "利刃戒指",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "滚动烈焰",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "原生祭仪",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "残虐之欢愉",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "破碎之炼",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "灵魂之芯",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "石塔",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "先祖回音",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "精神守护",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "人格分裂",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "腐烂扩散",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "静电之源",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "坚毅心灵",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "暴风遮罩",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "崇高愿景",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "突然点火",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "生存本能",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "生存秘技",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "生存技巧",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "特克罗的凝视",
+   "type": "凶残之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "淬火之躯",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "淬火之心",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "淬火之魂",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "剥夺之念",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "浮华",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "聚魂石",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "恐惧之平衡",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "碧影梦境",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "碧影梦魇",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "前线",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "黄金法则",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "青影梦境",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "青影梦魇",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "审讯",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "意义的光辉",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "凛冽寒冬",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "普兰德斯契约",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "赤影梦境",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "赤影梦魇",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "围攻",
+   "type": "小型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "监视守夜",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "希望之线",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "尘埃落定",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "升华之躯",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "升华之心",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "升华之魂",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "乌拉曼的凝视",
+   "type": "锐利之凝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "无尽渴望",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "超自然本能",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "不稳定承载",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "瓦尔之诉",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "暴力的死者",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "天神之音",
+   "type": "大型星团珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "怒火齐发",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "督军之力",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "战士的史诗",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "守望之眼",
+   "type": "三相珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "罪恶的重量",
+   "type": "翠绿珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "帝国重量",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "野火",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "冬葬",
+   "type": "赤红珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "冬季赏金",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "女巫克星",
+   "type": "钴蓝珠宝",
+   "group": "jewel"
+  },
+  {
+   "name": "轮回的梦魇",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "改变的遥远回忆",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "增强的遥远回忆",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "塞尔.布雷德狼穴",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "脑层",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "亡者之财",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "多利亚尼的迷城",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "元帅殿堂",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "魔诅之域",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "灌注的降临之地",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "混沌之渊",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "混沌之渊",
+   "type": "滨海山丘",
+   "group": "map"
+  },
+  {
+   "name": "贼窝",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "欧霸的咒怨宝库",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "欧霸的咒怨宝库",
+   "type": "远古街区",
+   "group": "map"
+  },
+  {
+   "name": "远古之印",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "远古之印",
+   "type": "冥神之域",
+   "group": "map"
+  },
+  {
+   "name": "阿尔伦神柱",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "沉沦之间",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "沉沦之间",
+   "type": "夺魂之殿",
+   "group": "map"
+  },
+  {
+   "name": "脑层【仿品】",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "阿尔伦神柱【仿品】",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "沉沦之间【仿品】",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "重著的遥远回忆",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "降临之地",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "懦者的试验",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "普兰德斯庄园",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "普兰德斯庄园",
+   "type": "瓦尔多地图",
+   "group": "map"
+  },
+  {
+   "name": "幽秘博物馆",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "折磨之塔",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "暮光古庙",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "维克塔广场",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "扭曲的遥远回忆",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "纯净乐园",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "阿兹里的秘宝库",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "禁闭祭坛",
+   "type": "地图",
+   "group": "map"
+  },
+  {
+   "name": "禁闭祭坛",
+   "type": "致命岩滩",
+   "group": "map"
+  },
+  {
+   "name": "艾贝拉斯之角",
+   "type": "羊角法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "阿克顿",
+   "type": "屠戮之斧",
+   "group": "weapon"
+  },
+  {
+   "name": "超越壁垒",
+   "type": "裂脏钩",
+   "group": "weapon"
+  },
+  {
+   "name": "东方雷霆圣杖",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "北方雷霆圣杖",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "南方雷霆圣杖",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "西方雷霆圣杖",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "汉恩的力量",
+   "type": "夜语长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "鬣犬之牙",
+   "type": "远古战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "魅惑",
+   "type": "瓦尔战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "增幅杖",
+   "type": "螺纹法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "艾普之怒",
+   "type": "灵兆法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "阿拉卡力之牙",
+   "type": "兽血短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "阿伯瑞斯",
+   "type": "刺客弓",
+   "group": "weapon"
+  },
+  {
+   "name": "灰烬行者",
+   "type": "羊角法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "烬杵",
+   "type": "朽木之棒",
+   "group": "weapon"
+  },
+  {
+   "name": "阿兹里的刑刃",
+   "type": "瓦尔巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "阿兹里的统治",
+   "type": "审判长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "占星",
+   "type": "虚影短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "灵护",
+   "type": "练武者细剑",
+   "group": "weapon"
+  },
+  {
+   "name": "历史公理",
+   "type": "铜锻短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "苍白烈火",
+   "type": "灵石短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "芯木腰刀",
+   "type": "永恒之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "比诺的厨刀",
+   "type": "猎者之刃",
+   "group": "weapon"
+  },
+  {
+   "name": "苦梦",
+   "type": "影语短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "炎夏之血",
+   "type": "锈剑",
+   "group": "weapon"
+  },
+  {
+   "name": "血谑",
+   "type": "锐利刺匕",
+   "group": "weapon"
+  },
+  {
+   "name": "嗜血之爪",
+   "type": "魔爪刃",
+   "group": "weapon"
+  },
+  {
+   "name": "脑乱者",
+   "type": "戮魂重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "议会之息",
+   "type": "禁礼短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "光耀之锤",
+   "type": "战锤",
+   "group": "weapon"
+  },
+  {
+   "name": "破碎挽歌",
+   "type": "恶灵长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "布鲁特斯的刑具",
+   "type": "祭仪短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "卡迪甘的权威",
+   "type": "白金短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "坚定之刃",
+   "type": "圣约之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "卡美利亚之贪婪",
+   "type": "坚锤",
+   "group": "weapon"
+  },
+  {
+   "name": "卡美利亚之锤",
+   "type": "坚锤",
+   "group": "weapon"
+  },
+  {
+   "name": "库勒马克藤杖",
+   "type": "蛇纹长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "阐释之杖",
+   "type": "艾兹麦长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "冥犬残肢",
+   "type": "血色短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "石冢",
+   "type": "刚猛巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "乱矢之弦",
+   "type": "长弓",
+   "group": "weapon"
+  },
+  {
+   "name": "乱矢之弦",
+   "type": "刺客弓",
+   "group": "weapon"
+  },
+  {
+   "name": "切特斯之针",
+   "type": "贵族细剑",
+   "group": "weapon"
+  },
+  {
+   "name": "忠诚之锤",
+   "type": "刚猛巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "塑泥者",
+   "type": "破岩锤",
+   "group": "weapon"
+  },
+  {
+   "name": "寒铁刃",
+   "type": "艾兹麦之匕",
+   "group": "weapon"
+  },
+  {
+   "name": "日耀之冠",
+   "type": "水晶法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "卡斯普里怨恨",
+   "type": "宝饰细剑",
+   "group": "weapon"
+  },
+  {
+   "name": "希比尔的冰爪",
+   "type": "撕裂尖爪",
+   "group": "weapon"
+  },
+  {
+   "name": "德瑞索的热情",
+   "type": "穿甲刺剑",
+   "group": "weapon"
+  },
+  {
+   "name": "夜吟",
+   "type": "刺客弓",
+   "group": "weapon"
+  },
+  {
+   "name": "死神之手",
+   "type": "卡鲁短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "冥使之琴",
+   "type": "死亡之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "死亡之作",
+   "type": "死亡之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "战歌",
+   "type": "霸主巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "裂世轮回",
+   "type": "风暴长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "戒律之影",
+   "type": "帝国短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "灭世",
+   "type": "皇家猎弓",
+   "group": "weapon"
+  },
+  {
+   "name": "灭世之狱",
+   "type": "皇家猎弓",
+   "group": "weapon"
+  },
+  {
+   "name": "终末之始",
+   "type": "狮爪巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "黑钢",
+   "type": "瓦尔短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "多里亚尼的幻化之杖",
+   "type": "瓦尔短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "恐惧之镰",
+   "type": "切割者",
+   "group": "weapon"
+  },
+  {
+   "name": "恐惧利刃",
+   "type": "锈剑",
+   "group": "weapon"
+  },
+  {
+   "name": "恐惧船长的弯刀",
+   "type": "鬼火长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "恐怖巨镰",
+   "type": "切割者",
+   "group": "weapon"
+  },
+  {
+   "name": "幻梦飞羽",
+   "type": "永恒之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "宵晓",
+   "type": "风暴长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "龙凤吟",
+   "type": "狱火之刃",
+   "group": "weapon"
+  },
+  {
+   "name": "幽魂之息",
+   "type": "铁锻长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "叶兰德尔的拥抱",
+   "type": "远古之祭",
+   "group": "weapon"
+  },
+  {
+   "name": "回声锻炉",
+   "type": "狱炎重剑",
+   "group": "weapon"
+  },
+  {
+   "name": "宇蚀",
+   "type": "兽角法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "疯狂边界",
+   "type": "术雕巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "影殒",
+   "type": "暮色之刃",
+   "group": "weapon"
+  },
+  {
+   "name": "精华收割器",
+   "type": "瓦尔战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "伊沃幻像",
+   "type": "古代细剑",
+   "group": "weapon"
+  },
+  {
+   "name": "瓦尔命运",
+   "type": "宝石之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "圣徒胫骨",
+   "type": "史典长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "绿藤",
+   "type": "朽木之干",
+   "group": "weapon"
+  },
+  {
+   "name": "积怨溃脓",
+   "type": "魔灵短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "费德利塔斯之锋",
+   "type": "锯状薄刃",
+   "group": "weapon"
+  },
+  {
+   "name": "血肉之嗜",
+   "type": "梦境之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "裁肉者",
+   "type": "精致之刃",
+   "group": "weapon"
+  },
+  {
+   "name": "霜息",
+   "type": "华丽之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "吉尔菲的净罪之锤",
+   "type": "铜影巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "吉尔菲的奉献之锤",
+   "type": "铜影巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "地精边缘",
+   "type": "伏击刺刃",
+   "group": "weapon"
+  },
+  {
+   "name": "女神的恩典",
+   "type": "箴言法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "韧木曲刃",
+   "type": "永恒之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "思动之手",
+   "type": "帝国战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "智行之手",
+   "type": "帝国战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "裂心刃",
+   "type": "皇家短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "霸权时代",
+   "type": "审判长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "嗜血黑兹玛娜",
+   "type": "瓦尔巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "无击",
+   "type": "残暴巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "破灭之希",
+   "type": "游侠弓",
+   "group": "weapon"
+  },
+  {
+   "name": "雷姆诺的挽歌",
+   "type": "冷铁重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "雷姆诺的夺命凶器",
+   "type": "冷铁重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "海昂的狂怒",
+   "type": "军团长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "一文字",
+   "type": "海贼长刀",
+   "group": "weapon"
+  },
+  {
+   "name": "穿云",
+   "type": "猎魂之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "英斯贝理之极",
+   "type": "智者长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "钢铁指挥",
+   "type": "死亡之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "伊泽洛之谜",
+   "type": "帝国战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "刽子手.杰克",
+   "type": "瓦尔战斧",
+   "group": "weapon"
+  },
+  {
+   "name": "佳华尼的潜能",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "乔赫黑钢",
+   "type": "沉钢重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "冈姆的霸业",
+   "type": "卡鲁巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "王者之刃",
+   "type": "霸主巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "奇塔弗之盛宴",
+   "type": "虚影巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "刚多的虚荣",
+   "type": "艾兹麦巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "康戈的战炎",
+   "type": "惧灵重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "拉奇许之刃",
+   "type": "贵族之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "终息",
+   "type": "拳钉",
+   "group": "weapon"
+  },
+  {
+   "name": "拉维安加的智慧",
+   "type": "战锤",
+   "group": "weapon"
+  },
+  {
+   "name": "荒野之律",
+   "type": "魔爪刃",
+   "group": "weapon"
+  },
+  {
+   "name": "玫瑰遗产",
+   "type": "审判长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "生机之记",
+   "type": "朽木法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "断罪",
+   "type": "柴斧",
+   "group": "weapon"
+  },
+  {
+   "name": "狮眼的战弓",
+   "type": "帝国之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "玛塔之指教",
+   "type": "卡鲁短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "迷茫幻符",
+   "type": "白金波刃",
+   "group": "weapon"
+  },
+  {
+   "name": "尔奇的巨灵之锤",
+   "type": "卡鲁重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "纯净之神的祭品",
+   "type": "贵族长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "冥约",
+   "type": "召唤法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "力量猎刃",
+   "type": "残体利刃",
+   "group": "weapon"
+  },
+  {
+   "name": "魔藤",
+   "type": "朽木之干",
+   "group": "weapon"
+  },
+  {
+   "name": "沉默之雷",
+   "type": "坚锤",
+   "group": "weapon"
+  },
+  {
+   "name": "凋灵魔爪",
+   "type": "虚影短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "月岚",
+   "type": "征战之斧",
+   "group": "weapon"
+  },
+  {
+   "name": "泣月",
+   "type": "念动法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "噬魂之牙",
+   "type": "恐惧之爪",
+   "group": "weapon"
+  },
+  {
+   "name": "神秘折射镜",
+   "type": "异教法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "掳名之锋",
+   "type": "权贵之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "内布利斯",
+   "type": "虚影短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "尼布洛克",
+   "type": "梦魇之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "努葛玛呼之耀",
+   "type": "深渊巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "虚无之倾",
+   "type": "游侠弓",
+   "group": "weapon"
+  },
+  {
+   "name": "努罗的竖琴",
+   "type": "先驱者之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "奈可妲之灯",
+   "type": "水晶短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "抹灭",
+   "type": "灵兆法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "鬼弑",
+   "type": "查兰之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "东之饰",
+   "type": "裂脏钩",
+   "group": "weapon"
+  },
+  {
+   "name": "欧罗的贡品",
+   "type": "狱炎重剑",
+   "group": "weapon"
+  },
+  {
+   "name": "巨击之锤",
+   "type": "狼牙重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "悖论",
+   "type": "瓦尔细剑",
+   "group": "weapon"
+  },
+  {
+   "name": "囚神杵",
+   "type": "铁锻长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "皮斯卡托的慧眼",
+   "type": "念动法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "誓约",
+   "type": "审判长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "虹耀之月",
+   "type": "暮光长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "重击之锤",
+   "type": "狼牙重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "威严之刃",
+   "type": "名贵巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "逃亡女王",
+   "type": "名贵巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "拉其塔之舞",
+   "type": "符文巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "七日锋",
+   "type": "夜语长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "议会之触",
+   "type": "脊弓",
+   "group": "weapon"
+  },
+  {
+   "name": "魂界终结",
+   "type": "铁锻长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "创域",
+   "type": "铁锻长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "死神的取魂器",
+   "type": "幽影巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "瓦尔战刃",
+   "type": "瓦尔军刃",
+   "group": "weapon"
+  },
+  {
+   "name": "赤红短刃",
+   "type": "锈剑",
+   "group": "weapon"
+  },
+  {
+   "name": "灾祸之礁",
+   "type": "鱼竿",
+   "group": "weapon"
+  },
+  {
+   "name": "无尽愤怒",
+   "type": "富贵之斧",
+   "group": "weapon"
+  },
+  {
+   "name": "协约的遗物",
+   "type": "贤者法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "超越壁垒【仿品】",
+   "type": "裂脏钩",
+   "group": "weapon"
+  },
+  {
+   "name": "魅惑【仿品】",
+   "type": "瓦尔战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "苦梦【仿品】",
+   "type": "影语短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "血谑【仿品】",
+   "type": "锐利刺匕",
+   "group": "weapon"
+  },
+  {
+   "name": "血棘【仿品】",
+   "type": "朽木之干",
+   "group": "weapon"
+  },
+  {
+   "name": "寒铁刃【仿品】",
+   "type": "艾兹麦之匕",
+   "group": "weapon"
+  },
+  {
+   "name": "幻梦飞羽【仿品】",
+   "type": "永恒之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "宵晓【仿品】",
+   "type": "风暴长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "叶兰德尔的拥抱【仿品】",
+   "type": "远古之祭",
+   "group": "weapon"
+  },
+  {
+   "name": "绿藤【仿品】",
+   "type": "朽木之干",
+   "group": "weapon"
+  },
+  {
+   "name": "霜息【仿品】",
+   "type": "华丽之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "收割者【仿品】",
+   "type": "灵玉巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "裂心刃【仿品】",
+   "type": "皇家短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "穿云【仿品】",
+   "type": "猎魂之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "英斯贝理之极【仿品】",
+   "type": "智者长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "钢铁指挥【仿品】",
+   "type": "死亡之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "康戈的战炎【仿品】",
+   "type": "惧灵重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "终息【仿品】",
+   "type": "拳钉",
+   "group": "weapon"
+  },
+  {
+   "name": "玛塔之指教【仿品】",
+   "type": "卡鲁短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "冥约【仿品】",
+   "type": "召唤法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "内布利斯【仿品】",
+   "type": "虚影短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "欧罗的贡品【仿品】",
+   "type": "狱炎重剑",
+   "group": "weapon"
+  },
+  {
+   "name": "悖论【仿品】",
+   "type": "瓦尔细剑",
+   "group": "weapon"
+  },
+  {
+   "name": "开膛斧【仿品】",
+   "type": "破城斧",
+   "group": "weapon"
+  },
+  {
+   "name": "暴风之钢【仿品】",
+   "type": "征战之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "裂颅【仿品】",
+   "type": "刚猛巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "托沃卧【仿品】",
+   "type": "灵石法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "峡湾之星【仿品】",
+   "type": "爆破法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "恩吉尔的叉刃【仿品】",
+   "type": "窃者短刃",
+   "group": "weapon"
+  },
+  {
+   "name": "裂风【仿品】",
+   "type": "帝国之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "乱世之翼【仿品】",
+   "type": "艾兹麦巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "混响",
+   "type": "螺纹法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "瑞佛的奋战长剑",
+   "type": "高山重刃",
+   "group": "weapon"
+  },
+  {
+   "name": "瑞佛统帅",
+   "type": "夜语长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "野性瑞佛",
+   "type": "皇家之斧",
+   "group": "weapon"
+  },
+  {
+   "name": "裂隙",
+   "type": "恐惧之牙",
+   "group": "weapon"
+  },
+  {
+   "name": "霜刃",
+   "type": "锈斧",
+   "group": "weapon"
+  },
+  {
+   "name": "食蚜",
+   "type": "斗士长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "命运伤痕",
+   "type": "拳钉",
+   "group": "weapon"
+  },
+  {
+   "name": "瑟蕾的杰作",
+   "type": "幻象之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "离异梦寐",
+   "type": "军用长刃",
+   "group": "weapon"
+  },
+  {
+   "name": "日耀之影",
+   "type": "贤者法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "低伏暗光",
+   "type": "狂风法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "寒光剑",
+   "type": "重剑",
+   "group": "weapon"
+  },
+  {
+   "name": "罪恶吞噬者的叹息",
+   "type": "暴君之统",
+   "group": "weapon"
+  },
+  {
+   "name": "奇异",
+   "type": "白金短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "勇气之魄",
+   "type": "艾兹麦巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "破碎传承者",
+   "type": "蛇纹长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "破天者",
+   "type": "精致之刃",
+   "group": "weapon"
+  },
+  {
+   "name": "白银之舌",
+   "type": "先驱者之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "海妖魅曲",
+   "type": "鱼竿",
+   "group": "weapon"
+  },
+  {
+   "name": "开膛斧",
+   "type": "破城斧",
+   "group": "weapon"
+  },
+  {
+   "name": "扭魂者",
+   "type": "艾兹麦长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "先驱之脊",
+   "type": "冷铁短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "脊柱之握",
+   "type": "裂肉者",
+   "group": "weapon"
+  },
+  {
+   "name": "碎月",
+   "type": "朽木法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "唤星",
+   "type": "深渊巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "塑星者",
+   "type": "狱炎重剑",
+   "group": "weapon"
+  },
+  {
+   "name": "暴雨之弦",
+   "type": "长弓",
+   "group": "weapon"
+  },
+  {
+   "name": "禁锢暴风",
+   "type": "螺纹法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "瓦尔传说",
+   "type": "宝石之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "砥砺深根",
+   "type": "伏击刺刃",
+   "group": "weapon"
+  },
+  {
+   "name": "塔林的颤栗之语",
+   "type": "风暴长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "塔赫亚的砍伐",
+   "type": "扫荡者",
+   "group": "weapon"
+  },
+  {
+   "name": "行刑之刃",
+   "type": "虎牙巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "摧残之光",
+   "type": "细柄长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "希望之祸",
+   "type": "马拉克斯弓",
+   "group": "weapon"
+  },
+  {
+   "name": "漆黑藤杖",
+   "type": "皇家短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "竭血之镰",
+   "type": "行刑巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "血棘",
+   "type": "朽木之干",
+   "group": "weapon"
+  },
+  {
+   "name": "暗影的重负",
+   "type": "史典长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "烧灼器",
+   "type": "柴斧",
+   "group": "weapon"
+  },
+  {
+   "name": "蚕食之暗",
+   "type": "兽血短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "赤红风暴",
+   "type": "钢木之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "蟹群之召",
+   "type": "史典长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "禅意苦行僧",
+   "type": "残暴巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "杀孽戒刀",
+   "type": "残暴巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "黯黑贤者",
+   "type": "影语短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "亵渎圣杯",
+   "type": "花冠重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "圣恶之喻",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "希望之火",
+   "type": "马拉克斯弓",
+   "group": "weapon"
+  },
+  {
+   "name": "支点",
+   "type": "艾兹麦长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "运势之环",
+   "type": "贵族长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "贪婪之潮",
+   "type": "城塞战弓",
+   "group": "weapon"
+  },
+  {
+   "name": "女神的灵缚",
+   "type": "鲸骨细刃",
+   "group": "weapon"
+  },
+  {
+   "name": "女神的怒炎",
+   "type": "贵族之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "女神的束缚",
+   "type": "永恒之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "金玉诈欺者",
+   "type": "狮爪巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "灰色尖椎",
+   "type": "审判长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "灰风",
+   "type": "幽魂之斧",
+   "group": "weapon"
+  },
+  {
+   "name": "狮鹫",
+   "type": "碎玉斧",
+   "group": "weapon"
+  },
+  {
+   "name": "收割者",
+   "type": "灵玉巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "隐匿之刃",
+   "type": "伏击刺刃",
+   "group": "weapon"
+  },
+  {
+   "name": "钢铁质量",
+   "type": "斗士长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "活木之刃",
+   "type": "艾兹麦巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "修道院钟声",
+   "type": "梦境之锤",
+   "group": "weapon"
+  },
+  {
+   "name": "诗人之笔",
+   "type": "肉体法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "女爵",
+   "type": "旧军刀",
+   "group": "weapon"
+  },
+  {
+   "name": "红刃",
+   "type": "斗士长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "秘法君临",
+   "type": "军团长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "圣洁圣杯",
+   "type": "花冠重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "时之沙",
+   "type": "暴君之统",
+   "group": "weapon"
+  },
+  {
+   "name": "救世者",
+   "type": "军团长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "灾害",
+   "type": "恐惧之牙",
+   "group": "weapon"
+  },
+  {
+   "name": "鹰啸",
+   "type": "碎玉斧",
+   "group": "weapon"
+  },
+  {
+   "name": "炽炎之使",
+   "type": "武术长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "风暴之眼",
+   "type": "皇家长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "风暴坚壁",
+   "type": "皇家长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "无上箴言",
+   "type": "水晶短杖",
+   "group": "weapon"
+  },
+  {
+   "name": "思想奔流",
+   "type": "军团长剑",
+   "group": "weapon"
+  },
+  {
+   "name": "暴风雨",
+   "type": "长弓",
+   "group": "weapon"
+  },
+  {
+   "name": "暴风之钢",
+   "type": "征战之剑",
+   "group": "weapon"
+  },
+  {
+   "name": "蜂巢涌动",
+   "type": "刺喉刃",
+   "group": "weapon"
+  },
+  {
+   "name": "索魂钩",
+   "type": "鱼竿",
+   "group": "weapon"
+  },
+  {
+   "name": "冰点低语",
+   "type": "毒牙长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "命运之风",
+   "type": "恶灵长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "死亡屈服",
+   "type": "帝国长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "曙雷",
+   "type": "锈斑巨剑",
+   "group": "weapon"
+  },
+  {
+   "name": "碎潮者",
+   "type": "帝国重锤",
+   "group": "weapon"
+  },
+  {
+   "name": "痛苦之触",
+   "type": "帝国战爪",
+   "group": "weapon"
+  },
+  {
+   "name": "颤抖之杖",
+   "type": "军用长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "裂颅",
+   "type": "刚猛巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "托沃崩",
+   "type": "灵石法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "托沃卧",
+   "type": "灵石法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "峡湾之星",
+   "type": "爆破法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "恩吉尔的叉刃",
+   "type": "窃者短刃",
+   "group": "weapon"
+  },
+  {
+   "name": "合流梦寐",
+   "type": "军用长刃",
+   "group": "weapon"
+  },
+  {
+   "name": "暗光遗存",
+   "type": "贤者法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "乌尔尼多的拥抱",
+   "type": "瓦尔巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "乌尔尼多之吻",
+   "type": "瓦尔巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "黑鲨",
+   "type": "瓦尔军刃",
+   "group": "weapon"
+  },
+  {
+   "name": "庄重之杖",
+   "type": "朽木之干",
+   "group": "weapon"
+  },
+  {
+   "name": "潜能魔棒",
+   "type": "箴言法杖",
+   "group": "weapon"
+  },
+  {
+   "name": "裂空者",
+   "type": "狱炎重剑",
+   "group": "weapon"
+  },
+  {
+   "name": "逝空之锤",
+   "type": "威权巨锤",
+   "group": "weapon"
+  },
+  {
+   "name": "魔暴之痕",
+   "type": "脊弓",
+   "group": "weapon"
+  },
+  {
+   "name": "火神锻台",
+   "type": "魔灵短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "白净之风",
+   "type": "帝国短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "阔斩",
+   "type": "巨战斧",
+   "group": "weapon"
+  },
+  {
+   "name": "寡妇",
+   "type": "窃者短匕",
+   "group": "weapon"
+  },
+  {
+   "name": "野性狂爪",
+   "type": "凿钉",
+   "group": "weapon"
+  },
+  {
+   "name": "裂风",
+   "type": "帝国之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "飞龙之翼",
+   "type": "帝国之弓",
+   "group": "weapon"
+  },
+  {
+   "name": "乱世之翼",
+   "type": "艾兹麦巨斧",
+   "group": "weapon"
+  },
+  {
+   "name": "猎巫人的审判",
+   "type": "贵族长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "舍吉的手柄",
+   "type": "强化长杖",
+   "group": "weapon"
+  },
+  {
+   "name": "索伏的始源",
+   "type": "城塞战弓",
+   "group": "weapon"
+  },
+  {
+   "name": "索伏的爱抚",
+   "type": "城塞战弓",
+   "group": "weapon"
+  },
+  {
+   "name": "夭马克的协定",
+   "type": "瓦尔短杖",
+   "group": "weapon"
+  }
+ ],
+ "basesKept": 179,
+ "basesDropped": 6868,
+ "panelAttached": 174,
+ "panelMiss": [],
+ "missingPlainAdded": [
+  "双玉戒指 -> Rings"
+ ],
+ "groupsLeft": {
+  "饰品": 2,
+  "腰带": 1,
+  "护甲": 25,
+  "双手武器": 2,
+  "副手": 2,
+  "药剂": 3,
+  "单手武器": 4,
+  "珠宝": 4
+ },
+ "totalCats": 43
+}

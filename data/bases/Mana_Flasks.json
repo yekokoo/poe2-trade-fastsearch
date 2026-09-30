@@ -1,0 +1,43 @@
+{
+ "slug": "Mana_Flasks",
+ "cnName": "魔力药剂",
+ "fetchedAt": "2026-09-17T07:31:37.303Z",
+ "bases": [
+  {
+   "slug": "Lesser_Mana_Flask",
+   "name": "次级魔力药剂"
+  },
+  {
+   "slug": "Medium_Mana_Flask",
+   "name": "中型魔力药剂"
+  },
+  {
+   "slug": "Greater_Mana_Flask",
+   "name": "良质魔力药剂"
+  },
+  {
+   "slug": "Grand_Mana_Flask",
+   "name": "优质魔力药剂"
+  },
+  {
+   "slug": "Giant_Mana_Flask",
+   "name": "巨型魔力药剂"
+  },
+  {
+   "slug": "Colossal_Mana_Flask",
+   "name": "高阶魔力药剂"
+  },
+  {
+   "slug": "Gargantuan_Mana_Flask",
+   "name": "恢弘魔力药剂"
+  },
+  {
+   "slug": "Transcendent_Mana_Flask",
+   "name": "非凡魔力药剂"
+  },
+  {
+   "slug": "Ultimate_Mana_Flask",
+   "name": "终极魔力药剂"
+  }
+ ]
+}

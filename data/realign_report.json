@@ -1,0 +1,4014 @@
+{
+ "builtAt": "2026-09-04T09:25:18.317Z",
+ "stat": {
+  "exact": 1943,
+  "vocab": 1232,
+  "contains": 421,
+  "inherit": 412,
+  "none": 739
+ },
+ "unmatchedCount": 739,
+ "unmatched": [
+  {
+   "cat": "Amphora_Relic",
+   "id": "prefix|商人会提供#个额外选择",
+   "template": "商人会提供#个额外选择"
+  },
+  {
+   "cat": "Amphora_Relic",
+   "id": "prefix|首领受到的伤害提高#%",
+   "template": "首领受到的伤害提高#%"
+  },
+  {
+   "cat": "Amphora_Relic",
+   "id": "prefix|首领造成的伤害降低#%",
+   "template": "首领造成的伤害降低#%"
+  },
+  {
+   "cat": "Amphora_Relic",
+   "id": "prefix|稀有怪物造成的伤害降低#%",
+   "template": "稀有怪物造成的伤害降低#%"
+  },
+  {
+   "cat": "Amphora_Relic",
+   "id": "suffix|商人处的出售价格降低#%",
+   "template": "商人处的出售价格降低#%"
+  },
+  {
+   "cat": "Amphora_Relic",
+   "id": "suffix|试炼地图上揭晓#个额外的房间",
+   "template": "试炼地图上揭晓#个额外的房间"
+  },
+  {
+   "cat": "Amulets",
+   "id": "prefix|符文结界上限提高#%",
+   "template": "符文结界上限提高#%"
+  },
+  {
+   "cat": "Amulets",
+   "id": "prefix|你生成的残片效果提高#%",
+   "template": "你生成的残片效果提高#%"
+  },
+  {
+   "cat": "Amulets",
+   "id": "prefix|品质上限+#%",
+   "template": "品质上限+#%"
+  },
+  {
+   "cat": "Amulets",
+   "id": "prefix|使用技能时，有#%的几率保留#%的荣耀",
+   "template": "使用技能时，有#%的几率保留#%的荣耀"
+  },
+  {
+   "cat": "Amulets",
+   "id": "suffix|捷技能的保留效能提高#%",
+   "template": "捷技能的保留效能提高#%"
+  },
+  {
+   "cat": "Amulets",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Amulets",
+   "id": "suffix|力量、敏捷或智慧提高#%",
+   "template": "力量、敏捷或智慧提高#%"
+  },
+  {
+   "cat": "Amulets",
+   "id": "suffix|装备和技能宝石的属性需求降低#%",
+   "template": "装备和技能宝石的属性需求降低#%"
+  },
+  {
+   "cat": "Belts",
+   "id": "prefix|符文结界再生率提高#%",
+   "template": "符文结界再生率提高#%"
+  },
+  {
+   "cat": "Belts",
+   "id": "prefix|每有#点生命上限，获得#-#火焰荆棘伤害",
+   "template": "每有#点生命上限，获得#-#火焰荆棘伤害"
+  },
+  {
+   "cat": "Belts",
+   "id": "prefix|使用咒符时，回复#层符文结界",
+   "template": "使用咒符时，回复#层符文结界"
+  },
+  {
+   "cat": "Belts",
+   "id": "prefix|咒符效果的持续时间提高#%",
+   "template": "咒符效果的持续时间提高#%"
+  },
+  {
+   "cat": "Belts",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Belts",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Belts",
+   "id": "suffix|若你近期使用过咒符，你受到的减益的减速强度降低#%",
+   "template": "若你近期使用过咒符，你受到的减益的减速强度降低#%"
+  },
+  {
+   "cat": "Belts",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "prefix|+#点闪避值闪避值提高#%",
+   "template": "+#点闪避值闪避值提高#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "prefix|闪避值提高#%+#生命上限",
+   "template": "闪避值提高#%+#生命上限"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|伙伴技能的保留效能提高#%",
+   "template": "伙伴技能的保留效能提高#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|伙伴技能的保留效能提高#%",
+   "template": "伙伴技能的保留效能提高#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_dex_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "prefix|+#护甲护甲提高#%",
+   "template": "+#护甲护甲提高#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "prefix|护甲提高#%+#生命上限",
+   "template": "护甲提高#%+#生命上限"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "prefix|+#护甲+#点闪避值",
+   "template": "+#护甲+#点闪避值"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|伙伴技能的保留效能提高#%",
+   "template": "伙伴技能的保留效能提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "prefix|+#护甲+#点闪避值",
+   "template": "+#护甲+#点闪避值"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|伙伴技能的保留效能提高#%",
+   "template": "伙伴技能的保留效能提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_dex_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "prefix|分配一个随机的核心天赋",
+   "template": "分配一个随机的核心天赋"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Body_Armours_str_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "corrupted|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "prefix|闪避值提高#%+#晕眩阈值",
+   "template": "闪避值提高#%+#晕眩阈值"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "special|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|临时召唤生物技能的召唤生物上限+#",
+   "template": "临时召唤生物技能的召唤生物上限+#"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|你被冻结的持续时间降低#%",
+   "template": "你被冻结的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Boots_dex",
+   "id": "suffix|移动时生命再生速度提高#%",
+   "template": "移动时生命再生速度提高#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "corrupted|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "special|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|临时召唤生物技能的召唤生物上限+#",
+   "template": "临时召唤生物技能的召唤生物上限+#"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|你被冻结的持续时间降低#%",
+   "template": "你被冻结的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Boots_dex_int",
+   "id": "suffix|移动时生命再生速度提高#%",
+   "template": "移动时生命再生速度提高#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "corrupted|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "special|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|临时召唤生物技能的召唤生物上限+#",
+   "template": "临时召唤生物技能的召唤生物上限+#"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|你被冻结的持续时间降低#%",
+   "template": "你被冻结的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Boots_int",
+   "id": "suffix|移动时生命再生速度提高#%",
+   "template": "移动时生命再生速度提高#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "corrupted|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "prefix|护甲提高#%+#晕眩阈值",
+   "template": "护甲提高#%+#晕眩阈值"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "special|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|临时召唤生物技能的召唤生物上限+#",
+   "template": "临时召唤生物技能的召唤生物上限+#"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|你被冻结的持续时间降低#%",
+   "template": "你被冻结的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Boots_str",
+   "id": "suffix|移动时生命再生速度提高#%",
+   "template": "移动时生命再生速度提高#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "corrupted|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "prefix|+#护甲+#点闪避值",
+   "template": "+#护甲+#点闪避值"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "special|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|临时召唤生物技能的召唤生物上限+#",
+   "template": "临时召唤生物技能的召唤生物上限+#"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|你被冻结的持续时间降低#%",
+   "template": "你被冻结的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Boots_str_dex",
+   "id": "suffix|移动时生命再生速度提高#%",
+   "template": "移动时生命再生速度提高#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "corrupted|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "special|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|临时召唤生物技能的召唤生物上限+#",
+   "template": "临时召唤生物技能的召唤生物上限+#"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|你被冻结的持续时间降低#%",
+   "template": "你被冻结的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|你受到的中毒持续时间降低#%",
+   "template": "你受到的中毒持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|受到流血的持续时间降低#%",
+   "template": "受到流血的持续时间降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Boots_str_int",
+   "id": "suffix|移动时生命再生速度提高#%",
+   "template": "移动时生命再生速度提高#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "prefix|投射物对#米外的敌人造成的击中伤害提高#%",
+   "template": "投射物对#米外的敌人造成的击中伤害提高#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|+#%的溢出几率发射一支额外箭矢",
+   "template": "+#%的溢出几率发射一支额外箭矢"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|投射物对#米外的敌人的暴击几率提高#%",
+   "template": "投射物对#米外的敌人的暴击几率提高#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Bows",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "corrupted|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "prefix|闪避值提高#%+#晕眩阈值",
+   "template": "闪避值提高#%+#晕眩阈值"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "special|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "suffix|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "suffix|被招架减益状态的持续时间提高#%",
+   "template": "被招架减益状态的持续时间提高#%"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "suffix|格挡时回复#层符文结界",
+   "template": "格挡时回复#层符文结界"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Bucklers",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Charms",
+   "id": "suffix|击败敌人时有#%的几率获得一个能量球",
+   "template": "击败敌人时有#%的几率获得一个能量球"
+  },
+  {
+   "cat": "Charms",
+   "id": "suffix|每次使用消耗的充能次数降低#%",
+   "template": "每次使用消耗的充能次数降低#%"
+  },
+  {
+   "cat": "Claws",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Claws",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Claws",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Claws",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Claws",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Coffer_Relic",
+   "id": "prefix|怪物的攻击，施法，移动速度降低#%",
+   "template": "怪物的攻击，施法，移动速度降低#%"
+  },
+  {
+   "cat": "Coffer_Relic",
+   "id": "prefix|怪物造成的伤害降低#%",
+   "template": "怪物造成的伤害降低#%"
+  },
+  {
+   "cat": "Coffer_Relic",
+   "id": "prefix|如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉",
+   "template": "如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉"
+  },
+  {
+   "cat": "Coffer_Relic",
+   "id": "suffix|试炼地图上揭晓#个额外的房间",
+   "template": "试炼地图上揭晓#个额外的房间"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "prefix|+#召唤弩炮图腾数量上限",
+   "template": "+#召唤弩炮图腾数量上限"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "prefix|榴弹伤害提高#%榴弹持续时间提高#%",
+   "template": "榴弹伤害提高#%榴弹持续时间提高#%"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "prefix|投射物对#米内的敌人造成的击中伤害提高#%",
+   "template": "投射物对#米内的敌人造成的击中伤害提高#%"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "special|额外装填#支弩箭",
+   "template": "额外装填#支弩箭"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|+#召唤弩炮图腾数量上限",
+   "template": "+#召唤弩炮图腾数量上限"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|额外装填#支弩箭",
+   "template": "额外装填#支弩箭"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|攻击有额外#次连锁弹射",
+   "template": "攻击有额外#次连锁弹射"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Crossbows",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Daggers",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Daggers",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Daggers",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Daggers",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Daggers",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Daggers",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Daggers",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Daggers",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Daggers",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|变形时伤害提高#%",
+   "template": "变形时伤害提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|该装备的闪避值提高#%荆棘伤害提高#%",
+   "template": "该装备的闪避值提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|攻击击中有#%的几率施加创口",
+   "template": "攻击击中有#%的几率施加创口"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|护甲提高#%荆棘伤害提高#%",
+   "template": "护甲提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|击中稀有和传奇敌人的伤害提高#%",
+   "template": "击中稀有和传奇敌人的伤害提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|旗帜技能的效果范围提高#%",
+   "template": "旗帜技能的效果范围提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|在场范围提高#%光环技能的强度提高#%",
+   "template": "在场范围提高#%光环技能的强度提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|植物技能的伤害提高#%",
+   "template": "植物技能的伤害提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "prefix|诅咒的效果范围提高#%",
+   "template": "诅咒的效果范围提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|被招架减益状态的持续时间提高#%",
+   "template": "被招架减益状态的持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|敌人被冰缓的持续时间提高#%",
+   "template": "敌人被冰缓的持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|敌人受到的点燃、感电和冰缓持续时间提高#%",
+   "template": "敌人受到的点燃、感电和冰缓持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|感电持续时间提高#%",
+   "template": "感电持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|护甲破损持续时间提高#%",
+   "template": "护甲破损持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|击退距离提高#%",
+   "template": "击退距离提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|流血持续时间提高#%",
+   "template": "流血持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|你身上的减益消失速度加快#%",
+   "template": "你身上的减益消失速度加快#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|旗帜技能的持续时间提高#%",
+   "template": "旗帜技能的持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|投射物分叉时，有#%的几率发射一个额外投射物",
+   "template": "投射物分叉时，有#%的几率发射一个额外投射物"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|药剂效果的持续时间提高#%",
+   "template": "药剂效果的持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|召唤生物有+#%元素抗性",
+   "template": "召唤生物有+#%元素抗性"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|咒符效果的持续时间提高#%",
+   "template": "咒符效果的持续时间提高#%"
+  },
+  {
+   "cat": "Diamond",
+   "id": "suffix|诅咒持续时间提高#%",
+   "template": "诅咒持续时间提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "prefix|该装备的闪避值提高#%荆棘伤害提高#%",
+   "template": "该装备的闪避值提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "prefix|护甲提高#%荆棘伤害提高#%",
+   "template": "护甲提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "prefix|击中稀有和传奇敌人的伤害提高#%",
+   "template": "击中稀有和传奇敌人的伤害提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "prefix|在场范围提高#%光环技能的强度提高#%",
+   "template": "在场范围提高#%光环技能的强度提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "prefix|植物技能的伤害提高#%",
+   "template": "植物技能的伤害提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|被招架减益状态的持续时间提高#%",
+   "template": "被招架减益状态的持续时间提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|敌人受到的点燃、感电和冰缓持续时间提高#%",
+   "template": "敌人受到的点燃、感电和冰缓持续时间提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|感电持续时间提高#%",
+   "template": "感电持续时间提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|你身上的减益消失速度加快#%",
+   "template": "你身上的减益消失速度加快#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|投射物分叉时，有#%的几率发射一个额外投射物",
+   "template": "投射物分叉时，有#%的几率发射一个额外投射物"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|药剂效果的持续时间提高#%",
+   "template": "药剂效果的持续时间提高#%"
+  },
+  {
+   "cat": "Emerald",
+   "id": "suffix|咒符效果的持续时间提高#%",
+   "template": "咒符效果的持续时间提高#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Flails",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Flails",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Flails",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Flails",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Flails",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Foci",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Foci",
+   "id": "prefix|法术技能获得+#召唤图腾数量上限",
+   "template": "法术技能获得+#召唤图腾数量上限"
+  },
+  {
+   "cat": "Foci",
+   "id": "prefix|奉献技能的增益效果提高#%",
+   "template": "奉献技能的增益效果提高#%"
+  },
+  {
+   "cat": "Foci",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Foci",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Foci",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Foci",
+   "id": "suffix|收集元素灌注时有#%的几率额外获得一个同类型的元素灌注",
+   "template": "收集元素灌注时有#%的几率额外获得一个同类型的元素灌注"
+  },
+  {
+   "cat": "Foci",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "prefix|闪避值提高#%+#生命上限",
+   "template": "闪避值提高#%+#生命上限"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Gloves_dex",
+   "id": "suffix|诅咒的效果范围提高#%",
+   "template": "诅咒的效果范围提高#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|攻击击中有#%的几率施加创口",
+   "template": "攻击击中有#%的几率施加创口"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Gloves_dex_int",
+   "id": "suffix|诅咒的效果范围提高#%",
+   "template": "诅咒的效果范围提高#%"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "suffix|攻击击中有#%的几率施加创口",
+   "template": "攻击击中有#%的几率施加创口"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_int",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "prefix|护甲提高#%+#生命上限",
+   "template": "护甲提高#%+#生命上限"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "prefix|+#护甲+#点闪避值",
+   "template": "+#护甲+#点闪避值"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Gloves_str_dex",
+   "id": "suffix|诅咒的效果范围提高#%",
+   "template": "诅咒的效果范围提高#%"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "suffix|攻击击中有#%的几率施加创口",
+   "template": "攻击击中有#%的几率施加创口"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "suffix|击中时有#%的几率使目标恍惚",
+   "template": "击中时有#%的几率使目标恍惚"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Gloves_str_int",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "prefix|闪避值提高#%+#魔力上限",
+   "template": "闪避值提高#%+#魔力上限"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "prefix|闪避值提高#%+#生命上限",
+   "template": "闪避值提高#%+#生命上限"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "suffix|被你印记的敌人受到的伤害提高#%",
+   "template": "被你印记的敌人受到的伤害提高#%"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_dex",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "suffix|被你印记的敌人受到的伤害提高#%",
+   "template": "被你印记的敌人受到的伤害提高#%"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_dex_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Helmets_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Helmets_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Helmets_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "prefix|护甲提高#%+#魔力上限",
+   "template": "护甲提高#%+#魔力上限"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "prefix|护甲提高#%+#生命上限",
+   "template": "护甲提高#%+#生命上限"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "prefix|+#护甲+#点闪避值",
+   "template": "+#护甲+#点闪避值"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "suffix|被你印记的敌人受到的伤害提高#%",
+   "template": "被你印记的敌人受到的伤害提高#%"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str_dex",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Helmets_str_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Helmets_str_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Helmets_str_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Helmets_str_int",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Incense_Relic",
+   "id": "prefix|怪物的攻击，施法，移动速度降低#%",
+   "template": "怪物的攻击，施法，移动速度降低#%"
+  },
+  {
+   "cat": "Incense_Relic",
+   "id": "prefix|怪物造成的伤害降低#%",
+   "template": "怪物造成的伤害降低#%"
+  },
+  {
+   "cat": "Incense_Relic",
+   "id": "prefix|如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉",
+   "template": "如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉"
+  },
+  {
+   "cat": "Incense_Relic",
+   "id": "suffix|试炼地图上揭晓#个额外的房间",
+   "template": "试炼地图上揭晓#个额外的房间"
+  },
+  {
+   "cat": "Life_Flasks",
+   "id": "prefix|回复量降低#%立即回复",
+   "template": "回复量降低#%立即回复"
+  },
+  {
+   "cat": "Life_Flasks",
+   "id": "prefix|生命回复提高#%使用时会移除魔力，等同于生命回复值的#%",
+   "template": "生命回复提高#%使用时会移除魔力，等同于生命回复值的#%"
+  },
+  {
+   "cat": "Life_Flasks",
+   "id": "suffix|击败敌人时有#%的几率获得一个能量球",
+   "template": "击败敌人时有#%的几率获得一个能量球"
+  },
+  {
+   "cat": "Life_Flasks",
+   "id": "suffix|每次使用消耗的充能次数降低#%",
+   "template": "每次使用消耗的充能次数降低#%"
+  },
+  {
+   "cat": "Mana_Flasks",
+   "id": "prefix|回复量降低#%立即回复",
+   "template": "回复量降低#%立即回复"
+  },
+  {
+   "cat": "Mana_Flasks",
+   "id": "prefix|魔力回复提高#%使用时会扣除生命，等同于魔力回复值的#%",
+   "template": "魔力回复提高#%使用时会扣除生命，等同于魔力回复值的#%"
+  },
+  {
+   "cat": "Mana_Flasks",
+   "id": "suffix|击败敌人时有#%的几率获得一个能量球",
+   "template": "击败敌人时有#%的几率获得一个能量球"
+  },
+  {
+   "cat": "Mana_Flasks",
+   "id": "suffix|每次使用消耗的充能次数降低#%",
+   "template": "每次使用消耗的充能次数降低#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "One_Hand_Axes",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "prefix|近战攻击技能获得+#召唤图腾数量上限",
+   "template": "近战攻击技能获得+#召唤图腾数量上限"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|你对自己使用的锤类猛击技能有#%的几率造成一次额外余震",
+   "template": "你对自己使用的锤类猛击技能有#%的几率造成一次额外余震"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|生成裂缝的技能有#%几率生成一道额外裂缝",
+   "template": "生成裂缝的技能有#%几率生成一道额外裂缝"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|使用技能时，有#%的几率保留#%的荣耀",
+   "template": "使用技能时，有#%的几率保留#%的荣耀"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "One_Hand_Maces",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "One_Hand_Swords",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|风雷钟在受到#次额外击中后被摧毁",
+   "template": "风雷钟在受到#次额外击中后被摧毁"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|消耗至少#个连击时，恢复#%魔力上限",
+   "template": "消耗至少#个连击时，恢复#%魔力上限"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|消耗至少#个连击时，恢复#%生命上限",
+   "template": "消耗至少#个连击时，恢复#%生命上限"
+  },
+  {
+   "cat": "Quarterstaves",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Quivers",
+   "id": "prefix|投射物对#米内的敌人造成的击中伤害提高#%",
+   "template": "投射物对#米内的敌人造成的击中伤害提高#%"
+  },
+  {
+   "cat": "Quivers",
+   "id": "prefix|投射物对#米外的敌人造成的击中伤害提高#%",
+   "template": "投射物对#米外的敌人造成的击中伤害提高#%"
+  },
+  {
+   "cat": "Quivers",
+   "id": "suffix|+#%的溢出几率发射一支额外箭矢",
+   "template": "+#%的溢出几率发射一支额外箭矢"
+  },
+  {
+   "cat": "Quivers",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Quivers",
+   "id": "suffix|投射物对#米外的敌人的暴击几率提高#%",
+   "template": "投射物对#米外的敌人的暴击几率提高#%"
+  },
+  {
+   "cat": "Rings",
+   "id": "prefix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Rings",
+   "id": "prefix|你生成的残片效果提高#%",
+   "template": "你生成的残片效果提高#%"
+  },
+  {
+   "cat": "Rings",
+   "id": "prefix|品质上限+#%",
+   "template": "品质上限+#%"
+  },
+  {
+   "cat": "Rings",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|变形时伤害提高#%",
+   "template": "变形时伤害提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|该装备的闪避值提高#%荆棘伤害提高#%",
+   "template": "该装备的闪避值提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|攻击击中有#%的几率施加创口",
+   "template": "攻击击中有#%的几率施加创口"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|护甲提高#%荆棘伤害提高#%",
+   "template": "护甲提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|旗帜技能的效果范围提高#%",
+   "template": "旗帜技能的效果范围提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|在场范围提高#%光环技能的强度提高#%",
+   "template": "在场范围提高#%光环技能的强度提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "prefix|植物技能的伤害提高#%",
+   "template": "植物技能的伤害提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "suffix|护甲破损持续时间提高#%",
+   "template": "护甲破损持续时间提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "suffix|击退距离提高#%",
+   "template": "击退距离提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "suffix|流血持续时间提高#%",
+   "template": "流血持续时间提高#%"
+  },
+  {
+   "cat": "Ruby",
+   "id": "suffix|旗帜技能的持续时间提高#%",
+   "template": "旗帜技能的持续时间提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|变形时伤害提高#%",
+   "template": "变形时伤害提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|该装备的闪避值提高#%荆棘伤害提高#%",
+   "template": "该装备的闪避值提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|护甲提高#%荆棘伤害提高#%",
+   "template": "护甲提高#%荆棘伤害提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|在场范围提高#%光环技能的强度提高#%",
+   "template": "在场范围提高#%光环技能的强度提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|植物技能的伤害提高#%",
+   "template": "植物技能的伤害提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "prefix|诅咒的效果范围提高#%",
+   "template": "诅咒的效果范围提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "suffix|敌人被冰缓的持续时间提高#%",
+   "template": "敌人被冰缓的持续时间提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "suffix|敌人受到伤害性异常状态的持续时间提高#%",
+   "template": "敌人受到伤害性异常状态的持续时间提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "suffix|感电持续时间提高#%",
+   "template": "感电持续时间提高#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "suffix|你身上的减益消失速度加快#%",
+   "template": "你身上的减益消失速度加快#%"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "suffix|召唤生物有+#%元素抗性",
+   "template": "召唤生物有+#%元素抗性"
+  },
+  {
+   "cat": "Sapphire",
+   "id": "suffix|诅咒持续时间提高#%",
+   "template": "诅咒持续时间提高#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "prefix|使用号令技能时，有#%的溢出几率获得一层奇术大师",
+   "template": "使用号令技能时，有#%的溢出几率获得一层奇术大师"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|+#奇术大师层数上限",
+   "template": "+#奇术大师层数上限"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|元素灌注数量上限+#",
+   "template": "元素灌注数量上限+#"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|在场范围提高#%",
+   "template": "在场范围提高#%"
+  },
+  {
+   "cat": "Sceptres",
+   "id": "suffix|召唤生物的伤害性异常状态强度提高#%",
+   "template": "召唤生物的伤害性异常状态强度提高#%"
+  },
+  {
+   "cat": "Seal_Relic",
+   "id": "prefix|陷阱造成的伤害降低#%",
+   "template": "陷阱造成的伤害降低#%"
+  },
+  {
+   "cat": "Seal_Relic",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "corrupted|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "prefix|护甲提高#%+#晕眩阈值",
+   "template": "护甲提高#%+#晕眩阈值"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "special|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|盾牌技能重度晕眩目标时完全粉碎护甲",
+   "template": "盾牌技能重度晕眩目标时完全粉碎护甲"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|格挡时回复#层符文结界",
+   "template": "格挡时回复#层符文结界"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|举起盾牌时，受到物理伤害的#%转化为闪电伤害主动举起盾牌格挡时，被格挡的击中对你造成#%伤害",
+   "template": "举起盾牌时，受到物理伤害的#%转化为闪电伤害主动举起盾牌格挡时，被格挡的击中对你造成#%伤害"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Shields_str",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "corrupted|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "prefix|+#护甲+#点闪避值",
+   "template": "+#护甲+#点闪避值"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "special|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|被招架减益状态的持续时间提高#%",
+   "template": "被招架减益状态的持续时间提高#%"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|盾牌技能重度晕眩目标时完全粉碎护甲",
+   "template": "盾牌技能重度晕眩目标时完全粉碎护甲"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|格挡时回复#层符文结界",
+   "template": "格挡时回复#层符文结界"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|举起盾牌时，受到物理伤害的#%转化为闪电伤害主动举起盾牌格挡时，被格挡的击中对你造成#%伤害",
+   "template": "举起盾牌时，受到物理伤害的#%转化为闪电伤害主动举起盾牌格挡时，被格挡的击中对你造成#%伤害"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Shields_str_dex",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "corrupted|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "prefix|符文结界提高#%",
+   "template": "符文结界提高#%"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "special|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|+#%格挡几率上限",
+   "template": "+#%格挡几率上限"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|盾牌技能重度晕眩目标时完全粉碎护甲",
+   "template": "盾牌技能重度晕眩目标时完全粉碎护甲"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|格挡时回复#层符文结界",
+   "template": "格挡时回复#层符文结界"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|击中对你的暴击几率降低#%",
+   "template": "击中对你的暴击几率降低#%"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|举起盾牌时，受到物理伤害的#%转化为闪电伤害主动举起盾牌格挡时，被格挡的击中对你造成#%伤害",
+   "template": "举起盾牌时，受到物理伤害的#%转化为闪电伤害主动举起盾牌格挡时，被格挡的击中对你造成#%伤害"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Shields_str_int",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Spears",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "prefix|投射物对#米外的敌人造成的击中伤害提高#%",
+   "template": "投射物对#米外的敌人造成的击中伤害提高#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Spears",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|+#武器范围",
+   "template": "+#武器范围"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|投射物对#米外的敌人的暴击几率提高#%",
+   "template": "投射物对#米外的敌人的暴击几率提高#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Spears",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Staves",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Staves",
+   "id": "prefix|损失符文结界时，获得等同于伤害#%的额外火焰伤害",
+   "template": "损失符文结界时，获得等同于伤害#%的额外火焰伤害"
+  },
+  {
+   "cat": "Staves",
+   "id": "prefix|元素灌注数量上限+#",
+   "template": "元素灌注数量上限+#"
+  },
+  {
+   "cat": "Staves",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|+#奇术大师层数上限",
+   "template": "+#奇术大师层数上限"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|元素灌注数量上限+#",
+   "template": "元素灌注数量上限+#"
+  },
+  {
+   "cat": "Staves",
+   "id": "suffix|植物过度生长时，有#%的几率获得自然执政官",
+   "template": "植物过度生长时，有#%的几率获得自然执政官"
+  },
+  {
+   "cat": "Talismans",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Talismans",
+   "id": "prefix|近战攻击技能获得+#召唤图腾数量上限",
+   "template": "近战攻击技能获得+#召唤图腾数量上限"
+  },
+  {
+   "cat": "Talismans",
+   "id": "prefix|战吼额外被强化#次攻击",
+   "template": "战吼额外被强化#次攻击"
+  },
+  {
+   "cat": "Talismans",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|对被标记的敌人的暴击几率提高#%",
+   "template": "对被标记的敌人的暴击几率提高#%"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|击中造成的闪电伤害也会作用于易燃和点燃强度",
+   "template": "击中造成的闪电伤害也会作用于易燃和点燃强度"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|生成裂缝的技能有#%几率生成一道额外裂缝",
+   "template": "生成裂缝的技能有#%几率生成一道额外裂缝"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Talismans",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Tapestry_Relic",
+   "id": "prefix|商人会提供#个额外选择",
+   "template": "商人会提供#个额外选择"
+  },
+  {
+   "cat": "Tapestry_Relic",
+   "id": "prefix|首领受到的伤害提高#%",
+   "template": "首领受到的伤害提高#%"
+  },
+  {
+   "cat": "Tapestry_Relic",
+   "id": "prefix|首领造成的伤害降低#%",
+   "template": "首领造成的伤害降低#%"
+  },
+  {
+   "cat": "Tapestry_Relic",
+   "id": "prefix|稀有怪物造成的伤害降低#%",
+   "template": "稀有怪物造成的伤害降低#%"
+  },
+  {
+   "cat": "Tapestry_Relic",
+   "id": "suffix|商人处的出售价格降低#%",
+   "template": "商人处的出售价格降低#%"
+  },
+  {
+   "cat": "Tapestry_Relic",
+   "id": "suffix|试炼地图上揭晓#个额外的房间",
+   "template": "试炼地图上揭晓#个额外的房间"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Two_Hand_Axes",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "corrupted|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "corrupted|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "prefix|近战攻击技能获得+#召唤图腾数量上限",
+   "template": "近战攻击技能获得+#召唤图腾数量上限"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|你对自己使用的锤类猛击技能有#%的几率造成一次额外余震",
+   "template": "你对自己使用的锤类猛击技能有#%的几率造成一次额外余震"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|生成裂缝的技能有#%几率生成一道额外裂缝",
+   "template": "生成裂缝的技能有#%几率生成一道额外裂缝"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|使用技能时，有#%的几率保留#%的荣耀",
+   "template": "使用技能时，有#%的几率保留#%的荣耀"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Two_Hand_Maces",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "special|此武器的近战打击范围提高#%",
+   "template": "此武器的近战打击范围提高#%"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "special|击中时赋予#点怒火",
+   "template": "击中时赋予#点怒火"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Two_Hand_Swords",
+   "id": "suffix|晕眩持续时间提高#%",
+   "template": "晕眩持续时间提高#%"
+  },
+  {
+   "cat": "Urn_Relic",
+   "id": "prefix|陷阱造成的伤害降低#%",
+   "template": "陷阱造成的伤害降低#%"
+  },
+  {
+   "cat": "Urn_Relic",
+   "id": "suffix|你受到的异常状态的减速强度降低#%",
+   "template": "你受到的异常状态的减速强度降低#%"
+  },
+  {
+   "cat": "Vase_Relic",
+   "id": "prefix|怪物的攻击，施法，移动速度降低#%",
+   "template": "怪物的攻击，施法，移动速度降低#%"
+  },
+  {
+   "cat": "Vase_Relic",
+   "id": "prefix|怪物造成的伤害降低#%",
+   "template": "怪物造成的伤害降低#%"
+  },
+  {
+   "cat": "Vase_Relic",
+   "id": "prefix|如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉",
+   "template": "如果你即将失去所有荣誉，有#%的几率改为保留#点荣誉"
+  },
+  {
+   "cat": "Vase_Relic",
+   "id": "suffix|试炼地图上揭晓#个额外的房间",
+   "template": "试炼地图上揭晓#个额外的房间"
+  },
+  {
+   "cat": "Wands",
+   "id": "corrupted|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Wands",
+   "id": "prefix|损失符文结界时，获得等同于伤害#%的额外火焰伤害",
+   "template": "损失符文结界时，获得等同于伤害#%的额外火焰伤害"
+  },
+  {
+   "cat": "Wands",
+   "id": "special|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|+#符文结界上限",
+   "template": "+#符文结界上限"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|力量、敏捷或智慧+#",
+   "template": "力量、敏捷或智慧+#"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|属性需求降低#%",
+   "template": "属性需求降低#%"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|外延元素伤害词缀增幅提高#%",
+   "template": "外延元素伤害词缀增幅提高#%"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|镶嵌的增幅器物品效果提高#%",
+   "template": "镶嵌的增幅器物品效果提高#%"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|消耗效能提高#%法术魔力消耗的#%转化为生命消耗",
+   "template": "消耗效能提高#%法术魔力消耗的#%转化为生命消耗"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|元素灌注数量上限+#",
+   "template": "元素灌注数量上限+#"
+  },
+  {
+   "cat": "Wands",
+   "id": "suffix|元素技能上限+#",
+   "template": "元素技能上限+#"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|",
+   "template": ""
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|怪物可以发射#个额外投射物怪物群规模总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物可以发射#个额外投射物怪物群规模总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|每关闭一个巨坑，深渊怪物的难度与奖励都会提高mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "每关闭一个巨坑，深渊怪物的难度与奖励都会提高mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|区域额外包含#个深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "区域额外包含#个深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|区域内的深渊巨坑必定有奖励mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]mapnumberofrarepacks+%[#]",
+   "template": "区域内的深渊巨坑必定有奖励mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|区域内的源生稀有怪物额外具有#个深渊词缀mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "区域内的源生稀有怪物额外具有#个深渊词缀mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|区域内额外有#个孵化女王mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域内额外有#个孵化女王mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|深渊额外生成#个稀有怪物区域被深渊占据区域额外包含#个深渊mapabysstoweraugmentquantity+%finalfromoverrununiquetablet[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊额外生成#个稀有怪物区域被深渊占据区域额外包含#个深渊mapabysstoweraugmentquantity+%finalfromoverrununiquetablet[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|深渊怪物给予的经验值提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊怪物给予的经验值提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|深渊巨坑有#%的几率使产生的所有怪物至少为魔法怪物深渊裂隙有#%的几率使产生的所有怪物至少为魔法怪物mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]",
+   "template": "深渊巨坑有#%的几率使产生的所有怪物至少为魔法怪物深渊裂隙有#%的几率使产生的所有怪物至少为魔法怪物mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|深渊生成的怪物数量提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊生成的怪物数量提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|深渊通向绝望深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "深渊通向绝望深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "prefix|深渊通向深渊首领mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "深渊通向深渊首领mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|怪物的元素异常状态应用提高#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物的元素异常状态应用提高#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|怪物击中时施加#缓速藤蔓mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "怪物击中时施加#缓速藤蔓mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|怪物具有护甲魔法和稀有怪物总增#%稀有怪物有怪物词缀的几率总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物具有护甲魔法和稀有怪物总增#%稀有怪物有怪物词缀的几率总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|怪物效果区域的提高#%区域内找到的引路石数量总增#%",
+   "template": "怪物效果区域的提高#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|每#秒中，玩家及其召唤生物有#秒不能造成伤害mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "每#秒中，玩家及其召唤生物有#秒不能造成伤害mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|区域内的源生稀有怪物在其在场范围内的怪物被击败时吞噬灵魂玩家窃取区域内被击败稀有怪物吞噬的灵魂mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域内的源生稀有怪物在其在场范围内的怪物被击败时吞噬灵魂玩家窃取区域内被击败稀有怪物吞噬的灵魂mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|区域有魔力虹吸地面mapgroundeffectpatchesper#tiles[#]mapgroundeffectradius[#]mapgroundmanasiphoningbaselightningdamagetodealperminute[#]mapgroundmanasiphoningmanadegenerationperminute[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域有魔力虹吸地面mapgroundeffectpatchesper#tiles[#]mapgroundeffectradius[#]mapgroundmanasiphoningbaselightningdamagetodealperminute[#]mapgroundmanasiphoningmanadegenerationperminute[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|玩家的冷却回复率总降#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%",
+   "template": "玩家的冷却回复率总降#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|玩家击败稀有或传奇怪物后被打上死亡印记，持续#秒mapitemdropquantity+%[#]mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "玩家击败稀有或传奇怪物后被打上死亡印记，持续#秒mapitemdropquantity+%[#]mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|玩家近期每使用一次技能，移动和技能速度总降#%mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "玩家近期每使用一次技能，移动和技能速度总降#%mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|稀有怪物额外具有#个词缀稀有怪物的数量提高#%区域内找到的引路石数量提高#%",
+   "template": "稀有怪物额外具有#个词缀稀有怪物的数量提高#%区域内找到的引路石数量提高#%"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_low_tier",
+   "id": "suffix|mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|怪物可以发射#个额外投射物怪物群规模总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物可以发射#个额外投射物怪物群规模总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|每关闭一个巨坑，深渊怪物的难度与奖励都会提高mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "每关闭一个巨坑，深渊怪物的难度与奖励都会提高mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|区域额外包含#个深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "区域额外包含#个深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|区域内的深渊巨坑必定有奖励mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]mapnumberofrarepacks+%[#]",
+   "template": "区域内的深渊巨坑必定有奖励mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|区域内的源生稀有怪物额外具有#个深渊词缀mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "区域内的源生稀有怪物额外具有#个深渊词缀mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|区域内额外有#个孵化女王mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域内额外有#个孵化女王mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|深渊额外生成#个稀有怪物区域被深渊占据区域额外包含#个深渊mapabysstoweraugmentquantity+%finalfromoverrununiquetablet[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊额外生成#个稀有怪物区域被深渊占据区域额外包含#个深渊mapabysstoweraugmentquantity+%finalfromoverrununiquetablet[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|深渊怪物给予的经验值提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊怪物给予的经验值提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|深渊巨坑有#%的几率使产生的所有怪物至少为魔法怪物深渊裂隙有#%的几率使产生的所有怪物至少为魔法怪物mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]",
+   "template": "深渊巨坑有#%的几率使产生的所有怪物至少为魔法怪物深渊裂隙有#%的几率使产生的所有怪物至少为魔法怪物mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|深渊生成的怪物数量提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊生成的怪物数量提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|深渊通向绝望深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "深渊通向绝望深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "prefix|深渊通向深渊首领mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "深渊通向深渊首领mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|怪物的元素异常状态应用提高#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物的元素异常状态应用提高#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|怪物击中时施加#缓速藤蔓mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "怪物击中时施加#缓速藤蔓mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|每#秒中，玩家及其召唤生物有#秒不能造成伤害mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "每#秒中，玩家及其召唤生物有#秒不能造成伤害mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|区域内的源生稀有怪物在其在场范围内的怪物被击败时吞噬灵魂玩家窃取区域内被击败稀有怪物吞噬的灵魂mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域内的源生稀有怪物在其在场范围内的怪物被击败时吞噬灵魂玩家窃取区域内被击败稀有怪物吞噬的灵魂mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|区域有魔力虹吸地面mapgroundeffectpatchesper#tiles[#]mapgroundeffectradius[#]mapgroundmanasiphoningbaselightningdamagetodealperminute[#]mapgroundmanasiphoningmanadegenerationperminute[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域有魔力虹吸地面mapgroundeffectpatchesper#tiles[#]mapgroundeffectradius[#]mapgroundmanasiphoningbaselightningdamagetodealperminute[#]mapgroundmanasiphoningmanadegenerationperminute[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|玩家的冷却回复率总降#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%",
+   "template": "玩家的冷却回复率总降#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|玩家击败稀有或传奇怪物后被打上死亡印记，持续#秒mapitemdropquantity+%[#]mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "玩家击败稀有或传奇怪物后被打上死亡印记，持续#秒mapitemdropquantity+%[#]mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|玩家近期每使用一次技能，移动和技能速度总降#%mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "玩家近期每使用一次技能，移动和技能速度总降#%mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_mid_tier",
+   "id": "suffix|mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|怪物可以发射#个额外投射物怪物群规模总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物可以发射#个额外投射物怪物群规模总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|每关闭一个巨坑，深渊怪物的难度与奖励都会提高mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "每关闭一个巨坑，深渊怪物的难度与奖励都会提高mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|区域额外包含#个深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "区域额外包含#个深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|区域内的深渊巨坑必定有奖励mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]mapnumberofrarepacks+%[#]",
+   "template": "区域内的深渊巨坑必定有奖励mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|区域内的源生稀有怪物额外具有#个深渊词缀mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "区域内的源生稀有怪物额外具有#个深渊词缀mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|区域内额外有#个孵化女王mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域内额外有#个孵化女王mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|深渊额外生成#个稀有怪物区域被深渊占据区域额外包含#个深渊mapabysstoweraugmentquantity+%finalfromoverrununiquetablet[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊额外生成#个稀有怪物区域被深渊占据区域额外包含#个深渊mapabysstoweraugmentquantity+%finalfromoverrununiquetablet[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|深渊怪物给予的经验值提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊怪物给予的经验值提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|深渊巨坑有#%的几率使产生的所有怪物至少为魔法怪物深渊裂隙有#%的几率使产生的所有怪物至少为魔法怪物mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]",
+   "template": "深渊巨坑有#%的几率使产生的所有怪物至少为魔法怪物深渊裂隙有#%的几率使产生的所有怪物至少为魔法怪物mapmapitemdropchance+%finalfrommap[#]mapnumberofmagicpacks+%[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|深渊生成的怪物数量提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "深渊生成的怪物数量提高#%mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|深渊通向绝望深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "深渊通向绝望深渊mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "prefix|深渊通向深渊首领mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "深渊通向深渊首领mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|怪物的元素异常状态应用提高#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%",
+   "template": "怪物的元素异常状态应用提高#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|怪物击中时施加#缓速藤蔓mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "怪物击中时施加#缓速藤蔓mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|每#秒中，玩家及其召唤生物有#秒不能造成伤害mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "每#秒中，玩家及其召唤生物有#秒不能造成伤害mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|区域内的源生稀有怪物在其在场范围内的怪物被击败时吞噬灵魂玩家窃取区域内被击败稀有怪物吞噬的灵魂mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域内的源生稀有怪物在其在场范围内的怪物被击败时吞噬灵魂玩家窃取区域内被击败稀有怪物吞噬的灵魂mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|区域有魔力虹吸地面mapgroundeffectpatchesper#tiles[#]mapgroundeffectradius[#]mapgroundmanasiphoningbaselightningdamagetodealperminute[#]mapgroundmanasiphoningmanadegenerationperminute[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "区域有魔力虹吸地面mapgroundeffectpatchesper#tiles[#]mapgroundeffectradius[#]mapgroundmanasiphoningbaselightningdamagetodealperminute[#]mapgroundmanasiphoningmanadegenerationperminute[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|玩家的冷却回复率总降#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%",
+   "template": "玩家的冷却回复率总降#%该区域内物品稀有度总增#%区域内找到的引路石数量总增#%"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|玩家击败稀有或传奇怪物后被打上死亡印记，持续#秒mapitemdropquantity+%[#]mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "玩家击败稀有或传奇怪物后被打上死亡印记，持续#秒mapitemdropquantity+%[#]mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|玩家近期每使用一次技能，移动和技能速度总降#%mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]",
+   "template": "玩家近期每使用一次技能，移动和技能速度总降#%mapitemdroprarity+%finalfrommap[#]mapmapitemdropchance+%finalfrommap[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]",
+   "template": "mapmapitemdropchance+%finalfrommap[#]mapnumberofrarepacks+%[#]"
+  },
+  {
+   "cat": "Waystones_top_tier",
+   "id": "suffix|mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]",
+   "template": "mapmapitemdropchance+%finalfrommap[#]mappacksize+%finalfrommap[#]"
+  }
+ ],
+ "unmatchedOfficial": [
+  "+# 属性总和",
+  "渎灵前缀",
+  "渎灵后缀",
+  "渎灵词缀",
+  "未揭露前缀",
+  "未揭露后缀",
+  "未揭露词缀",
+  "使用剩余 # 次（石板）",
+  "攻击附加 # - # 物理伤害",
+  "魔力再生率提高 #%",
+  "# 精魂",
+  "暴击率提高 #%",
+  "# 晕眩阈值",
+  "获得相当于闪避值 #% 的偏转值",
+  "所有召唤生物技能等级 #",
+  "法术暴击伤害加成提高 #%",
+  "地图内获取物品的稀有度提高 #%",
+  "在场范围提高 #%",
+  "暴击几率 #%",
+  "所有投射物技能等级 #",
+  "在此区域中可找到的金币数量提高 #% (金币堆)",
+  "地图内找到的金币数量提高 #% (金币堆)",
+  "所有近战技能等级 #",
+  "怪物的效能提高 #%",
+  "所有法术技能等级 #",
+  "获得相当于伤害 #% 的额外闪电伤害",
+  "获得相当于伤害 #% 的额外冰霜伤害",
+  "获得相当于伤害 #% 的额外火焰伤害",
+  "地图上的怪物稀有度提高 #%",
+  "地图内稀有怪物数量提高 #%",
+  "获得的经验值提高 #%",
+  "召唤生物有 #% 元素抗性",
+  "怪物的晕眩积蓄提高 #%",
+  "地图内找到的引路石数量提高 #%",
+  "怪物的击中有 #% 的几率造成流血",
+  "召唤生物的暴击伤害加成提高 #%",
+  "# - # 物理荆棘伤害",
+  "怪物的击中有 #% 的几率造成中毒",
+  "地图内怪物群规模提高 #%",
+  "怪物具有护甲",
+  "该区域会出现额外 1 个稀有箱子",
+  "地图包含一个额外的稀有宝箱",
+  "怪物具有闪避",
+  "怪物的元素异常状态应用提高 #%",
+  "怪物造成相当于伤害 #% 的额外火焰伤害",
+  "区域内有点燃地面",
+  "怪物的晕眩阈值提高 #%",
+  "易燃强度提高 #%",
+  "怪物的异常状态阈值提高 #%",
+  "区域包含神龛的几率提高 #%",
+  "地图包含神龛的几率提高 #%",
+  "怪物造成相当于伤害 #% 的额外冰霜伤害",
+  "物理伤害的 #% 转化为魔力偷取",
+  "#% 的护甲同样作用于元素伤害",
+  "怪物造成相当于伤害 #% 的额外混沌伤害",
+  "怪物粉碎护甲，相当于造成物理伤害的 #%",
+  "获得的咒符充能提高 #%",
+  "怪物造成相当于伤害 #% 的额外闪电伤害",
+  "该装备精魂提高 #%",
+  "感电几率提高 #%",
+  "怪物受到的诅咒效果总降 #%",
+  "咒符效果的持续时间提高 #%",
+  "使用的咒符充能降低 #%",
+  "药剂生命回复速度提高 #%",
+  "诅咒的效果范围提高 #%",
+  "玩家周期性受到衰弱诅咒",
+  "区域内有阿兹莫里之灵的几率提高 #%",
+  "地图有阿兹莫里之灵的几率提高 #%",
+  "装备法器的能量护盾提高 #%",
+  "召唤生物使用命令技能造成的伤害提高 #%",
+  "点燃强度提高 #%",
+  "获得相当于伤害 #% 的额外混沌伤害",
+  "区域包含精华的几率提高 #%",
+  "地图包含精华的几率提高 #%",
+  "区域包含保险箱的几率提高 #%",
+  "地图包含保险箱的几率提高 #%",
+  "区域内的惊悸迷雾遭遇战生成传奇首领的几率总增 #%",
+  "地图内的惊悸迷雾遭遇战生成传奇首领的几率总增 #%",
+  "所有闪电法术技能等级 #",
+  "晕眩持续时间提高 #%",
+  "所有攻击技能等级 #",
+  "造成的晕眩积蓄值提高 #%",
+  "获得相当于能量护盾上限 #% 的晕眩阈值",
+  "区域包含召唤法阵的几率提高 #%",
+  "地图包含召唤法阵的几率提高 #%",
+  "技能速度提高 #%",
+  "药剂魔力回复速度提高 #%",
+  "获得额外异常状态阈值，相当于能量护盾上限的 #%",
+  "战矛的伤害提高 #%",
+  "玩家周期性受到时空锁链诅咒",
+  "镶嵌的增幅器物品效果提高 #%",
+  "伙伴的伤害提高 #%",
+  "战矛的攻击速度提高 #%",
+  "装备右边戒指获得的加成提高 #%",
+  "装备左边戒指获得的加成提高 #%",
+  "玩家周期性受到元素要害诅咒",
+  "冻结积蓄值提高 #%",
+  "生命再生率提高 #%",
+  "地图中的不稳定裂隙在稳定时会生成一个额外的稀有怪物",
+  "变形时，技能速度提高 #%",
+  "裂隙的怪物密度提高 #%",
+  "地图裂隙中的怪物群落规模提高 #%",
+  "#% 的几率穿透一个敌人",
+  "变形时伤害提高 #%",
+  "区域内的梦魇拟像裂片堆叠数量提高 #%",
+  "地图内的梦魇拟像裂片堆叠数量提高 #%",
+  "区域内惊悸迷雾怪物的怪物群规模提高 #%",
+  "地图内惊悸迷雾怪物的怪物群规模提高 #%",
+  "你造成的感电强度提高 #%",
+  "生命偷取量提高 #%",
+  "法术的魔力消耗效能提高 #%",
+  "在场的友军每秒再生 # 点生命",
+  "全局护甲，闪避与能量护盾提高 #%",
+  "区域中的惊悸迷雾使玩家的亢奋度提高 #%",
+  "地图中的惊悸迷雾使玩家的亢奋度提高 #%",
+  "非凡技能获得的能量提高 #%",
+  "感电持续时间提高 #%",
+  "你被点燃的持续时间降低 #%",
+  "近战击中时获得 # 怒火",
+  "受到流血的持续时间提高 #%",
+  "你被冰缓的持续时间降低 #%",
+  "晕眩积蓄值提高 #%",
+  "你的暴击造成的伤害性异常状态强度提高 #%",
+  "你被冻结的持续时间降低 #%",
+  "元素异常状态阈值提高 #%",
+  "战矛的暴击伤害加成提高 #%",
+  "诅咒强度提高 #%",
+  "你被感电的持续时间降低 #%",
+  "战弩的攻击速度提高 #%",
+  "在场的友军造成的伤害提高 #%",
+  "造成异常状态的几率提高 #%",
+  "敌人受到伤害性异常状态的持续时间提高 #%",
+  "召唤生物的效果区域提高 #%",
+  "诅咒持续时间提高 #%",
+  "所有冰霜法术技能等级 #",
+  "晕眩阈值提高 #%",
+  "击中稀有和传奇敌人的伤害提高#%",
+  "捷技能造成的伤害提高 #%",
+  "战弩的伤害提高 #%",
+  "该区域会出现 # 个阿兹莫里之灵正在游荡",
+  "地图包含 # 个额外的阿兹莫里之灵",
+  "召唤生物的不可移动积蓄值提高 #%",
+  "被敌人击中时获得 # 点怒火",
+  "所有火焰法术技能等级 #",
+  "植物技能的伤害提高 #%",
+  "区域有盗贼流放者的几率提高 #%",
+  "地图有盗贼流放者的几率提高 #%",
+  "地图拥有 # 个额外的随机词缀",
+  "使用的药剂充能降低 #%",
+  "你受到的秘术增强效果提高 #%",
+  "在场的友军附加 # - # 攻击闪电伤害",
+  "药剂效果的持续时间提高 #%",
+  "地图中稀有裂隙怪物的效能提高 #%",
+  "节杖的攻击速度提高 #%",
+  "法术技能的效果区域提高 #%",
+  "魔力偷取量提高 #%",
+  "在场的友军附加 # - # 攻击火焰伤害",
+  "你造成的异常状态强度提高 #%",
+  "在场的友军的攻击速度提高 #%",
+  "召唤生物的复活速度加快 #%",
+  "地图内获取物品的数量提高 #%",
+  "区域内的惊悸迷雾生成的破溃之镜数量提高 #%",
+  "地图内的惊悸迷雾生成的破溃之镜数量提高 #%",
+  "在场的友军附加 # - # 攻击冰霜伤害",
+  "技能的魔力消耗的 #% 转化为生命消耗",
+  "敌人被冰缓的持续时间提高 #%",
+  "在场的友军的施法速度提高 #%",
+  "区域内在驱灵祭坛重置恩典消耗的贡品提高 #%",
+  "地图内在驱灵祭坛重置恩典消耗的贡品提高 #%",
+  "区域内包含一个召唤法阵",
+  "地图包含一个额外的召唤法阵",
+  "节杖的伤害提高 #%",
+  "魔力消耗效能提高 #%",
+  "区域内的驱灵祭坛恩典为预兆的几率提高 #%",
+  "地图内驱灵恩典为预兆的几率提高 #%",
+  "战吼速度提高 #%",
+  "该区域包含一个额外的神龛",
+  "地图包含一个额外的神龛",
+  "冻结阈值提高 #%",
+  "地图包含 # 个额外的保险箱",
+  "在场的友军附加 # - # 攻击物理伤害",
+  "你造成的中毒强度提高 #%",
+  "在场的友军的暴击伤害加成提高 #%",
+  "传奇怪物额外具有 # 个词缀",
+  "该区域会出现额外 1 个精华",
+  "地图包含一个额外的精华",
+  "地图中孕育赠礼的掉落数量提高 #%",
+  "地图中虫巢之血的掉落数量提高 #%",
+  "在场的友军的暴击几率提高 #%",
+  "所有混沌法术技能等级 #",
+  "你的图腾放置速度提高 #%",
+  "区域内的惊悸迷雾在消散前额外持续 # 秒",
+  "地图内的惊悸迷雾在消散前额外持续 # 秒",
+  "在区域中的驱灵祭坛处献祭怪物提供的贡品提高#%",
+  "地图内在驱灵祭坛献祭怪物提供的贡品提高 #%",
+  "你身上的减益消失速度加快 #%",
+  "阻止 #% 的偏转击中伤害",
+  "所有物理法术技能等级 #",
+  "你受到的异常状态的减速强度提高 #%",
+  "获得的充能提高 #%",
+  "无法使用投射物攻击",
+  "技能的精魂保留效能提高 #%",
+  "打击造成溅射伤害",
+  "偏转击中无法造成轻度晕眩",
+  "地图中的不稳定裂隙在计时器填满后，会额外延迟一秒塌缩",
+  "当你的伙伴在场时，伤害提高 #%",
+  "区域有 #% 的几率额外包含四个深渊",
+  "地图有 #% 的几率额外包含四个深渊",
+  "地图首领掉落的物品数量提高 #%",
+  "战吼冷却回复速度提高 #%",
+  "地图中的惊悸迷雾生成的破溃之镜碎片数量提高 #%",
+  "战弩装填速度提高 #%",
+  "被偏转命中伤害的 #% 在你承受之前，由你的可承伤伙伴的生命承受",
+  "击中时使目标恍惚",
+  "每损失 50 点能量护盾使偏转值 #",
+  "地图中的裂隙巢穴拥有一个额外的裂隙虫群怪物波次",
+  "#% 的溢出几率发射一支额外箭矢",
+  "旗帜技能的持续时间提高 #%",
+  "锤类的伤害提高 #%",
+  "渎灵词缀强度提高 #%",
+  "旗帜技能的荣耀产生速度提高 #%",
+  "地图首领提供的经验值提高 #%",
+  "来自你身体护甲的闪避值提高 #%",
+  "地图中的不稳定裂隙包含薛斯的元帅弗伦的几率提高 #%",
+  "区域内惊悸迷雾的消散速度加快 #%",
+  "地图内惊悸迷雾消散速度加快 #%",
+  "投射物分叉时，有 #% 的几率发射一个额外投射物",
+  "该物品仅能镶嵌灵核",
+  "敌人受到的点燃、感电和冰缓持续时间提高 #%",
+  "地图中掉落的孕育赠礼有 #% 的几率高一级",
+  "击退距离提高 #%",
+  "激活咒符时，伤害提高 #%",
+  "你造成的流血强度提高 #%",
+  "锤类的晕眩积蓄提高 #%",
+  "危害伤害提高 #%",
+  "印记技能的技能效果持续时间提高 #%",
+  "品质上限 #%",
+  "区域内会出现额外 # 个盗贼流放者",
+  "地图内会出现 # 个额外的盗贼流放者",
+  "已装备盾牌获得的护甲，闪避与能量护盾提高 #%",
+  "召唤生物的打击造成近战溅射伤害",
+  "击败敌人时有 #% 的几率获得一个能量球",
+  "节杖的冻结积蓄值提高 #%",
+  "区域内在驱灵祭坛延时恩典消耗的贡品提高 #%",
+  "地图内在驱灵祭坛延时恩典消耗的贡品提高 #%",
+  "使用技能时，每消耗一个连击，获得绝杀，持续 # 秒",
+  "你地图中的驱灵祭坛可以重置恩典的次数变为两倍",
+  "使用技能时，每消耗一个连击，获得 # 层 防卫，持续 0.5 秒",
+  "区域内的驱灵祭坛恩典消耗的贡品提高 #%",
+  "被腐化宝石的技能将魔力消耗的 #% 转化为生命消耗",
+  "召唤生物获得相当于生命上限 #% 的能量护盾上限",
+  "在场有稀有或传奇敌人时，攻击速度提高 #%",
+  "持续时间提高 #% (咒符)",
+  "诅咒激活速度加快 #%",
+  "深渊额外生成 # 个稀有怪物",
+  "地图中的深渊额外生成 # 个稀有怪物",
+  "获得相当于元素伤害 #% 的额外冰霜伤害",
+  "双重分叉造成暴击",
+  "召唤生物伤害提高或降低，将同样作用于自身",
+  "此武器进行造成最后一击时有 #% 的几率获得猛攻",
+  "将范围升级为中型",
+  "触发技能有 #% 的几率返还消耗能量的一半",
+  "招架伤害提高 #%",
+  "非吟唱法术额外消耗 #% 的生命上限",
+  "有 #% 的几率使击中闪电伤害幸运",
+  "对护甲完全破损的敌人造成的伤害提高 #%",
+  "定身积蓄值提高 #%",
+  "强化攻击造成的伤害提高 #%",
+  "后缀效果提高 #%",
+  "投射物击中地形时有 #% 的几率额外连锁一次",
+  "与在场的友军分享能量球",
+  "所有技能品质 #%",
+  "若你近期未被晕眩，晕眩阈值提高 #%",
+  "残片收集距离延长 #%",
+  "在场的友军获得相当于伤害 #% 的额外混沌伤害",
+  "每个镶嵌的插槽使精魂 +#",
+  "击败区域内的稀有怪物使惊悸迷雾之镜的倒计时暂停 1 秒",
+  "击败地图内的稀有怪物使惊悸迷雾之镜的倒计时暂停 1 秒",
+  "有 #% 的几率为地图增加一个瓦尔灯塔传奇怪物",
+  "所有火焰技能等级 #",
+  "你造成的冰缓强度提高 #%",
+  "地图中的深渊怪物带有深渊词缀的几率提高 #%",
+  "粉碎的护甲提高 #%",
+  "区域内的深渊巨坑有双倍几率有奖励",
+  "地图中的深渊巨坑有双倍几率有奖励",
+  "地图首领掉落的引路石数量提高 #%",
+  "被包围需要的敌人增加 # 名",
+  "地图中的瓦尔灯塔附近的怪物群落规模提高 #%",
+  "区域内的驱灵祭坛上延时的恩典重现速度加快 #%",
+  "地图内驱灵祭坛上延时的恩典重现速度加快 #%",
+  "在场的敌人获得相当于伤害 #% 的额外混沌伤害",
+  "深渊生成的怪物数量提高 #%",
+  "地图中的深渊生成的怪物数量提高 #%",
+  "对你的击中的暴击伤害加成降低 #%",
+  "装填速度提高 #%",
+  "法术技能有 #% 的几率发射 2 个额外投射物",
+  "你造成的减益的减速强度提高 #%",
+  "同时获得 # 防卫",
+  "区域内的驱灵祭坛再生怪物为稀有怪物的几率提高 #%",
+  "地图内的驱灵祭坛再生怪物为稀有怪物的几率提高 #%",
+  "使用时回复 # 生命",
+  "未保留的生命全满时不移除效果",
+  "区域内的驱灵祭坛再生怪物为魔法怪物的几率提高 #%",
+  "地图内驱灵祭坛再生怪物为魔法怪物的几率提高 #%"
+ ]
+}
